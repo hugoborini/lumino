@@ -18,4 +18,4 @@ description project
  - [NAWEL BERRICHI](https://github.com/berrichinawel)
  - [MÉLINA CHAMAYOU](https://github.com/Klochette)
  - [CONSTANCE PETILLOT](https://github.com/cpetillot)
-  -[CAMY CERIN](https://github.com/CamyCerin)
+ - [CAMY CERIN](https://github.com/CamyCerin)
