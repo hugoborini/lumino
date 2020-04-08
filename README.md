@@ -3,7 +3,7 @@ description project
 
 
 
-# usage :
+## usage :
 
  1. clone repo
  2. cd into the repo
@@ -11,7 +11,7 @@ description project
  4. `npm run sass`
  
 
-# contributors :
+## contributors :
 
  - [HUGO BORINI](https://github.com/hugoborini)
  - [HUGO CORDILLOT](https://github.com/Hgo0123)
