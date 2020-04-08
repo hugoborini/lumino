@@ -1,0 +1,24 @@
+{
+  "name": "hetic_charette",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "nodemon -e scss -x  node-sass styles/scss -o styles/css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hugoborini/hetic_charette.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hugoborini/hetic_charette/issues"
+  },
+  "homepage": "https://github.com/hugoborini/hetic_charette#readme",
+  "devDependencies": {
+    "node-sass": "^4.13.1",
+    "nodemon": "^2.0.2"
+  }
+}
