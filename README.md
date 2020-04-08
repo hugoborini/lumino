@@ -17,3 +17,5 @@ description project
  - [HUGO CORDILLOT](https://github.com/Hgo0123)
  - [NAWEL BERRICHI](https://github.com/berrichinawel)
  - [MÉLINA CHAMAYOU](https://github.com/Klochette)
+ - [CONSTANCE PETILLOT](https://github.com/cpetillot)
+  -[CAMY CERIN](https://github.com/CamyCerin)
