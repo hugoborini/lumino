@@ -2,4 +2,4 @@
 /dist
 /.cache
 **/.DS_Store
-.cache
+/video
