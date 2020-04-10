@@ -48,6 +48,10 @@ function checkAccount($email, $pass){
     $ispasscorrect = password_verify($pass, $member_data['pass']);
 
     if ($ispasscorrect) {
+        session_start();
+        $_SESSION['id'] = $member_data['id'];
+        $_SESSION['firstname'] = $member_data['firstname'];
+        $_SESSION['email'] = $member_data['email'];
         return true;
     } else {
         return false;
