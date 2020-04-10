@@ -10,5 +10,8 @@
     <?php
     include("components/form_log-in.php");
     ?>
+    <?php
+    include("components/footer.php");
+    ?>
 </body>
 </html>
