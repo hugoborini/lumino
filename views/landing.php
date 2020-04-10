@@ -8,5 +8,6 @@
 </head>
 <body>
     <?php  require("components/header_landpage.php") ?>
+    <?php  require("components/footer.php") ?>
 </body>
 </html>
