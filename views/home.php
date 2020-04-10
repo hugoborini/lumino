@@ -9,6 +9,8 @@
 </head>
 <body>
     <?php include("./components/header_landpage.php")?>
+
     BIENVENUE <?php echo $_SESSION['firstname'];?>
+
 </body>
 </html>
