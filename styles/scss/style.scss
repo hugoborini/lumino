@@ -5,9 +5,11 @@
 @import "blocs/form.scss";
 @import "pages/register.scss";
 @import "config/error.scss";
+
+@import "blocs/landing.scss";
+@import "blocs/footer.scss";
+
 a {
   text-decoration: none;
 }
-@import "blocs/landing.scss";
-@import "blocs/footer.scss";
 
