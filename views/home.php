@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -8,6 +9,6 @@
 </head>
 <body>
     <?php include("./components/header_landpage.php")?>
-    BIENVENU ABONé
+    BIENVENUE <?php echo $_SESSION['firstname'];?>
 </body>
 </html>
