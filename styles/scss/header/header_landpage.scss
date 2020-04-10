@@ -1,0 +1,29 @@
+@import "../config/variable.scss";
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 84px;
+  .container-image {
+    margin-left: 30px;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 30px;
+
+  &__connexion {
+    background-color: $primary;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
+}
