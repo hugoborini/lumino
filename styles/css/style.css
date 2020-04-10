@@ -153,6 +153,30 @@ header {
     font-size: 16px;
     font-weight: 600; }
 
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 84px; }
+  header .container-image {
+    margin-left: 30px;
+    display: flex;
+    align-items: center; }
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 30px; }
+  .button__connexion {
+    background-color: #feca28;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
+
 .form-container {
   height: 100%;
   display: flex;
@@ -183,4 +207,28 @@ header {
     font-size: 16px;
     line-height: 22px; }
   .register .btn {
+    width: 209px; }
+
+.login {
+  display: flex;
+  height: 389px;
+  border: solid 2px #feca28;
+  border-radius: 8px;
+  width: 410px;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #262930;
+  color: #f0f1f3; }
+  .login__title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; }
+  .login__input {
+    width: 358px;
+    height: 35px; }
+  .login__input-container {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 22px; }
+  .login .btn {
     width: 209px; }
