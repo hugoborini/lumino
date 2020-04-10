@@ -1,0 +1,14 @@
+@import "../config/variable.scss";
+body {
+  background-color: $tertiary;
+}
+
+.back {
+  width: 90vw;
+  margin: 1% auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  a {
+    color: white;
+  }
+}
