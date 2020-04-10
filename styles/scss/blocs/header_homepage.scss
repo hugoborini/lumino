@@ -1,1 +1,61 @@
-// deplacer votre header.scss ici
+@import "../config/variable.scss";
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0a0a;
+  height: 6vw;
+  font-family: "Nunito", sans-serif;
+
+  .headerHome__logo {
+    margin-left: 4vw;
+    display: flex;
+  }
+}
+
+.nav {
+  display: flex;
+
+  .nav__item {
+    margin: 0 2vw;
+    color: $secondary-dark;
+    font-size: $menu-navBar;
+
+  }
+}
+
+.headerHome__search {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 2vw;
+  margin-left: 2vw;
+  border-radius: 5px;
+  background-color: $secondary-light;
+  color: $secondary-dark;
+
+  img {
+    margin: 0 1vw;
+    size: 1vw;
+  }
+
+}
+
+.headerHome__name {
+  color: $secondary-dark;
+  font-size: $menu-navBar;
+}
+
+.headerHome__profil {
+
+  img{
+  width: 3vw;
+  color: $secondary-dark;
+  }
+}
+
+.headerHome__disconnect{
+  margin-right: 4vw;
+
+}

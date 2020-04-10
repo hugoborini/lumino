@@ -4,14 +4,14 @@ header {
   background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
-    margin-left: 30px;
+    margin-left: 4vw;
     display: flex;
     align-items: center; }
 
 .button {
   display: flex;
   align-items: center;
-  margin-right: 30px; }
+  margin-right: 4vw; }
   .button__connexion {
     background-color: #feca28;
     width: 120px;
