@@ -129,10 +129,22 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Radikal W03 Bold";
+  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); }
+
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
     margin-left: 30px;
@@ -156,7 +168,7 @@ header {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
     margin-left: 30px;
@@ -249,7 +261,7 @@ footer {
   .login .btn {
     width: 209px; }
 
-body {
+.body_error {
   background-color: #1b1c1f; }
 
 .back {
@@ -274,3 +286,30 @@ body {
 
 a {
   text-decoration: none; }
+
+
+body {
+  background-color: green;
+  font-family: "Radikal W03 Bold"; }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0b0a0a;
+  padding: 4%; }
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  line-height: 250%;
+  font-size: 16px; }
+  .footer__text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer__text div img {
+      width: auto;
+      height: 80%; }

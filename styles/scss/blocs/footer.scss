@@ -1,13 +1,30 @@
+@import "../config/variable.scss";
+
 footer {
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-between;
   background-color: #0b0a0a;
-  padding: 5%;
+  padding: 4%;
 }
 
 .footer__text {
   display: flex;
   flex-direction: column;
-  color: #a9bac1;
+  color: $secondary-darker;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  line-height: 250%;
+  font-size: 16px;
+
+  & div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+
+    & img {
+      width: auto;
+      height: 80%;
+    }
+  }
 }
