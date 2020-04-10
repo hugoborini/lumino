@@ -144,7 +144,7 @@ table {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
     margin-left: 30px;
@@ -168,7 +168,7 @@ header {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: black;
+  background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
     margin-left: 30px;
@@ -245,6 +245,30 @@ header {
   .login .btn {
     width: 209px; }
 
+
 body {
   background-color: green;
   font-family: "Radikal W03 Bold"; }
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0b0a0a;
+  padding: 4%; }
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  line-height: 250%;
+  font-size: 16px; }
+  .footer__text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer__text div img {
+      width: auto;
+      height: 80%; }
+
