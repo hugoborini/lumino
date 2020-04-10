@@ -10,5 +10,8 @@
     <?php
     include("components/header_landpage.php");
     ?>
+    <?php
+    include("components/footer.php");
+    ?>
 </body>
 </html>
