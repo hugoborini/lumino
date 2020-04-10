@@ -8,6 +8,8 @@
 </head>
 <body>
     <?php include("./components/header_landpage.php")?>
-    BIENVENU ABONé
+    BIENVENUE ABONé
+    
+
 </body>
 </html>
