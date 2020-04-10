@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    include("components/form_sign-in.php");
+    include("components/form_log-in.php");
     ?>
 </body>
 </html>
