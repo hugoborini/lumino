@@ -32,13 +32,18 @@
     font-size: 16px;
     line-height: 22px; }
   .register .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }
 
 .login {
   display: flex;
   height: 389px;
   border: solid 2px #feca28;
   border-radius: 8px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   width: 410px;
   flex-direction: column;
   justify-content: space-around;
@@ -56,4 +61,5 @@
     font-size: 16px;
     line-height: 22px; }
   .login .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }

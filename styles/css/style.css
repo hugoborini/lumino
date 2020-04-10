@@ -131,7 +131,7 @@ table {
 
 @font-face {
   font-family: "Radikal W03 Bold";
-  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+  src: url("assets/fonts/Radikal_W03_Bold.ttf"); }
 
 @font-face {
   font-family: "Nunito";
@@ -189,18 +189,6 @@ header {
     font-size: 16px;
     font-weight: 600; }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-evenly;
-  background-color: #0b0a0a;
-  padding: 5%; }
-
-.footer__text {
-  display: flex;
-  flex-direction: column;
-  color: #a9bac1; }
-
 .form-container {
   height: 100%;
   display: flex;
@@ -235,13 +223,18 @@ footer {
     font-size: 16px;
     line-height: 22px; }
   .register .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }
 
 .login {
   display: flex;
   height: 389px;
   border: solid 2px #feca28;
   border-radius: 8px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   width: 410px;
   flex-direction: column;
   justify-content: space-around;
@@ -259,9 +252,10 @@ footer {
     font-size: 16px;
     line-height: 22px; }
   .login .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }
 
-.body_error {
+body {
   background-color: #1b1c1f; }
 
 .back {
@@ -281,16 +275,13 @@ footer {
   justify-content: center;
   font-weight: 500;
   font-size: 18px;
+  border-radius: 5px;
   margin: auto;
   font-family: "Nunito", sans-serif; }
 
 a {
   text-decoration: none; }
 
-
-body {
-  background-color: green;
-  font-family: "Radikal W03 Bold"; }
 footer {
   display: flex;
   flex-direction: row;

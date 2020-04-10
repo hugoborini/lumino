@@ -34,3 +34,23 @@ function insertUser($firstname, $lastname, $email) {
     ));
     return $user;
 }
+
+function checkAccount($email, $pass){
+    $bdd = dbConnect();
+    $member = $bdd->prepare("SELECT id, email, pass, firstname FROM member WHERE email = :email");
+    $member->execute([
+        'email' => $email,
+    ]);
+    $member_data = $member->fetch();
+    if (!$member_data){
+        return false;
+    }
+    $ispasscorrect = password_verify($pass, $member_data['pass']);
+
+    if ($ispasscorrect) {
+        return true;
+    } else {
+        return false;
+    }
+
+}
