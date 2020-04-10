@@ -12,7 +12,11 @@
 .register {
   display: flex;
   height: 517px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
   border: solid 2px $primary;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
   width: 410px;
   flex-direction: column;

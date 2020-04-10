@@ -189,6 +189,18 @@ header {
     font-size: 16px;
     font-weight: 600; }
 
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #0b0a0a;
+  padding: 5%; }
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1; }
+
 .form-container {
   height: 100%;
   display: flex;
@@ -200,7 +212,11 @@ header {
 .register {
   display: flex;
   height: 517px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 2%;
   border: solid 2px #feca28;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
   width: 410px;
   flex-direction: column;
@@ -244,6 +260,33 @@ header {
     line-height: 22px; }
   .login .btn {
     width: 209px; }
+
+.body_error {
+  background-color: #1b1c1f; }
+
+.back {
+  width: 90vw;
+  margin: 1% auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px; }
+  .back a {
+    color: white; }
+
+.error {
+  background-color: lightcoral;
+  height: 30px;
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+  font-family: "Nunito", sans-serif; }
+
+a {
+  text-decoration: none; }
+
 
 body {
   background-color: green;
