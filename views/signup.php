@@ -8,8 +8,7 @@
 </head>
 <body>
     <?php 
-    require("components/header_log-in.php");
-    require("components/form_sign-in.php");
+    require("./components/form_sign-in.php");
     ?>
 </body>
 </html>
