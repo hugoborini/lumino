@@ -93,10 +93,10 @@ INSERT INTO `film` (`id`, `title`, `description`, `category`, `path_film`, `path
 
 CREATE TABLE `member` (
   `id` int(11) NOT NULL,
-  `name` varchar(255) NOT NULL,
+  `firstname` varchar(255) NOT NULL,
   `lastname` varchar(255) NOT NULL,
   `email` varchar(255) NOT NULL,
-  `password` varchar(255) NOT NULL
+  `pass` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

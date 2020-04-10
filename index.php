@@ -1,14 +1,20 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="stylesheet" href="styles/css/style.css">
-</head>
-<body>
-    <?php
-    include("components/form_log-in.php");
-    ?>
-</body>
-</html>
+<?php
+require ("controller/controller.php");
+    if (isset($_GET['action'])){
+
+        if($_GET["action"] == "signup") {
+            if(isset($_POST['firstname']) && isset($_POST['lastname']) && isset($_POST['email']) && isset($_POST['pass'])) {
+                addUser($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['pass']);
+            }
+            else {
+                echo "non";
+            }
+        }
+        elseif($_GET['action'] == "home") {
+            require("views/home.php");
+        }
+    }
+    else {
+        require("views/landing.php");
+    }
+?>

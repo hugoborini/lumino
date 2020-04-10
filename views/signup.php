@@ -7,6 +7,9 @@
     <title>Document</title>
 </head>
 <body>
-    <?php  require("components/header_landpage.php") ?>
+    <?php 
+    require("components/header_log-in.php");
+    require("components/form_sign-in.php");
+    ?>
 </body>
 </html>
