@@ -6,7 +6,7 @@
     <title>Document</title>
 </head>
 <body>
-    <form action="" method="post" class="login">
+    <form action="index.php?action=login" method="post" class="login">
     <div class="form-container">
     <h2 class="login__title">LOG IN</h2>
 
@@ -16,7 +16,7 @@
     </div>
     <div class="login__input-container">
         <label>Password</label>
-        <input type="password" name="password" class="register__input"/>
+        <input type="password" name="pass" class="register__input"/>
     </div>
     <input type="submit" class="btn button__connexion" value="Start my free trial">
 </div>
