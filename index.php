@@ -11,6 +11,9 @@ require("controller/controller.php");
             }
         }elseif($_GET['action'] == "login"){
             require("views/login.php");
+            if (isset($_POST['email']) and isset($_POST['pass'])){
+                getConnexion($_POST['email'], $_POST['pass']);
+            }
         }
         elseif($_GET['action'] == "home") {
             require("views/home.php");

@@ -22,5 +22,14 @@ function getError($email){
 }
 
 
+function getConnexion($email, $pass){
+    $check_account = checkAccount($email, $pass);
+
+    if ($check_account == true){
+        header("Location: index.php?action=home");
+    } else {
+        header("Location: index.php?action=login&error=badinf");
+    }
+}
 
 ?>

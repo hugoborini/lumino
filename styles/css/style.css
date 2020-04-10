@@ -129,9 +129,9 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-@font-face {
   font-family: "Radikal-Bold";
   src: url("../scss/fonts/Radikal-Bold.ttf") format("trueType"); }
+
 
 @font-face {
   font-family: "Nunito";
@@ -223,13 +223,18 @@ header {
     font-size: 16px;
     line-height: 22px; }
   .register .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }
 
 .login {
   display: flex;
   height: 389px;
   border: solid 2px #feca28;
   border-radius: 8px;
+  margin: auto;
+  margin-top: 4%;
+  margin-bottom: 4%;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   width: 410px;
   flex-direction: column;
   justify-content: space-around;
@@ -247,7 +252,8 @@ header {
     font-size: 16px;
     line-height: 22px; }
   .login .btn {
-    width: 209px; }
+    width: 209px;
+    color: black; }
 
 body {
   background-color: #1b1c1f; }
@@ -269,11 +275,17 @@ body {
   justify-content: center;
   font-weight: 500;
   font-size: 18px;
+  border-radius: 5px;
   margin: auto;
   font-family: "Nunito", sans-serif; }
 
+
+a {
+  text-decoration: none; }
+
 body {
   font-family: "Radikal-Bold"; }
+
 
 footer {
   display: flex;
