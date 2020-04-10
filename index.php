@@ -18,3 +18,4 @@ require ("controller/controller.php");
         require("views/landing.php");
     }
 ?>
+

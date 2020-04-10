@@ -2,8 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
-@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
-@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+
 html,
 body,
 div,
@@ -129,18 +128,12 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
-header {
+footer {
   display: flex;
-  justify-content: space-between;
-  background-color: black;
-  height: 84px; }
-  header .container-image {
-    margin-left: 30px;
-    display: flex;
-    align-items: center; }
-
-.button {
-  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #0b0a0a;
+  padding: 5%; }
   align-items: center;
   margin-right: 30px; }
   .button__connexion {
@@ -232,3 +225,10 @@ header {
     line-height: 22px; }
   .login .btn {
     width: 209px; }
+
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1; }
+
