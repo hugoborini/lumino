@@ -1,0 +1,11 @@
+.error {
+  background-color: lightcoral;
+  height: 30px;
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  margin: auto;
+  font-family: "Nunito", sans-serif; }

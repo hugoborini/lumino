@@ -2,4 +2,10 @@
 @import "config/font.scss";
 @import "blocs/header_landpage.scss";
 @import "blocs/header_landpage.scss";
+@import "blocs/footer.scss";
 @import "blocs/form.scss";
+@import "pages/register.scss";
+@import "config/error.scss";
+a {
+  text-decoration: none;
+}

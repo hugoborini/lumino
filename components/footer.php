@@ -1,7 +1,7 @@
 
 <footer>
     <div class ="container-image">
-        <img src="assets/logo_svg.png" alt="logo_lumino">
+        <img src="assets/icon/logo_svg.png" alt="logo_lumino">
     </div>
     <div class="footer__text">
         <p>Terms and privacy notice</p>
