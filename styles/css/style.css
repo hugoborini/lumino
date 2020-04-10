@@ -131,7 +131,7 @@ table {
 
 @font-face {
   font-family: "Radikal W03 Bold";
-  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+  src: url("assets/fonts/Radikal_W03_Bold.ttf"); }
 
 @font-face {
   font-family: "Nunito";
@@ -245,10 +245,10 @@ header {
   .login .btn {
     width: 209px; }
 
-
 body {
   background-color: green;
   font-family: "Radikal W03 Bold"; }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -263,7 +263,7 @@ footer {
   font-family: "Nunito", sans-serif;
   font-weight: lighter;
   line-height: 250%;
-  font-size: 16px; }
+  font-size: 1.2vw; }
   .footer__text div {
     display: flex;
     flex-direction: row;
@@ -271,4 +271,3 @@ footer {
     .footer__text div img {
       width: auto;
       height: 80%; }
-
