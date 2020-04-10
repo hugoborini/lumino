@@ -129,6 +129,18 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@font-face {
+  font-family: "Radikal W03 Bold";
+  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+
+@font-face {
+  font-family: "Nunito";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); }
+
+@font-face {
+  font-family: "Poppins";
+  src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -232,3 +244,7 @@ header {
     line-height: 22px; }
   .login .btn {
     width: 209px; }
+
+body {
+  background-color: green;
+  font-family: "Radikal W03 Bold"; }
