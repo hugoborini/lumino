@@ -1,12 +1,5 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
-    <footer>
+
+<footer>
     <div class ="container-image">
         <img src="assets/logo_svg.png" alt="logo_lumino">
     </div>
@@ -25,6 +18,4 @@
         <p>Follow us on :</p>
         <div>Logos</div>
     </div>
-    </footer>
-</body>
-</html>
+</footer>
