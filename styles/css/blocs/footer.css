@@ -3,11 +3,9 @@ footer {
   flex-direction: row;
   justify-content: space-evenly;
   background-color: #0b0a0a;
-  padding: 5%;
-}
+  padding: 5%; }
 
 .footer__text {
   display: flex;
   flex-direction: column;
-  color: #a9bac1;
-}
+  color: #a9bac1; }
