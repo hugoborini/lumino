@@ -131,7 +131,7 @@ table {
 
 @font-face {
   font-family: "Radikal W03 Bold";
-  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+  src: url("assets/fonts/Radikal_W03_Bold.ttf"); }
 
 @font-face {
   font-family: "Nunito";
@@ -291,6 +291,7 @@ a {
 body {
   background-color: green;
   font-family: "Radikal W03 Bold"; }
+
 footer {
   display: flex;
   flex-direction: row;
@@ -305,7 +306,7 @@ footer {
   font-family: "Nunito", sans-serif;
   font-weight: lighter;
   line-height: 250%;
-  font-size: 16px; }
+  font-size: 1.2vw; }
   .footer__text div {
     display: flex;
     flex-direction: row;

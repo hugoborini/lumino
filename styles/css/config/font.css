@@ -2,7 +2,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 @font-face {
   font-family: "Radikal W03 Bold";
-  src: url("/assets/fonts/Radikal_W03_Bold.ttf") format("truetype"); }
+  src: url("assets/fonts/Radikal_W03_Bold.ttf"); }
 
 @font-face {
   font-family: "Nunito";
