@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php
-    include("components/header_landpage.php");
+    include("components/form_log-in.php");
     ?>
     <?php
     include("components/footer.php");

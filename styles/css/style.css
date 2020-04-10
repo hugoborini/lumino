@@ -2,6 +2,7 @@
    v2.0 | 20110126
    License: none (public domain)
 */
+
 html,
 body,
 div,
@@ -133,8 +134,101 @@ footer {
   justify-content: space-evenly;
   background-color: #0b0a0a;
   padding: 5%; }
+  align-items: center;
+  margin-right: 30px; }
+  .button__connexion {
+    background-color: #feca28;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: black;
+  height: 84px; }
+  header .container-image {
+    margin-left: 30px;
+    display: flex;
+    align-items: center; }
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 30px; }
+  .button__connexion {
+    background-color: #feca28;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
+
+.form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  margin: 39px 26px 26px 10px;
+  line-height: 33px; }
+
+.register {
+  display: flex;
+  height: 517px;
+  border: solid 2px #feca28;
+  border-radius: 8px;
+  width: 410px;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #262930;
+  color: #f0f1f3; }
+  .register__title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; }
+  .register__input {
+    width: 358px;
+    height: 35px; }
+  .register__input-container {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 22px; }
+  .register .btn {
+    width: 209px; }
+
+.login {
+  display: flex;
+  height: 389px;
+  border: solid 2px #feca28;
+  border-radius: 8px;
+  width: 410px;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #262930;
+  color: #f0f1f3; }
+  .login__title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600; }
+  .login__input {
+    width: 358px;
+    height: 35px; }
+  .login__input-container {
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    line-height: 22px; }
+  .login .btn {
+    width: 209px; }
+
 
 .footer__text {
   display: flex;
   flex-direction: column;
   color: #a9bac1; }
+
