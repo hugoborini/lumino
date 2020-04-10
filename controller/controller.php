@@ -8,7 +8,7 @@ if ($user === false) {
     die('Impossible d\'ajouter le chakal !');
 }
 else {
-    header('Location: index.php?action=home');
+    header('Location: index.php?action=login');
 }
 };
 
@@ -18,6 +18,17 @@ function getError($email){
 
     if ($email_check == true){
         header("Location: index.php?action=signup&error=alruse");
+    }
+}
+
+
+function getConnexion($email, $pass){
+    $check_account = checkAccount($email, $pass);
+
+    if ($check_account == true){
+        header("Location: index.php?action=home");
+    } else {
+        header("Location: index.php?action=login&error=badinf");
     }
 }
 

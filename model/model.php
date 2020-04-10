@@ -1,8 +1,7 @@
 <?php 
 
 function dbConnect() {
-    try {
-     $bdd = new PDO('mysql:host=localhost; dbname=charrette;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    try { $bdd = new PDO('mysql:host=localhost; dbname=charrette;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch (Exception  $e) {
     die('Error : ' .  $e->getMessage());
@@ -33,4 +32,28 @@ function insertUser($firstname, $lastname, $email) {
         "pass" => $pass_hache
     ));
     return $user;
+}
+
+function checkAccount($email, $pass){
+    $bdd = dbConnect();
+    $member = $bdd->prepare("SELECT id, email, pass, firstname FROM member WHERE email = :email");
+    $member->execute([
+        'email' => $email,
+    ]);
+    $member_data = $member->fetch();
+    if (!$member_data){
+        return false;
+    }
+    $ispasscorrect = password_verify($pass, $member_data['pass']);
+
+    if ($ispasscorrect) {
+        session_start();
+        $_SESSION['id'] = $member_data['id'];
+        $_SESSION['firstname'] = $member_data['firstname'];
+        $_SESSION['email'] = $member_data['email'];
+        return true;
+    } else {
+        return false;
+    }
+
 }
