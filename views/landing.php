@@ -8,10 +8,6 @@
 </head>
 <body>
     <?php  require("components/header_landpage.php") ?>
-    <br>
-    <br>
-    <?php  require("components/header_homepage.php") ?>
-
 
     <section class="hero">
         <article class="hero_title">
