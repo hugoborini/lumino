@@ -332,15 +332,23 @@ body {
     display: flex;
     margin-left: 50%; }
 
-.watch {
-  height: 75vh;
+.watch,
+.movies {
   color: #f0f1f3;
   display: flex;
-  align-items: center; }
-  .watch__title {
+  align-items: center;
+  justify-content: space-around;
+  padding-bottom: 8vw; }
+  .watch .movies__text,
+  .movies .movies__text {
+    background-color: red;
+    padding-bottom: 100px; }
+  .watch__title,
+  .movies__title {
     font-size: 1.8vw;
     width: 566px; }
-  .watch__body {
+  .watch__body,
+  .movies__body {
     font-size: 1.2vw;
     line-height: 1.44vw;
     justify-content: start;
@@ -348,8 +356,11 @@ body {
     padding-top: 1.43vw;
     width: 566px; }
 
-.mockups {
-  height: 62vh; }
+.watch__mockup {
+  height: 58vh; }
+
+.movies__mockup {
+  height: 42vh; }
 
 footer {
   display: flex;
