@@ -1,4 +1,5 @@
 <?php
+session_start();
 require "model/model.php";
 function addUser($firstname, $lastname, $email) {
 $user = insertUser($firstname, $lastname, $email);
@@ -31,6 +32,10 @@ function getConnexion($email, $pass){
         header("Location: index.php?action=login&error=badinf");
     }
 }
-
+function deconnexion() {
+    $_SESSION = array();
+    session_destroy();
+    header("Location: index.php?deco=1");
+}
 
 ?>
