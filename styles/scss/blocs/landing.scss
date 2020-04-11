@@ -2,7 +2,7 @@
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
-  font-family: "Nunito";
+  font-family: $body-font;
 }
 
 // # HERO #
@@ -18,13 +18,13 @@
     url(../../assets/img/background_hero.png);
 
   &__title {
-    font-family: "Radikal-Bold";
+    font-family: $h2-font;
     font-size: 2vw;
     padding-bottom: 25px;
   }
 
   &__infos {
-    font-family: "Nunito";
+    font-family: $body-font;
     font-weight: 500;
     font-size: 1.6vw;
 
@@ -53,9 +53,8 @@
   background-color: $primary;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
+  font-family: $h2-font;
   font-size: 16px;
-  font-weight: 900;
 }
 //
 .hero__bottom {
@@ -96,6 +95,16 @@
     padding-top: 1.43vw;
     width: 566px;
   }
+  .download__mockup {
+    position: relative;
+  }
+
+  .download__gif {
+    position: absolute;
+    right: 1.58vw;
+    top: 13.9vw;
+    height: 7vh;
+  }
 }
 .watch__mockup {
   height: 58vh;
@@ -103,10 +112,6 @@
 
 .movies__mockup {
   height: 42vh;
-}
-
-.download__mockup {
-  height: 58vh;
 }
 
 // ## SECOND AND THIRD END ##
