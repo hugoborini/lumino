@@ -1,0 +1,45 @@
+@import "../config/variable.scss";
+.video {
+  width: 100vw;
+}
+video {
+  position: relative;
+  width: 100vw;
+  height: 100vh;
+}
+
+.container {
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  embed {
+    width: 2.5vw;
+  }
+  &__title {
+    color: $secondary-dark;
+    font-family: $h1-font;
+    font-size: $h2;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px;
+  }
+  &-left {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between;
+  }
+  &-right {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between;
+    input {
+      margin-left: 2vw;
+      vertical-align: super;
+    }
+  }
+}
