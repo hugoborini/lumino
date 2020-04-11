@@ -6,6 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
     <title>Document</title>
+    <script defer src="./js/home.js"></script>
 </head>
 <body>
     <?php include("./components/header_homepage.php")?>
@@ -98,7 +99,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
         <section class="category">
             <div class="category__texts">
@@ -188,7 +189,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
         <section class="category">
             <div class="category__texts">
@@ -278,7 +279,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
         <section class="category">
             <div class="category__texts">
@@ -368,7 +369,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
         <section class="category">
             <div class="category__texts">
@@ -458,7 +459,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
         <section class="category">
             <div class="category__texts">
@@ -548,7 +549,7 @@
                     </div>
                 </div>
             </div>
-            <div class="category__window category__window--close"></div>
+            <div class="category__modal category__modal--close"></div>
         </section>
     </main>
 </body>
