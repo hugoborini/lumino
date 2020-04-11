@@ -8,14 +8,15 @@
 </head>
 <body>
     <?php  require("components/header_landpage.php") ?>
-<section class="landingpage">
+
 
     <section class="hero">
         <article class="hero__title">
             <h1>WATCH YOUR MOVIES IN ONE PLACE</h1>
         </article>
         <article class="hero__infos">
-            <p>Start your free trial and watch thousands of movies wherever you want starting at <em>6.99$</em>/month</p>
+            <p>Start your free trial and watch thousands of movies wherever you want starting</p>
+            <p class="price"> at <em> 6.99$ </em>/month</p>
         </article>
         <article class="hero__CTA">
                 START YOUR FREE TRIAL
@@ -28,6 +29,7 @@
     </svg>
 </section>
 
+<section class="landingpage">
 <section class="watch">
     <article>
     <p class="watch__title">Watch movies wherever, wheneveryou want.</p>

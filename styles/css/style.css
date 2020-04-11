@@ -147,14 +147,14 @@ header {
   background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
-    margin-left: 30px;
+    margin-left: 4vw;
     display: flex;
     align-items: center; }
 
 .button {
   display: flex;
   align-items: center;
-  margin-right: 30px; }
+  margin-right: 4vw; }
   .button__connexion {
     background-color: #feca28;
     width: 120px;
@@ -171,14 +171,14 @@ header {
   background-color: #0b0a0a;
   height: 84px; }
   header .container-image {
-    margin-left: 30px;
+    margin-left: 4vw;
     display: flex;
     align-items: center; }
 
 .button {
   display: flex;
   align-items: center;
-  margin-right: 30px; }
+  margin-right: 4vw; }
   .button__connexion {
     background-color: #feca28;
     width: 120px;
@@ -279,7 +279,9 @@ body {
   margin: auto;
   font-family: "Nunito", sans-serif; }
 
-body {
+.landingpage {
+  margin-left: 80px;
+  margin-right: 80px;
   font-family: "Nunito"; }
 
 .hero {
@@ -288,19 +290,27 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
+  height: 84vh;
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
   .hero__title {
     font-family: "Radikal-Bold";
-    font-size: 1.56vw; }
+    font-size: 2vw;
+    padding-bottom: 25px; }
   .hero__infos {
     font-family: "Nunito";
-    font-weight: 100;
-    font-size: 1.42vw; }
+    font-weight: 500;
+    font-size: 1.6vw; }
     .hero__infos em {
       font-weight: 600;
-      font-size: 1.56vw; }
+      font-size: 2vw;
+      padding-left: 5px;
+      padding-right: 5px; }
+  .hero .price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 3%; }
 
 .hero__CTA {
   margin-top: 4em;
@@ -311,8 +321,9 @@ body {
   background-color: #feca28;
   width: 15em;
   height: 38px;
+  font-family: "Nunito", sans-serif;
   font-size: 16px;
-  font-weight: 600; }
+  font-weight: 900; }
 
 .hero__bottom {
   height: 13vh;
@@ -322,16 +333,23 @@ body {
     margin-left: 50%; }
 
 .watch {
-  height: 100vh;
-  color: #f0f1f3; }
+  height: 75vh;
+  color: #f0f1f3;
+  display: flex;
+  align-items: center; }
   .watch__title {
-    font-size: 1.42vw; }
+    font-size: 1.8vw;
+    width: 566px; }
   .watch__body {
-    font-size: 1.13vw;
+    font-size: 1.2vw;
+    line-height: 1.44vw;
     justify-content: start;
-    max-width: 500px; }
-  .watch .mockups {
-    height: 100%; }
+    max-width: 581px;
+    padding-top: 1.43vw;
+    width: 566px; }
+
+.mockups {
+  height: 62vh; }
 
 footer {
   display: flex;
@@ -355,6 +373,48 @@ footer {
     .footer__text div img {
       width: auto;
       height: 80%; }
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0a0a;
+  height: 6vw;
+  font-family: "Nunito", sans-serif; }
+  header .headerHome__logo {
+    margin-left: 4vw;
+    display: flex; }
+
+.nav {
+  display: flex; }
+  .nav .nav__item {
+    margin: 0 2vw;
+    color: #c8d3d7;
+    font-size: 0.99vw; }
+
+.headerHome__search {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 2vw;
+  margin-left: 2vw;
+  border-radius: 5px;
+  background-color: #f0f1f3;
+  color: #c8d3d7; }
+  .headerHome__search img {
+    margin: 0 1vw;
+    size: 1vw; }
+
+.headerHome__name {
+  color: #c8d3d7;
+  font-size: 0.99vw; }
+
+.headerHome__profil img {
+  width: 3vw;
+  color: #c8d3d7; }
+
+.headerHome__disconnect {
+  margin-right: 4vw; }
 
 a {
   text-decoration: none; }
