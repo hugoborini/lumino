@@ -389,7 +389,6 @@ body {
 .movies__mockup {
   width: 100%; }
 
-
 .download__mockup {
   position: relative;
   width: 60%; }
@@ -399,7 +398,6 @@ body {
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh; }
-
 
 footer {
   display: flex;
@@ -495,7 +493,7 @@ header {
 .category {
   display: flex;
   flex-direction: column;
-  margin-bottom: 6%; }
+  margin: 5%; }
 
 .category__texts {
   display: flex;
@@ -558,84 +556,192 @@ header {
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--kingsman {
   background: url(../../assets/mini/kingsman.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--readyPlayerOne {
   background: url(../../assets/mini/ready-player-one.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--matrix {
   background: url(../../assets/mini/matrix.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--1917 {
   background: url(../../assets/mini/1917.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--kickAss {
   background: url(../../assets/mini/kick-ass.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--bigLebowski {
   background: url(../../assets/mini/big-Lebowski.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--intouchables {
   background: url(../../assets/mini/intouchables.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--zoolander {
   background: url(../../assets/mini/zoolander.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--littleMiss {
   background: url(../../assets/mini/little-miss-sunshine.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--bridesmaids {
   background: url(../../assets/mini/bridesmaids.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--zombieland {
   background: url(../../assets/mini/zombieland.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plateform {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--shinning {
+  background: url(../../assets/mini/the-shining.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jaws {
+  background: url(../../assets/mini/jaws.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--midsommar {
+  background: url(../../assets/mini/midsommar.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--invisible {
+  background: url(../../assets/mini/the-invisible-man.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--paranormal {
+  background: url(../../assets/mini/paranormal-activity.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--pedal {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--fahrenheit {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plasticOcean {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--heartsOfDarkness {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--youNegro {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--creativeBrain {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
