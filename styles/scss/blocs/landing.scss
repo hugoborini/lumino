@@ -12,7 +12,9 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 84vh;
+  // height: 84vh;
+  width: 100%;
+
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, rgb(0, 0, 0)),
     url(../../assets/img/background_hero.png);
@@ -68,6 +70,7 @@
 } // # HERO END #
 
 // ## SECOND AND THIRD SECTION ##
+
 .watch,
 .movies,
 .download {
@@ -81,10 +84,11 @@
   .download__text,
   .watch__text {
     padding-bottom: 70px;
+    width: 100%;
   }
   &__title {
     font-size: 1.8vw;
-    width: 566px;
+    // width: 566px;
   }
 
   &__body {
@@ -95,23 +99,23 @@
     padding-top: 1.43vw;
     width: 566px;
   }
-  .download__mockup {
-    position: relative;
-  }
-
-  .download__gif {
-    position: absolute;
-    right: 1.58vw;
-    top: 13.9vw;
-    height: 7vh;
-  }
 }
 .watch__mockup {
-  height: 58vh;
+  width: 100%;
 }
 
 .movies__mockup {
-  height: 42vh;
+  width: 100%;
 }
-
+.download__mockup {
+  position: relative;
+  width: 60%;
+}
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh;
+  // width: 100%;
+}
 // ## SECOND AND THIRD END ##
