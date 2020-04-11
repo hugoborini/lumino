@@ -563,6 +563,7 @@ video {
   height: 100vh; }
 
 .container {
+  z-index: 999;
   position: absolute;
   bottom: 0px;
   display: flex;

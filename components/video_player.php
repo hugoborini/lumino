@@ -1,5 +1,5 @@
 <div class="video">
-    <video> <source src="assets/video/1917.mp4"> you broswer don't support video please update your broswer !</video>
+    <video > <source src="assets/video/1917.mp4"></video>
     <div class="video__container container ">
         <div class="container-left">
             <div class="container__play">
@@ -18,7 +18,7 @@
         </div>
 
         <div class="container-right">
-            <div class="container__sound"> <embed src="assets/icon/volume_icon.svg"> <input type="range">
+            <div class="container__sound"> <embed src="assets/icon/volume_icon.svg"> <input class="volume" type="range">
             </div>
             <div class="container__fullscreen">
             <embed src="assets/icon/fullscreen.svg">
