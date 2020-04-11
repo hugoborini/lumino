@@ -21,21 +21,23 @@
                     data-title="Avengers : Infinity wars" 
                     data-category="Action" 
                     data-synopsis="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe." 
-                    data-released="2018">1
+                    data-released="2018">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avengers : Infinity wars</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - Game - SF</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron"></div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="4" class="movie movie--kingsman"
                     data-title="Kingsman" 

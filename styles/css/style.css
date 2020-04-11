@@ -481,19 +481,35 @@ footer {
 
 .category {
   display: flex;
-  flex-direction: column;
-  margin: 5%; }
+  flex-direction: column; }
 
 .category__texts {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw; }
 
 .category__title {
   color: #f9fafa; }
 
 .category__movies {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 4vw;
+  margin-left: 4vw; }
+
+.movie__elements {
+  display: flex; }
+
+.elements__text {
+  display: flex; }
+
+.elements__icons {
+  display: flex;
+  text-align: center; }
+
+.movie__chevron {
+  text-align: center; }
 
 .category__modal--open {
   background: url(../../assets/mini/ready-Player-One.jpg);
@@ -584,7 +600,7 @@ footer {
   align-items: center;
   justify-content: center; }
 
-.button {
+.button__end {
   background-color: #1b1c1f;
   border: 2px solid #f0f1f3;
   color: #f0f1f3;
