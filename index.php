@@ -18,6 +18,9 @@ require("controller/controller.php");
         elseif($_GET['action'] == "home") {
             require("views/home.php");
         }
+        elseif($_GET['action'] == "deco"){
+            deconnexion();
+        }
     }
     else {
         require("views/landing.php");
