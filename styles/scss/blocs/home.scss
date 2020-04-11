@@ -3,7 +3,7 @@
 .category {
   display: flex;
   flex-direction: column;
-  margin-bottom: 6%;
+  margin: 5%;
 }
 
 .category__texts {
@@ -20,6 +20,7 @@
   justify-content: space-between;
 }
 
+//Partie JS windows modal
 .category__modal--open {
   background-color: yellow;
   animation: opening 0.5s;

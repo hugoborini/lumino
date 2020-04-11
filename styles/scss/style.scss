@@ -9,11 +9,21 @@
 @import "blocs/footer.scss";
 @import "blocs/header_homepage.scss";
 @import "blocs/home.scss";
+@import "blocs/user.scss";
+
 @import "blocs/search.scss";
 
 //Categories
 @import "blocs/categories/action.scss";
+@import "blocs/categories/comedy.scss";
+@import "blocs/categories/horror.scss";
+@import "blocs/categories/documentary.scss";
+@import "blocs/categories/sf.scss";
+@import "blocs/categories/animation.scss";
+
 
 a {
   text-decoration: none;
 }
+
+

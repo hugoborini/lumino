@@ -9,9 +9,11 @@
   align-items: center;
   justify-content: center;
   height: 84vh;
+
   width: 100%;
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
+
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
@@ -50,6 +52,7 @@
     margin-left: 50%; }
 
 .watch,
+
 .movies,
 .download {
   color: #f0f1f3;
@@ -78,6 +81,7 @@
   .download__body {
     font-size: 1.2vw;
     font-family: "Nunito";
+
     line-height: 1.44vw;
     justify-content: start;
     max-width: 581px;

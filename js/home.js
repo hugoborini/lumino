@@ -19,11 +19,17 @@ function checkModals() {
 }
 
 function addHTML(movie, modal) {
-  let movieId = movie.id;
+  let title = movie.getAttribute("data-title");
+  let synopsis = movie.getAttribute("data-synopsis");
+  let released = movie.getAttribute("data-released");
   modal.innerHTML =
-    '<div class="test"><p>This movie is the movie ' +
-    movieId +
-    '</p><button class="butt">hello</button></div>';
+    '<div class="modal__icons"><div class="modal__icons--left"><div class="modal__icon"></div><div class="modal__icon"></div></div><div class="modal__icons--right"><div class="modal__icon butt"></div></div></div><div class="modal__icon--play"></div><div class="modal__texts"><h1 class="modal__title">' +
+    title +
+    '</h1><h3 class="modal__date">' +
+    released +
+    '</h3><p class="modal__synopsis">' +
+    synopsis +
+    "</p></div>";
 }
 
 let categories = document.querySelectorAll(".category");

@@ -301,6 +301,7 @@ body {
   width: 100%;
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
+
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
@@ -482,7 +483,7 @@ header {
 .category {
   display: flex;
   flex-direction: column;
-  margin-bottom: 6%; }
+  margin: 5%; }
 
 .category__texts {
   display: flex;
@@ -545,45 +546,279 @@ header {
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--kingsman {
   background: url(../../assets/mini/kingsman.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--readyPlayerOne {
   background: url(../../assets/mini/ready-player-one.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--matrix {
   background: url(../../assets/mini/matrix.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--1917 {
   background: url(../../assets/mini/1917.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
 
 .movie--kickAss {
   background: url(../../assets/mini/kick-ass.jpg);
-  height: 12.79vw;
+  height: 19.79vw;
+  width: 14.5vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+
+.movie--bigLebowski {
+  background: url(../../assets/mini/big-Lebowski.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--intouchables {
+  background: url(../../assets/mini/intouchables.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--zoolander {
+  background: url(../../assets/mini/zoolander.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--littleMiss {
+  background: url(../../assets/mini/little-miss-sunshine.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--bridesmaids {
+  background: url(../../assets/mini/bridesmaids.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--zombieland {
+  background: url(../../assets/mini/zombieland.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plateform {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--shinning {
+  background: url(../../assets/mini/the-shining.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jaws {
+  background: url(../../assets/mini/jaws.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--midsommar {
+  background: url(../../assets/mini/midsommar.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--invisible {
+  background: url(../../assets/mini/the-invisible-man.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--paranormal {
+  background: url(../../assets/mini/paranormal-activity.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--pedal {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--fahrenheit {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plasticOcean {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--heartsOfDarkness {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--youNegro {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--creativeBrain {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.user__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3vw 8vw; }
+  .user__container .user__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .user__container .user__account {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    margin: 3vw; }
+
+.user__back {
+  margin-left: 4vw;
+  margin-top: 1vw;
+  width: 4vw;
+  font-family: "Nunito";
+  font-size: 1.13vw;
+  color: #f0f1f3; }
+
+.user__picture {
+  margin: 4vw 4vw; }
+  .user__picture img {
+    width: 12vw;
+    border: 4px solid #feca28;
+    border-radius: 90px; }
+
+.button__user {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button {
+  background-color: #1b1c1f;
+  border: 2px solid #f0f1f3;
+  color: #f0f1f3;
+  height: auto;
+  font-family: "Nunito-Bold";
+  font-size: 1.13vw;
+  align-items: center;
+  padding: 1vw; }
+
+.user__info .user__title {
+  font-family: "Radikal-Bold";
+  font-size: 1.56vw;
+  color: #f0f1f3;
+  text-decoration: underline;
+  width: 15vw;
+  margin-bottom: 4vw; }
+
+.inputForm {
+  margin-bottom: 4vw;
+  border: 2px solid red; }
+  .inputForm label {
+    font-family: "Nunito-Bold";
+    font-size: 1.2vw;
+    color: #f0f1f3; }
+
+.input__info input {
+  margin-left: 5vw;
+  background-color: #1b1c1f;
+  border-bottom: solid 1px #f0f1f3;
+  width: 18vw; }
+
+.button__account {
+  background-color: #feca28;
+  border: 2px solid #1b1c1f;
+  color: #1b1c1f;
+  margin-right: 0px;
+  justify-content: flex-end; }
+
+.user__delete {
+  position: absolute;
+  right: 0px;
+  color: red;
+  align-self: left;
+  font-family: "Nunito";
+  font-size: 1.13vw;
+  text-decoration: underline; }
 
 a {
   text-decoration: none; }

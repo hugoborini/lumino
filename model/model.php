@@ -70,4 +70,5 @@ function search($text) {
     while ($search_data = $get_title->fetch(PDO::FETCH_ASSOC)){
         echo "<a href='#'>" . $search_data['title'] . "</a>";
     }
+    $get_title->closeCursor();
 }
