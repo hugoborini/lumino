@@ -1,0 +1,23 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #0b0a0a;
+  height: 84px; }
+  header .container-image {
+    margin-left: 4vw;
+    display: flex;
+    align-items: center; }
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 4vw; }
+  .button__connexion {
+    background-color: #feca28;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
