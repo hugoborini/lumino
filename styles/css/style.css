@@ -301,7 +301,6 @@ body {
   width: 100%;
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
-
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
@@ -497,9 +496,13 @@ header {
   justify-content: space-between; }
 
 .category__modal--open {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
   animation: opening 0.5s;
-  height: 100px; }
+  height: 63vh;
+  display: flex;
+  flex-direction: column; }
 
 .category__modal--close {
   display: none; }
@@ -510,20 +513,124 @@ header {
     height: 0px; }
   to {
     opacity: 1;
-    height: 100px; } }
+    height: 63vh; } }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 100px; }
+    height: 63vh; }
   to {
     opacity: 0;
     height: 0px; } }
 
 .category__modal--closing {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closing 0.3s;
   height: 0px; }
+
+.modal__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw; }
+
+.modal__texts {
+  color: #f0f1f3; }
+
+.modal__title {
+  font-family: "Radikal-Bold";
+  font-size: 7vw; }
+
+.modal__date {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw; }
+
+.modal__synopsis {
+  font-family: "Nunito";
+  font-size: 1.13vw; }
+
+.user__container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 3vw 8vw; }
+  .user__container .user__image {
+    display: flex;
+    flex-direction: column;
+    align-items: center; }
+  .user__container .user__account {
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid yellow;
+    margin: 3vw; }
+
+.user__back {
+  margin-left: 4vw;
+  margin-top: 1vw;
+  width: 4vw;
+  font-family: "Nunito";
+  font-size: 1.13vw;
+  color: #f0f1f3; }
+
+.user__picture {
+  margin: 4vw 4vw; }
+  .user__picture img {
+    width: 12vw;
+    border: 4px solid #feca28;
+    border-radius: 90px; }
+
+.button__user {
+  display: flex;
+  align-items: center;
+  justify-content: center; }
+
+.button {
+  background-color: #1b1c1f;
+  border: 2px solid #f0f1f3;
+  color: #f0f1f3;
+  height: auto;
+  font-family: "Nunito-Bold";
+  font-size: 1.13vw;
+  align-items: center;
+  padding: 1vw; }
+
+.user__info .user__title {
+  font-family: "Radikal-Bold";
+  font-size: 1.56vw;
+  color: #f0f1f3;
+  text-decoration: underline;
+  width: 15vw;
+  margin-bottom: 4vw; }
+
+.inputForm {
+  margin-bottom: 4vw;
+  border: 2px solid red; }
+  .inputForm label {
+    font-family: "Nunito-Bold";
+    font-size: 1.2vw;
+    color: #f0f1f3; }
+
+.input__info input {
+  margin-left: 5vw;
+  background-color: #1b1c1f;
+  border-bottom: solid 1px #f0f1f3;
+  width: 18vw; }
+
+.button__account {
+  background-color: #feca28;
+  border: 2px solid #1b1c1f;
+  color: #1b1c1f;
+  margin-right: 0px;
+  justify-content: flex-end; }
+
+.user__delete {
+  position: absolute;
+  right: 0px;
+  color: red;
+  align-self: left;
+  font-family: "Nunito";
+  font-size: 1.13vw;
+  text-decoration: underline; }
 
 .show_up {
   width: 15vw;
@@ -735,90 +842,6 @@ header {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-
-.user__container {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  margin: 3vw 8vw; }
-  .user__container .user__image {
-    display: flex;
-    flex-direction: column;
-    align-items: center; }
-  .user__container .user__account {
-    position: relative;
-    align-items: center;
-    justify-content: center;
-    border: 2px solid yellow;
-    margin: 3vw; }
-
-.user__back {
-  margin-left: 4vw;
-  margin-top: 1vw;
-  width: 4vw;
-  font-family: "Nunito";
-  font-size: 1.13vw;
-  color: #f0f1f3; }
-
-.user__picture {
-  margin: 4vw 4vw; }
-  .user__picture img {
-    width: 12vw;
-    border: 4px solid #feca28;
-    border-radius: 90px; }
-
-.button__user {
-  display: flex;
-  align-items: center;
-  justify-content: center; }
-
-.button {
-  background-color: #1b1c1f;
-  border: 2px solid #f0f1f3;
-  color: #f0f1f3;
-  height: auto;
-  font-family: "Nunito-Bold";
-  font-size: 1.13vw;
-  align-items: center;
-  padding: 1vw; }
-
-.user__info .user__title {
-  font-family: "Radikal-Bold";
-  font-size: 1.56vw;
-  color: #f0f1f3;
-  text-decoration: underline;
-  width: 15vw;
-  margin-bottom: 4vw; }
-
-.inputForm {
-  margin-bottom: 4vw;
-  border: 2px solid red; }
-  .inputForm label {
-    font-family: "Nunito-Bold";
-    font-size: 1.2vw;
-    color: #f0f1f3; }
-
-.input__info input {
-  margin-left: 5vw;
-  background-color: #1b1c1f;
-  border-bottom: solid 1px #f0f1f3;
-  width: 18vw; }
-
-.button__account {
-  background-color: #feca28;
-  border: 2px solid #1b1c1f;
-  color: #1b1c1f;
-  margin-right: 0px;
-  justify-content: flex-end; }
-
-.user__delete {
-  position: absolute;
-  right: 0px;
-  color: red;
-  align-self: left;
-  font-family: "Nunito";
-  font-size: 1.13vw;
-  text-decoration: underline; }
 
 a {
   text-decoration: none; }

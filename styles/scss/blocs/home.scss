@@ -22,9 +22,13 @@
 
 //Partie JS windows modal
 .category__modal--open {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
   animation: opening 0.5s;
-  height: 100px;
+  height: 63vh;
+  display: flex;
+  flex-direction: column;
 }
 
 .category__modal--close {
@@ -38,14 +42,14 @@
   }
   to {
     opacity: 1;
-    height: 100px;
+    height: 63vh;
   }
 }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 100px;
+    height: 63vh;
   }
   to {
     opacity: 0;
@@ -54,7 +58,32 @@
 }
 
 .category__modal--closing {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closing 0.3s;
   height: 0px;
+}
+
+.modal__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw;
+}
+
+.modal__texts {
+  color: $secondary-light;
+}
+
+.modal__title {
+  font-family: $h1-font;
+  font-size: 7vw;
+}
+
+.modal__date {
+  font-family: $h3-font;
+  font-size: $h3;
+}
+
+.modal__synopsis {
+  font-family: $body-font;
+  font-size: $body;
 }
