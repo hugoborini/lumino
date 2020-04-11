@@ -70,18 +70,18 @@
 
 // ## SECOND AND THIRD SECTION ##
 .watch,
-.movies {
-  // height: 75vh;
+.movies,
+.download {
   color: $secondary-light;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 8vw;
 
-  .movies__text {
-    background-color: red;
-    padding-bottom: 100px;
-    // top: 100px;
+  .movies__text,
+  .download__text,
+  .watch__text {
+    padding-bottom: 70px;
   }
   &__title {
     font-size: 1.8vw;
@@ -104,4 +104,9 @@
 .movies__mockup {
   height: 42vh;
 }
-// ## SECOND SECTION END ##
+
+.download__mockup {
+  height: 58vh;
+}
+
+// ## SECOND AND THIRD END ##

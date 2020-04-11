@@ -1,0 +1,14 @@
+.category {
+  display: flex;
+  flex-direction: column; }
+
+.category__texts {
+  display: flex;
+  justify-content: space-between; }
+
+.category__movies {
+  display: flex;
+  justify-content: space-between; }
+
+.movie {
+  background-color: gold; }

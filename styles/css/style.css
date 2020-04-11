@@ -333,22 +333,31 @@ body {
     margin-left: 50%; }
 
 .watch,
-.movies {
+.movies,
+.download {
   color: #f0f1f3;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 8vw; }
   .watch .movies__text,
-  .movies .movies__text {
-    background-color: red;
-    padding-bottom: 100px; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .movies__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .movies__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-bottom: 70px; }
   .watch__title,
-  .movies__title {
+  .movies__title,
+  .download__title {
     font-size: 1.8vw;
     width: 566px; }
   .watch__body,
-  .movies__body {
+  .movies__body,
+  .download__body {
     font-size: 1.2vw;
     line-height: 1.44vw;
     justify-content: start;
@@ -361,6 +370,9 @@ body {
 
 .movies__mockup {
   height: 42vh; }
+
+.download__mockup {
+  height: 58vh; }
 
 footer {
   display: flex;
@@ -401,13 +413,10 @@ header {
   .nav .nav__item {
     margin: 0 2vw;
     color: #c8d3d7;
-
-    font-size: 0.99vw; }
-    .nav .nav__item .item__arrow {
-      width: 0.8vw; }
-
     font-size: 0.99vw;
     position: relative; }
+    .nav .nav__item .item__arrow {
+      width: 0.8vw; }
   .nav ul {
     display: none;
     position: absolute;
@@ -429,15 +438,11 @@ header {
     .nav .nav__item .appear li:hover a {
       color: #1b1c1f; }
 
-
 .search {
   display: flex; }
   .search__bell {
     padding: 0 1vw;
     fill: white; }
-
-.search__form {
-  max-width: 500px; }
 
 .search__input {
   text-align: left;
@@ -458,8 +463,6 @@ header {
 .headerHome__disconnect {
   margin-right: 4vw; }
 
-
-
 .category {
   display: flex;
   flex-direction: column; }
@@ -474,7 +477,3 @@ header {
 
 .movie {
   background-color: gold; }
-
-a {
-  text-decoration: none; }
-
