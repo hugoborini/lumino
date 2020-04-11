@@ -8,7 +8,7 @@
 </head>
 <body>
     <?php  require("components/header_landpage.php") ?>
-
+<section class="landingpage">
 
     <section class="hero">
         <article class="hero__title">
@@ -39,7 +39,7 @@ No need for internet connection to watch your favorite movies, juste download th
         <img src="assets/img/mockups.png" alt="" class="mockups">
     </article>
 </section>
-
+</section>
     <?php  require("components/footer.php") ?>
 
 </body>

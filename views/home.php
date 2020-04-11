@@ -1,3 +1,4 @@
+<?php session_start()?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -7,7 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include("./components/header_landpage.php")?>
-    BIENVENU ABONé
+    <?php include("./components/header_homepage.php")?>
+
 </body>
 </html>

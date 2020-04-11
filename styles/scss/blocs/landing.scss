@@ -1,5 +1,6 @@
-@import "../config/variable.scss";
-body {
+
+import "../config/variable.scss";
+.landingpage {
   font-family: "Nunito";
 }
 .hero {
@@ -71,3 +72,4 @@ body {
     height: 100%;
   }
 }
+

@@ -8,7 +8,7 @@ if ($user === false) {
     die('Impossible d\'ajouter le chakal !');
 }
 else {
-    header('Location: index.php?action=home');
+    header('Location: index.php?action=login');
 }
 };
 
@@ -31,5 +31,6 @@ function getConnexion($email, $pass){
         header("Location: index.php?action=login&error=badinf");
     }
 }
+
 
 ?>
