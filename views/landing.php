@@ -30,6 +30,10 @@
 
 <section class="watch">
     <article>
+
+
+
+    
     <p class="watch__title">Watch movies wherever, wheneveryou want.</p>
     <p class="watch__body">On your desktop, on your laptop, your tablet or your phone, we are available everywhere, on any device. 
 No need for internet connection to watch your favorite movies, juste download them and whatch them later.</p>
