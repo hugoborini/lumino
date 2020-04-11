@@ -333,22 +333,31 @@ body {
     margin-left: 50%; }
 
 .watch,
-.movies {
+.movies,
+.download {
   color: #f0f1f3;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 8vw; }
   .watch .movies__text,
-  .movies .movies__text {
-    background-color: red;
-    padding-bottom: 100px; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .movies__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .movies__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-bottom: 70px; }
   .watch__title,
-  .movies__title {
+  .movies__title,
+  .download__title {
     font-size: 1.8vw;
     width: 566px; }
   .watch__body,
-  .movies__body {
+  .movies__body,
+  .download__body {
     font-size: 1.2vw;
     line-height: 1.44vw;
     justify-content: start;
@@ -361,6 +370,9 @@ body {
 
 .movies__mockup {
   height: 42vh; }
+
+.download__mockup {
+  height: 58vh; }
 
 footer {
   display: flex;
@@ -474,3 +486,4 @@ header {
 
 a {
   text-decoration: none; }
+

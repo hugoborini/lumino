@@ -36,7 +36,7 @@
 
     <section class="landingpage">
         <section class="watch">
-            <article>
+            <article class="watch__text">
                 <p class="watch__title">Watch movies wherever, wheneveryou want.</p>
                 <p class="watch__body">On your desktop, on your laptop, your tablet or your phone, we are available
                     everywhere, on any device.
@@ -59,6 +59,21 @@
                 <p class="movies__title">New movies continuously added.</p>
                 <p class="movies__body">We are doing everything we can to provide you new movies as often as possible. We have a large library of movies that will grow weeks after weeks.</p>
             </article>
+
+            
+        </section>
+
+        <section class="download">
+            <article class="download__text">
+                <p class="download__title">Download all your favorite movies to watch them offline.</p>
+                <p class="download__body">Our large number of servers allow you to download up to 10 
+                    Go of movies on your account for 15 days.</p>
+            </article>
+
+            <article class="download__mockup">
+                <img src="assets/img/phone_download.png" alt="" class="download__mockup">
+            </article>
+            
 
             
         </section>

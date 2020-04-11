@@ -1,3 +1,19 @@
+
+.category {
+  display: flex;
+  flex-direction: column; }
+
+.category__texts {
+  display: flex;
+  justify-content: space-between; }
+
+.category__movies {
+  display: flex;
+  justify-content: space-between; }
+
+.movie {
+  background-color: gold; }
+
 @keyframes openingModal {
   from {
     opacity: 0;
@@ -61,3 +77,4 @@
   //animation: closingModal 0.3s;
   height: 0px;
 }
+
