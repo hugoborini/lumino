@@ -21,9 +21,9 @@
 
         </div>
 
-        <div class="button__user">
-          <input type="submit" class="button " value="UPLOAD PICTURE">
-          <input type="submit" class="button " value="DELETE">
+        <div class="button__image">
+          <input type="submit" class="button__end button__picture" value="UPLOAD PICTURE">
+          <input type="submit" class="button__end button__picture" value="DELETE">
         </div>
 
       </div>
@@ -39,27 +39,27 @@
                     <label>
                     First name
                     </label>
-                    <input type="text" name="firstname" class="firstName__input" value="Hugo">
+                    <input type="text" name="firstname" class="firstName__input" placeholder="Hugo"><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__lastName">
                     <label>
                         Last name
                     </label>
-                    <input type="text" name="lastname" class="lastName__input" value="Chakal">
+                    <input type="text" name="lastname" class="lastName__input" placeholder="Chakal"><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__email">
                     <label>Mail address</label>
-                    <input type="email" name="email" class="mail__input" value="Hugo.le.dz@gmail.com"/>
+                    <input type="email" name="email" class="mail__input" placeholder="Hugo.le.dz@gmail.com"/><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__password">
                     <label>Password</label>
-                    <input type="password" name="pass" class="password__input" value="*********"/>
+                    <input type="password" name="pass" class="password__input" placeholder="*********"/><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
               </div>
 
               <div class="button__user">
-                <input type="submit" class="button button__account" value="LOG OUT">
-                <input type="submit" class="button button__account " value="SAVE">
+                <input type="submit" class="button__end button__account" value="LOG OUT">
+                <input type="submit" class="button__end button__account " value="SAVE">
               </div>
           </div>
         </form>

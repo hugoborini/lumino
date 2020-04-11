@@ -1,4 +1,4 @@
-header {
+.headerHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -6,7 +6,7 @@ header {
   height: 6vw;
   font-family: "Nunito", sans-serif;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  header .headerHome__logo {
+  .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
 

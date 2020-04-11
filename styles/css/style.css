@@ -152,7 +152,7 @@ table {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #0b0a0a;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -176,7 +176,7 @@ header {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #0b0a0a;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -300,7 +300,7 @@ body {
   height: 84vh;
   width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
@@ -332,8 +332,8 @@ body {
   font-size: 16px; }
 
 .hero__bottom {
-  height: 13vh;
-  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, black); }
+  height: 30vh;
+  background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%); }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }
@@ -411,7 +411,7 @@ footer {
       width: auto;
       height: 80%; }
 
-header {
+.headerHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -419,7 +419,7 @@ header {
   height: 6vw;
   font-family: "Nunito", sans-serif;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  header .headerHome__logo {
+  .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
 
@@ -629,7 +629,6 @@ header {
     position: relative;
     align-items: center;
     justify-content: center;
-    border: 2px solid yellow;
     margin: 3vw; }
 
 .user__back {
@@ -641,18 +640,18 @@ header {
   color: #f0f1f3; }
 
 .user__picture {
-  margin: 4vw 4vw; }
+  margin-bottom: 6vw; }
   .user__picture img {
-    width: 12vw;
+    width: 15vw;
     border: 4px solid #feca28;
-    border-radius: 90px; }
+    border-radius: 110px; }
 
 .button__user {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: flex-end; }
 
-.button {
+.button__end {
   background-color: #1b1c1f;
   border: 2px solid #f0f1f3;
   color: #f0f1f3;
@@ -666,13 +665,12 @@ header {
   font-family: "Radikal-Bold";
   font-size: 1.56vw;
   color: #f0f1f3;
-  text-decoration: underline;
-  width: 15vw;
-  margin-bottom: 4vw; }
+  width: 29.35vw;
+  margin-bottom: 4vw;
+  border-bottom: 2px solid #f0f1f3; }
 
 .inputForm {
-  margin-bottom: 4vw;
-  border: 2px solid red; }
+  margin-bottom: 4vw; }
   .inputForm label {
     font-family: "Nunito-Bold";
     font-size: 1.2vw;
@@ -681,24 +679,39 @@ header {
 .input__info input {
   margin-left: 5vw;
   background-color: #1b1c1f;
-  border-bottom: solid 1px #f0f1f3;
+  border: none;
+  border-bottom: 1px solid #f0f1f3;
+  color: #f0f1f3;
+  font-family: "Nunito";
+  font-size: 1.13vw;
   width: 18vw; }
+
+.input__info input[type='email'] {
+  margin-left: 3.90vw; }
+
+.input__info input[type='password'] {
+  margin-left: 5.4vw; }
 
 .button__account {
   background-color: #feca28;
   border: 2px solid #1b1c1f;
   color: #1b1c1f;
   margin-right: 0px;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-left: 2.5vw; }
 
 .user__delete {
   position: absolute;
   right: 0px;
+  margin-top: 2vw;
   color: red;
   align-self: left;
   font-family: "Nunito";
   font-size: 1.13vw;
   text-decoration: underline; }
+
+.button__picture:nth-child(2) {
+  margin-left: 2.5vw; }
 
 .show_up {
   width: 15vw;
@@ -718,6 +731,45 @@ header {
     .show_up a:hover {
       background-color: #feca28;
       color: #1b1c1f; }
+
+.video {
+  width: 100vw; }
+
+video {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+
+.container {
+  z-index: 999;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between; }
+  .container embed {
+    width: 2.5vw; }
+  .container__title {
+    color: #c8d3d7;
+    font-family: "Radikal-Bold";
+    font-size: 1.42vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px; }
+  .container-left {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between; }
+  .container-right {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between; }
+    .container-right input {
+      margin-left: 2vw;
+      vertical-align: super; }
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
@@ -864,7 +916,7 @@ header {
   background-size: contain; }
 
 .movie--pedal {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/pedal-the-world.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
@@ -872,7 +924,7 @@ header {
   background-size: contain; }
 
 .movie--fahrenheit {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/fahrenheit-911.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
@@ -880,7 +932,7 @@ header {
   background-size: contain; }
 
 .movie--plasticOcean {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/a-plastic-ocean.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
@@ -888,7 +940,7 @@ header {
   background-size: contain; }
 
 .movie--heartsOfDarkness {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/hearts-of-darkness.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
@@ -896,7 +948,7 @@ header {
   background-size: contain; }
 
 .movie--youNegro {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/i-am-not-your-negro.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
@@ -904,7 +956,103 @@ header {
   background-size: contain; }
 
 .movie--creativeBrain {
-  background: url(../../assets/mini/the-platform.jpg);
+  background: url(../../assets/mini/the-creative-brain.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--interstellar {
+  background: url(../../assets/mini/interstellar.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--hungerGames {
+  background: url(../../assets/mini/hunger-games.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--fifthElement {
+  background: url(../../assets/mini/fifth-element.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--avatar {
+  background: url(../../assets/mini/avatar.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--backToTheFuture {
+  background: url(../../assets/mini/back-to-the-future.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jurassicPark {
+  background: url(../../assets/mini/jurrasic-park.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--frozen {
+  background: url(../../assets/mini/frozen.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--insideOut {
+  background: url(../../assets/mini/inside-out.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--peterPan {
+  background: url(../../assets/mini/peter-pan.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--walle {
+  background: url(../../assets/mini/wall-e.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--incredibles {
+  background: url(../../assets/mini/the-incredibles.jpg);
+  height: 19.79vw;
+  width: 14.5vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--moana {
+  background: url(../../assets/mini/moana.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
