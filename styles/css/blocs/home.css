@@ -1,20 +1,63 @@
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 100px;
+  }
+}
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 100px;
+  }
+  to {
+    opacity: 0;
+    height: 0px;
+  }
+}
+
 .category {
   display: flex;
   flex-direction: column;
-  margin-bottom: 6%; }
+  margin-bottom: 6%;
+}
 
 .category__texts {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .category__title {
-  color: #f9fafa; }
+  color: #f9fafa;
+}
 
 .category__movies {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+}
 
 .movie {
   background-color: gold;
   width: 140px;
-  height: 140px; }
+  height: 140px;
+}
+
+.category__modal--open {
+  background-color: yellow;
+  //animation: openingModal 0.5s;
+  height: 100px;
+}
+
+.category__modal--close {
+  display: none;
+}
+
+.category__modal--closing {
+  background-color: yellow;
+  //animation: closingModal 0.3s;
+  height: 0px;
+}
