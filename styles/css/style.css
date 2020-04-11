@@ -401,13 +401,10 @@ header {
   .nav .nav__item {
     margin: 0 2vw;
     color: #c8d3d7;
-
-    font-size: 0.99vw; }
-    .nav .nav__item .item__arrow {
-      width: 0.8vw; }
-
     font-size: 0.99vw;
     position: relative; }
+    .nav .nav__item .item__arrow {
+      width: 0.8vw; }
   .nav ul {
     display: none;
     position: absolute;
@@ -429,15 +426,11 @@ header {
     .nav .nav__item .appear li:hover a {
       color: #1b1c1f; }
 
-
 .search {
   display: flex; }
   .search__bell {
     padding: 0 1vw;
     fill: white; }
-
-.search__form {
-  max-width: 500px; }
 
 .search__input {
   text-align: left;
@@ -457,8 +450,6 @@ header {
 
 .headerHome__disconnect {
   margin-right: 4vw; }
-
-
 
 .category {
   display: flex;
@@ -483,4 +474,3 @@ header {
 
 a {
   text-decoration: none; }
-
