@@ -13,7 +13,7 @@
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
   .hero__title {
-    font-family: "Radikal-Bold";
+    font-family: "Nunito-Bold";
     font-size: 2vw;
     padding-bottom: 25px; }
   .hero__infos {
@@ -40,9 +40,8 @@
   background-color: #feca28;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-weight: 900; }
+  font-family: "Nunito-Bold";
+  font-size: 16px; }
 
 .hero__bottom {
   height: 13vh;
@@ -83,12 +82,20 @@
     max-width: 581px;
     padding-top: 1.43vw;
     width: 566px; }
+  .watch .download__mockup,
+  .movies .download__mockup,
+  .download .download__mockup {
+    position: relative; }
+  .watch .download__gif,
+  .movies .download__gif,
+  .download .download__gif {
+    position: absolute;
+    right: 1.58vw;
+    top: 13.9vw;
+    height: 7vh; }
 
 .watch__mockup {
   height: 58vh; }
 
 .movies__mockup {
   height: 42vh; }
-
-.download__mockup {
-  height: 58vh; }

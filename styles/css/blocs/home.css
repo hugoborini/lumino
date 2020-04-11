@@ -46,5 +46,4 @@
 .category__modal--closing {
   background-color: yellow;
   animation: closing 0.3s;
-  height: 0px;
-}
+  height: 0px; }
