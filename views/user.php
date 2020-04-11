@@ -58,8 +58,8 @@
               </div>
 
               <div class="button__user">
-                <input type="submit" class="button button__account" value="LOG OUT">
-                <input type="submit" class="button button__account " value="SAVE">
+                <input type="submit" class="button__end button__account" value="LOG OUT">
+                <input type="submit" class="button__end button__account " value="SAVE">
               </div>
           </div>
         </form>
