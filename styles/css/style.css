@@ -521,6 +521,15 @@ header {
   animation: closing 0.3s;
   height: 0px; }
 
+.show_up {
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ddd;
+  display: none; }
+  .show_up a {
+    border-bottom: 1px solid #ddd;
+    display: block;
+    padding: 5px; }
+
 a {
   text-decoration: none; }
-
