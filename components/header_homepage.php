@@ -1,4 +1,4 @@
-
+<script defer src="./js/headerHomePage.js"></script>
 <header class="headerHome">
 
     <div class="headerHome__logo">
@@ -6,7 +6,15 @@
     </div>
     <div class="headerHome__nav nav">
       <div class="nav__item">Home</div>
-      <div class="nav__item">Genre <img class="item__arrow" src="assets/icon/chevron_gris.svg"/> </div>
+      <div class="nav__item" id="genre">Genre <img class="item__arrow" src="assets/icon/chevron_gris.svg"/>
+    	<ul id="genre__ul">
+				<li><a href="#">Action</a></li>
+				<li><a href="#">Animation</a></li>
+				<li><a href="#">Comedie</a></li>
+				<li><a href="#">Documentary</a></li>
+				<li><a href="#">SF</a></li>
+			</ul>
+    </div>
       <div class="nav__item">My list</div>
     </div>
 

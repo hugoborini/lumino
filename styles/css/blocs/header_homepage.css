@@ -1,0 +1,62 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #0b0a0a;
+  height: 6vw;
+  font-family: "Nunito", sans-serif; }
+  header .headerHome__logo {
+    margin-left: 4vw;
+    display: flex; }
+
+.nav {
+  display: flex; }
+  .nav .nav__item {
+    margin: 0 2vw;
+    color: #c8d3d7;
+    font-size: 0.99vw;
+    position: relative; }
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 2vw;
+    left: -2.5vw;
+    width: 10vw;
+    background-color: #0b0a0a;
+    font-size: 0.99vw;
+    text-align: center; }
+    .nav ul li {
+      line-height: 3; }
+    .nav ul a {
+      color: #c8d3d7; }
+
+.nav .nav__item .appear {
+  display: block; }
+  .nav .nav__item .appear li:hover {
+    background-color: #feca28; }
+    .nav .nav__item .appear li:hover a {
+      color: #1b1c1f; }
+
+.headerHome__search {
+  display: flex;
+  align-items: center;
+  width: 20vw;
+  height: 2vw;
+  margin-left: 2vw;
+  border-radius: 5px;
+  background-color: #f0f1f3;
+  color: #c8d3d7; }
+  .headerHome__search img {
+    margin: 0 1vw;
+    size: 1vw; }
+
+.headerHome__name {
+  color: #c8d3d7;
+  font-size: 0.99vw; }
+
+.headerHome__profil img {
+  width: 3vw;
+  color: #c8d3d7; }
+
+.headerHome__disconnect {
+  margin-right: 4vw; }
