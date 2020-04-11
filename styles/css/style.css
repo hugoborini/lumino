@@ -723,6 +723,45 @@ footer {
       background-color: #feca28;
       color: #1b1c1f; }
 
+.video {
+  width: 100vw; }
+
+video {
+  position: relative;
+  width: 100vw;
+  height: 100vh; }
+
+.container {
+  z-index: 999;
+  position: absolute;
+  bottom: 0px;
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between; }
+  .container embed {
+    width: 2.5vw; }
+  .container__title {
+    color: #c8d3d7;
+    font-family: "Radikal-Bold";
+    font-size: 1.42vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px; }
+  .container-left {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between; }
+  .container-right {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between; }
+    .container-right input {
+      margin-left: 2vw;
+      vertical-align: super; }
+
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
   height: 19.79vw;
