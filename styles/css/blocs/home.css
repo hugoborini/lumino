@@ -14,11 +14,6 @@
   display: flex;
   justify-content: space-between; }
 
-.movie {
-  background-color: gold;
-  width: 140px;
-  height: 140px; }
-
 .category__modal--open {
   background-color: yellow;
   animation: opening 0.5s;
