@@ -5,6 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>Document</title>
 </head>
 
@@ -22,9 +24,9 @@
             <p class="price"> at <em> 6.99$ </em>/month</p>
         </article>
 
-        <article class="hero__CTA">
-            START YOUR FREE TRIAL
-        </article>
+        <button class="hero__CTA">
+        <a href="index.php?action=signup">START YOUR FREE TRIAL</a>
+        </button>
     </section>
 
     <section class="hero__bottom">
@@ -51,7 +53,7 @@
         </section>
 
         <section class="movies">
-            <article class="movies__mockup">
+            <article class="movies__mockup"data-aos="fade-right">
                 <img src="assets/img/movies_posters.png" alt="" class="movies__mockup">
             </article>
 
@@ -86,5 +88,9 @@
     <?php  require("components/footer.php") ?>
 
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
 
 </html>

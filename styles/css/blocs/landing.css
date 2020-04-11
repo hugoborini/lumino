@@ -34,12 +34,14 @@
   margin-top: 4em;
   display: flex;
   align-items: center;
-  color: #1b1c1f;
   justify-content: center;
+  color: #1b1c1f;
   background-color: #feca28;
+  border: none;
+  text-decoration: none;
   width: 15em;
   height: 38px;
-  font-family: "Nunito-SemiBold";
+  font-family: "Nunito";
   font-size: 16px; }
 
 .hero__bottom {
@@ -55,7 +57,6 @@
   color: #f0f1f3;
   display: flex;
   align-items: center;
-  justify-content: space-around;
   padding-bottom: 8vw; }
   .watch .movies__text,
   .watch .download__text,
