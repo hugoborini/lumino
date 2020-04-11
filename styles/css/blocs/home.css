@@ -1,7 +1,6 @@
 .category {
   display: flex;
-  flex-direction: column;
-  margin: 5%; }
+  flex-direction: column; }
 
 .category__texts {
   display: flex;
@@ -20,8 +19,18 @@
   background-size: cover;
   animation: opening 0.5s;
   height: 63vh;
+  width: 100%;
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  justify-content: space-between; }
+
+.category__modal--open:after {
+  content: "";
+  position: absolute;
+  height: 63vh;
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(to top, black 10%, rgba(0, 0, 0, 0.363)); }
 
 .category__modal--close {
   display: none; }
@@ -50,14 +59,31 @@
 .modal__icons {
   display: flex;
   justify-content: space-between;
-  margin: 0 5vw; }
+  margin: 6.5vh 5vw; }
+  .modal__icons--left {
+    width: 5vw;
+    display: flex;
+    justify-content: space-between; }
+
+.modal__icon {
+  z-index: 1;
+  width: 2vw; }
+  .modal__icon--play {
+    z-index: 1;
+    width: 11vw;
+    align-self: center; }
+    .modal__icon--play:hover {
+      width: 15vw; }
 
 .modal__texts {
-  color: #f0f1f3; }
+  z-index: 1;
+  color: #f0f1f3;
+  margin: 6.5vh 5vw; }
 
 .modal__title {
   font-family: "Radikal-Bold";
-  font-size: 7vw; }
+  font-size: 6.5vw;
+  text-transform: uppercase; }
 
 .modal__date {
   font-family: "Nunito-SemiBold";
@@ -65,4 +91,5 @@
 
 .modal__synopsis {
   font-family: "Nunito";
-  font-size: 1.13vw; }
+  font-size: 1.13vw;
+  width: 58vw; }

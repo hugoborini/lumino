@@ -23,7 +23,7 @@ function addHTML(movie, modal) {
   let synopsis = movie.getAttribute("data-synopsis");
   let released = movie.getAttribute("data-released");
   modal.innerHTML =
-    '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon" /></div></div><div class="modal__icon--play"></div><div class="modal__texts"><h1 class="modal__title">' +
+    '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon" /></div></div><img src="assets/icon/big_play.svg" class="modal__icon--play" /><div class="modal__texts"><h1 class="modal__title">' +
     title +
     '</h1><h3 class="modal__date">' +
     released +
