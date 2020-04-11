@@ -22,25 +22,36 @@ header {
     color: $secondary-dark;
     font-size: $menu-navBar;
 
+    .item__arrow {
+      width: 0.8vw;
+    }
+
   }
 }
 
-.headerHome__search {
+.search {
   display: flex;
-  align-items: center;
-  width: 20vw;
-  height: 2vw;
-  margin-left: 2vw;
-  border-radius: 5px;
-  background-color: $secondary-light;
-  color: $secondary-dark;
 
-  img {
-    margin: 0 1vw;
-    size: 1vw;
+  &__bell {
+    padding: 0 1vw;
+    fill: white;
   }
-
 }
+
+.search__form {
+  max-width: 500px;
+}
+
+.search__input {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  width: 15vw;
+  border-radius: 5px;
+  padding: 0.3vw;
+  font-size: $menu-navBar;
+  //box-shadow: 0 0 5px rgba(0, 0, 0, 0.7), inset 0 0 2px rgba(0, 0, 0, 0.19);
+}
+
 
 .headerHome__name {
   color: $secondary-dark;

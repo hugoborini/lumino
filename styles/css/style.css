@@ -373,19 +373,25 @@ header {
     margin: 0 2vw;
     color: #c8d3d7;
     font-size: 0.99vw; }
+    .nav .nav__item .item__arrow {
+      width: 0.8vw; }
 
-.headerHome__search {
-  display: flex;
-  align-items: center;
-  width: 20vw;
-  height: 2vw;
-  margin-left: 2vw;
+.search {
+  display: flex; }
+  .search__bell {
+    padding: 0 1vw;
+    fill: white; }
+
+.search__form {
+  max-width: 500px; }
+
+.search__input {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  width: 15vw;
   border-radius: 5px;
-  background-color: #f0f1f3;
-  color: #c8d3d7; }
-  .headerHome__search img {
-    margin: 0 1vw;
-    size: 1vw; }
+  padding: 0.3vw;
+  font-size: 0.99vw; }
 
 .headerHome__name {
   color: #c8d3d7;
@@ -397,6 +403,3 @@ header {
 
 .headerHome__disconnect {
   margin-right: 4vw; }
-
-a {
-  text-decoration: none; }
