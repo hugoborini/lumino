@@ -462,18 +462,24 @@ header {
 
 .category {
   display: flex;
-  flex-direction: column; }
+  flex-direction: column;
+  margin-bottom: 6%; }
 
 .category__texts {
   display: flex;
   justify-content: space-between; }
+
+.category__title {
+  color: #f9fafa; }
 
 .category__movies {
   display: flex;
   justify-content: space-between; }
 
 .movie {
-  background-color: gold; }
+  background-color: gold;
+  width: 140px;
+  height: 140px; }
 
 a {
   text-decoration: none; }

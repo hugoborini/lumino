@@ -3,11 +3,16 @@
 .category {
   display: flex;
   flex-direction: column;
+  margin-bottom: 6%;
 }
 
 .category__texts {
   display: flex;
   justify-content: space-between;
+}
+
+.category__title {
+  color: $secondary-lighter;
 }
 
 .category__movies {
@@ -17,4 +22,6 @@
 
 .movie {
   background-color: gold;
+  width: 140px;
+  height: 140px;
 }
