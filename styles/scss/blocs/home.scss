@@ -19,9 +19,13 @@
 .category__movies {
   display: flex;
   justify-content: space-between;
-  margin-right: 4vw;
-  margin-left: 4vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
   margin-bottom: 5vh;
+}
+
+.movie {
+  box-shadow: 0px 0px 20px #121317;
 }
 
 .movie__elements {
@@ -51,20 +55,23 @@
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
-  height: 74vh;
+  height: 577px;
   width: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  box-shadow: 0px 0px 20px #121317;
+  margin-bottom: 28px;
 }
 
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 74vh;
+  height: 577px;
   width: 100%;
   opacity: 1;
   animation: opening 0.5s;
+  margin-bottom: 28px;
   background: linear-gradient(
     to top,
     rgba(0, 0, 0, 1) 5%,
@@ -80,10 +87,12 @@
   from {
     opacity: 0;
     height: 0px;
+    margin-bottom: 0px;
   }
   to {
     opacity: 1;
     height: 74vh;
+    margin-bottom: 28px;
   }
 }
 
@@ -91,10 +100,12 @@
   from {
     opacity: 1;
     height: 74vh;
+    margin-bottom: 28px;
   }
   to {
     opacity: 0;
     height: 0px;
+    margin-bottom: 0px;
   }
 }
 
