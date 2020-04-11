@@ -3,7 +3,6 @@
 .category {
   display: flex;
   flex-direction: column;
-  margin: 5%;
 }
 
 .category__texts {
@@ -27,8 +26,23 @@
   background-size: cover;
   animation: opening 0.5s;
   height: 63vh;
+  width: 100%;
   display: flex;
   flex-direction: column;
+  justify-content: space-between;
+}
+
+.category__modal--open:after {
+  content: "";
+  position: absolute;
+  height: 63vh;
+  width: 100%;
+  opacity: 1;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 10%,
+    rgba(0, 0, 0, 0.363)
+  );
 }
 
 .category__modal--close {
@@ -66,16 +80,40 @@
 .modal__icons {
   display: flex;
   justify-content: space-between;
-  margin: 0 5vw;
+  margin: 6.5vh 5vw;
+
+  &--left {
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.modal__icon {
+  z-index: 1;
+  width: 2vw;
+
+  &--play {
+    z-index: 1;
+    width: 11vw;
+    align-self: center;
+
+    &:hover {
+      width: 15vw;
+    }
+  }
 }
 
 .modal__texts {
+  z-index: 1;
   color: $secondary-light;
+  margin: 6.5vh 5vw;
 }
 
 .modal__title {
   font-family: $h1-font;
-  font-size: 7vw;
+  font-size: 6.5vw;
+  text-transform: uppercase;
 }
 
 .modal__date {
@@ -86,4 +124,5 @@
 .modal__synopsis {
   font-family: $body-font;
   font-size: $body;
+  width: 58vw;
 }
