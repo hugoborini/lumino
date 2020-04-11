@@ -51,7 +51,7 @@
 }*/
 
 .category__modal--open {
-  background: url(../../assets/mini/ready-Player-One.jpg);
+  //background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
@@ -91,7 +91,7 @@
   }
   to {
     opacity: 1;
-    height: 74vh;
+    height: 577px;
     margin-bottom: 28px;
   }
 }
@@ -99,7 +99,7 @@
 @keyframes closing {
   from {
     opacity: 1;
-    height: 74vh;
+    height: 577px;
     margin-bottom: 28px;
   }
   to {
