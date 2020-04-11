@@ -5,6 +5,14 @@
   src: url("../scss/fonts/Radikal-Bold.ttf") format("trueType"); }
 
 @font-face {
+  font-family: "Nunito-SemiBold";
+  src: url("../scss/fonts/Nunito-SemiBold.ttf") format("trueType"); }
+
+@font-face {
+  font-family: "Nunito-Bold";
+  src: url("../scss/fonts/Nunito-Bold.ttf") format("trueType"); }
+
+@font-face {
   font-family: "Nunito";
   src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap"); }
 
