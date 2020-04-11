@@ -588,7 +588,6 @@ footer {
     position: relative;
     align-items: center;
     justify-content: center;
-    border: 2px solid yellow;
     margin: 3vw; }
 
 .user__back {
@@ -600,18 +599,18 @@ footer {
   color: #f0f1f3; }
 
 .user__picture {
-  margin: 4vw 4vw; }
+  margin-bottom: 6vw; }
   .user__picture img {
-    width: 12vw;
+    width: 15vw;
     border: 4px solid #feca28;
-    border-radius: 90px; }
+    border-radius: 110px; }
 
 .button__user {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: flex-end; }
 
-.button {
+.button__end {
   background-color: #1b1c1f;
   border: 2px solid #f0f1f3;
   color: #f0f1f3;
@@ -625,13 +624,12 @@ footer {
   font-family: "Radikal-Bold";
   font-size: 1.56vw;
   color: #f0f1f3;
-  text-decoration: underline;
-  width: 15vw;
-  margin-bottom: 4vw; }
+  width: 29.35vw;
+  margin-bottom: 4vw;
+  border-bottom: 2px solid #f0f1f3; }
 
 .inputForm {
-  margin-bottom: 4vw;
-  border: 2px solid red; }
+  margin-bottom: 4vw; }
   .inputForm label {
     font-family: "Nunito-Bold";
     font-size: 1.2vw;
@@ -640,24 +638,39 @@ footer {
 .input__info input {
   margin-left: 5vw;
   background-color: #1b1c1f;
-  border-bottom: solid 1px #f0f1f3;
+  border: none;
+  border-bottom: 1px solid #f0f1f3;
+  color: #f0f1f3;
+  font-family: "Nunito";
+  font-size: 1.13vw;
   width: 18vw; }
+
+.input__info input[type='email'] {
+  margin-left: 3.90vw; }
+
+.input__info input[type='password'] {
+  margin-left: 5.4vw; }
 
 .button__account {
   background-color: #feca28;
   border: 2px solid #1b1c1f;
   color: #1b1c1f;
   margin-right: 0px;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-left: 2.5vw; }
 
 .user__delete {
   position: absolute;
   right: 0px;
+  margin-top: 2vw;
   color: red;
   align-self: left;
   font-family: "Nunito";
   font-size: 1.13vw;
   text-decoration: underline; }
+
+.button__picture:nth-child(2) {
+  margin-left: 2.5vw; }
 
 .show_up {
   width: 15vw;
