@@ -15,9 +15,13 @@
   justify-content: space-between; }
 
 .category__modal--open {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
   animation: opening 0.5s;
-  height: 100px; }
+  height: 63vh;
+  display: flex;
+  flex-direction: column; }
 
 .category__modal--close {
   display: none; }
@@ -28,17 +32,37 @@
     height: 0px; }
   to {
     opacity: 1;
-    height: 100px; } }
+    height: 63vh; } }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 100px; }
+    height: 63vh; }
   to {
     opacity: 0;
     height: 0px; } }
 
 .category__modal--closing {
-  background-color: yellow;
+  background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closing 0.3s;
   height: 0px; }
+
+.modal__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 5vw; }
+
+.modal__texts {
+  color: #f0f1f3; }
+
+.modal__title {
+  font-family: "Radikal-Bold";
+  font-size: 7vw; }
+
+.modal__date {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw; }
+
+.modal__synopsis {
+  font-family: "Nunito";
+  font-size: 1.13vw; }
