@@ -9,6 +9,5 @@
 </head>
 <body>
     <?php require("components/video_player.php");?>
-    <script type="text/javascript" src="js/video_player.js"></script>
 </body>
 </html>

@@ -752,25 +752,49 @@ footer {
       color: #1b1c1f; }
 
 .video {
-  width: 100vw; }
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+.video__container {
+  display: none; }
+
+video::-webkit-media-controls {
+  display: none !important; }
 
 video {
   position: relative;
   width: 100vw;
-  height: 100vh; }
+  height: 100%; }
+
+.bar {
+  display: block;
+  width: 97.5vw;
+  margin: auto;
+  height: 10px;
+  bottom: 7.5vw;
+  background-color: gray;
+  position: relative; }
+  .bar .progressBar {
+    position: absolute;
+    bottom: 0;
+    width: 0px;
+    height: 10px;
+    background-color: #feca28; }
 
 .container {
   z-index: 999;
   position: absolute;
-  bottom: 0px;
+  bottom: 0vw;
   display: flex;
   flex-direction: row;
   width: 95vw;
   left: 50%;
   transform: translate(-50%, -50%);
-  justify-content: space-between; }
-  .container embed {
-    width: 2.5vw; }
+  justify-content: space-between;
+  align-items: center; }
+  .container svg {
+    width: 2vw; }
   .container__title {
     color: #c8d3d7;
     font-family: "Radikal-Bold";
@@ -782,13 +806,15 @@ video {
     display: flex;
     width: 15vw;
     justify-content: space-between; }
+    .container-left .container__play {
+      width: 50px;
+      height: 50px; }
   .container-right {
     display: flex;
     width: 20vw;
     justify-content: space-between; }
-    .container-right input {
-      margin-left: 2vw;
-      vertical-align: super; }
+    .container-right .mute_png {
+      width: 3vw; }
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
