@@ -485,21 +485,42 @@ header {
 
 .category__texts {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw; }
 
 .category__title {
   color: #f9fafa; }
 
 .category__movies {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 4vw;
+  margin-left: 4vw;
+  margin-bottom: 5vh; }
 
+.movie__elements {
+  display: flex; }
+
+.elements__text {
+  display: flex; }
+
+.elements__icons {
+  display: flex;
+  text-align: center; }
+
+.movie__chevron {
+  text-align: center; }
+
+/*.category__modal {
+  margin-top: 5vh;
+}*/
 .category__modal--open {
   background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
-  height: 63vh;
+  height: 74vh;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -508,10 +529,11 @@ header {
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 63vh;
+  height: 74vh;
   width: 100%;
   opacity: 1;
-  background: linear-gradient(to top, black 10%, rgba(0, 0, 0, 0.363)); }
+  animation: opening 0.5s;
+  background: linear-gradient(to top, black 5%, rgba(0, 0, 0, 0.363)); }
 
 .category__modal--close {
   display: none; }
@@ -522,12 +544,12 @@ header {
     height: 0px; }
   to {
     opacity: 1;
-    height: 63vh; } }
+    height: 74vh; } }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 63vh; }
+    height: 74vh; }
   to {
     opacity: 0;
     height: 0px; } }
@@ -535,12 +557,15 @@ header {
 .category__modal--closing {
   background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closing 0.3s;
-  height: 0px; }
+  height: 0px;
+  background-position: 0% 25%;
+  background-size: cover; }
 
 .modal__icons {
   display: flex;
   justify-content: space-between;
-  margin: 6.5vh 5vw; }
+  margin: 6.5vh 5vw 0 5vw;
+  z-index: 1; }
   .modal__icons--left {
     width: 5vw;
     display: flex;
@@ -553,13 +578,17 @@ header {
     z-index: 1;
     width: 11vw;
     align-self: center; }
-    .modal__icon--play:hover {
-      width: 15vw; }
 
 .modal__texts {
   z-index: 1;
   color: #f0f1f3;
-  margin: 6.5vh 5vw; }
+  margin: 0 5vw 55px 5vw;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.butt {
+  z-index: 1; }
 
 .modal__title {
   font-family: "Radikal-Bold";
@@ -568,12 +597,15 @@ header {
 
 .modal__date {
   font-family: "Nunito-SemiBold";
-  font-size: 1.2vw; }
+  font-size: 1.2vw;
+  margin-top: 15px; }
 
 .modal__synopsis {
   font-family: "Nunito";
   font-size: 1.13vw;
-  width: 58vw; }
+  width: 58vw;
+  margin-top: 10px;
+  line-height: 125%; }
 
 .user__container {
   display: flex;
