@@ -19,7 +19,6 @@
     </div>
 
     <div class="headerHome__search search">
-
       <form class="search__form" action="index.php?action=home">
         <img class="search__bell" src="assets/icon/loupe.svg"/>
         <input type="text" class="search__input" placeholder="Search a title">
