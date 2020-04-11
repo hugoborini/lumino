@@ -11,6 +11,13 @@
 @import "blocs/home.scss";
 @import "blocs/user.scss";
 
+@import "blocs/search.scss";
+
+//Categories
+@import "blocs/categories/action.scss";
+@import "blocs/categories/comedy.scss";
+
+
 a {
   text-decoration: none;
 }

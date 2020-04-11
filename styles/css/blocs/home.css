@@ -14,7 +14,31 @@
   display: flex;
   justify-content: space-between; }
 
-.movie {
-  background-color: gold;
-  width: 140px;
-  height: 140px; }
+.category__modal--open {
+  background-color: yellow;
+  animation: opening 0.5s;
+  height: 100px; }
+
+.category__modal--close {
+  display: none; }
+
+@keyframes opening {
+  from {
+    opacity: 0;
+    height: 0px; }
+  to {
+    opacity: 1;
+    height: 100px; } }
+
+@keyframes closing {
+  from {
+    opacity: 1;
+    height: 100px; }
+  to {
+    opacity: 0;
+    height: 0px; } }
+
+.category__modal--closing {
+  background-color: yellow;
+  animation: closing 0.3s;
+  height: 0px; }

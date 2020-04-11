@@ -1,8 +1,6 @@
 .landingpage {
   margin-left: 80px;
-  margin-right: 80px;
-  font-family: "Nunito"; }
-
+  margin-right: 80px; }
 .hero {
   color: #f0f1f3;
   display: flex;
@@ -10,15 +8,17 @@
   align-items: center;
   justify-content: center;
   height: 84vh;
+
+  width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
+  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 70%, black), url(../../assets/img/background_hero.png.png); }
+
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
     padding-bottom: 25px; }
   .hero__infos {
     font-family: "Nunito";
-    font-weight: 500;
     font-size: 1.6vw; }
     .hero__infos em {
       font-weight: 600;
@@ -40,9 +40,8 @@
   background-color: #feca28;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-weight: 900; }
+  font-family: "Nunito-SemiBold";
+  font-size: 16px; }
 
 .hero__bottom {
   height: 13vh;
@@ -52,23 +51,36 @@
     margin-left: 50%; }
 
 .watch,
-.movies {
+
+.movies,
+.download {
   color: #f0f1f3;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 8vw; }
   .watch .movies__text,
-  .movies .movies__text {
-    background-color: red;
-    padding-bottom: 100px; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .movies__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .movies__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-bottom: 70px;
+    width: 100%; }
   .watch__title,
-  .movies__title {
-    font-size: 1.8vw;
-    width: 566px; }
+  .movies__title,
+  .download__title {
+    font-family: "Nunito-SemiBold";
+    font-size: 1.8vw; }
   .watch__body,
-  .movies__body {
+  .movies__body,
+  .download__body {
     font-size: 1.2vw;
+    font-family: "Nunito";
+
     line-height: 1.44vw;
     justify-content: start;
     max-width: 581px;
@@ -76,7 +88,17 @@
     width: 566px; }
 
 .watch__mockup {
-  height: 58vh; }
+  width: 100%; }
 
 .movies__mockup {
-  height: 42vh; }
+  width: 100%; }
+
+.download__mockup {
+  width: 60%; }
+
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh; }
+

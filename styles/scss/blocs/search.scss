@@ -1,0 +1,22 @@
+@import "../config/variable.scss";
+.show_up {
+  width: 15vw;
+  display: none;
+  position: absolute;
+  top: 5vh;
+  left: 4vw;
+  line-height: 4vh;
+  background-color: $tertiary;
+  a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: $menu-navBar;
+    font-family: $menu-navBar-font;
+    color: $secondary-dark;
+    &:hover {
+      background-color: $primary;
+      color: $tertiary;
+    }
+  }
+}

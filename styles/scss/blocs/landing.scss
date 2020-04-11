@@ -2,7 +2,6 @@
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
-  font-family: "Nunito";
 }
 
 // # HERO #
@@ -13,19 +12,20 @@
   align-items: center;
   justify-content: center;
   height: 84vh;
+  width: 100%;
+
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, rgb(0, 0, 0)),
-    url(../../assets/img/background_hero.png);
+  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 70%, rgb(0, 0, 0)),
+    url(../../assets/img/background_hero.png.png);
 
   &__title {
-    font-family: "Radikal-Bold";
+    font-family: $h1-font;
     font-size: 2vw;
     padding-bottom: 25px;
   }
 
   &__infos {
-    font-family: "Nunito";
-    font-weight: 500;
+    font-family: $body-font;
     font-size: 1.6vw;
 
     em {
@@ -53,9 +53,8 @@
   background-color: $primary;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
+  font-family: $h3-font;
   font-size: 16px;
-  font-weight: 900;
 }
 //
 .hero__bottom {
@@ -69,27 +68,31 @@
 } // # HERO END #
 
 // ## SECOND AND THIRD SECTION ##
+
 .watch,
-.movies {
-  // height: 75vh;
+.movies,
+.download {
   color: $secondary-light;
   display: flex;
   align-items: center;
   justify-content: space-around;
   padding-bottom: 8vw;
 
-  .movies__text {
-    background-color: red;
-    padding-bottom: 100px;
-    // top: 100px;
+  .movies__text,
+  .download__text,
+  .watch__text {
+    padding-bottom: 70px;
+    width: 100%;
   }
+
   &__title {
+    font-family: $h3-font;
     font-size: 1.8vw;
-    width: 566px;
   }
 
   &__body {
     font-size: 1.2vw;
+    font-family: $body-font;
     line-height: 1.2vw * 1.2;
     justify-content: start;
     max-width: 581px;
@@ -97,11 +100,23 @@
     width: 566px;
   }
 }
+
 .watch__mockup {
-  height: 58vh;
+  width: 100%;
 }
 
 .movies__mockup {
-  height: 42vh;
+  width: 100%;
 }
-// ## SECOND SECTION END ##
+
+.download__mockup {
+  // position: relative;
+  width: 60%;
+}
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh;
+}
+// ## SECOND AND THIRD END ##
