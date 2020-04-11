@@ -300,7 +300,8 @@ body {
   height: 84vh;
   width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 70%, black), url(../../assets/img/background_hero.png.png); }
+  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
+
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
