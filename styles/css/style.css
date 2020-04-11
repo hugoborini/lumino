@@ -371,12 +371,24 @@ body {
     max-width: 581px;
     padding-top: 1.43vw;
     width: 566px; }
+  .watch .download__mockup,
+  .movies .download__mockup,
+  .download .download__mockup {
+    position: relative; }
+  .watch .download__gif,
+  .movies .download__gif,
+  .download .download__gif {
+    position: absolute;
+    right: 1.58vw;
+    top: 13.9vw;
+    height: 7vh; }
 
 .watch__mockup {
   width: 100%; }
 
 .movies__mockup {
   width: 100%; }
+
 
 .download__mockup {
   position: relative;
@@ -387,6 +399,7 @@ body {
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh; }
+
 
 footer {
   display: flex;
@@ -415,9 +428,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0b0a0a;
+  background-color: #1b1c1f;
   height: 6vw;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   header .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
@@ -437,7 +451,7 @@ header {
     top: 2vw;
     left: -2.5vw;
     width: 10vw;
-    background-color: #0b0a0a;
+    background-color: #1b1c1f;
     font-size: 0.99vw;
     text-align: center; }
     .nav ul li {
@@ -453,7 +467,8 @@ header {
       color: #1b1c1f; }
 
 .search {
-  display: flex; }
+  display: flex;
+  position: relative; }
   .search__bell {
     padding: 0 1vw;
     fill: white; }
@@ -526,6 +541,25 @@ header {
   background-color: yellow;
   animation: closing 0.3s;
   height: 0px; }
+
+.show_up {
+  width: 15vw;
+  display: none;
+  position: absolute;
+  top: 5vh;
+  left: 4vw;
+  line-height: 4vh;
+  background-color: #1b1c1f; }
+  .show_up a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 0.99vw;
+    font-family: "Nunito";
+    color: #c8d3d7; }
+    .show_up a:hover {
+      background-color: #feca28;
+      color: #1b1c1f; }
 
 a {
   text-decoration: none; }

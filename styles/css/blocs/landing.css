@@ -82,6 +82,17 @@
     max-width: 581px;
     padding-top: 1.43vw;
     width: 566px; }
+  .watch .download__mockup,
+  .movies .download__mockup,
+  .download .download__mockup {
+    position: relative; }
+  .watch .download__gif,
+  .movies .download__gif,
+  .download .download__gif {
+    position: absolute;
+    right: 1.58vw;
+    top: 13.9vw;
+    height: 7vh; }
 
 .watch__mockup {
   width: 100%; }
@@ -98,3 +109,4 @@
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh; }
+

@@ -38,4 +38,7 @@ function deconnexion() {
     header("Location: index.php?deco=1");
 }
 
+function catchData($text){
+    search($text);
+}
 ?>

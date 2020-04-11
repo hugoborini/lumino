@@ -99,6 +99,16 @@
     padding-top: 1.43vw;
     width: 566px;
   }
+  .download__mockup {
+    position: relative;
+  }
+
+  .download__gif {
+    position: absolute;
+    right: 1.58vw;
+    top: 13.9vw;
+    height: 7vh;
+  }
 }
 .watch__mockup {
   width: 100%;
@@ -107,6 +117,7 @@
 .movies__mockup {
   width: 100%;
 }
+
 .download__mockup {
   position: relative;
   width: 60%;
@@ -118,4 +129,5 @@
   height: 7vh;
   // width: 100%;
 }
+
 // ## SECOND AND THIRD END ##

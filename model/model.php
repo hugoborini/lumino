@@ -1,7 +1,7 @@
 <?php 
 
 function dbConnect() {
-    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch (Exception  $e) {
     die('Error : ' .  $e->getMessage());
@@ -58,3 +58,16 @@ function checkAccount($email, $pass){
 
 }
 
+function search($text) {
+    $bdd = dbConnect();
+    $text = htmlspecialchars($text);
+
+    $get_title = $bdd->prepare("SELECT title FROM film WHERE title LIKE concat('%',:title,'%')");
+    $get_title->execute([
+        "title" => $text,
+    ]);
+
+    while ($search_data = $get_title->fetch(PDO::FETCH_ASSOC)){
+        echo "<a href='#'>" . $search_data['title'] . "</a>";
+    }
+}
