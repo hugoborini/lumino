@@ -71,7 +71,8 @@
             </article>
 
             <article class="download__mockup">
-                <img src="assets/img/phone_download.png" alt="" class="download__mockup">
+                <img src="assets/img/phone_download.png" alt="" class="download__mockups">
+                <img src="assets/img/download-icon.gif" alt="" class="download__gif">
             </article>
             
 
