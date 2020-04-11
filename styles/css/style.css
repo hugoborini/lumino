@@ -495,9 +495,12 @@ footer {
 .category__movies {
   display: flex;
   justify-content: space-between;
-  margin-right: 4vw;
-  margin-left: 4vw;
+  margin-right: 5vw;
+  margin-left: 5vw;
   margin-bottom: 5vh; }
+
+.movie {
+  box-shadow: 0px 0px 20px #121317; }
 
 .movie__elements {
   display: flex; }
@@ -520,19 +523,22 @@ footer {
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
-  height: 74vh;
+  height: 577px;
   width: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between; }
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px #121317;
+  margin-bottom: 28px; }
 
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 74vh;
+  height: 577px;
   width: 100%;
   opacity: 1;
   animation: opening 0.5s;
+  margin-bottom: 28px;
   background: linear-gradient(to top, black 5%, rgba(0, 0, 0, 0.363)); }
 
 .category__modal--close {
@@ -541,18 +547,22 @@ footer {
 @keyframes opening {
   from {
     opacity: 0;
-    height: 0px; }
+    height: 0px;
+    margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 74vh; } }
+    height: 74vh;
+    margin-bottom: 28px; } }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 74vh; }
+    height: 74vh;
+    margin-bottom: 28px; }
   to {
     opacity: 0;
-    height: 0px; } }
+    height: 0px;
+    margin-bottom: 0px; } }
 
 .category__modal--closing {
   background: url(../../assets/mini/ready-Player-One.jpg);
@@ -765,7 +775,7 @@ video {
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -773,7 +783,7 @@ video {
 .movie--kingsman {
   background: url(../../assets/mini/kingsman.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -781,7 +791,7 @@ video {
 .movie--readyPlayerOne {
   background: url(../../assets/mini/ready-player-one.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -789,7 +799,7 @@ video {
 .movie--matrix {
   background: url(../../assets/mini/matrix.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -797,7 +807,7 @@ video {
 .movie--1917 {
   background: url(../../assets/mini/1917.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -805,7 +815,7 @@ video {
 .movie--kickAss {
   background: url(../../assets/mini/kick-ass.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -813,7 +823,7 @@ video {
 .movie--bigLebowski {
   background: url(../../assets/mini/big-Lebowski.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -821,7 +831,7 @@ video {
 .movie--intouchables {
   background: url(../../assets/mini/intouchables.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -829,7 +839,7 @@ video {
 .movie--zoolander {
   background: url(../../assets/mini/zoolander.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -837,7 +847,7 @@ video {
 .movie--littleMiss {
   background: url(../../assets/mini/little-miss-sunshine.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -845,7 +855,7 @@ video {
 .movie--bridesmaids {
   background: url(../../assets/mini/bridesmaids.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -853,7 +863,7 @@ video {
 .movie--zombieland {
   background: url(../../assets/mini/zombieland.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -861,7 +871,7 @@ video {
 .movie--plateform {
   background: url(../../assets/mini/the-platform.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -869,7 +879,7 @@ video {
 .movie--shinning {
   background: url(../../assets/mini/the-shining.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -877,7 +887,7 @@ video {
 .movie--jaws {
   background: url(../../assets/mini/jaws.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -885,7 +895,7 @@ video {
 .movie--midsommar {
   background: url(../../assets/mini/midsommar.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -893,7 +903,7 @@ video {
 .movie--invisible {
   background: url(../../assets/mini/the-invisible-man.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -901,7 +911,7 @@ video {
 .movie--paranormal {
   background: url(../../assets/mini/paranormal-activity.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -909,7 +919,7 @@ video {
 .movie--pedal {
   background: url(../../assets/mini/pedal-the-world.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -917,7 +927,7 @@ video {
 .movie--fahrenheit {
   background: url(../../assets/mini/fahrenheit-911.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -925,7 +935,7 @@ video {
 .movie--plasticOcean {
   background: url(../../assets/mini/a-plastic-ocean.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -933,7 +943,7 @@ video {
 .movie--heartsOfDarkness {
   background: url(../../assets/mini/hearts-of-darkness.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -941,7 +951,7 @@ video {
 .movie--youNegro {
   background: url(../../assets/mini/i-am-not-your-negro.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1045,7 +1055,7 @@ video {
 .movie--moana {
   background: url(../../assets/mini/moana.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
