@@ -21,7 +21,8 @@
                     data-title="Avengers : Infinity wars" 
                     data-category="Action" 
                     data-synopsis="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe." 
-                    data-released="2018">1
+                    data-released="2018"
+                    data-mini="avengers.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avengers : Infinity wars</p>
@@ -41,7 +42,8 @@
                     data-title="Kingsman" 
                     data-category="Action" 
                     data-synopsis="A spy organisation recruits a promising street kid into the agency\'s training program, while a global threat emerges from a twisted tech genius." 
-                    data-released="2014">2
+                    data-released="2014"
+                    data-mini="kingsman.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kingsman</p>
@@ -58,7 +60,8 @@
                     data-title="Ready Player One" 
                     data-category="Action" 
                     data-synopsis="When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world." 
-                    data-released="2018">3
+                    data-released="2018"
+                    data-mini="ready-Player-One.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Ready Player One</p>
@@ -75,7 +78,8 @@
                     data-title="Matrix" 
                     data-category="Action" 
                     data-synopsis="A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers." 
-                    data-released="1999">4
+                    data-released="1999"
+                    data-mini="matrix.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Matrix</p>
@@ -92,7 +96,8 @@
                     data-title="1917" 
                     data-category="Action" 
                     data-synopsis="April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap." 
-                    data-released="2019">5
+                    data-released="2019"
+                    data-mini="1917.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">1917</p>
@@ -109,7 +114,8 @@
                     data-title="Kick Ass" 
                     data-category="Action" 
                     data-synopsis="Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a superhero, even though he has no powers, training or meaningful reason to do so." 
-                    data-released="2010">6
+                    data-released="2010"
+                    data-mini="kick-ass.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kick Ass</p>
@@ -135,7 +141,8 @@
                     data-title="The Big Lebowski" 
                     data-category="Comedy" 
                     data-synopsis="Jeff, The Dude, Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it." 
-                    data-released="1998">1
+                    data-released="1998"
+                    data-mini="big-Lebowski.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Big Lebowski</p>
@@ -155,7 +162,8 @@
                     data-title="Intouchables" 
                     data-category="Comedy" 
                     data-synopsis="After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver." 
-                    data-released="2011">2
+                    data-released="2011"
+                    data-mini="intouchables.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Intouchables</p>
@@ -172,7 +180,8 @@
                     data-title="Zoolander" 
                     data-category="Comedy" 
                     data-synopsis="At the end of his career, a clueless fashion model is brainwashed to kill the Prime Minister of Malaysia." 
-                    data-released="2001">3
+                    data-released="2001"
+                    data-mini="zoolander.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zoolander</p>
@@ -189,7 +198,8 @@
                     data-title="Little Miss Sunshine" 
                     data-category="Comedy" 
                     data-synopsis="A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus." 
-                    data-released="2006">4
+                    data-released="2006"
+                    data-mini="little-miss-sunshine.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Little Miss Sunshine</p>
@@ -206,7 +216,8 @@
                     data-title="Bridesmaids" 
                     data-category="Comedy" 
                     data-synopsis="Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef." 
-                    data-released="2011">5
+                    data-released="2011"
+                    data-mini="bridesmaids.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Bridesmaids</p>
@@ -223,7 +234,8 @@
                     data-title="Zombieland" 
                     data-category="Comedy" 
                     data-synopsis="A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America." 
-                    data-released="2009">6
+                    data-released="2009"
+                    data-mini="zombieland.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zombieland</p>
@@ -249,7 +261,8 @@
                     data-title="The Plateform" 
                     data-category="Horror" 
                     data-synopsis="A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down. An endless nightmare trapped in The Hole." 
-                    data-released="2019">1
+                    data-released="2019"
+                    data-mini="the-platform.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Plateform</p>
@@ -269,7 +282,8 @@
                     data-title="The Shining" 
                     data-category="Horror" 
                     data-synopsis="A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future." 
-                    data-released="1980">2
+                    data-released="1980"
+                    data-mini="the-shining.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Shining</p>
@@ -286,7 +300,8 @@
                     data-title="Jaws" 
                     data-category="Horror" 
                     data-synopsis="When a killer shark unleashes chaos on a beach community, it\'s up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down." 
-                    data-released="1975">3
+                    data-released="1975"
+                    data-mini="jaws.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jaws</p>
@@ -303,7 +318,8 @@
                     data-title="Midsommar" 
                     data-category="Horror" 
                     data-synopsis="A couple travels to Sweden to visit a rural hometown\'s fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult." 
-                    data-released="2019">4
+                    data-released="2019"
+                    data-mini="midsommar.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Midsommar</p>
@@ -320,7 +336,8 @@
                     data-title="The Invisible Man" 
                     data-category="Horror" 
                     data-synopsis="When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see." 
-                    data-released="2020">5
+                    data-released="2020"
+                    data-mini="the-invisible-man.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Invisible Man</p>
@@ -337,7 +354,8 @@
                     data-title="Paranormal Activity" 
                     data-category="Horror" 
                     data-synopsis="After moving into a suburban home, a couple becomes increasingly disturbed by a nightly demonic presence." 
-                    data-released="2009">6
+                    data-released="2009"
+                    data-mini="paranormal-activity.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Paranormal activity</p>
@@ -363,7 +381,8 @@
                     data-title="Pedal The World" 
                     data-category="Documentary" 
                     data-synopsis="Young millennial German fueled by wanderlust and a lack of real world responsibilities travels the globe by bike, peddling across 22 countries and over 20,000 kms to find meaning in life. Leverages power of social media and parental support to overcome obstacles." 
-                    data-released="2015">1
+                    data-released="2015"
+                    data-mini="pedal-the-world.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Pedal The World</p>
@@ -383,7 +402,8 @@
                     data-title="Fahrenheit 9/11" 
                     data-category="Documentary" 
                     data-synopsis="Michael Moore's view on what happened to the United States after September 11, and how the Bush Administration allegedly used the tragic event to push forward its agenda for unjust wars in Afghanistan and Iraq." 
-                    data-released="2004">2
+                    data-released="2004"
+                    data-mini="fahrenheit-911.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Fahrenheit 9/11</p>
@@ -400,7 +420,8 @@
                     data-title="A Plastic Ocean" 
                     data-category="Documentary" 
                     data-synopsis="It begins when journalist Craig Leeson, searching for the elusive blue whale, discovers plastic waste in what should be pristine ocean. In this adventure documentary, Craig teams up with free diver Tanya Streeter and an international team of scientists and researchers, and they travel to twenty locations around the world over the next four years to explore the fragile state of our oceans, uncover alarming truths about plastic pollution, and reveal working solutions that can be put into immediate effect." 
-                    data-released="2016">3
+                    data-released="2016"
+                    data-mini="a-plastic-ocean.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">A Plastic Ocean</p>
@@ -417,7 +438,8 @@
                     data-title="The Creative Brain" 
                     data-category="Documentary" 
                     data-synopsis="Neuroscientist David Eagleman taps into the creative process of various innovators while exploring brain-bending, risk-taking ways to spark creativity." 
-                    data-released="2019">4
+                    data-released="2019"
+                    data-mini="the-creative-brain.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Creative Brain</p>
@@ -434,7 +456,8 @@
                     data-title="Hearts Of Darkness: A Filmmaker's Apocalypse" 
                     data-category="Documentary" 
                     data-synopsis="Documentary that chronicles how Francis Ford Coppola's Apocalypse Now (1979) was plagued by extraordinary script, shooting, budget, and casting problems, nearly destroying the life and career of the celebrated director." 
-                    data-released="2014">5
+                    data-released="2014"
+                    data-mini="hearts-of-darkness.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Hearts Of Darkness</p>
@@ -451,7 +474,8 @@
                     data-title="I Am Not Your Negro" 
                     data-category="Documentary" 
                     data-synopsis="Writer James Baldwin tells the story of race in modern America with his unfinished novel, Remember This House." 
-                    data-released="2016">6
+                    data-released="2016"
+                    data-mini="i-am-not-your-negro.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">I Am Not Your Negro</p>
@@ -477,7 +501,8 @@
                     data-title="Interstellar" 
                     data-category="Science-Fiction" 
                     data-synopsis="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival." 
-                    data-released="2014">1
+                    data-released="2014"
+                    data-mini="interstellar.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Interstellar</p>
@@ -497,7 +522,8 @@
                     data-title="The Hunger Games : Mockingjay part 1" 
                     data-category="Science-Fiction" 
                     data-synopsis="Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death." 
-                    data-released="2012">2
+                    data-released="2012"
+                    data-mini="hunger-games.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Hunger Games : Mockingjay part 1</p>
@@ -514,7 +540,8 @@
                     data-title="The Fifth Element" 
                     data-category="Science-Fiction" 
                     data-synopsis="In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay." 
-                    data-released="1997">3
+                    data-released="1997"
+                    data-mini="fifth-element.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Fifth Element</p>
@@ -531,7 +558,8 @@
                     data-title="Avatar" 
                     data-category="Science-Fiction" 
                     data-synopsis="A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
-                    data-released="2009">4
+                    data-released="2009"
+                    data-mini="avatar.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avatar</p>
@@ -548,7 +576,8 @@
                     data-title="Back To The Future" 
                     data-category="Science-Fiction" 
                     data-synopsis="Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown." 
-                    data-released="1985">5
+                    data-released="1985"
+                    data-mini="back-to-the-future.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Back To The Future</p>
@@ -565,7 +594,8 @@
                     data-title="Jurassic Park" 
                     data-category="Science-Fiction" 
                     data-synopsis="A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose." 
-                    data-released="1973">6
+                    data-released="1973"
+                    data-mini="jurrasic-park.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jurassic Park</p>
@@ -591,7 +621,8 @@
                     data-title="Frozen" 
                     data-category="Animation" 
                     data-synopsis="When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition." 
-                    data-released="2013">1
+                    data-released="2013"
+                    data-mini="frozen.jpg">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Frozen</p>
@@ -611,7 +642,8 @@
                     data-title="Inside Out" 
                     data-category="Animation" 
                     data-synopsis="After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school." 
-                    data-released="2015">2
+                    data-released="2015"
+                    data-mini="inside-out.jpg">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Inside Out</p>
@@ -628,7 +660,8 @@
                     data-title="Peter Pan" 
                     data-category="Animation" 
                     data-synopsis="Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan." 
-                    data-released="1953">3
+                    data-released="1953"
+                    data-mini="peter-pan.jpg">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Peter Pan</p>
@@ -645,7 +678,8 @@
                     data-title="Wall-E" 
                     data-category="Animation" 
                     data-synopsis="In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind." 
-                    data-released="2008">4
+                    data-released="2008"
+                    data-mini="wall-e.jpg">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Wall-e</p>
@@ -662,7 +696,8 @@
                     data-title="The Incredibles" 
                     data-category="Animation" 
                     data-synopsis="A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world." 
-                    data-released="2004">5
+                    data-released="2004"
+                    data-mini="the-incredibles.jpg">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Incredibles</p>
@@ -679,7 +714,8 @@
                     data-title="Moana" 
                     data-category="Animation" 
                     data-synopsis="In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right." 
-                    data-released="2016">6
+                    data-released="2016"
+                    data-mini="moana.jpg">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Moana</p>
