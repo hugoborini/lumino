@@ -282,7 +282,6 @@ body {
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
-
   font-family: "Nunito"; }
 
 .hero {
@@ -437,6 +436,21 @@ header {
 
 .headerHome__disconnect {
   margin-right: 4vw; }
+
+.category {
+  display: flex;
+  flex-direction: column; }
+
+.category__texts {
+  display: flex;
+  justify-content: space-between; }
+
+.category__movies {
+  display: flex;
+  justify-content: space-between; }
+
+.movie {
+  background-color: gold; }
 
 a {
   text-decoration: none; }
