@@ -152,7 +152,7 @@ table {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -176,7 +176,7 @@ header {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -300,7 +300,7 @@ body {
   height: 84vh;
   width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), linear-gradient(to top, rgba(255, 21, 21, 0) 40%, black), url(../../assets/img/background_hero.png.png); }
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 2vw;
@@ -332,8 +332,8 @@ body {
   font-size: 16px; }
 
 .hero__bottom {
-  height: 13vh;
-  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, black); }
+  height: 30vh;
+  background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%); }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }

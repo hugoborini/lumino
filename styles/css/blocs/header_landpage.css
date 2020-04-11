@@ -1,7 +1,7 @@
 header {
   display: flex;
   justify-content: space-between;
-  background-color: white;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
