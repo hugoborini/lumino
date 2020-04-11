@@ -13,9 +13,9 @@ description project
 
 ## contributors :
 
- - [HUGO BORINI](https://github.com/hugoborini)
- - [HUGO CORDILLOT](https://github.com/Hgo0123)
- - [NAWEL BERRICHI](https://github.com/berrichinawel)
- - [MÉLINA CHAMAYOU](https://github.com/Klochette)
- - [CONSTANCE PETILLOT](https://github.com/cpetillot)
- - [CAMY CERIN](https://github.com/CamyCerin)
+ - [HUGO BORINI](https://github.com/hugoborini) :penguin:
+ - [HUGO CORDILLOT](https://github.com/Hgo0123) :alembic:
+ - [NAWEL BERRICHI](https://github.com/berrichinawel) :fire:
+ - [MELINA CHAMAYOU](https://github.com/Klochette) :sparkles:
+ - [CONSTANCE PETILLOT](https://github.com/cpetillot) :pencil:
+ - [CAMY CERIN](https://github.com/CamyCerin) :art:
