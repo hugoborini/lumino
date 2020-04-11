@@ -389,7 +389,6 @@ body {
 .movies__mockup {
   width: 100%; }
 
-
 .download__mockup {
   position: relative;
   width: 60%; }
@@ -399,7 +398,6 @@ body {
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh; }
-
 
 footer {
   display: flex;
