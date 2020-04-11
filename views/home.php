@@ -17,7 +17,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="2" class="movie">1
+                <div id ="2" class="movie movie--avengers">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avengers : Infinity wars</p>
@@ -33,7 +33,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="4" class="movie">2
+                <div id ="4" class="movie movie--kingsman">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kingsman</p>
@@ -46,7 +46,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="5" class="movie">3
+                <div id ="5" class="movie movie--readyPlayerOne">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Ready Player One</p>
@@ -59,7 +59,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="8" class="movie">4
+                <div id ="8" class="movie movie--matrix">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Matrix</p>
@@ -72,7 +72,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="1" class="movie">5
+                <div id ="1" class="movie movie--1917">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">1917</p>
@@ -85,7 +85,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="7" class="movie">6
+                <div id ="7" class="movie movie--kickAss">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kick Ass</p>
@@ -107,7 +107,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="" class="movie">1
+                <div id ="" class="movie movie--bigLebowski">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Big Lebowski</p>
@@ -123,7 +123,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="" class="movie">2
+                <div id ="" class="movie movie--intouchables">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Intouchables</p>
@@ -136,7 +136,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">3
+                <div id ="" class="movie movie--zoolander">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zoolander</p>
@@ -149,7 +149,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">4
+                <div id ="" class="movie movie--littleMiss">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Little Miss Sunshine</p>
@@ -162,7 +162,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">5
+                <div id ="" class="movie movie--bridesmaids">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Bridesmaids</p>
@@ -175,7 +175,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">6
+                <div id ="" class="movie movie--zombieland">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zombieland</p>
@@ -197,7 +197,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="" class="movie">1
+                <div id ="" class="movie movie--plateform">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Plateform</p>
@@ -213,7 +213,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="" class="movie">2
+                <div id ="" class="movie movie--shinning">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Shining</p>
@@ -226,7 +226,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">3
+                <div id ="" class="movie movie--jaws">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jaws</p>
@@ -239,7 +239,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">4
+                <div id ="" class="movie movie--midsommar">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Midsommar</p>
@@ -252,7 +252,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">5
+                <div id ="" class="movie movie--invisible">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Invisible Man</p>
@@ -265,7 +265,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">6
+                <div id ="" class="movie movie--paranormal">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Paranormal activity</p>
@@ -287,7 +287,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="" class="movie">1
+                <div id ="" class="movie movie--pedal">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Pedal The World</p>
@@ -303,7 +303,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="" class="movie">2
+                <div id ="" class="movie movie--fahrenheit">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Fahrenheit 9/11</p>
@@ -316,7 +316,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">3
+                <div id ="" class="movie movie--plasticOcean">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">A Plastic Ocean</p>
@@ -329,7 +329,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">4
+                <div id ="" class="movie movie--creativeBrain">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Creative Brain</p>
@@ -342,7 +342,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">5
+                <div id ="" class="movie movie--heartsOfDarkness">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Hearts Of Darkness</p>
@@ -355,7 +355,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">6
+                <div id ="" class="movie movie--youNegro">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">I Am Not Your Negro</p>
@@ -377,7 +377,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="" class="movie">1
+                <div id ="" class="movie movie--interstellar">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Interstellar</p>
@@ -393,7 +393,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="" class="movie">2
+                <div id ="" class="movie movie--hungerGames">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Hunger Games : Mockingjay part 1</p>
@@ -406,7 +406,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">3
+                <div id ="" class="movie movie--fifthElement">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Fifth Element</p>
@@ -419,7 +419,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">4
+                <div id ="" class="movie movie--avatar">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avatar</p>
@@ -432,7 +432,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">5
+                <div id ="" class="movie movie--backToTheFuture">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Back To The Future</p>
@@ -445,7 +445,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">6
+                <div id ="" class="movie movie--jurassicPark">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jurassic Park</p>
@@ -467,7 +467,7 @@
                 <p class="category__more">see more</p>
             </div>
             <div class="category__movies">
-                <div id ="" class="movie">1
+                <div id ="" class="movie movie--frozen">1
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Frozen</p>
@@ -483,7 +483,7 @@
                     </div>
                     <div class="movie__chevron"></div>
                 </div>
-                <div id ="" class="movie">2
+                <div id ="" class="movie movie--insideOut">2
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Inside Out</p>
@@ -496,7 +496,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">3
+                <div id ="" class="movie movie--peterPan">3
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Peter Pan</p>
@@ -509,7 +509,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">4
+                <div id ="" class="movie movie--walle">4
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Wall-e</p>
@@ -522,7 +522,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">5
+                <div id ="" class="movie movie--incredibles">5
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Incredibles</p>
@@ -535,7 +535,7 @@
                         </div>
                     </div>
                 </div>
-                <div id ="" class="movie">6
+                <div id ="" class="movie movie--moana">6
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Moana</p>
