@@ -1,1 +1,75 @@
 
+import "../config/variable.scss";
+.landingpage {
+  font-family: "Nunito";
+}
+.hero {
+  color: $secondary-light;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, rgb(0, 0, 0)),
+    url(../../assets/img/background_hero.png);
+
+  &__title {
+    font-family: "Radikal-Bold";
+    font-size: $h1;
+  }
+
+  &__infos {
+    font-family: "Nunito";
+    font-weight: 100;
+    font-size: $h2;
+
+    em {
+      font-weight: 600;
+      font-size: $h1;
+    }
+  }
+}
+// CTA
+.hero__CTA {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  color: $tertiary;
+  justify-content: center;
+  background-color: $primary;
+  width: 15em;
+  height: 38px;
+  // font-family: "Nunito", sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.hero__bottom {
+  height: 13vh;
+  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, rgb(0, 0, 0));
+
+  .downIcon {
+    display: flex;
+    margin-left: 50%;
+  }
+}
+
+.watch {
+  height: 100vh;
+  color: $secondary-light;
+
+  &__title {
+    font-size: $h2;
+  }
+
+  &__body {
+    font-size: $body;
+    justify-content: start;
+    max-width: 500px;
+  }
+  .mockups {
+    height: 100%;
+  }
+}
+

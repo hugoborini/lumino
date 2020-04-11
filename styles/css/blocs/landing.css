@@ -1,0 +1,53 @@
+body {
+  font-family: "Nunito"; }
+
+.hero {
+  color: #f0f1f3;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  align-items: center;
+  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
+  .hero__title {
+    font-family: "Radikal-Bold";
+    font-size: 1.56vw; }
+  .hero__infos {
+    font-family: "Nunito";
+    font-weight: 100;
+    font-size: 1.42vw; }
+    .hero__infos em {
+      font-weight: 600;
+      font-size: 1.56vw; }
+
+.hero__CTA {
+  margin-top: 4em;
+  display: flex;
+  align-items: center;
+  color: #1b1c1f;
+  justify-content: center;
+  background-color: #feca28;
+  width: 15em;
+  height: 38px;
+  font-size: 16px;
+  font-weight: 600; }
+
+.hero__bottom {
+  height: 13vh;
+  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, black); }
+  .hero__bottom .downIcon {
+    display: flex;
+    margin-left: 50%; }
+
+.watch {
+  height: 100vh;
+  color: #f0f1f3; }
+  .watch__title {
+    font-size: 1.42vw; }
+  .watch__body {
+    font-size: 1.13vw;
+    justify-content: start;
+    max-width: 500px; }
+  .watch .mockups {
+    height: 100%; }
