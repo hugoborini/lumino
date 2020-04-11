@@ -540,7 +540,7 @@ footer {
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
-  height: 577px;
+  height: 400px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -551,7 +551,7 @@ footer {
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 577px;
+  height: 400px;
   width: 100%;
   opacity: 1;
   animation: opening 0.5s;
@@ -568,13 +568,13 @@ footer {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 577px;
+    height: 400px;
     margin-bottom: 28px; } }
 
 @keyframes closing {
   from {
     opacity: 1;
-    height: 577px;
+    height: 400px;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -619,7 +619,7 @@ footer {
 
 .modal__title {
   font-family: "Radikal-Bold";
-  font-size: 6.5vw;
+  font-size: 4vw;
   text-transform: uppercase; }
 
 .modal__date {
@@ -986,7 +986,7 @@ video {
 .movie--interstellar {
   background: url(../../assets/mini/interstellar.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -994,7 +994,7 @@ video {
 .movie--hungerGames {
   background: url(../../assets/mini/hunger-games.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1002,7 +1002,7 @@ video {
 .movie--fifthElement {
   background: url(../../assets/mini/fifth-element.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1010,7 +1010,7 @@ video {
 .movie--avatar {
   background: url(../../assets/mini/avatar.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1018,7 +1018,7 @@ video {
 .movie--backToTheFuture {
   background: url(../../assets/mini/back-to-the-future.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1026,7 +1026,7 @@ video {
 .movie--jurassicPark {
   background: url(../../assets/mini/jurrasic-park.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1034,7 +1034,7 @@ video {
 .movie--frozen {
   background: url(../../assets/mini/frozen.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1042,7 +1042,7 @@ video {
 .movie--insideOut {
   background: url(../../assets/mini/inside-out.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1050,7 +1050,7 @@ video {
 .movie--peterPan {
   background: url(../../assets/mini/peter-pan.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1058,7 +1058,7 @@ video {
 .movie--walle {
   background: url(../../assets/mini/wall-e.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1066,7 +1066,7 @@ video {
 .movie--incredibles {
   background: url(../../assets/mini/the-incredibles.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
@@ -1074,7 +1074,7 @@ video {
 .movie--moana {
   background: url(../../assets/mini/moana.jpg);
   height: 19.79vw;
-  width: 14.5vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
