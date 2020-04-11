@@ -30,15 +30,38 @@
 
 .movie__elements {
   display: flex;
+  padding-top: 80%;
 }
 
 .elements__text {
   display: flex;
+  flex-direction: column;
+  align-items: flex-end;
 }
 
-.elements__icons {
+.element__title {
+  color: $secondary-lighter;
+  font-family: "Nunito-Bold";
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0 0 5px $secondary-dark, 0 0 10px $secondary-dark,
+    0 0 10px $secondary-dark, 0 0 10px $secondary-dark;
+  //0 0 20px $secondary-lighter, 0 0 20px $secondary-lighter;
+  //0 0 20px $secondary-lighter, 0 0 20px $secondary-lighter;
+}
+
+.element__category {
+  color: $secondary-darker;
+  opacity: 0.5;
+  font-family: "Nunito";
+  font-size: $fiche;
+}
+
+.elements__icon {
   display: flex;
+  flex-direction: column;
   text-align: center;
+  justify-content: space-between;
 }
 
 .movie__chevron {

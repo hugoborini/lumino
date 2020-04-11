@@ -1,5 +1,5 @@
 .movie--avengers {
-  background: url(../../assets/mini/Avengers.jpg);
+  background: linear-gradient(red, 0.5 yellow), url(../../assets/mini/Avengers.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
