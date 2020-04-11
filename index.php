@@ -23,7 +23,7 @@ require("controller/controller.php");
         }
     }
     else {
-        require("views/user.php");
+        require("views/landing.php");
     }
 ?>
 
