@@ -21,7 +21,38 @@ header {
     margin: 0 2vw;
     color: $secondary-dark;
     font-size: $menu-navBar;
-
+    position: relative;
+  }
+  ul {
+    display: none;
+    position: absolute;
+    top: 2vw;
+    left: -2.5vw;
+    width: 10vw;
+    background-color: #0b0a0a;
+    font-size: 0.99vw;
+    text-align: center;
+    li {
+      line-height: 3;
+    }
+    a {
+      color: $secondary-dark;
+    }
+  }
+}
+.nav {
+  .nav__item {
+    .appear {
+      display: block;
+      li {
+        &:hover {
+          background-color: $primary;
+          a {
+            color: $tertiary;
+          }
+        }
+      }
+    }
   }
 }
 
@@ -39,7 +70,6 @@ header {
     margin: 0 1vw;
     size: 1vw;
   }
-
 }
 
 .headerHome__name {
@@ -48,14 +78,12 @@ header {
 }
 
 .headerHome__profil {
-
-  img{
-  width: 3vw;
-  color: $secondary-dark;
+  img {
+    width: 3vw;
+    color: $secondary-dark;
   }
 }
 
-.headerHome__disconnect{
+.headerHome__disconnect {
   margin-right: 4vw;
-
 }
