@@ -8,9 +8,7 @@
     <title>Document</title>
 </head>
 <body>
-    <?php include("./components/header_landpage.php")?>
-
-    BIENVENUE <?php echo $_SESSION['firstname'];?>
+    <?php include("./components/header_homepage.php")?>
 
 </body>
 </html>

@@ -16,7 +16,7 @@
     </div>
 
     <div class="headerHome__bell"><img src="assets/icon/bell.svg"/></div>
-    <div class="headerHome__name">Hello Hugo !</div>
+    <div class="headerHome__name">Hello <?php echo $_SESSION['firstname']; ?> !</div>
     <div class="headerHome__profil"><img src="assets/img/profil.png"/></div>
     <div class="headerHome__disconnect"><img src="assets/icon/unlog.svg"/></div>
 
