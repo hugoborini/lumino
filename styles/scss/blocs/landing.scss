@@ -2,7 +2,6 @@
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
-  font-family: $body-font;
 }
 
 // # HERO #
@@ -12,22 +11,22 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  // height: 84vh;
+  height: 84vh;
   width: 100%;
 
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, rgb(0, 0, 0)),
-    url(../../assets/img/background_hero.png);
+    linear-gradient(to top, rgba(255, 21, 21, 0) 40%, rgb(0, 0, 0)),
+    url(../../assets/img/background_hero.png.png);
 
   &__title {
-    font-family: $h2-font;
+    font-family: $h1-font;
     font-size: 2vw;
     padding-bottom: 25px;
   }
 
   &__infos {
     font-family: $body-font;
-    font-weight: 500;
     font-size: 1.6vw;
 
     em {
@@ -55,7 +54,7 @@
   background-color: $primary;
   width: 15em;
   height: 38px;
-  font-family: $h2-font;
+  font-family: $h3-font;
   font-size: 16px;
 }
 //
@@ -86,30 +85,23 @@
     padding-bottom: 70px;
     width: 100%;
   }
+
   &__title {
+    font-family: $h3-font;
     font-size: 1.8vw;
-    // width: 566px;
   }
 
   &__body {
     font-size: 1.2vw;
+    font-family: $body-font;
     line-height: 1.2vw * 1.2;
     justify-content: start;
     max-width: 581px;
     padding-top: 1.43vw;
     width: 566px;
   }
-  .download__mockup {
-    position: relative;
-  }
-
-  .download__gif {
-    position: absolute;
-    right: 1.58vw;
-    top: 13.9vw;
-    height: 7vh;
-  }
 }
+
 .watch__mockup {
   width: 100%;
 }
@@ -119,7 +111,7 @@
 }
 
 .download__mockup {
-  position: relative;
+  // position: relative;
   width: 60%;
 }
 .download__gif {
@@ -127,7 +119,5 @@
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh;
-  // width: 100%;
 }
-
 // ## SECOND AND THIRD END ##
