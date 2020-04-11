@@ -14,17 +14,6 @@
   display: flex;
   justify-content: space-between; }
 
-.movie--avengers {
-  background: url(../../assets/mini/Avengers.jpg);
-  height: 240px;
-  /* You must set a specified height */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
-
 .category__modal--open {
   background-color: yellow;
   animation: opening 0.5s;

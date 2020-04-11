@@ -298,7 +298,7 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 84vh;
+  width: 100%;
   align-items: center;
   background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
   .hero__title {
@@ -356,12 +356,12 @@ body {
   .download .movies__text,
   .download .download__text,
   .download .watch__text {
-    padding-bottom: 70px; }
+    padding-bottom: 70px;
+    width: 100%; }
   .watch__title,
   .movies__title,
   .download__title {
-    font-size: 1.8vw;
-    width: 566px; }
+    font-size: 1.8vw; }
   .watch__body,
   .movies__body,
   .download__body {
@@ -384,10 +384,22 @@ body {
     height: 7vh; }
 
 .watch__mockup {
-  height: 58vh; }
+  width: 100%; }
 
 .movies__mockup {
-  height: 42vh; }
+  width: 100%; }
+
+
+.download__mockup {
+  position: relative;
+  width: 60%; }
+
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh; }
+
 
 footer {
   display: flex;
@@ -416,9 +428,10 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0b0a0a;
+  background-color: #1b1c1f;
   height: 6vw;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   header .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
@@ -438,7 +451,7 @@ header {
     top: 2vw;
     left: -2.5vw;
     width: 10vw;
-    background-color: #0b0a0a;
+    background-color: #1b1c1f;
     font-size: 0.99vw;
     text-align: center; }
     .nav ul li {
@@ -454,7 +467,8 @@ header {
       color: #1b1c1f; }
 
 .search {
-  display: flex; }
+  display: flex;
+  position: relative; }
   .search__bell {
     padding: 0 1vw;
     fill: white; }
@@ -494,17 +508,6 @@ header {
   display: flex;
   justify-content: space-between; }
 
-.movie--avengers {
-  background: url(../../assets/mini/Avengers.jpg);
-  height: 240px;
-  /* You must set a specified height */
-  background-position: center;
-  /* Center the image */
-  background-repeat: no-repeat;
-  /* Do not repeat the image */
-  background-size: cover;
-  /* Resize the background image to cover the entire container */ }
-
 .category__modal--open {
   background-color: yellow;
   animation: opening 0.5s;
@@ -535,14 +538,65 @@ header {
   height: 0px; }
 
 .show_up {
-  width: 200px;
-  height: 200px;
-  border: 1px solid #ddd;
-  display: none; }
+  width: 15vw;
+  display: none;
+  position: absolute;
+  top: 5vh;
+  left: 4vw;
+  line-height: 4vh;
+  background-color: #1b1c1f; }
   .show_up a {
-    border-bottom: 1px solid #ddd;
+    text-align: center;
     display: block;
-    padding: 5px; }
+    padding: 5px;
+    font-size: 0.99vw;
+    font-family: "Nunito";
+    color: #c8d3d7; }
+    .show_up a:hover {
+      background-color: #feca28;
+      color: #1b1c1f; }
+
+.movie--avengers {
+  background: url(../../assets/mini/Avengers.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--kingsman {
+  background: url(../../assets/mini/kingsman.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--readyPlayerOne {
+  background: url(../../assets/mini/ready-player-one.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--matrix {
+  background: url(../../assets/mini/matrix.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--1917 {
+  background: url(../../assets/mini/1917.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--kickAss {
+  background: url(../../assets/mini/kick-ass.jpg);
+  height: 12.79vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
 
 a {
   text-decoration: none; }
