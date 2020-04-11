@@ -22,14 +22,32 @@
   box-shadow: 0px 0px 20px #121317; }
 
 .movie__elements {
-  display: flex; }
+  display: flex;
+  padding-top: 80%; }
 
 .elements__text {
-  display: flex; }
-
-.elements__icons {
   display: flex;
-  text-align: center; }
+  flex-direction: column;
+  align-items: flex-end; }
+
+.element__title {
+  color: #f9fafa;
+  font-family: "Nunito-Bold";
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0 0 5px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7; }
+
+.element__category {
+  color: #a9bac1;
+  opacity: 0.5;
+  font-family: "Nunito";
+  font-size: 1.13vw; }
+
+.elements__icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between; }
 
 .movie__chevron {
   text-align: center; }
