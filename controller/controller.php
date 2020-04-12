@@ -96,6 +96,7 @@ function upload(){
         }
     }
 }
+
 function catchFilmByGenre($genre) {
     $get_film = getFilmByGenre($genre);
     return $get_film;

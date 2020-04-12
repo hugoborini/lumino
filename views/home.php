@@ -18,7 +18,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Action</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=Action"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="2" class="movie movie--avengers" 
@@ -156,7 +156,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=Comedy"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="14" class="movie movie--bigLebowski"
@@ -294,7 +294,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=Horror"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="35" class="movie movie--plateform"
@@ -432,7 +432,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Documentary</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=Documentary"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="48" class="movie movie--pedal"
@@ -570,7 +570,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Science-Fiction</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=SF"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="17" class="movie movie--interstellar"
@@ -707,7 +707,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Animation</h1>
-                <p class="category__more">see more</p>
+                <a href="index.php?action=genre&genre=Animation"><p class="category__more">see more</p></a>
             </div>
             <div class="category__movies">
                 <div id ="32" class="movie movie--frozen"
