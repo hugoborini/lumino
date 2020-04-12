@@ -23,6 +23,21 @@ require("controller/controller.php");
         elseif($_GET['action'] == "deco"){
             deconnexion();
         }
+        elseif($_GET['action'] == "user"){
+            require("views/user.php");
+        }
+        elseif ($_GET['action'] == "delete"){
+            deleteUser();
+        }
+        elseif($_GET['action'] == "update"){
+            // echo $_POST['firstname'];
+            // if (empty($_POST['email'])){
+            //     echo "nul";
+            // } else {
+            //     echo $_POST["email"];
+            // }
+            checkInput($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['pass']);
+        }
     }
     else {
         require("views/landing.php");
