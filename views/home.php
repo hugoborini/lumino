@@ -842,5 +842,6 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
             <div class="category__modal category__modal--close"></div>
         </section>
     </main>
+    <?php require("components/footer.php") ?>
 </body>
 </html>
