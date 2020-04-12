@@ -22,7 +22,7 @@
                     data-category="Action" 
                     data-synopsis="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe." 
                     data-released="2018"
-                    data-mini="avengers.jpg">1
+                    data-mini="avengers.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avengers : Infinity wars</p>
@@ -45,7 +45,7 @@
                     data-category="Action" 
                     data-synopsis="A spy organisation recruits a promising street kid into the agency\'s training program, while a global threat emerges from a twisted tech genius." 
                     data-released="2014"
-                    data-mini="kingsman.jpg">2
+                    data-mini="kingsman.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kingsman</p>
@@ -63,7 +63,7 @@
                     data-category="Action" 
                     data-synopsis="When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world." 
                     data-released="2018"
-                    data-mini="ready-Player-One.jpg">3
+                    data-mini="ready-Player-One.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Ready Player One</p>
@@ -81,7 +81,7 @@
                     data-category="Action" 
                     data-synopsis="A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers." 
                     data-released="1999"
-                    data-mini="matrix.jpg">4
+                    data-mini="matrix.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Matrix</p>
@@ -99,7 +99,7 @@
                     data-category="Action" 
                     data-synopsis="April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap." 
                     data-released="2019"
-                    data-mini="1917.jpg">5
+                    data-mini="1917.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">1917</p>
@@ -117,7 +117,7 @@
                     data-category="Action" 
                     data-synopsis="Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a superhero, even though he has no powers, training or meaningful reason to do so." 
                     data-released="2010"
-                    data-mini="kick-ass.jpg">6
+                    data-mini="kick-ass.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kick Ass</p>
