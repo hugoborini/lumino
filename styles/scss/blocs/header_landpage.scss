@@ -4,16 +4,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 80px;
-  background-color: black;
-  height: 65px;
+  padding-right: 4vw;
+  background-color: $tertiary;
+  height: 5vw;
 
   .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center;
     img {
-      height: 30px;
+      height: 2.5vw;
     }
   }
 
@@ -22,6 +22,6 @@ header {
   }
 
   .cta__margin {
-    margin-right: 13px;
+    margin-right: 1vw;
   }
 }

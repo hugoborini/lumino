@@ -13,10 +13,14 @@ footer {
   font-weight: lighter;
   line-height: 250%;
   font-size: 1.2vw; }
+  .footer__text p:hover {
+    color: #feca28;
+    cursor: pointer; }
   .footer__text div {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
     .footer__text div img {
       width: auto;
-      height: 80%; }
+      height: 80%;
+      cursor: pointer; }

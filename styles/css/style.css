@@ -163,7 +163,7 @@ a {
   cursor: pointer;
   border: none;
   display: flex;
-  padding: 8px 18px;
+  padding: 0.8vw 2vw;
   height: fit-content;
   width: fit-content;
   background-color: #feca28;
@@ -202,16 +202,16 @@ a {
 
 .error {
   background-color: lightcoral;
-  height: 30px;
-  width: 410px;
+  height: 2vw;
+  width: 22vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito"; }
 
 @keyframes openingModal {
   from {
@@ -237,19 +237,20 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 80px;
-  background-color: black;
-  height: 65px; }
+  padding-right: 4vw;
+  background-color: #1b1c1f;
+  height: 5vw; }
+
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
     header .container-image img {
-      height: 30px; }
+      height: 2.5vw; }
   header .buttons__header {
     display: flex; }
   header .cta__margin {
-    margin-right: 13px; }
+    margin-right: 1vw; }
 
 footer {
   display: flex;
@@ -266,13 +267,17 @@ footer {
   font-weight: lighter;
   line-height: 250%;
   font-size: 1.2vw; }
+  .footer__text p:hover {
+    color: #feca28;
+    cursor: pointer; }
   .footer__text div {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
     .footer__text div img {
       width: auto;
-      height: 80%; }
+      height: 80%;
+      cursor: pointer; }
 
 @keyframes openingModal {
   from {
@@ -296,13 +301,14 @@ footer {
 
 .headerHome {
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
   background-color: #1b1c1f;
-  height: 65px;
+  height: 5vw;
   font-family: "Nunito";
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .headerHome .headerHome__logo {
@@ -323,7 +329,7 @@ footer {
   .nav ul {
     display: none;
     position: absolute;
-    top: 2vw;
+    top: 1.8vw;
     left: -2.5vw;
     width: 10vw;
     background-color: #1b1c1f;
@@ -383,6 +389,9 @@ footer {
 .headerHome__bell img {
   width: 1.4vw; }
 
+.icon_user {
+  border-radius: 50%; }
+
 @keyframes openingModal {
   from {
     opacity: 0;
@@ -416,7 +425,7 @@ a {
   cursor: pointer;
   border: none;
   display: flex;
-  padding: 8px 18px;
+  padding: 0.8vw 2vw;
   height: fit-content;
   width: fit-content;
   background-color: #feca28;
@@ -439,25 +448,25 @@ a {
 
 .register {
   display: flex;
-  height: 517px;
+  height: 42vw;
   margin: auto;
   margin-bottom: 4%;
   border: solid 2px #feca28;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
-  width: 410px;
+  width: 30vw;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: #1b1c1f;
   color: #f0f1f3;
-  padding-top: 38px;
-  padding-bottom: 38px; }
+  padding-top: 3vw;
+  padding-bottom: 3vw; }
   .register__title {
-    font-size: 32px;
+    font-size: 2.5vw;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-bottom: 34px; }
+    margin-bottom: 1vw; }
   .register__input {
     width: 100%;
     height: 35px; }
@@ -466,29 +475,29 @@ a {
     font-size: 1.13vw;
     line-height: 22px; }
   .register .cta__register {
-    margin-top: 40px; }
+    margin-top: 2vw; }
 
 .login {
   display: flex;
-  height: 389px;
+  height: 35vw;
   margin: auto;
   margin-bottom: 4%;
   border: solid 2px #feca28;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
-  width: 410px;
+  width: 30vw;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: #1b1c1f;
   color: #f0f1f3;
-  padding-top: 38px;
-  padding-bottom: 38px; }
+  padding-top: 3vw;
+  padding-bottom: 3vw; }
   .login__title {
-    font-size: 32px;
+    font-size: 2.5vw;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-bottom: 34px; }
+    margin-bottom: 3vw; }
   .login__input {
     width: 100%;
     height: 35px; }
@@ -497,7 +506,7 @@ a {
     font-size: 1.13vw;
     line-height: 22px; }
   .login .cta__register {
-    margin-top: 40px; }
+    margin-top: 3vw; }
   .login .forgot-password {
     color: #a9bac1; }
 
@@ -887,19 +896,23 @@ a {
   font-size: 1.13vw;
   text-decoration: underline; }
 
+.center__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw; }
+
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
   position: relative;
   color: #f0f1f3;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden; }
 
 .category__video {
   position: absolute;
-  top: -4.1vw; }
+  top: -6vw; }
   .category__video video {
     width: 100vw; }
 
@@ -938,6 +951,9 @@ a {
       margin-right: 1vw; }
   .info__play {
     width: 4vw; }
+  .info__list {
+    width: 1.5vw;
+    cursor: pointer; }
 
 .item__hero {
   margin-bottom: 1vw; }
@@ -995,9 +1011,9 @@ a {
   width: 15vw;
   display: none;
   position: absolute;
-  top: 5vh;
+  top: 2.5vw;
   left: 4vw;
-  line-height: 4vh;
+  line-height: 2vw;
   background-color: #1b1c1f; }
   .show_up a {
     text-align: center;
