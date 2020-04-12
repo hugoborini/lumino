@@ -122,3 +122,9 @@
   font-size: $body;
   text-decoration: underline;
 }
+
+.center__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw;
+}

@@ -1,22 +1,65 @@
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
+.video__wrapper {
+  background-image: linear-gradient(transparent, #1b1c1f);
+  width: 100%;
+  height: calc(100vh - 80px);
+  height: 40vw;
+  object-fit: cover;
+  position: relative;
+  z-index: 1; }
+
+/*.main__movie::after {
+  content: "";
+  position: absolute;
+  height: $height-modal;
+  width: 100%;
+  opacity: 1;
+  animation: openingModal 0.5s;
+  margin-bottom: 28px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 0.363)
+  );
+}*/
 .category__main {
   position: relative;
   color: #f0f1f3;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden; }
 
 .category__video {
   position: absolute;
-  top: -4.1vw; }
+  top: -6vw; }
   .category__video video {
     width: 100vw; }
 
 .category__path {
+  z-index: 2;
   position: absolute;
-  top: 5vw;
+  top: 6vw;
   left: 4vw;
   font-family: "Nunito-SemiBold";
   font-size: 1.2vw;
@@ -32,7 +75,8 @@
   left: 4vw;
   display: flex;
   flex-direction: column;
-  width: 60vw; }
+  width: 60vw;
+  z-index: 2; }
   .info__title {
     font-family: "Radikal-Bold";
     font-size: 5vw; }
@@ -48,7 +92,17 @@
     .info__released img {
       margin-right: 1vw; }
   .info__play {
-    width: 4vw; }
+    width: 4vw;
+    transition: all 0.2s; }
+    .info__play:hover {
+      filter: drop-shadow(0px 0px 5px #feca28);
+      cursor: pointer; }
+  .info__list {
+    width: 1.5vw;
+    transition: all 0.2s; }
+    .info__list:hover {
+      filter: drop-shadow(0px 0px 5px #feca28);
+      cursor: pointer; }
 
 .item__hero {
   margin-bottom: 1vw; }

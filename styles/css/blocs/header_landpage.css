@@ -2,16 +2,16 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding-right: 80px;
+  padding-right: 4vw;
   background-color: #1b1c1f;
-  height: 65px; }
+  height: 5vw; }
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
     header .container-image img {
-      height: 30px; }
+      height: 2.5vw; }
   header .buttons__header {
     display: flex; }
   header .cta__margin {
-    margin-right: 13px; }
+    margin-right: 1vw; }

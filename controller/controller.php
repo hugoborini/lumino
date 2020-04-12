@@ -77,4 +77,27 @@ function checkInput($firstname, $lastname, $email, $pass){
         header("Location: index.php?action=user");
     }
 }
+
+function upload(){
+    if(isset($_FILES['photo']) AND $_FILES['photo']['error'] == 0 ){
+
+        if($_FILES['photo']['size'] <= 1000000){
+            $infosfichier = pathinfo($_FILES['photo']['name']);
+            $extension_upload = $infosfichier['extension'];
+            $extension_autorisées = array('png');
+            $newname = $_SESSION['id'].".".$extension_upload;
+    
+            if(in_array($extension_upload , $extension_autorisées)) {
+                move_uploaded_file($_FILES['photo']['tmp_name'], 'assets/uploads/' . $newname);
+                header("Location: index.php?action=user");
+            } else {
+                header("Location: index.php?action=user&error_format=1");
+            }
+        }
+    }
+}
+function catchFilmByGenre($genre) {
+    $get_film = getFilmByGenre($genre);
+    return $get_film;
+}
 ?>

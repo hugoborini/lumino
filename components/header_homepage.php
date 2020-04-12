@@ -5,14 +5,15 @@
         <img src="assets/icon/logo_svg.png" alt="logo_lumino">
     </div>
     <div class="headerHome__nav nav">
-      <div class="nav__item">Home</div>
+      <a href="index.php?action=home"><div class="nav__item">Home</div></a>
       <div class="nav__item" id="genre">Genre <img class="item__arrow" src="assets/icon/chevron_gris.svg"/>
     	<ul id="genre__ul">
-				<li><a href="#">Action</a></li>
-				<li><a href="#">Animation</a></li>
-				<li><a href="#">Comedie</a></li>
-				<li><a href="#">Documentary</a></li>
-				<li><a href="#">SF</a></li>
+				<li><a href="index.php?action=genre&genre=Action">Action</a></li>
+				<li><a href="index.php?action=genre&genre=Animation">Animation</a></li>
+				<li><a href="index.php?action=genre&genre=Comedy">Comedy</a></li>
+				<li><a href="index.php?action=genre&genre=Documentary">Documentary</a></li>
+        <li><a href="index.php?action=genre&genre=SF">Science-Fiction</a></li>
+				<li><a href="index.php?action=genre&genre=Horror">Horror</a></li>
 			</ul>
     </div>
       <div class="nav__item">My list</div>
@@ -31,7 +32,22 @@
     <div class="headerHome__bell"><img src="assets/icon/bell.svg"/></div>
     <div class="headerHome__name">Hello <?php echo $_SESSION['firstname']; ?> !</div>
 
-    <div class="headerHome__profil"><a href="index.php?action=user"><img src="assets/img/profil.png.png"/></a></div>
+    <div class="headerHome__profil">
+      <a href="index.php?action=user">
+      <?php
+       if (file_exists($filepath)) 
+       {
+       ?>
+       <img class="icon_user" src="assets/uploads/<?=$_SESSION['id']?>.png" alt="picture profile" srcset="">
+       <?php
+       } else {
+      ?>
+        <img src="assets/img/profil.png.png"/>
+        <?php
+        }
+        ?>
+      </a>
+    </div>
 
     <div class="headerHome__disconnect"><a href="index.php?action=deco"><img src="assets/icon/unlog.svg"/></a></div>
 
