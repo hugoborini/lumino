@@ -22,11 +22,11 @@
                     data-category="Action" 
                     data-synopsis="The Avengers and their allies must be willing to sacrifice all in an attempt to defeat the powerful Thanos before his blitz of devastation and ruin puts an end to the universe." 
                     data-released="2018"
-                    data-mini="avengers.jpg">1
+                    data-mini="avengers.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avengers : Infinity wars</p>
-                            <p class="element__category">Documentary - Game - SF</p>
+                            <p class="element__category">Action - Hero - SF</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
@@ -45,16 +45,16 @@
                     data-category="Action" 
                     data-synopsis="A spy organisation recruits a promising street kid into the agency\'s training program, while a global threat emerges from a twisted tech genius." 
                     data-released="2014"
-                    data-mini="kingsman.jpg">2
+                    data-mini="kingsman.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kingsman</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Action - Secret Agent</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -63,16 +63,16 @@
                     data-category="Action" 
                     data-synopsis="When the creator of a virtual reality called the OASIS dies, he makes a posthumous challenge to all OASIS users to find his Easter Egg, which will give the finder his fortune and control of his world." 
                     data-released="2018"
-                    data-mini="ready-Player-One.jpg">3
+                    data-mini="ready-Player-One.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Ready Player One</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Action - Video Game</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -81,16 +81,16 @@
                     data-category="Action" 
                     data-synopsis="A computer hacker learns from mysterious rebels about the true nature of his reality and his role in the war against its controllers." 
                     data-released="1999"
-                    data-mini="matrix.jpg">4
+                    data-mini="matrix.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Matrix</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Action - SF</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -99,16 +99,16 @@
                     data-category="Action" 
                     data-synopsis="April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap." 
                     data-released="2019"
-                    data-mini="1917.jpg">5
+                    data-mini="1917.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">1917</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Action - war - History</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -117,16 +117,16 @@
                     data-category="Action" 
                     data-synopsis="Dave Lizewski is an unnoticed high school student and comic book fan who one day decides to become a superhero, even though he has no powers, training or meaningful reason to do so." 
                     data-released="2010"
-                    data-mini="kick-ass.jpg">6
+                    data-mini="kick-ass.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Kick Ass</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Action - Super Hero</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -148,14 +148,14 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Big Lebowski</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Bowling</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron"></div>
@@ -169,12 +169,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Intouchables</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Handicapable</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -187,12 +187,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zoolander</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Fashion</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -205,12 +205,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Little Miss Sunshine</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Family</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -223,12 +223,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Bridesmaids</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Wedding</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -241,12 +241,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zombieland</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Comedy - Zombies</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -268,14 +268,14 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Plateform</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - Prison</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron"></div>
@@ -289,12 +289,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Shining</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - Psychologycal</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -307,12 +307,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jaws</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - See</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -325,12 +325,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Midsommar</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - Norway</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -343,12 +343,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Invisible Man</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - Man</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -361,12 +361,12 @@
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Paranormal activity</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Horror - Camera</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -384,18 +384,18 @@
                     data-category="Documentary" 
                     data-synopsis="Young millennial German fueled by wanderlust and a lack of real world responsibilities travels the globe by bike, peddling across 22 countries and over 20,000 kms to find meaning in life. Leverages power of social media and parental support to overcome obstacles." 
                     data-released="2015"
-                    data-mini="pedal-the-world.jpg">1
+                    data-mini="pedal-the-world.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Pedal The World</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - Bycicle</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron"></div>
@@ -405,16 +405,16 @@
                     data-category="Documentary" 
                     data-synopsis="Michael Moore's view on what happened to the United States after September 11, and how the Bush Administration allegedly used the tragic event to push forward its agenda for unjust wars in Afghanistan and Iraq." 
                     data-released="2004"
-                    data-mini="fahrenheit-911.jpg">2
+                    data-mini="fahrenheit-911.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Fahrenheit 9/11</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - USA</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -423,16 +423,16 @@
                     data-category="Documentary" 
                     data-synopsis="It begins when journalist Craig Leeson, searching for the elusive blue whale, discovers plastic waste in what should be pristine ocean. In this adventure documentary, Craig teams up with free diver Tanya Streeter and an international team of scientists and researchers, and they travel to twenty locations around the world over the next four years to explore the fragile state of our oceans, uncover alarming truths about plastic pollution, and reveal working solutions that can be put into immediate effect." 
                     data-released="2016"
-                    data-mini="a-plastic-ocean.jpg">3
+                    data-mini="a-plastic-ocean.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">A Plastic Ocean</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - Ocean</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -441,16 +441,16 @@
                     data-category="Documentary" 
                     data-synopsis="Neuroscientist David Eagleman taps into the creative process of various innovators while exploring brain-bending, risk-taking ways to spark creativity." 
                     data-released="2019"
-                    data-mini="the-creative-brain.jpg">4
+                    data-mini="the-creative-brain.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Creative Brain</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - Brain</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -459,16 +459,16 @@
                     data-category="Documentary" 
                     data-synopsis="Documentary that chronicles how Francis Ford Coppola's Apocalypse Now (1979) was plagued by extraordinary script, shooting, budget, and casting problems, nearly destroying the life and career of the celebrated director." 
                     data-released="2014"
-                    data-mini="hearts-of-darkness.jpg">5
+                    data-mini="hearts-of-darkness.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Hearts Of Darkness</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -477,16 +477,16 @@
                     data-category="Documentary" 
                     data-synopsis="Writer James Baldwin tells the story of race in modern America with his unfinished novel, Remember This House." 
                     data-released="2016"
-                    data-mini="i-am-not-your-negro.jpg">6
+                    data-mini="i-am-not-your-negro.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">I Am Not Your Negro</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Documentary - Africa</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -504,18 +504,18 @@
                     data-category="Science-Fiction" 
                     data-synopsis="A team of explorers travel through a wormhole in space in an attempt to ensure humanity's survival." 
                     data-released="2014"
-                    data-mini="interstellar.jpg">1
+                    data-mini="interstellar.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Interstellar</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Space</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron"></div>
@@ -525,16 +525,16 @@
                     data-category="Science-Fiction" 
                     data-synopsis="Katniss Everdeen voluntarily takes her younger sister's place in the Hunger Games: a televised competition in which two teenagers from each of the twelve Districts of Panem are chosen at random to fight to the death." 
                     data-released="2012"
-                    data-mini="hunger-games.jpg">2
+                    data-mini="hunger-games.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Hunger Games : Mockingjay part 1</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Games</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -543,16 +543,16 @@
                     data-category="Science-Fiction" 
                     data-synopsis="In the colorful future, a cab driver unwittingly becomes the central figure in the search for a legendary cosmic weapon to keep Evil and Mr. Zorg at bay." 
                     data-released="1997"
-                    data-mini="fifth-element.jpg">3
+                    data-mini="fifth-element.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Fifth Element</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Future</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -561,16 +561,16 @@
                     data-category="Science-Fiction" 
                     data-synopsis="A paraplegic Marine dispatched to the moon Pandora on a unique mission becomes torn between following his orders and protecting the world he feels is his home."
                     data-released="2009"
-                    data-mini="avatar.jpg">4
+                    data-mini="avatar.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Avatar</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Planet</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -579,16 +579,16 @@
                     data-category="Science-Fiction" 
                     data-synopsis="Marty McFly, a 17-year-old high school student, is accidentally sent thirty years into the past in a time-traveling DeLorean invented by his close friend, the eccentric scientist Doc Brown." 
                     data-released="1985"
-                    data-mini="back-to-the-future.jpg">5
+                    data-mini="back-to-the-future.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Back To The Future</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Dolorean</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -597,16 +597,16 @@
                     data-category="Science-Fiction" 
                     data-synopsis="A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose." 
                     data-released="1973"
-                    data-mini="jurrasic-park.jpg">6
+                    data-mini="jurrasic-park.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jurassic Park</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Dynosaure</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -624,18 +624,18 @@
                     data-category="Animation" 
                     data-synopsis="When the newly crowned Queen Elsa accidentally uses her power to turn things into ice to curse her home in infinite winter, her sister Anna teams up with a mountain man, his playful reindeer, and a snowman to change the weather condition." 
                     data-released="2013"
-                    data-mini="frozen.jpg">1
+                    data-mini="frozen.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Frozen</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Animation - Princess</p>
                             <p class="element__synopsis"></p>
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron"></div>
@@ -645,16 +645,16 @@
                     data-category="Animation" 
                     data-synopsis="After young Riley is uprooted from her Midwest life and moved to San Francisco, her emotions - Joy, Fear, Anger, Disgust and Sadness - conflict on how best to navigate a new city, house, and school." 
                     data-released="2015"
-                    data-mini="inside-out.jpg">2
+                    data-mini="inside-out.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Inside Out</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">SF - Brain</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -663,16 +663,16 @@
                     data-category="Animation" 
                     data-synopsis="Wendy and her brothers are whisked away to the magical world of Neverland with the hero of their stories, Peter Pan." 
                     data-released="1953"
-                    data-mini="peter-pan.jpg">3
+                    data-mini="peter-pan.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Peter Pan</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Animation - Island</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -681,16 +681,16 @@
                     data-category="Animation" 
                     data-synopsis="In the distant future, a small waste-collecting robot inadvertently embarks on a space journey that will ultimately decide the fate of mankind." 
                     data-released="2008"
-                    data-mini="wall-e.jpg">4
+                    data-mini="wall-e.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Wall-e</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Animation - Robot</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
@@ -699,11 +699,11 @@
                     data-category="Animation" 
                     data-synopsis="A family of undercover superheroes, while trying to live the quiet suburban life, are forced into action to save the world." 
                     data-released="2004"
-                    data-mini="the-incredibles.jpg">5
+                    data-mini="the-incredibles.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Incredibles</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Animation - Super Hero</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon"/>
@@ -717,16 +717,16 @@
                     data-category="Animation" 
                     data-synopsis="In Ancient Polynesia, when a terrible curse incurred by the Demigod Maui reaches Moana's island, she answers the Ocean's call to seek out the Demigod to set things right." 
                     data-released="2016"
-                    data-mini="moana.jpg">6
+                    data-mini="moana.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Moana</p>
-                            <p class="element__category"></p>
+                            <p class="element__category">Animation - Beach</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                 </div>
