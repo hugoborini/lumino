@@ -33,17 +33,8 @@
 .buttonLP {
   display: flex;
   align-items: center;
-  margin-right: 4vw;
-  justify-content: center; }
-  .buttonLP__connexion {
-    background-color: #feca28;
-    width: 240px;
-    height: 38px;
-    border: none;
-    margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
+  justify-content: center;
+  margin-top: 35px; }
 
 .hero__bottom {
   height: 30vh;
