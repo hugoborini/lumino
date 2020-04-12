@@ -10,6 +10,7 @@
   <body>
 
     <?php require("components/header_homepage.php")?>
+
     <?php require("components/main_movie.php") ?>
 
     <div class="genre">
