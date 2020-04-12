@@ -30,16 +30,13 @@ require("controller/controller.php");
             deleteUser();
         }
         elseif($_GET['action'] == "update"){
-            // echo $_POST['firstname'];
-            // if (empty($_POST['email'])){
-            //     echo "nul";
-            // } else {
-            //     echo $_POST["email"];
-            // }
             checkInput($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['pass']);
         }
         elseif( $_GET['action'] == "upload"){
             upload();
+        }
+        elseif($_GET['action'] == "genre") {
+            require("views/genre.php");
         }
     }
     else {
