@@ -20,7 +20,7 @@
 
     <div class="headerHome__search search">
       <form class="search__form" action="index.php?action=home">
-        <img class="search__bell" src="assets/icon/loupe.svg"/>
+        <img class="search__loupe" src="assets/icon/loupe.svg"/>
         <input type="text" class="search__input" placeholder="Search a title">
         <div class="show_up"></div>
         <ul class="suggestions"></ul>
@@ -29,7 +29,7 @@
     </div>
 
     <div class="headerHome__bell"><img src="assets/icon/bell.svg"/></div>
-    <div class="headerHome__name">Hello <?php echo $_SESSION['firstname']; ?>  !</div>
+    <div class="headerHome__name">Hello <!-- <?php echo $_SESSION['firstname']; ?> -->  !</div>
     <div class="headerHome__profil"><img src="assets/img/profil.png.png"/></div>
     <div class="headerHome__disconnect"><a href="index.php?action=deco"><img src="assets/icon/unlog.svg"/></a></div>
 

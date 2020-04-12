@@ -57,6 +57,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="5" class="movie movie--readyPlayerOne"
                     data-title="Ready Player One" 
@@ -74,6 +77,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="8" class="movie movie--matrix"
@@ -93,6 +99,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="1" class="movie movie--1917"
                     data-title="1917" 
@@ -110,6 +119,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="7" class="movie movie--kickAss"
@@ -129,6 +141,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
             </div>
             <div class="category__modal category__modal--close"></div>
@@ -144,7 +159,7 @@
                     data-category="Comedy" 
                     data-synopsis="Jeff, The Dude, Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it." 
                     data-released="1998"
-                    data-mini="big-Lebowski.jpg">1
+                    data-mini="big-Lebowski.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Big Lebowski</p>
@@ -158,6 +173,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="9" class="movie movie--intouchables"
@@ -165,7 +183,7 @@
                     data-category="Comedy" 
                     data-synopsis="After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver." 
                     data-released="2011"
-                    data-mini="intouchables.jpg">2
+                    data-mini="intouchables.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Intouchables</p>
@@ -177,13 +195,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="16" class="movie movie--zoolander"
                     data-title="Zoolander" 
                     data-category="Comedy" 
                     data-synopsis="At the end of his career, a clueless fashion model is brainwashed to kill the Prime Minister of Malaysia." 
                     data-released="2001"
-                    data-mini="zoolander.jpg">3
+                    data-mini="zoolander.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zoolander</p>
@@ -195,13 +216,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="15" class="movie movie--littleMiss"
                     data-title="Little Miss Sunshine" 
                     data-category="Comedy" 
                     data-synopsis="A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus." 
                     data-released="2006"
-                    data-mini="little-miss-sunshine.jpg">4
+                    data-mini="little-miss-sunshine.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Little Miss Sunshine</p>
@@ -213,13 +237,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="13" class="movie movie--bridesmaids"
                     data-title="Bridesmaids" 
                     data-category="Comedy" 
                     data-synopsis="Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef." 
                     data-released="2011"
-                    data-mini="bridesmaids.jpg">5
+                    data-mini="bridesmaids.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Bridesmaids</p>
@@ -231,13 +258,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="12" class="movie movie--zombieland"
                     data-title="Zombieland" 
                     data-category="Comedy" 
                     data-synopsis="A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America." 
                     data-released="2009"
-                    data-mini="zombieland.jpg">6
+                    data-mini="zombieland.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zombieland</p>
@@ -248,6 +278,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -264,7 +297,7 @@
                     data-category="Horror" 
                     data-synopsis="A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down. An endless nightmare trapped in The Hole." 
                     data-released="2019"
-                    data-mini="the-platform.jpg">1
+                    data-mini="the-platform.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Plateform</p>
@@ -278,6 +311,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="38" class="movie movie--shinning"
@@ -285,7 +321,7 @@
                     data-category="Horror" 
                     data-synopsis="A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future." 
                     data-released="1980"
-                    data-mini="the-shining.jpg">2
+                    data-mini="the-shining.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Shining</p>
@@ -297,13 +333,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="39" class="movie movie--jaws"
                     data-title="Jaws" 
                     data-category="Horror" 
                     data-synopsis="When a killer shark unleashes chaos on a beach community, it\'s up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down." 
                     data-released="1975"
-                    data-mini="jaws.jpg">3
+                    data-mini="jaws.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jaws</p>
@@ -315,13 +354,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="36" class="movie movie--midsommar"
                     data-title="Midsommar" 
                     data-category="Horror" 
                     data-synopsis="A couple travels to Sweden to visit a rural hometown\'s fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult." 
                     data-released="2019"
-                    data-mini="midsommar.jpg">4
+                    data-mini="midsommar.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Midsommar</p>
@@ -333,13 +375,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="33" class="movie movie--invisible"
                     data-title="The Invisible Man" 
                     data-category="Horror" 
                     data-synopsis="When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see." 
                     data-released="2020"
-                    data-mini="the-invisible-man.jpg">5
+                    data-mini="the-invisible-man.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Invisible Man</p>
@@ -351,13 +396,16 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="37" class="movie movie--paranormal"
                     data-title="Paranormal Activity" 
                     data-category="Horror" 
                     data-synopsis="After moving into a suburban home, a couple becomes increasingly disturbed by a nightly demonic presence." 
                     data-released="2009"
-                    data-mini="paranormal-activity.jpg">6
+                    data-mini="paranormal-activity.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Paranormal activity</p>
@@ -368,6 +416,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -398,6 +449,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="42" class="movie movie--fahrenheit"
@@ -417,6 +471,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="45" class="movie movie--plasticOcean"
                     data-title="A Plastic Ocean" 
@@ -434,6 +491,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="47" class="movie movie--creativeBrain"
@@ -453,6 +513,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="43" class="movie movie--heartsOfDarkness"
                     data-title="Hearts Of Darkness: A Filmmaker's Apocalypse" 
@@ -471,6 +534,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="41" class="movie movie--youNegro"
                     data-title="I Am Not Your Negro" 
@@ -488,6 +554,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -518,7 +587,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron"></div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="19" class="movie movie--hungerGames"
                     data-title="The Hunger Games : Mockingjay part 1" 
@@ -536,6 +607,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="23" class="movie movie--fifthElement"
@@ -555,6 +629,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="21" class="movie movie--avatar"
                     data-title="Avatar" 
@@ -572,6 +649,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="24" class="movie movie--backToTheFuture"
@@ -591,6 +671,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="22" class="movie movie--jurassicPark"
                     data-title="Jurassic Park" 
@@ -608,6 +691,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -638,7 +724,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron"></div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="25" class="movie movie--insideOut"
                     data-title="Inside Out" 
@@ -656,6 +744,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="29" class="movie movie--peterPan"
@@ -675,6 +766,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="31" class="movie movie--walle"
                     data-title="Wall-E" 
@@ -692,6 +786,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="30" class="movie movie--incredibles"
@@ -711,6 +808,9 @@
                             <img class="element__icon element__icon--play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="28" class="movie movie--moana"
                     data-title="Moana" 
@@ -728,6 +828,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
