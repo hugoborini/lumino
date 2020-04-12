@@ -10,7 +10,9 @@
 </head>
 <body>
     <?php include("./components/header_homepage.php")?>
+    
     <main>
+        <?php require("components/main_movie.php") ?>
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Action</h1>
