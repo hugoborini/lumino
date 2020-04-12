@@ -62,25 +62,32 @@ a {
 .login {
   display: flex;
   height: 389px;
-  border: solid 2px #feca28;
-  border-radius: 8px;
   margin: auto;
-  margin-top: 4%;
   margin-bottom: 4%;
+  border: solid 2px #feca28;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
+  border-radius: 8px;
   width: 410px;
+  align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: #1b1c1f;
-  color: #f0f1f3; }
+  color: #f0f1f3;
+  padding-top: 38px;
+  padding-bottom: 38px; }
   .login__title {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
-    font-weight: 600; }
+    font-weight: 600;
+    margin-bottom: 34px; }
   .login__input {
-    width: 358px;
+    width: 100%;
     height: 35px; }
   .login__input-container {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-family: "Nunito";
+    font-size: 1.13vw;
     line-height: 22px; }
+  .login .cta__register {
+    margin-top: 40px; }
+  .login .forgot-password {
+    color: #a9bac1; }

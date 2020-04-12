@@ -17,8 +17,9 @@
     <div class="login__input-container">
         <label>Password</label>
         <input type="password" name="pass" class="register__input"/>
+        <a href="#"><p class="forgot-password">I forgot my password</p></a>
     </div>
-    <input type="submit" class="btn button__connexion" value="Start my free trial">
+    <input type="submit" class="cta__noradius--yb cta__register" value="Log in">
 </div>
     </form>
 </body>
