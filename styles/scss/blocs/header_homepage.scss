@@ -1,12 +1,13 @@
 @import "../config/variable.scss";
 
-header {
+.headerHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0b0a0a;
+  background-color: $tertiary;
   height: 6vw;
   font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
   .headerHome__logo {
     margin-left: 4vw;
@@ -21,13 +22,9 @@ header {
     margin: 0 2vw;
     color: $secondary-dark;
     font-size: $menu-navBar;
-
-
     .item__arrow {
       width: 0.8vw;
     }
-
-
     position: relative;
   }
   ul {
@@ -36,7 +33,7 @@ header {
     top: 2vw;
     left: -2.5vw;
     width: 10vw;
-    background-color: #0b0a0a;
+    background-color: $tertiary;
     font-size: 0.99vw;
     text-align: center;
     li {
@@ -60,18 +57,16 @@ header {
         }
       }
     }
-
   }
 }
 
 .search {
   display: flex;
-
+  position: relative;
   &__bell {
     padding: 0 1vw;
     fill: white;
   }
-
 }
 
 .search__input {
@@ -83,7 +78,6 @@ header {
   font-size: $menu-navBar;
   //box-shadow: 0 0 5px rgba(0, 0, 0, 0.7), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
-
 
 .headerHome__name {
   color: $secondary-dark;

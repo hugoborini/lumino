@@ -2,7 +2,6 @@
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
-  font-family: "Nunito";
 }
 
 // # HERO #
@@ -13,24 +12,24 @@
   align-items: center;
   justify-content: center;
   height: 84vh;
+  width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, rgb(0, 0, 0)),
-    url(../../assets/img/background_hero.png);
-
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%),
+    linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%),
+    url(../../assets/img/background_hero.png.png);
   &__title {
-    font-family: "Radikal-Bold";
-    font-size: 2vw;
+    font-family: $h1-font;
+    font-size: 2em;
     padding-bottom: 25px;
   }
 
   &__infos {
-    font-family: "Nunito";
-    font-weight: 500;
-    font-size: 1.6vw;
+    font-family: $body-font;
+    font-size: 1.6em;
 
     em {
       font-weight: 600;
-      font-size: 2vw;
+      font-size: 1.8em;
       padding-left: 5px;
       padding-right: 5px;
     }
@@ -45,22 +44,23 @@
 }
 // CTA
 .hero__CTA {
-  margin-top: 4em;
+  margin-top: 4vw;
   display: flex;
   align-items: center;
-  color: $tertiary;
   justify-content: center;
+  color: $tertiary;
   background-color: $primary;
+  border: none;
+  text-decoration: none;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-weight: 900;
+  font-family: $body-font;
+  font-size: 1.2em;
 }
 //
 .hero__bottom {
-  height: 13vh;
-  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, rgb(0, 0, 0));
+  height: 30vh;
+  background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%);
 
   .downIcon {
     display: flex;
@@ -69,39 +69,54 @@
 } // # HERO END #
 
 // ## SECOND AND THIRD SECTION ##
+
 .watch,
-.movies {
-  // height: 75vh;
+.movies,
+.download {
   color: $secondary-light;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-bottom: 8vw;
+  margin-bottom: 10vw;
 
-  .movies__text {
-    background-color: red;
-    padding-bottom: 100px;
-    // top: 100px;
+  .movies__text,
+  .download__text,
+  .watch__text {
+    padding-bottom: 70px;
+    width: 100%;
   }
+
   &__title {
-    font-size: 1.8vw;
-    width: 566px;
+    font-family: $h3-font;
+    font-size: 1.8em;
   }
 
   &__body {
-    font-size: 1.2vw;
-    line-height: 1.2vw * 1.2;
+    font-size: 1.2em;
+    font-family: $body-font;
+    line-height: 1.2em * 1.2;
     justify-content: start;
-    max-width: 581px;
+    //max-width: 581px;
     padding-top: 1.43vw;
-    width: 566px;
+    // max-width: 566px;
   }
 }
+
 .watch__mockup {
-  height: 58vh;
+  width: 100%;
 }
 
 .movies__mockup {
-  height: 42vh;
+  width: 100%;
 }
-// ## SECOND SECTION END ##
+
+.download__mockup {
+  // position: relative;
+  width: 60%;
+}
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh;
+}
+// ## SECOND AND THIRD END ##

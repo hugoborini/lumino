@@ -1,0 +1,139 @@
+@import "../../config/variable.scss";
+
+.movie--avengers {
+  background: url(../../assets/mini/Avengers.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.movie--kingsman {
+  background: url(../../assets/mini/kingsman.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.movie--readyPlayerOne {
+  background: url(../../assets/mini/ready-player-one.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.movie--matrix {
+  background: url(../../assets/mini/matrix.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.movie--1917 {
+  background: url(../../assets/mini/1917.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+
+.movie--kickAss {
+  background: url(../../assets/mini/kick-ass.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+  &:hover {
+    background: linear-gradient(
+        0.23deg,
+        rgba(2, 2, 3, 0.97) 33.62%,
+        rgba(2, 2, 3, 0) 99.89%
+      ),
+      url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}

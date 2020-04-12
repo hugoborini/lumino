@@ -1,0 +1,47 @@
+.movie--plateform {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--shinning {
+  background: url(../../assets/mini/the-shining.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jaws {
+  background: url(../../assets/mini/jaws.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--midsommar {
+  background: url(../../assets/mini/midsommar.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--invisible {
+  background: url(../../assets/mini/the-invisible-man.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--paranormal {
+  background: url(../../assets/mini/paranormal-activity.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }

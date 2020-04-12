@@ -5,14 +5,28 @@
 @import "blocs/form.scss";
 @import "pages/register.scss";
 @import "config/error.scss";
+@import "config/variable.scss";
 @import "blocs/landing.scss";
 @import "blocs/footer.scss";
 @import "blocs/header_homepage.scss";
 @import "blocs/home.scss";
 @import "blocs/user.scss";
 
+@import "blocs/search.scss";
+@import "blocs/player.scss";
+
+//Categories
+@import "blocs/categories/action.scss";
+@import "blocs/categories/comedy.scss";
+@import "blocs/categories/horror.scss";
+@import "blocs/categories/documentary.scss";
+@import "blocs/categories/sf.scss";
+@import "blocs/categories/animation.scss";
+
+
 a {
   text-decoration: none;
+  color: $tertiary;
 }
 
 

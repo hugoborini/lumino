@@ -152,7 +152,7 @@ table {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #0b0a0a;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -176,7 +176,7 @@ header {
 header {
   display: flex;
   justify-content: space-between;
-  background-color: #0b0a0a;
+  background: #000;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -289,8 +289,7 @@ body {
 
 .landingpage {
   margin-left: 80px;
-  margin-right: 80px;
-  font-family: "Nunito"; }
+  margin-right: 80px; }
 
 .hero {
   color: #f0f1f3;
@@ -299,19 +298,19 @@ body {
   align-items: center;
   justify-content: center;
   height: 84vh;
+  width: 100%;
   align-items: center;
-  background: linear-gradient(to bottom, rgba(255, 21, 21, 0) 20%, black), url(../../assets/img/background_hero.png); }
+  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
-    font-size: 2vw;
+    font-size: 2em;
     padding-bottom: 25px; }
   .hero__infos {
     font-family: "Nunito";
-    font-weight: 500;
-    font-size: 1.6vw; }
+    font-size: 1.6em; }
     .hero__infos em {
       font-weight: 600;
-      font-size: 2vw;
+      font-size: 1.8em;
       padding-left: 5px;
       padding-right: 5px; }
   .hero .price {
@@ -321,54 +320,72 @@ body {
     padding-top: 3%; }
 
 .hero__CTA {
-  margin-top: 4em;
+  margin-top: 4vw;
   display: flex;
   align-items: center;
-  color: #1b1c1f;
   justify-content: center;
+  color: #1b1c1f;
   background-color: #feca28;
+  border: none;
+  text-decoration: none;
   width: 15em;
   height: 38px;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px;
-  font-weight: 900; }
+  font-family: "Nunito";
+  font-size: 1.2em; }
 
 .hero__bottom {
-  height: 13vh;
-  background: linear-gradient(to top, rgba(255, 21, 21, 0) 10%, black); }
+  height: 30vh;
+  background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%); }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }
 
 .watch,
-.movies {
+.movies,
+.download {
   color: #f0f1f3;
   display: flex;
   align-items: center;
-  justify-content: space-around;
-  padding-bottom: 8vw; }
+  margin-bottom: 10vw; }
   .watch .movies__text,
-  .movies .movies__text {
-    background-color: red;
-    padding-bottom: 100px; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .movies__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .movies__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-bottom: 70px;
+    width: 100%; }
   .watch__title,
-  .movies__title {
-    font-size: 1.8vw;
-    width: 566px; }
+  .movies__title,
+  .download__title {
+    font-family: "Nunito-SemiBold";
+    font-size: 1.8em; }
   .watch__body,
-  .movies__body {
-    font-size: 1.2vw;
-    line-height: 1.44vw;
+  .movies__body,
+  .download__body {
+    font-size: 1.2em;
+    font-family: "Nunito";
+    line-height: 1.44em;
     justify-content: start;
-    max-width: 581px;
-    padding-top: 1.43vw;
-    width: 566px; }
+    padding-top: 1.43vw; }
 
 .watch__mockup {
-  height: 58vh; }
+  width: 100%; }
 
 .movies__mockup {
-  height: 42vh; }
+  width: 100%; }
+
+.download__mockup {
+  width: 60%; }
+
+.download__gif {
+  position: absolute;
+  right: 1.58vw;
+  top: 13.9vw;
+  height: 7vh; }
 
 footer {
   display: flex;
@@ -393,14 +410,15 @@ footer {
       width: auto;
       height: 80%; }
 
-header {
+.headerHome {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #0b0a0a;
+  background-color: #1b1c1f;
   height: 6vw;
-  font-family: "Nunito", sans-serif; }
-  header .headerHome__logo {
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
 
@@ -419,7 +437,7 @@ header {
     top: 2vw;
     left: -2.5vw;
     width: 10vw;
-    background-color: #0b0a0a;
+    background-color: #1b1c1f;
     font-size: 0.99vw;
     text-align: center; }
     .nav ul li {
@@ -435,7 +453,8 @@ header {
       color: #1b1c1f; }
 
 .search {
-  display: flex; }
+  display: flex;
+  position: relative; }
   .search__bell {
     padding: 0 1vw;
     fill: white; }
@@ -461,24 +480,172 @@ header {
 
 .category {
   display: flex;
-  flex-direction: column;
-  margin-bottom: 6%; }
+  flex-direction: column; }
 
 .category__texts {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw; }
 
 .category__title {
   color: #f9fafa; }
 
 .category__movies {
   display: flex;
-  justify-content: space-between; }
+  justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh; }
 
 .movie {
-  background-color: gold;
-  width: 140px;
-  height: 140px; }
+  box-shadow: 0px 0px 20px #121317; }
+
+.movie__elements {
+  opacity: 0; }
+  .movie__elements:hover {
+    opacity: 1;
+    display: flex;
+    padding-top: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%; }
+
+.elements__text:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end; }
+
+.element__title {
+  color: #f9fafa;
+  font-family: "Nunito-Bold";
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0 0 5px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7; }
+
+.element__category {
+  color: #a9bac1;
+  opacity: 0.5;
+  font-family: "Nunito";
+  font-size: 1.13vw; }
+
+.elements__icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between; }
+  .elements__icon .element-icon {
+    width: auto;
+    height: 30%; }
+  .elements__icon .element__icon--play {
+    width: auto;
+    height: 40%; }
+
+.movie__chevron {
+  position: absolute;
+  top: 165px;
+  left: 70px;
+  text-align: center; }
+
+/*.category__modal {
+  margin-top: 5vh;
+}*/
+.category__modal--open {
+  background-position: 0% 25%;
+  background-size: cover;
+  animation: opening 0.5s;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px #121317;
+  margin-bottom: 28px; }
+
+.category__modal--open:after {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  opacity: 1;
+  animation: opening 0.5s;
+  margin-bottom: 28px;
+  background: linear-gradient(to top, black 5%, rgba(0, 0, 0, 0.363)); }
+
+.category__modal--close {
+  display: none; }
+
+@keyframes opening {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 400px;
+    margin-bottom: 28px; } }
+
+@keyframes closing {
+  from {
+    opacity: 1;
+    height: 400px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
+.category__modal--closing {
+  animation: closing 0.3s;
+  height: 0px;
+  background-position: 0% 25%;
+  background-size: cover; }
+
+.modal__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 6.5vh 5vw 0 5vw;
+  z-index: 1; }
+  .modal__icons--left {
+    width: 5vw;
+    display: flex;
+    justify-content: space-between; }
+
+.modal__icon {
+  z-index: 1;
+  width: 2vw; }
+  .modal__icon--play {
+    z-index: 1;
+    width: 11vw;
+    align-self: center; }
+
+.modal__texts {
+  z-index: 1;
+  color: #f0f1f3;
+  margin: 0 5vw 55px 5vw;
+  height: auto;
+  display: flex;
+  flex-direction: column; }
+
+.butt {
+  z-index: 1; }
+
+.modal__title {
+  font-family: "Radikal-Bold";
+  font-size: 4vw;
+  text-transform: uppercase; }
+
+.modal__date {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw;
+  margin-top: 15px; }
+
+.modal__synopsis {
+  font-family: "Nunito";
+  font-size: 1.13vw;
+  width: 58vw;
+  margin-top: 10px;
+  line-height: 125%; }
 
 .user__container {
   display: flex;
@@ -493,7 +660,6 @@ header {
     position: relative;
     align-items: center;
     justify-content: center;
-    border: 2px solid yellow;
     margin: 3vw; }
 
 .user__back {
@@ -505,18 +671,18 @@ header {
   color: #f0f1f3; }
 
 .user__picture {
-  margin: 4vw 4vw; }
+  margin-bottom: 6vw; }
   .user__picture img {
-    width: 12vw;
+    width: 15vw;
     border: 4px solid #feca28;
-    border-radius: 90px; }
+    border-radius: 110px; }
 
 .button__user {
   display: flex;
   align-items: center;
-  justify-content: center; }
+  justify-content: flex-end; }
 
-.button {
+.button__end {
   background-color: #1b1c1f;
   border: 2px solid #f0f1f3;
   color: #f0f1f3;
@@ -530,13 +696,12 @@ header {
   font-family: "Radikal-Bold";
   font-size: 1.56vw;
   color: #f0f1f3;
-  text-decoration: underline;
-  width: 15vw;
-  margin-bottom: 4vw; }
+  width: 29.35vw;
+  margin-bottom: 4vw;
+  border-bottom: 2px solid #f0f1f3; }
 
 .inputForm {
-  margin-bottom: 4vw;
-  border: 2px solid red; }
+  margin-bottom: 4vw; }
   .inputForm label {
     font-family: "Nunito-Bold";
     font-size: 1.2vw;
@@ -545,24 +710,454 @@ header {
 .input__info input {
   margin-left: 5vw;
   background-color: #1b1c1f;
-  border-bottom: solid 1px #f0f1f3;
+  border: none;
+  border-bottom: 1px solid #f0f1f3;
+  color: #f0f1f3;
+  font-family: "Nunito";
+  font-size: 1.13vw;
   width: 18vw; }
+
+.input__info input[type='email'] {
+  margin-left: 3.90vw; }
+
+.input__info input[type='password'] {
+  margin-left: 5.4vw; }
 
 .button__account {
   background-color: #feca28;
   border: 2px solid #1b1c1f;
   color: #1b1c1f;
   margin-right: 0px;
-  justify-content: flex-end; }
+  justify-content: flex-end;
+  margin-left: 2.5vw; }
 
 .user__delete {
   position: absolute;
   right: 0px;
+  margin-top: 2vw;
   color: red;
   align-self: left;
   font-family: "Nunito";
   font-size: 1.13vw;
   text-decoration: underline; }
 
+.button__picture:nth-child(2) {
+  margin-left: 2.5vw; }
+
+.show_up {
+  width: 15vw;
+  display: none;
+  position: absolute;
+  top: 5vh;
+  left: 4vw;
+  line-height: 4vh;
+  background-color: #1b1c1f; }
+  .show_up a {
+    text-align: center;
+    display: block;
+    padding: 5px;
+    font-size: 0.99vw;
+    font-family: "Nunito";
+    color: #c8d3d7; }
+    .show_up a:hover {
+      background-color: #feca28;
+      color: #1b1c1f; }
+
+.video {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden; }
+
+.video__container {
+  display: none; }
+
+video::-webkit-media-controls {
+  display: none !important; }
+
+video {
+  position: relative;
+  width: 100vw;
+  height: 100%; }
+
+.bar {
+  display: block;
+  width: 97.5vw;
+  margin: auto;
+  height: 10px;
+  bottom: 7.5vw;
+  background-color: gray;
+  position: relative; }
+  .bar .progressBar {
+    position: absolute;
+    bottom: 0;
+    width: 0px;
+    height: 10px;
+    background-color: #feca28; }
+
+.container {
+  z-index: 999;
+  position: absolute;
+  bottom: 0vw;
+  display: flex;
+  flex-direction: row;
+  width: 95vw;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  justify-content: space-between;
+  align-items: center; }
+  .container svg {
+    width: 2vw; }
+  .container__title {
+    color: #c8d3d7;
+    font-family: "Radikal-Bold";
+    font-size: 1.42vw;
+    display: flex;
+    align-items: center;
+    letter-spacing: 2px; }
+  .container-left {
+    display: flex;
+    width: 15vw;
+    justify-content: space-between; }
+    .container-left .container__play {
+      width: 50px;
+      height: 50px; }
+  .container-right {
+    display: flex;
+    width: 20vw;
+    justify-content: space-between; }
+    .container-right .mute_png {
+      width: 3vw; }
+
+.movie--avengers {
+  background: url(../../assets/mini/Avengers.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--avengers:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--kingsman {
+  background: url(../../assets/mini/kingsman.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--kingsman:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--readyPlayerOne {
+  background: url(../../assets/mini/ready-player-one.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--readyPlayerOne:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--matrix {
+  background: url(../../assets/mini/matrix.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--matrix:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--1917 {
+  background: url(../../assets/mini/1917.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--1917:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--kickAss {
+  background: url(../../assets/mini/kick-ass.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+  .movie--kickAss:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
+
+.movie--bigLebowski {
+  background: url(../../assets/mini/big-Lebowski.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--intouchables {
+  background: url(../../assets/mini/intouchables.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--zoolander {
+  background: url(../../assets/mini/zoolander.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--littleMiss {
+  background: url(../../assets/mini/little-miss-sunshine.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--bridesmaids {
+  background: url(../../assets/mini/bridesmaids.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--zombieland {
+  background: url(../../assets/mini/zombieland.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plateform {
+  background: url(../../assets/mini/the-platform.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--shinning {
+  background: url(../../assets/mini/the-shining.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jaws {
+  background: url(../../assets/mini/jaws.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--midsommar {
+  background: url(../../assets/mini/midsommar.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--invisible {
+  background: url(../../assets/mini/the-invisible-man.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--paranormal {
+  background: url(../../assets/mini/paranormal-activity.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--pedal {
+  background: url(../../assets/mini/pedal-the-world.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--fahrenheit {
+  background: url(../../assets/mini/fahrenheit-911.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--plasticOcean {
+  background: url(../../assets/mini/a-plastic-ocean.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--heartsOfDarkness {
+  background: url(../../assets/mini/hearts-of-darkness.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--youNegro {
+  background: url(../../assets/mini/i-am-not-your-negro.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--creativeBrain {
+  background: url(../../assets/mini/the-creative-brain.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--interstellar {
+  background: url(../../assets/mini/interstellar.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--hungerGames {
+  background: url(../../assets/mini/hunger-games.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--fifthElement {
+  background: url(../../assets/mini/fifth-element.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--avatar {
+  background: url(../../assets/mini/avatar.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--backToTheFuture {
+  background: url(../../assets/mini/back-to-the-future.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--jurassicPark {
+  background: url(../../assets/mini/jurrasic-park.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--frozen {
+  background: url(../../assets/mini/frozen.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--insideOut {
+  background: url(../../assets/mini/inside-out.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--peterPan {
+  background: url(../../assets/mini/peter-pan.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--walle {
+  background: url(../../assets/mini/wall-e.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--incredibles {
+  background: url(../../assets/mini/the-incredibles.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
+.movie--moana {
+  background: url(../../assets/mini/moana.jpg);
+  height: 19.79vw;
+  width: 13.2vw;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: contain; }
+
 a {
-  text-decoration: none; }
+  text-decoration: none;
+  color: #1b1c1f; }

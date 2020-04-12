@@ -3,12 +3,13 @@
 .category {
   display: flex;
   flex-direction: column;
-  margin-bottom: 6%;
 }
 
 .category__texts {
   display: flex;
   justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw;
 }
 
 .category__title {
@@ -18,10 +19,201 @@
 .category__movies {
   display: flex;
   justify-content: space-between;
+  margin-right: 5vw;
+  margin-left: 5vw;
+  margin-bottom: 5vh;
 }
 
 .movie {
-  background-color: gold;
-  width: 140px;
-  height: 140px;
+  box-shadow: 0px 0px 20px #121317;
+}
+
+.movie__elements {
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+    display: flex;
+    padding-top: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
+}
+
+.elements__text:hover {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.element__title {
+  color: $secondary-lighter;
+  font-family: "Nunito-Bold";
+  font-size: 16px;
+  line-height: 24px;
+  text-shadow: 0 0 5px $secondary-dark, 0 0 10px $secondary-dark,
+    0 0 10px $secondary-dark, 0 0 10px $secondary-dark;
+  //0 0 20px $secondary-lighter, 0 0 20px $secondary-lighter;
+  //0 0 20px $secondary-lighter, 0 0 20px $secondary-lighter;
+}
+
+.element__category {
+  color: $secondary-darker;
+  opacity: 0.5;
+  font-family: "Nunito";
+  font-size: $fiche;
+}
+
+.elements__icon {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+
+  & .element-icon {
+    width: auto;
+    height: 30%;
+  }
+
+  & .element__icon--play {
+    width: auto;
+    height: 40%;
+  }
+}
+
+.movie__chevron {
+  position: absolute;
+  top: 165px;
+  left: 70px;
+  text-align: center;
+}
+
+//Partie JS windows modal
+/*.category__modal {
+  margin-top: 5vh;
+}*/
+
+.category__modal--open {
+  //background: url(../../assets/mini/ready-Player-One.jpg);
+  background-position: 0% 25%;
+  background-size: cover;
+  animation: opening 0.5s;
+  height: 400px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  box-shadow: 0px 0px 20px #121317;
+  margin-bottom: 28px;
+}
+
+.category__modal--open:after {
+  content: "";
+  position: absolute;
+  height: 400px;
+  width: 100%;
+  opacity: 1;
+  animation: opening 0.5s;
+  margin-bottom: 28px;
+  background: linear-gradient(
+    to top,
+    rgba(0, 0, 0, 1) 5%,
+    rgba(0, 0, 0, 0.363)
+  );
+}
+
+.category__modal--close {
+  display: none;
+}
+
+@keyframes opening {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px;
+  }
+  to {
+    opacity: 1;
+    height: 400px;
+    margin-bottom: 28px;
+  }
+}
+
+@keyframes closing {
+  from {
+    opacity: 1;
+    height: 400px;
+    margin-bottom: 28px;
+  }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px;
+  }
+}
+
+.category__modal--closing {
+  //background: url(../../assets/mini/ready-Player-One.jpg);
+  animation: closing 0.3s;
+  height: 0px;
+  background-position: 0% 25%;
+  background-size: cover;
+}
+
+.modal__icons {
+  display: flex;
+  justify-content: space-between;
+  margin: 6.5vh 5vw 0 5vw;
+  z-index: 1;
+
+  &--left {
+    width: 5vw;
+    display: flex;
+    justify-content: space-between;
+  }
+}
+
+.modal__icon {
+  z-index: 1;
+  width: 2vw;
+
+  &--play {
+    z-index: 1;
+    width: 11vw;
+    align-self: center;
+  }
+}
+
+.modal__texts {
+  z-index: 1;
+  color: $secondary-light;
+  margin: 0 5vw 55px 5vw;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+}
+
+.butt {
+  z-index: 1;
+}
+
+.modal__title {
+  font-family: $h1-font;
+  font-size: 4vw;
+  text-transform: uppercase;
+}
+
+.modal__date {
+  font-family: $h3-font;
+  font-size: $h3;
+  margin-top: 15px;
+}
+
+.modal__synopsis {
+  font-family: $body-font;
+  font-size: $body;
+  width: 58vw;
+  margin-top: 10px;
+  line-height: 125%;
 }
