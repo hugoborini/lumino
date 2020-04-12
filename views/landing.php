@@ -20,8 +20,8 @@
         </article>
 
         <article class="hero__infos" data-aos="fade" data-aos-delay="1500" data-aos-duration="1500">
-            <h3>Start your free trial and watch thousands of movies wherever you want starting</h3>
-            <h3 class="price"> at <em> 6.99</em>$ /month</h3>
+            <h3>Start your free trial and watch thousands of movies wherever you want</h3>
+            <h3 class="price">starting at <em> 6.99</em>$ /month</h3>
         </article>
 
         <article class="buttonLP">

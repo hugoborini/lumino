@@ -6,7 +6,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--interstellar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/interstellar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -21,7 +21,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--hungerGames:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hunger-games.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -36,7 +36,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--fifthElement:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fifth-element.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -51,7 +51,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--avatar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/avatar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -66,7 +66,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--backToTheFuture:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/back-to-the-future.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -81,7 +81,7 @@
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--jurassicPark:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jurrasic-park.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
