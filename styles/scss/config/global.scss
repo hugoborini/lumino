@@ -1,3 +1,5 @@
+@import "../config/variable.scss";
+
 * {
   box-sizing: border-box;
 }
@@ -8,4 +10,18 @@ img {
 
 a {
   text-decoration: none;
+}
+
+.cta__noradius--yb {
+  cursor: pointer;
+  background-color: $primary;
+  border: none;
+  display: flex;
+  padding: 8px 18px;
+  height: fit-content;
+  width: fit-content;
+  font-family: $btn-font;
+  font-size: $btn;
+  color: $tertiary;
+  text-transform: uppercase;
 }

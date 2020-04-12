@@ -1,11 +1,12 @@
 @import "../config/variable.scss";
+@import "../config/global.scss";
 
 .form-container {
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  margin: 39px 26px 26px 10px;
+  width: 87%;
   line-height: 33px;
 }
 
@@ -13,35 +14,37 @@
   display: flex;
   height: 517px;
   margin: auto;
-  margin-top: 4%;
-  margin-bottom: 2%;
+  margin-bottom: 4%;
   border: solid 2px $primary;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
   width: 410px;
+  align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: $tertiary;
   color: $secondary-light;
+  padding-top: 38px;
+  padding-bottom: 38px;
 
   &__title {
     font-size: 32px;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
+    margin-bottom: 34px;
   }
   &__input {
-    width: 358px;
+    width: 100%;
     height: 35px;
   }
   &__input-container {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
+    font-family: $body-font;
+    font-size: $body;
     line-height: 22px;
   }
 
-  .btn {
-    width: 209px;
-    color: black;
+  .cta__register {
+    margin-top: 40px;
   }
 }
 
@@ -73,10 +76,5 @@
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     line-height: 22px;
-  }
-
-  .btn {
-    width: 209px;
-    color: black;
   }
 }

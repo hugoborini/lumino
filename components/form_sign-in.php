@@ -23,6 +23,6 @@
             <label>Password</label>
             <input type="password" name="pass" class="register__input"/>
         </div>
-        <input type="submit" class="btn button__connexion" value="Start my free trial">
+        <input type="submit" class="cta__noradius--yb cta__register" value="Start my free trial">
     </div>
 </form>
