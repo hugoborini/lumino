@@ -26,8 +26,8 @@ require("controller/controller.php");
     }
     else {
 
-        require("views/landing.php");
-        //require("views/player.php");
+        // require("views/landing.php");
+        require("views/player.php");
     }
 ?>
 
