@@ -12,26 +12,26 @@
 
 .register {
   display: flex;
-  height: 517px;
+  height: 42vw;
   margin: auto;
   margin-bottom: 4%;
   border: solid 2px $primary;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
-  width: 410px;
+  width: 30vw;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: $tertiary;
   color: $secondary-light;
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 
   &__title {
-    font-size: 32px;
+    font-size: 2.5vw;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-bottom: 34px;
+    margin-bottom: 1vw;
   }
   &__input {
     width: 100%;
@@ -44,32 +44,32 @@
   }
 
   .cta__register {
-    margin-top: 40px;
+    margin-top: 2vw;
   }
 }
 
 .login {
   display: flex;
-  height: 389px;
+  height: 35vw;
   margin: auto;
   margin-bottom: 4%;
   border: solid 2px $primary;
   box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
   border-radius: 8px;
-  width: 410px;
+  width: 30vw;
   align-items: center;
   flex-direction: column;
   justify-content: space-around;
   background-color: $tertiary;
   color: $secondary-light;
-  padding-top: 38px;
-  padding-bottom: 38px;
+  padding-top: 3vw;
+  padding-bottom: 3vw;
 
   &__title {
-    font-size: 32px;
+    font-size: 2.5vw;
     font-family: "Poppins", sans-serif;
     font-weight: 600;
-    margin-bottom: 34px;
+    margin-bottom: 3vw;
   }
   &__input {
     width: 100%;
@@ -82,7 +82,7 @@
   }
 
   .cta__register {
-    margin-top: 40px;
+    margin-top: 3vw;
   }
 
   .forgot-password {
