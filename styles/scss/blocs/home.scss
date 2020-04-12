@@ -29,11 +29,19 @@
 }
 
 .movie__elements {
-  display: flex;
-  padding-top: 80%;
+  opacity: 0;
+
+  &:hover {
+    opacity: 1;
+    display: flex;
+    padding-top: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%;
+  }
 }
 
-.elements__text {
+.elements__text:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end;
@@ -62,9 +70,22 @@
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
+
+  & .element-icon {
+    width: auto;
+    height: 30%;
+  }
+
+  & .element__icon--play {
+    width: auto;
+    height: 40%;
+  }
 }
 
 .movie__chevron {
+  position: absolute;
+  top: 165px;
+  left: 70px;
   text-align: center;
 }
 
@@ -133,7 +154,7 @@
 }
 
 .category__modal--closing {
-  background: url(../../assets/mini/ready-Player-One.jpg);
+  //background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closing 0.3s;
   height: 0px;
   background-position: 0% 25%;

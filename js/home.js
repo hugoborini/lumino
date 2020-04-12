@@ -44,7 +44,6 @@ for (let i = 0; i < categories.length; i++) {
   for (let j = 0; j < movies.length; j++) {
     let movie = movies[j];
     movie.addEventListener("click", function () {
-      movie.scrollTop += 10;
       checkModals();
       modal.classList.replace(
         "category__modal--close",

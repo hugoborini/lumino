@@ -502,10 +502,16 @@ footer {
   box-shadow: 0px 0px 20px #121317; }
 
 .movie__elements {
-  display: flex;
-  padding-top: 80%; }
+  opacity: 0; }
+  .movie__elements:hover {
+    opacity: 1;
+    display: flex;
+    padding-top: 80%;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-bottom: 2%; }
 
-.elements__text {
+.elements__text:hover {
   display: flex;
   flex-direction: column;
   align-items: flex-end; }
@@ -528,8 +534,17 @@ footer {
   flex-direction: column;
   text-align: center;
   justify-content: space-between; }
+  .elements__icon .element-icon {
+    width: auto;
+    height: 30%; }
+  .elements__icon .element__icon--play {
+    width: auto;
+    height: 40%; }
 
 .movie__chevron {
+  position: absolute;
+  top: 165px;
+  left: 70px;
   text-align: center; }
 
 /*.category__modal {
@@ -821,16 +836,28 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
-  .movie--avengers::hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.89) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg); }
+  .movie--avengers:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--kingsman {
-  background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.89) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/kingsman.jpg);
+  background: url(../../assets/mini/kingsman.jpg);
   height: 19.79vw;
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--kingsman:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--readyPlayerOne {
   background: url(../../assets/mini/ready-player-one.jpg);
@@ -839,6 +866,13 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--readyPlayerOne:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--matrix {
   background: url(../../assets/mini/matrix.jpg);
@@ -847,6 +881,13 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--matrix:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--1917 {
   background: url(../../assets/mini/1917.jpg);
@@ -855,6 +896,13 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--1917:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--kickAss {
   background: url(../../assets/mini/kick-ass.jpg);
@@ -863,6 +911,13 @@ video {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--kickAss:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
+    height: 21.79vw;
+    width: 15.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--bigLebowski {
   background: url(../../assets/mini/big-Lebowski.jpg);
