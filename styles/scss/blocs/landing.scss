@@ -76,7 +76,7 @@
   color: $secondary-light;
   display: flex;
   align-items: center;
-  height: 32vw;
+  margin-bottom: 10vw;
 
   .movies__text,
   .download__text,
@@ -95,7 +95,7 @@
     font-family: $body-font;
     line-height: 1.2em * 1.2;
     justify-content: start;
-    max-width: 581px;
+    //max-width: 581px;
     padding-top: 1.43vw;
     // max-width: 566px;
   }

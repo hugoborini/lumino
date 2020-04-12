@@ -57,7 +57,7 @@
   color: #f0f1f3;
   display: flex;
   align-items: center;
-  height: 32vw; }
+  margin-bottom: 10vw; }
   .watch .movies__text,
   .watch .download__text,
   .watch .watch__text,
@@ -81,7 +81,6 @@
     font-family: "Nunito";
     line-height: 1.44em;
     justify-content: start;
-    max-width: 581px;
     padding-top: 1.43vw; }
 
 .watch__mockup {

@@ -5,6 +5,7 @@
 @import "blocs/form.scss";
 @import "pages/register.scss";
 @import "config/error.scss";
+@import "config/variable.scss";
 @import "blocs/landing.scss";
 @import "blocs/footer.scss";
 @import "blocs/header_homepage.scss";
@@ -25,6 +26,7 @@
 
 a {
   text-decoration: none;
+  color: $tertiary;
 }
 
 
