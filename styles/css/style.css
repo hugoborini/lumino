@@ -202,16 +202,16 @@ a {
 
 .error {
   background-color: lightcoral;
-  height: 30px;
-  width: 410px;
+  height: 2vw;
+  width: 22vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito"; }
 
 @keyframes openingModal {
   from {
@@ -240,7 +240,6 @@ header {
   padding-right: 80px;
   background-color: black;
   height: 65px; }
-
   header .container-image {
     margin-left: 4vw;
     display: flex;
@@ -297,6 +296,7 @@ footer {
 
 .headerHome {
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100vw;
   display: flex;
@@ -382,6 +382,9 @@ footer {
 
 .headerHome__bell img {
   width: 1.4vw; }
+
+.icon_user {
+  border-radius: 50%; }
 
 @keyframes openingModal {
   from {
@@ -578,7 +581,6 @@ a {
     font-size: 1.95vw;
     line-height: 2.4vw;
     font-weight: 800; }
-
   .watch__body,
   .movies__body,
   .download__body {
@@ -884,6 +886,11 @@ a {
   font-family: "Nunito";
   font-size: 1.13vw;
   text-decoration: underline; }
+
+.center__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw; }
 
 .main__movie {
   padding-top: 2.5vw;

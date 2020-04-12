@@ -1,12 +1,12 @@
 .error {
   background-color: lightcoral;
-  height: 30px;
-  width: 410px;
+  height: 2vw;
+  width: 22vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito"; }
