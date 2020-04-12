@@ -580,18 +580,20 @@ a {
   padding-right: 0.7%; }
 
 .movie__elements {
+  border: 1px solid red;
   opacity: 0;
   display: flex;
   justify-content: space-between;
   padding-bottom: 40%; }
   .movie__elements:hover {
     opacity: 1;
-    padding-top: 85%;
+    padding-top: 90%;
+    padding-bottom: 10%;
+    margin-top: 10%;
     margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10%; }
+    margin-right: 2%; }
 
-.elements__text:hover {
+.elements__text {
   display: flex;
   flex-direction: column; }
 
@@ -1191,7 +1193,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--plateform:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-platform.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1206,7 +1208,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--shinning:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-shining.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1221,7 +1223,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--jaws:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jaws.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1236,7 +1238,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--midsommar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/midsommar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1251,7 +1253,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--invisible:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-invisible-man.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1266,7 +1268,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--paranormal:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/paranormal-activity.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1281,7 +1283,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--pedal:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/pedal-the-world.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1296,7 +1298,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--fahrenheit:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fahrenheit-911.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1311,7 +1313,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--plasticOcean:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/a-plastic-ocean.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1326,7 +1328,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--heartsOfDarkness:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hearts-of-darkness.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1341,7 +1343,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--youNegro:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/i-am-not-your-negro.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1356,7 +1358,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--creativeBrain:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-creative-brain.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1371,7 +1373,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--interstellar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/interstellar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1386,7 +1388,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--hungerGames:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hunger-games.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1401,7 +1403,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--fifthElement:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fifth-element.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1416,7 +1418,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--avatar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/avatar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1431,7 +1433,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--backToTheFuture:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/back-to-the-future.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1446,7 +1448,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--jurassicPark:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jurrasic-park.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1461,7 +1463,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--frozen:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/frozen.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1476,7 +1478,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--insideOut:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/inside-out.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1491,7 +1493,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--peterPan:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/peter-pan.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1506,7 +1508,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--walle:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/wall-e.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1521,7 +1523,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--incredibles:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-incredibles.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1536,7 +1538,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--moana:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/moana.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;

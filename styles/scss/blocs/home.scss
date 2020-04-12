@@ -43,6 +43,7 @@
 }
 
 .movie__elements {
+  border: 1px solid red;
   opacity: 0;
   display: flex;
   justify-content: space-between;
@@ -50,14 +51,15 @@
 
   &:hover {
     opacity: 1;
-    padding-top: 85%;
+    padding-top: 90%;
+    padding-bottom: 10%;
+    margin-top: 10%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 10%;
   }
 }
 
-.elements__text:hover {
+.elements__text {
   display: flex;
   flex-direction: column;
 }
