@@ -6,12 +6,15 @@ header {
   align-items: center;
   padding-right: 80px;
   background-color: black;
-  height: 84px;
+  height: 65px;
 
   .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center;
+    img {
+      height: 30px;
+    }
   }
 
   .buttons__header {

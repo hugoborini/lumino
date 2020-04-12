@@ -170,7 +170,11 @@ a {
   color: #1b1c1f;
   font-family: "Nunito-Bold";
   font-size: 1.13vw;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 0.3s; }
+  .cta__noradius--yb:hover {
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 5px #feca28); }
 
 @font-face {
   font-family: "Radikal-Bold";
@@ -235,11 +239,14 @@ header {
   align-items: center;
   padding-right: 80px;
   background-color: black;
-  height: 84px; }
+  height: 65px; }
+
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
+    header .container-image img {
+      height: 30px; }
   header .buttons__header {
     display: flex; }
   header .cta__margin {
@@ -268,6 +275,26 @@ footer {
       width: auto;
       height: 80%; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 .headerHome {
   position: fixed;
   z-index: 1;
@@ -276,12 +303,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #1b1c1f;
-  height: 6vw;
-  font-family: "Nunito", sans-serif;
+  height: 65px;
+  font-family: "Nunito";
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
+    .headerHome .headerHome__logo img {
+      height: 30px; }
 
 .nav {
   display: flex; }
@@ -317,13 +346,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  border: 2px solid blue; }
   .search__loupe {
     position: absolute;
-    top: 0.2vw;
+    background-color: greenyellow;
     left: -3.5vw;
     width: 1.3vw;
-    padding: 0 1vw; }
+    height: 2vw;
+    padding: 0 1vw;
+    border: 2px solid red; }
 
 .search__input {
   text-align: left;
@@ -338,11 +370,15 @@ footer {
   font-size: 0.99vw; }
 
 .headerHome__profil img {
-  width: 3vw;
+  width: 2.2vw;
   color: #c8d3d7; }
 
 .headerHome__disconnect {
-  margin-right: 4vw; }
+  width: 2.5vw; }
+  .headerHome__disconnect img {
+    transition: all 0.2s; }
+    .headerHome__disconnect img:hover {
+      filter: drop-shadow(0px 0px 3px #feca28); }
 
 .headerHome__bell img {
   width: 1.4vw; }
@@ -387,7 +423,11 @@ a {
   color: #1b1c1f;
   font-family: "Nunito-Bold";
   font-size: 1.13vw;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+  transition: all 0.3s; }
+  .cta__noradius--yb:hover {
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 5px #feca28); }
 
 .form-container {
   height: 100%;
@@ -538,6 +578,7 @@ a {
     font-size: 1.95vw;
     line-height: 2.4vw;
     font-weight: 800; }
+
   .watch__body,
   .movies__body,
   .download__body {
@@ -613,18 +654,20 @@ a {
   padding-right: 0.7%; }
 
 .movie__elements {
+  border: 1px solid red;
   opacity: 0;
   display: flex;
   justify-content: space-between;
   padding-bottom: 40%; }
   .movie__elements:hover {
     opacity: 1;
-    padding-top: 85%;
+    padding-top: 90%;
+    padding-bottom: 10%;
+    margin-top: 10%;
     margin-left: 2%;
-    margin-right: 2%;
-    margin-bottom: 10%; }
+    margin-right: 2%; }
 
-.elements__text:hover {
+.elements__text {
   display: flex;
   flex-direction: column; }
 
@@ -843,7 +886,7 @@ a {
   margin-left: 2.5vw; }
 
 .main__movie {
-  padding-top: 5.3vw;
+  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
@@ -860,11 +903,12 @@ a {
 
 .category__path {
   position: absolute;
-  top: 1vw;
+  top: 5vw;
   left: 4vw;
   font-family: "Nunito-SemiBold";
   font-size: 1.2vw;
-  color: #c8d3d7; }
+  color: #c8d3d7;
+  text-shadow: 0px 0px 13px #0b0b0b; }
   .category__path span {
     font-family: "Nunito-Bold";
     font-size: 1.42vw; }
@@ -907,27 +951,43 @@ a {
 
 .genre {
   display: flex;
-  border: 2px solid red;
-  margin: 0vw 4vw; }
-
-.genre__movie {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid blue; }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0vw 4vw;
+  color: #c8d3d7; }
+  .genre__movie {
+    flex-direction: column;
+    width: 43vw;
+    margin-bottom: 5vw; }
 
 .genre__box {
-  display: flex;
-  border: 2px solid green; }
+  display: flex; }
 
-.box__picture {
-  border: 2px solid orangered; }
-  .box__picture img {
-    width: 15vw; }
+.box__picture img {
+  width: 45vw; }
 
 .box__description {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow; }
+  justify-content: space-between;
+  margin-left: 2vw; }
+
+.genre__title {
+  font-family: "Nunito-Bold";
+  font-size: 1.56vw;
+  margin-bottom: 2vw; }
+
+.description__item {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw;
+  line-height: 1.6vw; }
+  .description__item span {
+    color: #feca28; }
+
+.button__item:nth-child(n+2) {
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw; }
 
 .show_up {
   width: 15vw;
@@ -1224,7 +1284,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--plateform:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-platform.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1239,7 +1299,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--shinning:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-shining.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1254,7 +1314,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--jaws:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jaws.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1269,7 +1329,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--midsommar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/midsommar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1284,7 +1344,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--invisible:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-invisible-man.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1299,7 +1359,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--paranormal:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/paranormal-activity.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1314,7 +1374,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--pedal:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/pedal-the-world.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1329,7 +1389,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--fahrenheit:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fahrenheit-911.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1344,7 +1404,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--plasticOcean:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/a-plastic-ocean.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1359,7 +1419,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--heartsOfDarkness:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hearts-of-darkness.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1374,7 +1434,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--youNegro:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/i-am-not-your-negro.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1389,7 +1449,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--creativeBrain:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-creative-brain.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1404,7 +1464,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--interstellar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/interstellar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1419,7 +1479,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--hungerGames:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hunger-games.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1434,7 +1494,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--fifthElement:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fifth-element.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1449,7 +1509,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--avatar:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/avatar.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1464,7 +1524,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--backToTheFuture:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/back-to-the-future.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1479,7 +1539,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--jurassicPark:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jurrasic-park.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1494,7 +1554,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--frozen:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/frozen.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1509,7 +1569,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--insideOut:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/inside-out.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1524,7 +1584,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--peterPan:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/peter-pan.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1539,7 +1599,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--walle:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/wall-e.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1554,7 +1614,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--incredibles:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-incredibles.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;
@@ -1569,7 +1629,7 @@ body {
   background-repeat: no-repeat;
   background-size: contain; }
   .movie--moana:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/moana.jpg);
     height: 20.79vw;
     width: 14.2vw;
     background-position: center;

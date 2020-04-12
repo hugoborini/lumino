@@ -4,11 +4,14 @@ header {
   align-items: center;
   padding-right: 80px;
   background-color: black;
-  height: 84px; }
+  height: 65px; }
+
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
+    header .container-image img {
+      height: 30px; }
   header .buttons__header {
     display: flex; }
   header .cta__margin {
