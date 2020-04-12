@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 .headerHome {
   position: fixed;
@@ -105,6 +106,13 @@
 
 .headerHome__disconnect {
   width: 2.5vw;
+
+  img {
+    transition: all 0.2s;
+    &:hover {
+      @include neon-effect($primary, 3px);
+    }
+  }
 }
 
 .headerHome__bell {
