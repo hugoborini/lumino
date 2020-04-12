@@ -42,17 +42,22 @@
 
 .search {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative; }
-  .search__bell {
-    padding: 0 1vw;
-    fill: white; }
+  .search__loupe {
+    position: absolute;
+    top: 0.2vw;
+    left: -3.5vw;
+    width: 1.3vw;
+    padding: 0 1vw; }
 
 .search__input {
   text-align: left;
   font-family: "Nunito", sans-serif;
   width: 15vw;
   border-radius: 5px;
-  padding: 0.3vw;
+  padding: 0.2vw;
   font-size: 0.99vw; }
 
 .headerHome__name {
@@ -65,3 +70,6 @@
 
 .headerHome__disconnect {
   margin-right: 4vw; }
+
+.headerHome__bell img {
+  width: 1.4vw; }
