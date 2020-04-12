@@ -94,12 +94,18 @@
   margin-top: 5vh;
 }*/
 
+$height-modal: 450px;
+
+@mixin neon-effect($color, $size) {
+  filter: drop-shadow(0px 0px $size $color);
+}
+
 .category__modal--open {
   //background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
   animation: opening 0.5s;
-  height: 400px;
+  height: $height-modal;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -111,7 +117,7 @@
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 400px;
+  height: $height-modal;
   width: 100%;
   opacity: 1;
   animation: opening 0.5s;
@@ -135,7 +141,7 @@
   }
   to {
     opacity: 1;
-    height: 400px;
+    height: $height-modal;
     margin-bottom: 28px;
   }
 }
@@ -143,7 +149,7 @@
 @keyframes closing {
   from {
     opacity: 1;
-    height: 400px;
+    height: $height-modal;
     margin-bottom: 28px;
   }
   to {
@@ -177,11 +183,24 @@
 .modal__icon {
   z-index: 1;
   width: 2vw;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    @include neon-effect($primary, 3px);
+    transform: scale(1.1);
+  }
 
   &--play {
     z-index: 1;
     width: 11vw;
     align-self: center;
+    transition: all 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      @include neon-effect($primary, 10px);
+    }
   }
 }
 
