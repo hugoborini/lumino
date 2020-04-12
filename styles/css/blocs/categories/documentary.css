@@ -4,7 +4,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--pedal:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/pedal-the-world.jpg);
     height: 20.79vw;
@@ -19,7 +20,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--fahrenheit:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fahrenheit-911.jpg);
     height: 20.79vw;
@@ -34,7 +36,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--plasticOcean:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/a-plastic-ocean.jpg);
     height: 20.79vw;
@@ -49,7 +52,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--heartsOfDarkness:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hearts-of-darkness.jpg);
     height: 20.79vw;
@@ -64,7 +68,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--youNegro:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/i-am-not-your-negro.jpg);
     height: 20.79vw;
@@ -79,7 +84,8 @@
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: all 0.1s linear; }
   .movie--creativeBrain:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-creative-brain.jpg);
     height: 20.79vw;

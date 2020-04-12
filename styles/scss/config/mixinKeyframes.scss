@@ -2,6 +2,7 @@
 
 @mixin neon-effect($color, $size) {
   filter: drop-shadow(0px 0px $size $color);
+  cursor: pointer;
 }
 
 @mixin cta($colorfont, $colorbackground) {

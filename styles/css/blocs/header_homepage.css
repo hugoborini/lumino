@@ -102,7 +102,8 @@
   .headerHome__disconnect img {
     transition: all 0.2s; }
     .headerHome__disconnect img:hover {
-      filter: drop-shadow(0px 0px 3px #feca28); }
+      filter: drop-shadow(0px 0px 3px #feca28);
+      cursor: pointer; }
 
 .headerHome__bell img {
   width: 1.4vw; }
