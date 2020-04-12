@@ -237,7 +237,6 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-
   padding-right: 4vw;
   background-color: #1b1c1f;
   height: 5vw; }
@@ -586,7 +585,9 @@ a {
     font-family: "Poppins";
     font-size: 1.95vw;
     line-height: 2.4vw;
-    font-weight: 800; }
+    font-weight: 800;
+    margin-left: 80px;
+    margin-right: 80px; }
   .watch__body,
   .movies__body,
   .download__body {
