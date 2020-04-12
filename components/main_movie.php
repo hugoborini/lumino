@@ -1,5 +1,6 @@
 <section class="main__movie">
     <div class="category__main">
+      <div class="video__wrapper"></div>
       <div class="category__video"><video autoplay="true" loop muted src="./assets/video/1917.mp4">Votre navigateur ne supporte pas la vidéo</video></div>
       <?php
       if(empty($_GET['genre'])) {
