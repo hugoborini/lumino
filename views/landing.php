@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
 
-    <title>Document</title>
+    <title>Lumino</title>
 </head>
 
 <body>
@@ -20,8 +20,8 @@
         </article>
 
         <article class="hero__infos" data-aos="fade" data-aos-delay="1500" data-aos-duration="1500">
-            <p>Start your free trial and watch thousands of movies wherever you want starting</p>
-            <p class="price"> at <em> 6.99$ </em>/month</p>
+            <h3>Start your free trial and watch thousands of movies wherever you want starting</h3>
+            <h3 class="price"> at <em> 6.99</em>$ /month</h3>
         </article>
 
         <article class="buttonLP">
@@ -41,12 +41,12 @@
     <section class="landingpage">
         <section class="watch">
             <article class="watch__text">
-                <p class="watch__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Watch movies
-                    wherever, wheneveryou want.</p>
-                <p class="watch__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">On your desktop,
+                <h3 class="watch__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Watch movies
+                    wherever, wheneveryou want.</h3>
+                <h3 class="watch__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">On your desktop,
                     on your laptop, your tablet or your phone, we are
                     availableeverywhere, on any device.No need for internet connection to watch your favorite movies,
-                    juste download them and whatch themlater.</p>
+                    juste download them and whatch themlater.</h3>
             </article>
 
             <article class="watch__mockup">
@@ -63,11 +63,11 @@
             </article>
 
             <article class="movies__text">
-                <p class="movies__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">New movies
-                    continuously added.</p>
-                <p class="movies__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">We are doing
+                <h3 class="movies__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">New movies
+                    continuously added.</h3>
+                <h3 class="movies__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">We are doing
                     everything we can to provide you new movies as often as possible.
-                    We have a large library of movies that will grow weeks after weeks.</p>
+                    We have a large library of movies that will grow weeks after weeks.</h3>
             </article>
 
 
@@ -75,11 +75,11 @@
 
         <section class="download">
             <article class="download__text">
-                <p class="download__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Download all
-                    your favorite movies to watch them offline.</p>
-                <p class="download__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">Our large
+                <h3 class="download__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Download all
+                    your favorite movies to watch them offline.</h3>
+                <h3 class="download__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">Our large
                     number of servers allow you to download up to 10Go of movies on your
-                    account for 15 days.</p>
+                    account for 15 days.</h3>
             </article>
 
             <article class="download__mockup">
@@ -98,9 +98,9 @@
     <?php  require("components/footer.php") ?>
 
 </body>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
-</script>
+</script> -->
 
 </html>

@@ -6,7 +6,6 @@
   color: #f0f1f3;
   display: flex;
   flex-direction: column;
-  align-items: center;
   justify-content: center;
   height: 84vh;
   width: 100%;
@@ -14,16 +13,17 @@
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
+    font-weight: lighter;
     font-size: 3vw;
     padding-bottom: 25px; }
   .hero__infos {
-    font-family: "Nunito";
-    font-size: 2vw; }
+    font-family: "Nunito ExtraLight";
+    font-size: 1.8vw; }
     .hero__infos em {
-      font-weight: 600;
-      font-size: 3vw;
-      padding-left: 5px;
-      padding-right: 5px; }
+      align-self: flex-end;
+      font-size: 2.5vw;
+      font-family: "Nunito-Bold";
+      padding-left: 5px; }
   .hero .price {
     display: flex;
     justify-content: center;
@@ -33,14 +33,13 @@
 .buttonLP {
   display: flex;
   align-items: center;
-  margin-right: 4vw;
-  justify-content: center; }
+  justify-content: center;
+  padding-top: 4vw; }
   .buttonLP__connexion {
     background-color: #feca28;
-    width: 240px;
-    height: 38px;
+    width: 16vw;
+    height: 3.5vw;
     border: none;
-    margin-right: 13px;
     font-family: "Nunito", sans-serif;
     font-size: 16px;
     font-weight: 600; }
@@ -73,13 +72,14 @@
   .watch__title,
   .movies__title,
   .download__title {
-    font-family: "Nunito-SemiBold"; }
+    font-family: "Poppins";
+    font-size: 2.5vw; }
   .watch__body,
   .movies__body,
   .download__body {
+    font-size: 1.9vw;
     font-family: "Nunito";
-    line-height: 1.44em;
-    justify-content: start;
+    line-height: 2.28vw;
     padding-top: 1.43vw; }
 
 .watch__mockup {
