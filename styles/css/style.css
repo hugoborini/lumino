@@ -957,8 +957,7 @@ a {
     left: 50%;
     transform: translate(-50%, -50%);
     justify-content: space-between;
-    align-items: center;
-    border: 1px solid wheat; }
+    align-items: center; }
     .video .container svg {
       width: 2vw; }
     .video .container__title {
