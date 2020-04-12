@@ -1,5 +1,5 @@
 <div class="video">
-    <video > <source src="assets/video/1917.mp4"></video>
+    <video class="player__video" poster="assets/mini/1917.jpg"> <source src="assets/video/1917.mp4"></video>
     <div class="video__container ">
         <div class="bar"><div class="progressBar"></div></div>
      <div class="container">

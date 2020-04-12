@@ -1,7 +1,7 @@
 <?php 
 
 function dbConnect() {
-    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch (Exception  $e) {
     die('Error : ' .  $e->getMessage());
@@ -67,7 +67,7 @@ function search($text) {
         "title" => $text,
     ]);
     while ($search_data = $get_title->fetch(PDO::FETCH_ASSOC)){
-        echo "<a href='#'>" . $search_data['title'] . "</a>";
+        echo "<a href='index.php?action=home&film=" .$search_data['title'] . "'>" . $search_data['title'] . "</a>";
     }
     $get_title->closeCursor();
 }
