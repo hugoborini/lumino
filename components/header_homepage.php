@@ -2,7 +2,7 @@
 <header class="headerHome">
 
     <div class="headerHome__logo">
-        <img src="assets/icon/logo_svg.png" alt="logo_lumino">
+        <a href="index.php?action=home"><img src="assets/icon/logo_svg.png" alt="logo_lumino"></a>
     </div>
     <div class="headerHome__nav nav">
       <a href="index.php?action=home"><div class="nav__item">Home</div></a>
@@ -35,12 +35,12 @@
     <div class="headerHome__profil">
       <a href="index.php?action=user">
       <?php
-       if (file_exists($filepath)) 
-       {
-       ?>
-       <img class="icon_user" src="assets/uploads/<?=$_SESSION['id']?>.png" alt="picture profile" srcset="">
-       <?php
-       } else {
+      if (file_exists($filepath)) 
+      {
+      ?>
+      <img class="icon_user" src="assets/uploads/<?=$_SESSION['id']?>.png" alt="picture profile" srcset="">
+      <?php
+      } else {
       ?>
         <img src="assets/img/profil.png.png"/>
         <?php
