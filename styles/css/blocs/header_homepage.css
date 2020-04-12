@@ -20,6 +20,7 @@
 
 .headerHome {
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100vw;
   display: flex;
@@ -105,3 +106,6 @@
 
 .headerHome__bell img {
   width: 1.4vw; }
+
+.icon_user {
+  border-radius: 50%; }

@@ -1,3 +1,6 @@
+<?php
+$filepath = 'assets/uploads/'.$_SESSION['id'].".png";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -16,15 +19,28 @@
       <div class="user__image">
 
         <div class="user__picture">
-
-          <img src="assets/img/profil.png.png" alt="picture profil"/>
-
+        <?php
+        if (file_exists($filepath)) 
+        {
+        ?>
+        <img src="assets/uploads/<?=$_SESSION['id']?>.png" alt="picture profile" srcset="">
+        <?php
+      } else {
+        ?>
+         <img src="assets/img/profil.png.png" alt="picture profil"/>
+        <?php
+      }?>
         </div>
 
-        <div class="button__image">
-          <input type="submit" class="button__end button__picture" value="UPLOAD PICTURE">
-          <input type="submit" class="button__end button__picture" value="DELETE">
-        </div>
+          <?php
+      if(isset($_GET['error_format']) and $_GET['error_format']== 1){
+        echo "<div class='center__error'><p class='error'>BAD FORMAT WE ONLY ACCEPT PNG</p></div>";
+      }
+      ?>
+        <form action="index.php?action=upload" method="post" enctype="multipart/form-data"class="button__image">
+          <input type="file" class="button__end button__picture" name="photo">
+          <input type="submit" class="button__end button__picture" value="UPLOAD">
+        </form>
 
       </div>
 
@@ -65,6 +81,7 @@
         </form>
         <div class="user__delete"><a class="delete__button" href="index.php?action=delete">Delete account</a></div>
       </div>
+   
 
     
 

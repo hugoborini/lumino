@@ -1,4 +1,6 @@
-
+<?php
+$filepath = 'assets/uploads/'.$_SESSION['id'].".png";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>

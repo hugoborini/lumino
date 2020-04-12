@@ -31,7 +31,22 @@
     <div class="headerHome__bell"><img src="assets/icon/bell.svg"/></div>
     <div class="headerHome__name">Hello <?php echo $_SESSION['firstname']; ?> !</div>
 
-    <div class="headerHome__profil"><a href="index.php?action=user"><img src="assets/img/profil.png.png"/></a></div>
+    <div class="headerHome__profil">
+      <a href="index.php?action=user">
+      <?php
+       if (file_exists($filepath)) 
+       {
+       ?>
+       <img class="icon_user" src="assets/uploads/<?=$_SESSION['id']?>.png" alt="picture profile" srcset="">
+       <?php
+       } else {
+      ?>
+        <img src="assets/img/profil.png.png"/>
+        <?php
+        }
+        ?>
+      </a>
+    </div>
 
     <div class="headerHome__disconnect"><a href="index.php?action=deco"><img src="assets/icon/unlog.svg"/></a></div>
 

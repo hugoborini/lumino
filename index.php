@@ -38,12 +38,15 @@ require("controller/controller.php");
             // }
             checkInput($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['pass']);
         }
+        elseif( $_GET['action'] == "upload"){
+            upload();
+        }
     }
     else {
-        //require("views/landing.php");
+        require("views/landing.php");
         //require("views/player.php");
         //require("views/genre.php");
-        require("views/home.php");
+        //require("views/home.php");
     }
 ?>
 
