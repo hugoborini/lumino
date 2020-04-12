@@ -144,7 +144,7 @@
                     data-category="Comedy" 
                     data-synopsis="Jeff, The Dude, Lebowski, mistaken for a millionaire of the same name, seeks restitution for his ruined rug and enlists his bowling buddies to help get it." 
                     data-released="1998"
-                    data-mini="big-Lebowski.jpg">1
+                    data-mini="big-Lebowski.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Big Lebowski</p>
@@ -165,7 +165,7 @@
                     data-category="Comedy" 
                     data-synopsis="After he becomes a quadriplegic from a paragliding accident, an aristocrat hires a young man from the projects to be his caregiver." 
                     data-released="2011"
-                    data-mini="intouchables.jpg">2
+                    data-mini="intouchables.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Intouchables</p>
@@ -183,7 +183,7 @@
                     data-category="Comedy" 
                     data-synopsis="At the end of his career, a clueless fashion model is brainwashed to kill the Prime Minister of Malaysia." 
                     data-released="2001"
-                    data-mini="zoolander.jpg">3
+                    data-mini="zoolander.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zoolander</p>
@@ -201,7 +201,7 @@
                     data-category="Comedy" 
                     data-synopsis="A family determined to get their young daughter into the finals of a beauty pageant take a cross-country trip in their VW bus." 
                     data-released="2006"
-                    data-mini="little-miss-sunshine.jpg">4
+                    data-mini="little-miss-sunshine.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Little Miss Sunshine</p>
@@ -219,7 +219,7 @@
                     data-category="Comedy" 
                     data-synopsis="Competition between the maid of honor and a bridesmaid, over who is the bride's best friend, threatens to upend the life of an out-of-work pastry chef." 
                     data-released="2011"
-                    data-mini="bridesmaids.jpg">5
+                    data-mini="bridesmaids.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Bridesmaids</p>
@@ -237,7 +237,7 @@
                     data-category="Comedy" 
                     data-synopsis="A shy student trying to reach his family in Ohio, a gun-toting tough guy trying to find the last Twinkie, and a pair of sisters trying to get to an amusement park join forces to travel across a zombie-filled America." 
                     data-released="2009"
-                    data-mini="zombieland.jpg">6
+                    data-mini="zombieland.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Zombieland</p>
@@ -264,7 +264,7 @@
                     data-category="Horror" 
                     data-synopsis="A vertical prison with one cell per level. Two people per cell. One only food platform and two minutes per day to feed from up to down. An endless nightmare trapped in The Hole." 
                     data-released="2019"
-                    data-mini="the-platform.jpg">1
+                    data-mini="the-platform.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Plateform</p>
@@ -285,7 +285,7 @@
                     data-category="Horror" 
                     data-synopsis="A family heads to an isolated hotel for the winter where a sinister presence influences the father into violence, while his psychic son sees horrific forebodings from both past and future." 
                     data-released="1980"
-                    data-mini="the-shining.jpg">2
+                    data-mini="the-shining.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Shining</p>
@@ -303,7 +303,7 @@
                     data-category="Horror" 
                     data-synopsis="When a killer shark unleashes chaos on a beach community, it\'s up to a local sheriff, a marine biologist, and an old seafarer to hunt the beast down." 
                     data-released="1975"
-                    data-mini="jaws.jpg">3
+                    data-mini="jaws.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Jaws</p>
@@ -321,7 +321,7 @@
                     data-category="Horror" 
                     data-synopsis="A couple travels to Sweden to visit a rural hometown\'s fabled mid-summer festival. What begins as an idyllic retreat quickly devolves into an increasingly violent and bizarre competition at the hands of a pagan cult." 
                     data-released="2019"
-                    data-mini="midsommar.jpg">4
+                    data-mini="midsommar.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Midsommar</p>
@@ -339,7 +339,7 @@
                     data-category="Horror" 
                     data-synopsis="When Cecilia's abusive ex takes his own life and leaves her his fortune, she suspects his death was a hoax. As a series of coincidences turn lethal, Cecilia works to prove that she is being hunted by someone nobody can see." 
                     data-released="2020"
-                    data-mini="the-invisible-man.jpg">5
+                    data-mini="the-invisible-man.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">The Invisible Man</p>
@@ -357,7 +357,7 @@
                     data-category="Horror" 
                     data-synopsis="After moving into a suburban home, a couple becomes increasingly disturbed by a nightly demonic presence." 
                     data-released="2009"
-                    data-mini="paranormal-activity.jpg">6
+                    data-mini="paranormal-activity.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
                             <p class="element__title">Paranormal activity</p>
