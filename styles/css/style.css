@@ -149,6 +149,19 @@ table {
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); }
 
+.error {
+  background-color: lightcoral;
+  height: 30px;
+  width: 410px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 18px;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Nunito", sans-serif; }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -173,29 +186,96 @@ header {
     font-size: 16px;
     font-weight: 600; }
 
-header {
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0b0a0a;
+  padding: 4%; }
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  line-height: 250%;
+  font-size: 1.2vw; }
+  .footer__text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer__text div img {
+      width: auto;
+      height: 80%; }
+
+.headerHome {
   display: flex;
   justify-content: space-between;
-  background: #000;
-  height: 84px; }
-  header .container-image {
-    margin-left: 4vw;
-    display: flex;
-    align-items: center; }
-
-.button {
-  display: flex;
   align-items: center;
+  background-color: #1b1c1f;
+  height: 6vw;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .headerHome .headerHome__logo {
+    margin-left: 4vw;
+    display: flex; }
+
+.nav {
+  display: flex; }
+  .nav .nav__item {
+    margin: 0 2vw;
+    color: #c8d3d7;
+    font-size: 0.99vw;
+    position: relative; }
+    .nav .nav__item .item__arrow {
+      width: 0.8vw; }
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 2vw;
+    left: -2.5vw;
+    width: 10vw;
+    background-color: #1b1c1f;
+    font-size: 0.99vw;
+    text-align: center; }
+    .nav ul li {
+      line-height: 3; }
+    .nav ul a {
+      color: #c8d3d7; }
+
+.nav .nav__item .appear {
+  display: block; }
+  .nav .nav__item .appear li:hover {
+    background-color: #feca28; }
+    .nav .nav__item .appear li:hover a {
+      color: #1b1c1f; }
+
+.search {
+  display: flex;
+  position: relative; }
+  .search__bell {
+    padding: 0 1vw;
+    fill: white; }
+
+.search__input {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  width: 15vw;
+  border-radius: 5px;
+  padding: 0.3vw;
+  font-size: 0.99vw; }
+
+.headerHome__name {
+  color: #c8d3d7;
+  font-size: 0.99vw; }
+
+.headerHome__profil img {
+  width: 3vw;
+  color: #c8d3d7; }
+
+.headerHome__disconnect {
   margin-right: 4vw; }
-  .button__connexion {
-    background-color: #feca28;
-    width: 120px;
-    height: 38px;
-    border: none;
-    margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
 
 .form-container {
   height: 100%;
@@ -262,30 +342,6 @@ header {
   .login .btn {
     width: 209px;
     color: black; }
-
-body {
-  background-color: #1b1c1f; }
-
-.back {
-  width: 90vw;
-  margin: 1% auto;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px; }
-  .back a {
-    color: white; }
-
-.error {
-  background-color: lightcoral;
-  height: 30px;
-  width: 410px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 500;
-  font-size: 18px;
-  border-radius: 5px;
-  margin: auto;
-  font-family: "Nunito", sans-serif; }
 
 .landingpage {
   margin-left: 80px;
@@ -385,97 +441,6 @@ body {
   right: 1.58vw;
   top: 13.9vw;
   height: 7vh; }
-
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #0b0a0a;
-  padding: 4%; }
-
-.footer__text {
-  display: flex;
-  flex-direction: column;
-  color: #a9bac1;
-  font-family: "Nunito", sans-serif;
-  font-weight: lighter;
-  line-height: 250%;
-  font-size: 1.2vw; }
-  .footer__text div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .footer__text div img {
-      width: auto;
-      height: 80%; }
-
-.headerHome {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1b1c1f;
-  height: 6vw;
-  font-family: "Nunito", sans-serif;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  .headerHome .headerHome__logo {
-    margin-left: 4vw;
-    display: flex; }
-
-.nav {
-  display: flex; }
-  .nav .nav__item {
-    margin: 0 2vw;
-    color: #c8d3d7;
-    font-size: 0.99vw;
-    position: relative; }
-    .nav .nav__item .item__arrow {
-      width: 0.8vw; }
-  .nav ul {
-    display: none;
-    position: absolute;
-    top: 2vw;
-    left: -2.5vw;
-    width: 10vw;
-    background-color: #1b1c1f;
-    font-size: 0.99vw;
-    text-align: center; }
-    .nav ul li {
-      line-height: 3; }
-    .nav ul a {
-      color: #c8d3d7; }
-
-.nav .nav__item .appear {
-  display: block; }
-  .nav .nav__item .appear li:hover {
-    background-color: #feca28; }
-    .nav .nav__item .appear li:hover a {
-      color: #1b1c1f; }
-
-.search {
-  display: flex;
-  position: relative; }
-  .search__bell {
-    padding: 0 1vw;
-    fill: white; }
-
-.search__input {
-  text-align: left;
-  font-family: "Nunito", sans-serif;
-  width: 15vw;
-  border-radius: 5px;
-  padding: 0.3vw;
-  font-size: 0.99vw; }
-
-.headerHome__name {
-  color: #c8d3d7;
-  font-size: 0.99vw; }
-
-.headerHome__profil img {
-  width: 3vw;
-  color: #c8d3d7; }
-
-.headerHome__disconnect {
-  margin-right: 4vw; }
 
 .category {
   display: flex;
@@ -745,9 +710,15 @@ footer {
 
 .category__main {
   position: relative;
-  border: 2px solid red;
-  height: 30vw;
-  color: #f0f1f3; }
+  color: #f0f1f3;
+  height: 45vw;
+  overflow: hidden; }
+
+.category__video {
+  position: absolute;
+  top: -4.1vw; }
+  .category__video video {
+    width: 100vw; }
 
 .category__path {
   position: absolute;
@@ -787,7 +758,7 @@ footer {
 .item__hero {
   margin-bottom: 1vw; }
   .item__hero:nth-child(3) {
-    line-height: 1.6vw;
+    line-height: 1.8vw;
     font-family: "Nunito";
     font-size: 1.13vw;
     margin-bottom: 6vw; }
@@ -881,6 +852,17 @@ footer {
     justify-content: space-between; }
     .container-right .mute_png {
       width: 3vw; }
+
+body {
+  background-color: #1b1c1f; }
+
+.back {
+  width: 90vw;
+  margin: 1% auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px; }
+  .back a {
+    color: white; }
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
