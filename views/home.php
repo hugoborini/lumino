@@ -37,10 +37,11 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                        
                     </div>
                     <div class="movie__chevron">
                         <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
-                    </div>
+                        </div>
                 </div>
                 <div id ="4" class="movie movie--kingsman"
                     data-title="Kingsman" 
@@ -601,7 +602,7 @@
                     data-mini="hunger-games.jpg">
                     <div class="movie__elements">
                         <div class="elements__text">
-                            <p class="element__title">The Hunger Games : Mockingjay part 1</p>
+                            <p class="element__title">The Hunger Games : Mockingjay</p>
                             <p class="element__category">SF - Games</p>
                         </div>
                         <div class="elements__icon">
