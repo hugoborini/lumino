@@ -25,7 +25,7 @@
         </article>
 
         <article class="buttonLP">
-            <button class="buttonLP__connexion" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="2800">
+            <button class="cta__noradius--yb" data-aos="zoom-in" data-aos-duration="2500" data-aos-delay="2800">
                 <a href="index.php?action=signup">START YOUR FREE TRIAL</a>
             </button>
         </article>

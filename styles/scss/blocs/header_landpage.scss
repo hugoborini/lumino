@@ -1,32 +1,24 @@
 @import "../config/variable.scss";
+
 header {
-  position: fixed;
-  z-index: 1;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
-  background: #000;
-  height: 6vw;
+  align-items: center;
+  padding-right: 80px;
+  background: $tertiary;
+  height: 84px;
+
   .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center;
   }
-}
 
-.button {
-  display: flex;
-  align-items: center;
-  margin-right: 4vw;
+  .buttons__header {
+    display: flex;
+  }
 
-  &__connexion {
-    background-color: $primary;
-    width: 120px;
-    height: 38px;
-    border: none;
+  .cta__margin {
     margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600;
   }
 }

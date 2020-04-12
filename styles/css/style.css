@@ -130,6 +130,48 @@ table {
   border-collapse: collapse;
   border-spacing: 0; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+.cta__noradius--yb {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  padding: 8px 18px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #feca28;
+  color: #1b1c1f;
+  font-family: "Nunito-Bold";
+  font-size: 1.13vw;
+  text-transform: uppercase; }
+
 @font-face {
   font-family: "Radikal-Bold";
   src: url("../scss/fonts/Radikal-Bold.ttf") format("trueType"); }
@@ -188,31 +230,20 @@ table {
     margin-bottom: 0px; } }
 
 header {
-  position: fixed;
-  z-index: 1;
-  width: 100vw;
   display: flex;
   justify-content: space-between;
-  background: #000;
-  height: 6vw; }
+  align-items: center;
+  padding-right: 80px;
+  background: #1b1c1f;
+  height: 84px; }
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
-
-.button {
-  display: flex;
-  align-items: center;
-  margin-right: 4vw; }
-  .button__connexion {
-    background-color: #feca28;
-    width: 120px;
-    height: 38px;
-    border: none;
-    margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
+  header .buttons__header {
+    display: flex; }
+  header .cta__margin {
+    margin-right: 13px; }
 
 footer {
   display: flex;
@@ -466,15 +497,7 @@ a {
   display: flex;
   align-items: center;
   justify-content: center;
-  padding-top: 4vw; }
-  .buttonLP__connexion {
-    background-color: #feca28;
-    width: 16vw;
-    height: 3.5vw;
-    border: none;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
+  margin-top: 35px; }
 
 .hero__bottom {
   height: 30vh;
