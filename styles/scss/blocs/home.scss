@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 .category {
   display: flex;
@@ -96,15 +97,11 @@
 
 $height-modal: 450px;
 
-@mixin neon-effect($color, $size) {
-  filter: drop-shadow(0px 0px $size $color);
-}
-
 .category__modal--open {
   //background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   height: $height-modal;
   width: 100%;
   display: flex;
@@ -120,7 +117,7 @@ $height-modal: 450px;
   height: $height-modal;
   width: 100%;
   opacity: 1;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   margin-bottom: 28px;
   background: linear-gradient(
     to top,
@@ -133,35 +130,9 @@ $height-modal: 450px;
   display: none;
 }
 
-@keyframes opening {
-  from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px;
-  }
-  to {
-    opacity: 1;
-    height: $height-modal;
-    margin-bottom: 28px;
-  }
-}
-
-@keyframes closing {
-  from {
-    opacity: 1;
-    height: $height-modal;
-    margin-bottom: 28px;
-  }
-  to {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px;
-  }
-}
-
 .category__modal--closing {
   //background: url(../../assets/mini/ready-Player-One.jpg);
-  animation: closing 0.3s;
+  animation: closingModal 0.3s;
   height: 0px;
   background-position: 0% 25%;
   background-size: cover;
