@@ -7,14 +7,16 @@
 }
 .video__container {
   //   transform: translateY(500px);
-  display: none;
+  //display: none;
+  transition: all 0.5s;
+  opacity: 0;
 }
 
-video::-webkit-media-controls {
+.player__video::-webkit-media-controls {
   display: none !important;
 }
 
-video {
+.player__video {
   position: relative;
   width: 100vw;
   height: 100%;
@@ -23,15 +25,16 @@ video {
   display: block;
   width: 97.5vw;
   margin: auto;
-  height: 10px;
-  bottom: 7.5vw;
+  height: 20px;
+  bottom: 6vw;
   background-color: gray;
   position: relative;
   .progressBar {
     position: absolute;
+    transition: width 0.3s;
     bottom: 0;
     width: 0px;
-    height: 10px;
+    height: 100%;
     background-color: $primary;
   }
 }
