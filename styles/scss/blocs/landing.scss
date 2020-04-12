@@ -19,17 +19,17 @@
     url(../../assets/img/background_hero.png.png);
   &__title {
     font-family: $h1-font;
-    font-size: 2vw;
+    font-size: 2em;
     padding-bottom: 25px;
   }
 
   &__infos {
     font-family: $body-font;
-    font-size: 1.6vw;
+    font-size: 1.6em;
 
     em {
       font-weight: 600;
-      font-size: 2vw;
+      font-size: 1.8em;
       padding-left: 5px;
       padding-right: 5px;
     }
@@ -44,7 +44,7 @@
 }
 // CTA
 .hero__CTA {
-  margin-top: 4em;
+  margin-top: 4vw;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -55,7 +55,7 @@
   width: 15em;
   height: 38px;
   font-family: $body-font;
-  font-size: 16px;
+  font-size: 1.2em;
 }
 //
 .hero__bottom {
@@ -76,7 +76,7 @@
   color: $secondary-light;
   display: flex;
   align-items: center;
-  padding-bottom: 8vw;
+  height: 32vw;
 
   .movies__text,
   .download__text,
@@ -87,17 +87,17 @@
 
   &__title {
     font-family: $h3-font;
-    font-size: 1.8vw;
+    font-size: 1.8em;
   }
 
   &__body {
-    font-size: 1.2vw;
+    font-size: 1.2em;
     font-family: $body-font;
-    line-height: 1.2vw * 1.2;
+    line-height: 1.2em * 1.2;
     justify-content: start;
     max-width: 581px;
     padding-top: 1.43vw;
-    width: 566px;
+    // max-width: 566px;
   }
 }
 
