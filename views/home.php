@@ -57,6 +57,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="5" class="movie movie--readyPlayerOne"
                     data-title="Ready Player One" 
@@ -74,6 +77,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="8" class="movie movie--matrix"
@@ -93,6 +99,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="1" class="movie movie--1917"
                     data-title="1917" 
@@ -111,6 +120,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="7" class="movie movie--kickAss"
                     data-title="Kick Ass" 
@@ -128,6 +140,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -158,6 +173,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="9" class="movie movie--intouchables"
@@ -177,6 +195,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="16" class="movie movie--zoolander"
                     data-title="Zoolander" 
@@ -194,6 +215,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="15" class="movie movie--littleMiss"
@@ -213,6 +237,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="13" class="movie movie--bridesmaids"
                     data-title="Bridesmaids" 
@@ -231,6 +258,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="12" class="movie movie--zombieland"
                     data-title="Zombieland" 
@@ -248,6 +278,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -278,6 +311,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="38" class="movie movie--shinning"
@@ -297,6 +333,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="39" class="movie movie--jaws"
                     data-title="Jaws" 
@@ -314,6 +353,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="36" class="movie movie--midsommar"
@@ -333,6 +375,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="33" class="movie movie--invisible"
                     data-title="The Invisible Man" 
@@ -351,6 +396,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="37" class="movie movie--paranormal"
                     data-title="Paranormal Activity" 
@@ -368,6 +416,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -398,6 +449,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                     <div class="movie__chevron"></div>
                 </div>
                 <div id ="42" class="movie movie--fahrenheit"
@@ -417,6 +471,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="45" class="movie movie--plasticOcean"
                     data-title="A Plastic Ocean" 
@@ -434,6 +491,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="47" class="movie movie--creativeBrain"
@@ -453,6 +513,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="43" class="movie movie--heartsOfDarkness"
                     data-title="Hearts Of Darkness: A Filmmaker's Apocalypse" 
@@ -471,6 +534,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="41" class="movie movie--youNegro"
                     data-title="I Am Not Your Negro" 
@@ -488,6 +554,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -518,7 +587,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron"></div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="19" class="movie movie--hungerGames"
                     data-title="The Hunger Games : Mockingjay part 1" 
@@ -536,6 +607,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="23" class="movie movie--fifthElement"
@@ -555,6 +629,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="21" class="movie movie--avatar"
                     data-title="Avatar" 
@@ -572,6 +649,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="24" class="movie movie--backToTheFuture"
@@ -591,6 +671,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="22" class="movie movie--jurassicPark"
                     data-title="Jurassic Park" 
@@ -608,6 +691,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
@@ -638,7 +724,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron"></div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="25" class="movie movie--insideOut"
                     data-title="Inside Out" 
@@ -656,6 +744,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="29" class="movie movie--peterPan"
@@ -675,6 +766,9 @@
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="31" class="movie movie--walle"
                     data-title="Wall-E" 
@@ -692,6 +786,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
                 <div id ="30" class="movie movie--incredibles"
@@ -711,6 +808,9 @@
                             <img class="element__icon element__icon--play"/>
                         </div>
                     </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                    </div>
                 </div>
                 <div id ="28" class="movie movie--moana"
                     data-title="Moana" 
@@ -728,6 +828,9 @@
                             <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
+                    </div>
+                    <div class="movie__chevron">
+                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
             </div>
