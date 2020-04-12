@@ -1,4 +1,10 @@
 @import "../config/variable.scss";
+$h1: 3vw;
+$h2: 2vw;
+$h3: 2vw;
+$h4: 2vw;
+$h5: 2vw;
+
 .landingpage {
   margin-left: 80px;
   margin-right: 80px;
@@ -17,19 +23,20 @@
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%),
     linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%),
     url(../../assets/img/background_hero.png.png);
+
   &__title {
     font-family: $h1-font;
-    font-size: 2em;
+    font-size: $h1;
     padding-bottom: 25px;
   }
 
   &__infos {
     font-family: $body-font;
-    font-size: 1.6em;
+    font-size: $h2;
 
     em {
       font-weight: 600;
-      font-size: 1.8em;
+      font-size: 3vw;
       padding-left: 5px;
       padding-right: 5px;
     }
@@ -43,19 +50,39 @@
   }
 }
 // CTA
-.hero__CTA {
-  margin-top: 4vw;
+// .button {
+//   margin-top: 4vw;
+//   display: flex;
+//   align-items: center;
+//   justify-content: center;
+//   color: $tertiary;
+//   background-color: $primary;
+//   border: none;
+//   text-decoration: none;
+//   width: 15em;
+//   height: 38px;
+//   font-family: $body-font;
+//   font-size:;
+//   &__connexion{
+
+//   }
+// }
+.buttonLP {
   display: flex;
   align-items: center;
+  margin-right: 4vw;
   justify-content: center;
-  color: $tertiary;
-  background-color: $primary;
-  border: none;
-  text-decoration: none;
-  width: 15em;
-  height: 38px;
-  font-family: $body-font;
-  font-size: 1.2em;
+
+  &__connexion {
+    background-color: $primary;
+    width: 240px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+  }
 }
 //
 .hero__bottom {
@@ -87,11 +114,11 @@
 
   &__title {
     font-family: $h3-font;
-    font-size: 1.8em;
+    // font-size: ;
   }
 
   &__body {
-    font-size: 1.2em;
+    // font-size: ;
     font-family: $body-font;
     line-height: 1.2em * 1.2;
     justify-content: start;
