@@ -1,13 +1,15 @@
-$video = document.querySelector("video");
-$video_container = document.querySelector(".video__container");
-$play = document.querySelector(".container__play");
-$backward = document.querySelector(".container__backward");
-$forward = document.querySelector(".container__forward");
-$sound = document.querySelector(".container__sound");
-$volume = document.querySelector(".volume");
-$fullscreen = document.querySelector(".container__fullscreen");
-$progressBar = document.querySelector(".progressBar");
-$bar = document.querySelector(".bar");
+const $video = document.querySelector("video");
+const $video_full = document.querySelector(".video");
+const $video_container = document.querySelector(".video__container");
+const $play = document.querySelector(".container__play");
+const $backward = document.querySelector(".container__backward");
+const $forward = document.querySelector(".container__forward");
+const $sound = document.querySelector(".container__sound");
+const $volume = document.querySelector(".volume");
+const $fullscreen = document.querySelector(".container__fullscreen");
+const $progressBar = document.querySelector(".progressBar");
+const $bar = document.querySelector(".bar");
+const $body = document.querySelector("body");
 
 console.log($video);
 console.log($play);
@@ -26,11 +28,11 @@ $play.addEventListener("click", function () {
   }
 });
 
-$backward.addEventListener("click", function () {
+$backward.addEventListener("click", () => {
   $video.currentTime -= 5;
 });
 
-$forward.addEventListener("click", function () {
+$forward.addEventListener("click", () => {
   $video.currentTime += 5;
 });
 
@@ -39,7 +41,10 @@ $volume.addEventListener("change", () => {
 });
 
 $fullscreen.addEventListener("click", () => {
-  $video.requestFullscreen();
+  $video_full.requestFullscreen();
+  if (document.fullscreenElement) {
+    document.exitFullscreen();
+  }
 });
 
 $video.addEventListener("timeupdate", () => {
@@ -50,7 +55,7 @@ $video.addEventListener("timeupdate", () => {
   //   +"</p>";
 });
 
-$bar.addEventListener("click", (e) => {
+$bar.addEventListener("click", e => {
   var x = e.pageX;
   x = $video.duration * (x / $video.offsetWidth);
   $video.currentTime = x;
@@ -66,10 +71,11 @@ $sound.addEventListener("click", () => {
   }
 });
 
-$video.addEventListener("mousemove", () => {
-  //   $video_container.style.transform = "translate(0px)";
-  $video_container.style.display = "block";
-  setInterval(() => {
-    $video_container.style.display = "none";
-  }, 5000);
+$video_container.addEventListener("mousemove", () => {
+  // $video_container.style.transform = "translate(0px)";
+  $video_container.style.opacity = "1";
+});
+
+$video_container.addEventListener("mouseleave", () => {
+  $video_container.style.opacity = "0";
 });
