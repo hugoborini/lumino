@@ -1,15 +1,15 @@
-// config 
+// config
 @import "config/reset.scss";
 @import "config/font.scss";
 @import "config/error.scss";
 @import "config/variable.scss";
+@import "config/mixinKeyframes.scss";
 
-//components 
+//components
 @import "blocs/header_landpage.scss";
 @import "blocs/footer.scss";
 @import "blocs/header_homepage.scss";
 @import "blocs/form.scss";
-
 
 //blocs
 @import "blocs/landing.scss";
@@ -19,7 +19,6 @@
 @import "blocs/genre.scss";
 @import "blocs/search.scss";
 @import "blocs/player.scss";
-
 
 //pages
 @import "pages/register.scss";
@@ -32,10 +31,7 @@
 @import "blocs/categories/sf.scss";
 @import "blocs/categories/animation.scss";
 
-
 a {
   text-decoration: none;
   color: $tertiary;
 }
-
-

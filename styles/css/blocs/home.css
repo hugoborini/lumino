@@ -87,9 +87,6 @@
   left: 70px;
   text-align: center; }
 
-/*.category__modal {
-  margin-top: 5vh;
-}*/
 .category__modal--open {
   background-position: 0% 25%;
   background-size: cover;

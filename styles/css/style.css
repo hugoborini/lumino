@@ -162,6 +162,26 @@ table {
   margin: auto;
   font-family: "Nunito", sans-serif; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 header {
   display: flex;
   justify-content: space-between;
@@ -285,6 +305,26 @@ footer {
 .headerHome__bell img {
   width: 1.4vw; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 * {
   box-sizing: border-box; }
 
@@ -296,15 +336,15 @@ a {
 
 .cta__noradius--yb {
   cursor: pointer;
-  background-color: #feca28;
   border: none;
   display: flex;
   padding: 8px 18px;
   height: fit-content;
   width: fit-content;
+  background-color: #feca28;
+  color: #1b1c1f;
   font-family: "Nunito-Bold";
   font-size: 1.13vw;
-  color: #1b1c1f;
   text-transform: uppercase; }
 
 .form-container {
@@ -567,9 +607,6 @@ a {
   left: 70px;
   text-align: center; }
 
-/*.category__modal {
-  margin-top: 5vh;
-}*/
 .category__modal--open {
   background-position: 0% 25%;
   background-size: cover;
