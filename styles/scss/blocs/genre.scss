@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 .genre {
   display: flex;
@@ -19,8 +20,9 @@
 }
 
 .box__picture {
+  width: 30%;
   img {
-    width: 45vw;
+    width: 100%;
   }
 }
 
@@ -29,6 +31,7 @@
   flex-direction: column;
   justify-content: space-between;
   margin-left: 2vw;
+  width: 50%;
 }
 
 .genre__title {
@@ -38,17 +41,24 @@
 }
 
 .description__item {
-  font-family: $h3-font;
-  font-size: $h3;
-  line-height: 1.6vw;
+  font-family: $body-font;
+  font-size: $body;
+  line-height: 150%;
 
   span {
     color: $primary;
   }
 }
 
-.button__item:nth-child(n+2) {
+.button__item {
+  transition: all 0.2s;
+}
 
+.button__item:hover {
+  @include neon-effect($primary, 3px);
+}
+
+.button__item:nth-child(n + 2) {
   margin-left: 1vw;
   width: 2vw;
   padding-bottom: 0.3vw;
