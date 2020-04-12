@@ -235,11 +235,13 @@ header {
   align-items: center;
   padding-right: 80px;
   background: #1b1c1f;
-  height: 84px; }
+  height: 65px; }
   header .container-image {
     margin-left: 4vw;
     display: flex;
     align-items: center; }
+    header .container-image img {
+      height: 30px; }
   header .buttons__header {
     display: flex; }
   header .cta__margin {
@@ -276,12 +278,14 @@ footer {
   justify-content: space-between;
   align-items: center;
   background-color: #1b1c1f;
-  height: 6vw;
-  font-family: "Nunito", sans-serif;
+  height: 65px;
+  font-family: "Nunito";
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
+    .headerHome .headerHome__logo img {
+      height: 30px; }
 
 .nav {
   display: flex; }
@@ -338,11 +342,11 @@ footer {
   font-size: 0.99vw; }
 
 .headerHome__profil img {
-  width: 3vw;
+  width: 2.2vw;
   color: #c8d3d7; }
 
 .headerHome__disconnect {
-  margin-right: 4vw; }
+  width: 2.5vw; }
 
 .headerHome__bell img {
   width: 1.4vw; }
@@ -469,6 +473,7 @@ a {
   color: #f0f1f3;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 84vh;
   width: 100%;
@@ -476,17 +481,16 @@ a {
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
-    font-weight: lighter;
     font-size: 3vw;
     padding-bottom: 25px; }
   .hero__infos {
-    font-family: "Nunito ExtraLight";
-    font-size: 1.8vw; }
+    font-family: "Nunito";
+    font-size: 2vw; }
     .hero__infos em {
-      align-self: flex-end;
-      font-size: 2.5vw;
-      font-family: "Nunito-Bold";
-      padding-left: 5px; }
+      font-weight: 600;
+      font-size: 3vw;
+      padding-left: 5px;
+      padding-right: 5px; }
   .hero .price {
     display: flex;
     justify-content: center;
@@ -527,14 +531,13 @@ a {
   .watch__title,
   .movies__title,
   .download__title {
-    font-family: "Poppins";
-    font-size: 2.5vw; }
+    font-family: "Nunito-SemiBold"; }
   .watch__body,
   .movies__body,
   .download__body {
-    font-size: 1.9vw;
     font-family: "Nunito";
-    line-height: 2.28vw;
+    line-height: 1.44em;
+    justify-content: start;
     padding-top: 1.43vw; }
 
 .watch__mockup {
