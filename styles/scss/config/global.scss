@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 * {
   box-sizing: border-box;
@@ -13,15 +14,5 @@ a {
 }
 
 .cta__noradius--yb {
-  cursor: pointer;
-  background-color: $primary;
-  border: none;
-  display: flex;
-  padding: 8px 18px;
-  height: fit-content;
-  width: fit-content;
-  font-family: $btn-font;
-  font-size: $btn;
-  color: $tertiary;
-  text-transform: uppercase;
+  @include cta($tertiary, $primary);
 }
