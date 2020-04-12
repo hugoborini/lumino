@@ -41,4 +41,40 @@ function deconnexion() {
 function catchData($text){
     search($text);
 }
+
+function deleteUser(){
+    $check_user = getUser($_SESSION['id']);
+    if ($check_user == true){
+        header("Location: index.php");
+    }
+}
+
+function checkInput($firstname, $lastname, $email, $pass){
+    if (empty($pass)){
+        $pass = $_SESSION['pass'];
+    } else {
+        $pass_hache =  password_hash($pass, PASSWORD_DEFAULT);
+        $_SESSION['pass'] = $pass_hache;
+    }
+    if (empty($firstname)){
+        $firstname = $_SESSION['firstname'];
+    } else {
+        $_SESSION['firstname'] = $firstname;
+    }
+    if (empty($lastname)){
+        $lastname = $_SESSION['lastname'];
+    } else {
+        $_SESSION['lastname'] = $lastname;
+    }
+    if (empty($email)){
+        $email = $_SESSION['email'];
+    } else{
+        $_SESSION['email'] = $email;
+    }
+    $check_update = updateUser($_SESSION['id'],$firstname, $lastname, $email, $pass);
+
+    if ($check_update == true){
+        header("Location: index.php?action=user");
+    }
+}
 ?>

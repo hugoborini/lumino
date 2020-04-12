@@ -17,7 +17,7 @@
 
         <div class="user__picture">
 
-          <img src="assets/img/profil.png" alt="picture profil"/>
+          <img src="assets/img/profil.png.png" alt="picture profil"/>
 
         </div>
 
@@ -30,7 +30,7 @@
 
       <div class="user__account">
 
-        <form action="" method="post" class="user__form">
+        <form action="index.php?action=update" method="post" class="user__form">
           <div class="user__info">
               <h1 class="user__title">My Account</h1>
 
@@ -58,12 +58,12 @@
               </div>
 
               <div class="button__user">
-                <input type="submit" class="button__end button__account" value="LOG OUT">
+                <a href="index.php?action=deco"><div class="button__end button__account"> LOG OUT</div></a>
                 <input type="submit" class="button__end button__account " value="SAVE">
               </div>
           </div>
         </form>
-        <div class="user__delete">Delete account</div>
+        <div class="user__delete"><a class="delete__button" href="index.php?action=delete">Delete account</a></div>
       </div>
 
     

@@ -36,7 +36,7 @@ function insertUser($firstname, $lastname, $email) {
 
 function checkAccount($email, $pass){
     $bdd = dbConnect();
-    $member = $bdd->prepare("SELECT id, email, pass, firstname FROM member WHERE email = :email");
+    $member = $bdd->prepare("SELECT id, email, pass, firstname, lastname FROM member WHERE email = :email");
     $member->execute([
         'email' => $email,
     ]);
@@ -50,7 +50,9 @@ function checkAccount($email, $pass){
         session_start();
         $_SESSION['id'] = $member_data['id'];
         $_SESSION['firstname'] = $member_data['firstname'];
+        $_SESSION['lastname'] = $member_data['lastname'];
         $_SESSION['email'] = $member_data['email'];
+        $_SESSION['pass'] = $member_data['pass'];
         return true;
     } else {
         return false;
@@ -70,4 +72,33 @@ function search($text) {
         echo "<a href='index.php?action=home&film=" .$search_data['title'] . "'>" . $search_data['title'] . "</a>";
     }
     $get_title->closeCursor();
+}
+
+function getUser($id){
+    $bdd = dbConnect();
+
+    $get_user = $bdd->prepare("DELETE FROM member WHERE id= :id");
+    $get_user->execute([
+        "id" => $id,
+    ]);
+    return true;
+}
+
+function updateUser($id ,$firstname, $lastname, $email, $pass){
+    $bdd = dbConnect();
+
+    $update_user = $bdd->prepare("UPDATE member SET firstname = :firstname, lastname = :lastname, email = :email, pass = :pass WHERE id = :id");
+
+    $pass_hache =  password_hash($_POST['pass'], PASSWORD_DEFAULT);
+    
+    
+    $update_user->execute([
+        "firstname" => $firstname,
+        "lastname" => $lastname,
+        "email" => $email,
+        "pass" => $pass_hache,
+        "id" => $id,
+    ]);
+    return true;
+
 }

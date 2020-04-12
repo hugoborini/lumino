@@ -12,18 +12,14 @@
     align-items: center;
   }
   .user__account {
-
-    position:relative;
+    position: relative;
     align-items: center;
     justify-content: center;
     margin: 3vw;
   }
-
 }
 
-
 .user__back {
-
   margin-left: 4vw;
   margin-top: 1vw;
   width: 4vw;
@@ -48,9 +44,7 @@
   justify-content: flex-end;
 }
 
-
 .button__end {
-
   background-color: $tertiary;
   border: 2px solid $secondary-light;
   color: $secondary-light;
@@ -59,8 +53,6 @@
   font-size: $btn;
   align-items: center;
   padding: 1vw;
-
-
 }
 
 .user__info {
@@ -79,13 +71,13 @@
 
   label {
     font-family: $h2-font;
-    font-size : $h3;
+    font-size: $h3;
     color: $secondary-light;
   }
 }
 
 .input__info {
-    input{
+  input {
     margin-left: 5vw;
     background-color: $tertiary;
     border: none;
@@ -95,29 +87,32 @@
     font-size: $body;
     width: 18vw;
   }
-  input[type='email']{
-
-    margin-left: 3.90vw;
+  input[type="email"] {
+    margin-left: 3.9vw;
   }
 
-  input[type='password']{
-
-  margin-left: 5.4vw;
+  input[type="password"] {
+    margin-left: 5.4vw;
   }
 }
 
 .button__account {
-
   background-color: $primary;
   border: 2px solid $tertiary;
   color: $tertiary;
   margin-right: 0px;
   justify-content: flex-end;
   margin-left: 2.5vw;
-
 }
 
 .user__delete {
+}
+
+.button__picture:nth-child(2) {
+  margin-left: 2.5vw;
+}
+
+.delete__button {
   position: absolute;
   right: 0px;
   margin-top: 2vw;
@@ -127,8 +122,3 @@
   font-size: $body;
   text-decoration: underline;
 }
-
-.button__picture:nth-child(2){
-  margin-left: 2.5vw;
-}
-
