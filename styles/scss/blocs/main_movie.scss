@@ -1,21 +1,20 @@
 @import "../config/variable.scss";
 
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw;
 }
 
 .category__main{
   position: relative;
   color: $secondary-light;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden;
 }
 
 .category__video {
 
   position: absolute;
-  top: -4.1vw;
+  top: -6vw;
   
   video {
     width: 100vw;
@@ -73,6 +72,11 @@
 
   &__play {
     width: 4vw;
+  }
+
+  &__list {
+    width: 1.5vw;
+    cursor: pointer;
   }
 }
 

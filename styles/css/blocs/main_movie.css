@@ -1,16 +1,15 @@
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
   position: relative;
   color: #f0f1f3;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden; }
 
 .category__video {
   position: absolute;
-  top: -4.1vw; }
+  top: -6vw; }
   .category__video video {
     width: 100vw; }
 
@@ -49,6 +48,9 @@
       margin-right: 1vw; }
   .info__play {
     width: 4vw; }
+  .info__list {
+    width: 1.5vw;
+    cursor: pointer; }
 
 .item__hero {
   margin-bottom: 1vw; }
