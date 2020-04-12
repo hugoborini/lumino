@@ -1,3 +1,23 @@
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 .headerHome {
   position: fixed;
   z-index: 1;
@@ -6,12 +26,14 @@
   justify-content: space-between;
   align-items: center;
   background-color: #1b1c1f;
-  height: 6vw;
-  font-family: "Nunito", sans-serif;
+  height: 65px;
+  font-family: "Nunito";
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
   .headerHome .headerHome__logo {
     margin-left: 4vw;
     display: flex; }
+    .headerHome .headerHome__logo img {
+      height: 30px; }
 
 .nav {
   display: flex; }
@@ -71,11 +93,15 @@
   font-size: 0.99vw; }
 
 .headerHome__profil img {
-  width: 3vw;
+  width: 2.2vw;
   color: #c8d3d7; }
 
 .headerHome__disconnect {
-  margin-right: 4vw; }
+  width: 2.5vw; }
+  .headerHome__disconnect img {
+    transition: all 0.2s; }
+    .headerHome__disconnect img:hover {
+      filter: drop-shadow(0px 0px 3px #feca28); }
 
 .headerHome__bell img {
   width: 1.4vw; }

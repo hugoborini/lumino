@@ -10,7 +10,9 @@
 </head>
 <body>
     <?php include("./components/header_homepage.php")?>
+    
     <main>
+        <?php require("components/main_movie.php") ?>
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">Action</h1>
@@ -803,9 +805,9 @@
                             <p class="element__category">Animation - Super Hero</p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon"/>
-                            <img class="element__icon element__icon--play"/>
+                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
                     <div class="movie__chevron">
