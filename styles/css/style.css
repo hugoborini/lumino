@@ -154,131 +154,6 @@ table {
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap"); }
 
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #000;
-  height: 84px; }
-  header .container-image {
-    margin-left: 4vw;
-    display: flex;
-    align-items: center; }
-
-.button {
-  display: flex;
-  align-items: center;
-  margin-right: 4vw; }
-  .button__connexion {
-    background-color: #feca28;
-    width: 120px;
-    height: 38px;
-    border: none;
-    margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
-
-header {
-  display: flex;
-  justify-content: space-between;
-  background: #000;
-  height: 84px; }
-  header .container-image {
-    margin-left: 4vw;
-    display: flex;
-    align-items: center; }
-
-.button {
-  display: flex;
-  align-items: center;
-  margin-right: 4vw; }
-  .button__connexion {
-    background-color: #feca28;
-    width: 120px;
-    height: 38px;
-    border: none;
-    margin-right: 13px;
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    font-weight: 600; }
-
-.form-container {
-  height: 100%;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  margin: 39px 26px 26px 10px;
-  line-height: 33px; }
-
-.register {
-  display: flex;
-  height: 517px;
-  margin: auto;
-  margin-top: 4%;
-  margin-bottom: 2%;
-  border: solid 2px #feca28;
-  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
-  border-radius: 8px;
-  width: 410px;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: #1b1c1f;
-  color: #f0f1f3; }
-  .register__title {
-    font-size: 32px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600; }
-  .register__input {
-    width: 358px;
-    height: 35px; }
-  .register__input-container {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    line-height: 22px; }
-  .register .btn {
-    width: 209px;
-    color: black; }
-
-.login {
-  display: flex;
-  height: 389px;
-  border: solid 2px #feca28;
-  border-radius: 8px;
-  margin: auto;
-  margin-top: 4%;
-  margin-bottom: 4%;
-  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
-  width: 410px;
-  flex-direction: column;
-  justify-content: space-around;
-  background-color: #1b1c1f;
-  color: #f0f1f3; }
-  .login__title {
-    font-size: 32px;
-    font-family: "Poppins", sans-serif;
-    font-weight: 600; }
-  .login__input {
-    width: 358px;
-    height: 35px; }
-  .login__input-container {
-    font-family: "Nunito", sans-serif;
-    font-size: 16px;
-    line-height: 22px; }
-  .login .btn {
-    width: 209px;
-    color: black; }
-
-body {
-  background-color: #1b1c1f; }
-
-.back {
-  width: 90vw;
-  margin: 1% auto;
-  font-family: "Nunito", sans-serif;
-  font-size: 16px; }
-  .back a {
-    color: white; }
-
 .error {
   background-color: lightcoral;
   height: 30px;
@@ -291,6 +166,269 @@ body {
   border-radius: 5px;
   margin: auto;
   font-family: "Nunito", sans-serif; }
+
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
+header {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  background: #000;
+  height: 6vw; }
+  header .container-image {
+    margin-left: 4vw;
+    display: flex;
+    align-items: center; }
+
+.button {
+  display: flex;
+  align-items: center;
+  margin-right: 4vw; }
+  .button__connexion {
+    background-color: #feca28;
+    width: 120px;
+    height: 38px;
+    border: none;
+    margin-right: 13px;
+    font-family: "Nunito", sans-serif;
+    font-size: 16px;
+    font-weight: 600; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #0b0a0a;
+  padding: 4%; }
+
+.footer__text {
+  display: flex;
+  flex-direction: column;
+  color: #a9bac1;
+  font-family: "Nunito", sans-serif;
+  font-weight: lighter;
+  line-height: 250%;
+  font-size: 1.2vw; }
+  .footer__text div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+    .footer__text div img {
+      width: auto;
+      height: 80%; }
+
+.headerHome {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #1b1c1f;
+  height: 6vw;
+  font-family: "Nunito", sans-serif;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
+  .headerHome .headerHome__logo {
+    margin-left: 4vw;
+    display: flex; }
+
+.nav {
+  display: flex; }
+  .nav .nav__item {
+    margin: 0 2vw;
+    color: #c8d3d7;
+    font-size: 0.99vw;
+    position: relative; }
+    .nav .nav__item .item__arrow {
+      width: 0.8vw; }
+  .nav ul {
+    display: none;
+    position: absolute;
+    top: 2vw;
+    left: -2.5vw;
+    width: 10vw;
+    background-color: #1b1c1f;
+    font-size: 0.99vw;
+    text-align: center; }
+    .nav ul li {
+      line-height: 3; }
+    .nav ul a {
+      color: #c8d3d7; }
+
+.nav .nav__item .appear {
+  display: block; }
+  .nav .nav__item .appear li:hover {
+    background-color: #feca28; }
+    .nav .nav__item .appear li:hover a {
+      color: #1b1c1f; }
+
+.search {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative; }
+  .search__loupe {
+    position: absolute;
+    top: 0.2vw;
+    left: -3.5vw;
+    width: 1.3vw;
+    padding: 0 1vw; }
+
+.search__input {
+  text-align: left;
+  font-family: "Nunito", sans-serif;
+  width: 15vw;
+  border-radius: 5px;
+  padding: 0.2vw;
+  font-size: 0.99vw; }
+
+.headerHome__name {
+  color: #c8d3d7;
+  font-size: 0.99vw; }
+
+.headerHome__profil img {
+  width: 3vw;
+  color: #c8d3d7; }
+
+.headerHome__disconnect {
+  margin-right: 4vw; }
+
+.headerHome__bell img {
+  width: 1.4vw; }
+
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
+* {
+  box-sizing: border-box; }
+
+img {
+  max-width: 100%; }
+
+a {
+  text-decoration: none; }
+
+.cta__noradius--yb {
+  cursor: pointer;
+  border: none;
+  display: flex;
+  padding: 8px 18px;
+  height: fit-content;
+  width: fit-content;
+  background-color: #feca28;
+  color: #1b1c1f;
+  font-family: "Nunito-Bold";
+  font-size: 1.13vw;
+  text-transform: uppercase; }
+
+.form-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 87%;
+  line-height: 33px; }
+
+.register {
+  display: flex;
+  height: 517px;
+  margin: auto;
+  margin-bottom: 4%;
+  border: solid 2px #feca28;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
+  border-radius: 8px;
+  width: 410px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1b1c1f;
+  color: #f0f1f3;
+  padding-top: 38px;
+  padding-bottom: 38px; }
+  .register__title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 34px; }
+  .register__input {
+    width: 100%;
+    height: 35px; }
+  .register__input-container {
+    font-family: "Nunito";
+    font-size: 1.13vw;
+    line-height: 22px; }
+  .register .cta__register {
+    margin-top: 40px; }
+
+.login {
+  display: flex;
+  height: 389px;
+  margin: auto;
+  margin-bottom: 4%;
+  border: solid 2px #feca28;
+  box-shadow: 2px 2px 96px -13px rgba(255, 255, 255, 0.46);
+  border-radius: 8px;
+  width: 410px;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-around;
+  background-color: #1b1c1f;
+  color: #f0f1f3;
+  padding-top: 38px;
+  padding-bottom: 38px; }
+  .login__title {
+    font-size: 32px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    margin-bottom: 34px; }
+  .login__input {
+    width: 100%;
+    height: 35px; }
+  .login__input-container {
+    font-family: "Nunito";
+    font-size: 1.13vw;
+    line-height: 22px; }
+  .login .cta__register {
+    margin-top: 40px; }
+  .login .forgot-password {
+    color: #a9bac1; }
 
 .landingpage {
   margin-left: 80px;
@@ -391,96 +529,25 @@ body {
   top: 13.9vw;
   height: 7vh; }
 
-footer {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  background-color: #0b0a0a;
-  padding: 4%; }
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
 
-.footer__text {
-  display: flex;
-  flex-direction: column;
-  color: #a9bac1;
-  font-family: "Nunito", sans-serif;
-  font-weight: lighter;
-  line-height: 250%;
-  font-size: 1.2vw; }
-  .footer__text div {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between; }
-    .footer__text div img {
-      width: auto;
-      height: 80%; }
-
-.headerHome {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: #1b1c1f;
-  height: 6vw;
-  font-family: "Nunito", sans-serif;
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25); }
-  .headerHome .headerHome__logo {
-    margin-left: 4vw;
-    display: flex; }
-
-.nav {
-  display: flex; }
-  .nav .nav__item {
-    margin: 0 2vw;
-    color: #c8d3d7;
-    font-size: 0.99vw;
-    position: relative; }
-    .nav .nav__item .item__arrow {
-      width: 0.8vw; }
-  .nav ul {
-    display: none;
-    position: absolute;
-    top: 2vw;
-    left: -2.5vw;
-    width: 10vw;
-    background-color: #1b1c1f;
-    font-size: 0.99vw;
-    text-align: center; }
-    .nav ul li {
-      line-height: 3; }
-    .nav ul a {
-      color: #c8d3d7; }
-
-.nav .nav__item .appear {
-  display: block; }
-  .nav .nav__item .appear li:hover {
-    background-color: #feca28; }
-    .nav .nav__item .appear li:hover a {
-      color: #1b1c1f; }
-
-.search {
-  display: flex;
-  position: relative; }
-  .search__bell {
-    padding: 0 1vw;
-    fill: white; }
-
-.search__input {
-  text-align: left;
-  font-family: "Nunito", sans-serif;
-  width: 15vw;
-  border-radius: 5px;
-  padding: 0.3vw;
-  font-size: 0.99vw; }
-
-.headerHome__name {
-  color: #c8d3d7;
-  font-size: 0.99vw; }
-
-.headerHome__profil img {
-  width: 3vw;
-  color: #c8d3d7; }
-
-.headerHome__disconnect {
-  margin-right: 4vw; }
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
 
 .category {
   display: flex;
@@ -490,10 +557,20 @@ footer {
   display: flex;
   justify-content: space-between;
   margin-right: 5vw;
-  margin-left: 5vw; }
+  margin-left: 5vw;
+  margin-bottom: 1vw; }
 
 .category__title {
-  color: #f9fafa; }
+  color: #f9fafa;
+  font-size: 1.42vw;
+  font-weight: "Nunito-Bold";
+  font-family: "Nunito-Bold"; }
+
+.category__more {
+  color: #feca28;
+  font-size: 0.99vw;
+  font-weight: "Nunito-Bold";
+  font-family: "Nunito-Bold"; }
 
 .category__movies {
   display: flex;
@@ -503,28 +580,32 @@ footer {
   margin-bottom: 5vh; }
 
 .movie {
-  box-shadow: 0px 0px 20px #121317; }
+  box-shadow: 0px 0px 20px #121317;
+  padding-left: 0.7%;
+  padding-right: 0.7%; }
 
 .movie__elements {
-  opacity: 0; }
+  opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40%; }
   .movie__elements:hover {
     opacity: 1;
-    display: flex;
-    padding-top: 80%;
+    padding-top: 85%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 2%; }
+    margin-bottom: 10%; }
 
 .elements__text:hover {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
+  flex-direction: column; }
 
 .element__title {
   color: #f9fafa;
   font-family: "Nunito-Bold";
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 10px;
   text-shadow: 0 0 5px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7; }
 
 .element__category {
@@ -547,18 +628,14 @@ footer {
 
 .movie__chevron {
   position: absolute;
-  top: 165px;
-  left: 70px;
-  text-align: center; }
+  top: 135px;
+  left: 55px; }
 
-/*.category__modal {
-  margin-top: 5vh;
-}*/
 .category__modal--open {
   background-position: 0% 25%;
   background-size: cover;
-  animation: opening 0.5s;
-  height: 400px;
+  animation: openingModal 0.5s;
+  height: 450px;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -569,38 +646,18 @@ footer {
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 400px;
+  height: 450px;
   width: 100%;
   opacity: 1;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   margin-bottom: 28px;
   background: linear-gradient(to top, black 5%, rgba(0, 0, 0, 0.363)); }
 
 .category__modal--close {
   display: none; }
 
-@keyframes opening {
-  from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; }
-  to {
-    opacity: 1;
-    height: 400px;
-    margin-bottom: 28px; } }
-
-@keyframes closing {
-  from {
-    opacity: 1;
-    height: 400px;
-    margin-bottom: 28px; }
-  to {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; } }
-
 .category__modal--closing {
-  animation: closing 0.3s;
+  animation: closingModal 0.3s;
   height: 0px;
   background-position: 0% 25%;
   background-size: cover; }
@@ -617,11 +674,20 @@ footer {
 
 .modal__icon {
   z-index: 1;
-  width: 2vw; }
+  width: 2vw;
+  transition: all 0.3s; }
+  .modal__icon:hover {
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 3px #feca28);
+    transform: scale(1.1); }
   .modal__icon--play {
     z-index: 1;
     width: 11vw;
-    align-self: center; }
+    align-self: center;
+    transition: all 0.3s; }
+    .modal__icon--play:hover {
+      cursor: pointer;
+      filter: drop-shadow(0px 0px 10px #feca28); }
 
 .modal__texts {
   z-index: 1;
@@ -748,11 +814,21 @@ footer {
 .button__picture:nth-child(2) {
   margin-left: 2.5vw; }
 
+.main__movie {
+  padding-top: 5.3vw;
+  margin-bottom: 3vw; }
+
 .category__main {
   position: relative;
-  border: 2px solid red;
-  height: 30vw;
-  color: #f0f1f3; }
+  color: #f0f1f3;
+  height: 45vw;
+  overflow: hidden; }
+
+.category__video {
+  position: absolute;
+  top: -4.1vw; }
+  .category__video video {
+    width: 100vw; }
 
 .category__path {
   position: absolute;
@@ -792,7 +868,7 @@ footer {
 .item__hero {
   margin-bottom: 1vw; }
   .item__hero:nth-child(3) {
-    line-height: 1.6vw;
+    line-height: 1.8vw;
     font-family: "Nunito";
     font-size: 1.13vw;
     margin-bottom: 6vw; }
@@ -800,6 +876,30 @@ footer {
     position: absolute;
     left: 0vw;
     bottom: 0vw; }
+
+.genre {
+  display: flex;
+  border: 2px solid red;
+  margin: 0vw 4vw; }
+
+.genre__movie {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue; }
+
+.genre__box {
+  display: flex;
+  border: 2px solid green; }
+
+.box__picture {
+  border: 2px solid orangered; }
+  .box__picture img {
+    width: 15vw; }
+
+.box__description {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow; }
 
 .show_up {
   width: 15vw;
@@ -824,68 +924,82 @@ footer {
   width: 100vw;
   height: 100vh;
   overflow: hidden; }
-
-.video__container {
-  transition: all 0.5s;
-  opacity: 0; }
-
-.player__video::-webkit-media-controls {
-  display: none !important; }
-
-.player__video {
-  position: relative;
-  width: 100vw;
-  height: 100%; }
-
-.bar {
-  display: block;
-  width: 97.5vw;
-  margin: auto;
-  height: 20px;
-  bottom: 6vw;
-  background-color: gray;
-  position: relative; }
-  .bar .progressBar {
+  .video .video__container {
+    transition: all 0.5s;
+    opacity: 1; }
+  .video .player__video::-webkit-media-controls {
+    display: none !important; }
+  .video .pause,
+  .video .play,
+  .video .sound,
+  .video .mute,
+  .video .fullscreen,
+  .video .minimize {
     position: absolute;
-    transition: width 0.3s;
-    bottom: 0;
-    width: 0px;
-    height: 100%;
-    background-color: #feca28; }
+    top: 0; }
+  .video .player__video {
+    position: relative;
+    width: 100vw;
+    height: 100%; }
+  .video .bar {
+    display: block;
+    width: 97.5vw;
+    margin: auto;
+    margin-left: 1.2vw;
+    height: 20px;
+    bottom: 10%;
+    background-color: gray;
+    position: fixed; }
+    .video .bar .progressBar {
+      position: absolute;
+      transition: width 0.3s;
+      bottom: 0;
+      width: 0px;
+      height: 100%;
+      background-color: #feca28; }
+  .video .container {
+    z-index: 999;
+    position: absolute;
+    bottom: 0vw;
+    display: flex;
+    flex-direction: row;
+    width: 95vw;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    justify-content: space-between;
+    align-items: center; }
+    .video .container svg {
+      width: 2vw; }
+    .video .container__title {
+      color: #c8d3d7;
+      font-family: "Radikal-Bold";
+      font-size: 1.42vw;
+      display: flex;
+      align-items: center;
+      letter-spacing: 2px; }
+    .video .container-left {
+      display: flex;
+      width: 15vw;
+      justify-content: space-between; }
+      .video .container-left .container__play {
+        width: 50px;
+        height: 50px;
+        position: relative; }
+    .video .container-right {
+      display: flex;
+      width: 25vw;
+      justify-content: space-evenly; }
 
-.container {
-  z-index: 999;
-  position: absolute;
-  bottom: 0vw;
-  display: flex;
-  flex-direction: row;
-  width: 95vw;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  justify-content: space-between;
-  align-items: center; }
-  .container svg {
-    width: 2vw; }
-  .container__title {
-    color: #c8d3d7;
-    font-family: "Radikal-Bold";
-    font-size: 1.42vw;
-    display: flex;
-    align-items: center;
-    letter-spacing: 2px; }
-  .container-left {
-    display: flex;
-    width: 15vw;
-    justify-content: space-between; }
-    .container-left .container__play {
-      width: 50px;
-      height: 50px; }
-  .container-right {
-    display: flex;
-    width: 20vw;
-    justify-content: space-between; }
-    .container-right .mute_png {
-      width: 3vw; }
+body {
+  background-color: #1b1c1f; }
+
+.back {
+  width: 90vw;
+  margin: 1% auto;
+  font-family: "Nunito", sans-serif;
+  font-size: 16px; }
+  .back a {
+    color: white; }
 
 .movie--avengers {
   background: url(../../assets/mini/Avengers.jpg);
@@ -893,11 +1007,12 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 0.5s; }
   .movie--avengers:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -908,11 +1023,13 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 1.5s;
+  transition-timing-function: ease-out; }
   .movie--kingsman:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/kingsman.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -923,11 +1040,12 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 0.5s; }
   .movie--readyPlayerOne:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/ready-player-one.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -938,11 +1056,12 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 0.5s; }
   .movie--matrix:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/matrix.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -953,11 +1072,12 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 0.5s; }
   .movie--1917:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/1917.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -968,11 +1088,12 @@ footer {
   width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
-  background-size: contain; }
+  background-size: contain;
+  transition: width height 0.5s; }
   .movie--kickAss:hover {
-    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/kick-ass.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -984,14 +1105,28 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--bigLebowski:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/big-Lebowski.jpg);
+    height: 20.79vw;
+    width: 13.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--intouchables {
   background: url(../../assets/mini/intouchables.jpg);
   height: 19.79vw;
-  width: 13.2vw;
+  width: 14.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--intouchables:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/intouchables.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--zoolander {
   background: url(../../assets/mini/zoolander.jpg);
@@ -1000,6 +1135,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--zoolander:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zoolander.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--littleMiss {
   background: url(../../assets/mini/little-miss-sunshine.jpg);
@@ -1008,6 +1150,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--littleMiss:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/little-miss-sunshine.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--bridesmaids {
   background: url(../../assets/mini/bridesmaids.jpg);
@@ -1016,6 +1165,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--bridesmaids:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/bridesmaids.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--zombieland {
   background: url(../../assets/mini/zombieland.jpg);
@@ -1024,6 +1180,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--zombieland:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--plateform {
   background: url(../../assets/mini/the-platform.jpg);
@@ -1032,6 +1195,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--plateform:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--shinning {
   background: url(../../assets/mini/the-shining.jpg);
@@ -1040,6 +1210,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--shinning:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--jaws {
   background: url(../../assets/mini/jaws.jpg);
@@ -1048,6 +1225,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--jaws:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--midsommar {
   background: url(../../assets/mini/midsommar.jpg);
@@ -1056,6 +1240,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--midsommar:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--invisible {
   background: url(../../assets/mini/the-invisible-man.jpg);
@@ -1064,6 +1255,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--invisible:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--paranormal {
   background: url(../../assets/mini/paranormal-activity.jpg);
@@ -1072,6 +1270,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--paranormal:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--pedal {
   background: url(../../assets/mini/pedal-the-world.jpg);
@@ -1080,6 +1285,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--pedal:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--fahrenheit {
   background: url(../../assets/mini/fahrenheit-911.jpg);
@@ -1088,6 +1300,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--fahrenheit:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--plasticOcean {
   background: url(../../assets/mini/a-plastic-ocean.jpg);
@@ -1096,6 +1315,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--plasticOcean:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--heartsOfDarkness {
   background: url(../../assets/mini/hearts-of-darkness.jpg);
@@ -1104,6 +1330,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--heartsOfDarkness:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--youNegro {
   background: url(../../assets/mini/i-am-not-your-negro.jpg);
@@ -1112,6 +1345,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--youNegro:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--creativeBrain {
   background: url(../../assets/mini/the-creative-brain.jpg);
@@ -1120,6 +1360,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--creativeBrain:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--interstellar {
   background: url(../../assets/mini/interstellar.jpg);
@@ -1128,6 +1375,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--interstellar:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--hungerGames {
   background: url(../../assets/mini/hunger-games.jpg);
@@ -1136,6 +1390,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--hungerGames:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--fifthElement {
   background: url(../../assets/mini/fifth-element.jpg);
@@ -1144,6 +1405,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--fifthElement:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--avatar {
   background: url(../../assets/mini/avatar.jpg);
@@ -1152,6 +1420,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--avatar:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--backToTheFuture {
   background: url(../../assets/mini/back-to-the-future.jpg);
@@ -1160,6 +1435,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--backToTheFuture:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--jurassicPark {
   background: url(../../assets/mini/jurrasic-park.jpg);
@@ -1168,6 +1450,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--jurassicPark:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--frozen {
   background: url(../../assets/mini/frozen.jpg);
@@ -1176,6 +1465,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--frozen:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--insideOut {
   background: url(../../assets/mini/inside-out.jpg);
@@ -1184,6 +1480,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--insideOut:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--peterPan {
   background: url(../../assets/mini/peter-pan.jpg);
@@ -1192,6 +1495,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--peterPan:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--walle {
   background: url(../../assets/mini/wall-e.jpg);
@@ -1200,6 +1510,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--walle:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--incredibles {
   background: url(../../assets/mini/the-incredibles.jpg);
@@ -1208,6 +1525,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--incredibles:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--moana {
   background: url(../../assets/mini/moana.jpg);
@@ -1216,6 +1540,13 @@ footer {
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--moana:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 a {
   text-decoration: none;

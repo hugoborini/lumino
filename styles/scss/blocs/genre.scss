@@ -1,0 +1,30 @@
+.genre {
+  display: flex;
+  border: 2px solid red;
+  margin: 0vw 4vw;
+}
+
+.genre__movie {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid blue;
+}
+
+.genre__box {
+  display: flex;
+  border: 2px solid green;
+}
+
+.box__picture {
+  border: 2px solid orangered;
+
+  img {
+    width: 15vw;
+  }
+}
+
+.box__description {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid yellow;
+}

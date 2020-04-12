@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 .category {
   display: flex;
@@ -10,10 +11,21 @@
   justify-content: space-between;
   margin-right: 5vw;
   margin-left: 5vw;
+  margin-bottom: 1vw;
 }
 
 .category__title {
   color: $secondary-lighter;
+  font-size: $h2;
+  font-weight: $h2-font;
+  font-family: "Nunito-Bold";
+}
+
+.category__more {
+  color: $primary;
+  font-size: $menu-navBar;
+  font-weight: $btn-font;
+  font-family: "Nunito-Bold";
 }
 
 .category__movies {
@@ -26,25 +38,28 @@
 
 .movie {
   box-shadow: 0px 0px 20px #121317;
+  padding-left: 0.7%;
+  padding-right: 0.7%;
 }
 
 .movie__elements {
   opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40%;
 
   &:hover {
     opacity: 1;
-    display: flex;
-    padding-top: 80%;
+    padding-top: 85%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
   }
 }
 
 .elements__text:hover {
   display: flex;
   flex-direction: column;
-  align-items: flex-end;
 }
 
 .element__title {
@@ -52,6 +67,7 @@
   font-family: "Nunito-Bold";
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 10px;
   text-shadow: 0 0 5px $secondary-dark, 0 0 10px $secondary-dark,
     0 0 10px $secondary-dark, 0 0 10px $secondary-dark;
   //0 0 20px $secondary-lighter, 0 0 20px $secondary-lighter;
@@ -84,22 +100,18 @@
 
 .movie__chevron {
   position: absolute;
-  top: 165px;
-  left: 70px;
-  text-align: center;
+  top: 135px;
+  left: 55px;
 }
 
 //Partie JS windows modal
-/*.category__modal {
-  margin-top: 5vh;
-}*/
 
 .category__modal--open {
   //background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
-  animation: opening 0.5s;
-  height: 400px;
+  animation: openingModal 0.5s;
+  height: $height-modal;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -111,10 +123,10 @@
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 400px;
+  height: $height-modal;
   width: 100%;
   opacity: 1;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   margin-bottom: 28px;
   background: linear-gradient(
     to top,
@@ -127,35 +139,9 @@
   display: none;
 }
 
-@keyframes opening {
-  from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px;
-  }
-  to {
-    opacity: 1;
-    height: 400px;
-    margin-bottom: 28px;
-  }
-}
-
-@keyframes closing {
-  from {
-    opacity: 1;
-    height: 400px;
-    margin-bottom: 28px;
-  }
-  to {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px;
-  }
-}
-
 .category__modal--closing {
   //background: url(../../assets/mini/ready-Player-One.jpg);
-  animation: closing 0.3s;
+  animation: closingModal 0.3s;
   height: 0px;
   background-position: 0% 25%;
   background-size: cover;
@@ -177,11 +163,24 @@
 .modal__icon {
   z-index: 1;
   width: 2vw;
+  transition: all 0.3s;
+
+  &:hover {
+    cursor: pointer;
+    @include neon-effect($primary, 3px);
+    transform: scale(1.1);
+  }
 
   &--play {
     z-index: 1;
     width: 11vw;
     align-self: center;
+    transition: all 0.3s;
+
+    &:hover {
+      cursor: pointer;
+      @include neon-effect($primary, 10px);
+    }
   }
 }
 

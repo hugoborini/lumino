@@ -1,10 +1,25 @@
 @import "../config/variable.scss";
 
+.main__movie {
+  padding-top: 5.3vw;
+  margin-bottom: 3vw;
+}
+
 .category__main{
   position: relative;
-  border: 2px solid red;
-  height: 30vw;
   color: $secondary-light;
+  height: 45vw;
+  overflow: hidden;
+}
+
+.category__video {
+
+  position: absolute;
+  top: -4.1vw;
+  
+  video {
+    width: 100vw;
+  }
 }
 
 .category__path {
@@ -63,7 +78,7 @@
   margin-bottom: 1vw;
 
   &:nth-child(3) {
-    line-height: 1.6vw;
+    line-height: 1.8vw;
     font-family: $body-font;
     font-size: $body;
     margin-bottom: 6vw;

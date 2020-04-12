@@ -5,6 +5,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--plateform:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--shinning {
   background: url(../../assets/mini/the-shining.jpg);
@@ -13,6 +20,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--shinning:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--jaws {
   background: url(../../assets/mini/jaws.jpg);
@@ -21,6 +35,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--jaws:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--midsommar {
   background: url(../../assets/mini/midsommar.jpg);
@@ -29,6 +50,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--midsommar:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--invisible {
   background: url(../../assets/mini/the-invisible-man.jpg);
@@ -37,6 +65,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--invisible:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--paranormal {
   background: url(../../assets/mini/paranormal-activity.jpg);
@@ -45,3 +80,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--paranormal:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }

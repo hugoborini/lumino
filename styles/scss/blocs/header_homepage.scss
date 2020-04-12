@@ -1,6 +1,9 @@
 @import "../config/variable.scss";
 
 .headerHome {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -62,10 +65,16 @@
 
 .search {
   display: flex;
+  justify-content: center;
+  align-items: center;
   position: relative;
-  &__bell {
+
+  &__loupe {
+    position: absolute;
+    top: 0.2vw;
+    left: -3.5vw;
+    width: 1.3vw;
     padding: 0 1vw;
-    fill: white;
   }
 }
 
@@ -74,7 +83,7 @@
   font-family: "Nunito", sans-serif;
   width: 15vw;
   border-radius: 5px;
-  padding: 0.3vw;
+  padding: 0.2vw;
   font-size: $menu-navBar;
   //box-shadow: 0 0 5px rgba(0, 0, 0, 0.7), inset 0 0 2px rgba(0, 0, 0, 0.19);
 }
@@ -93,4 +102,12 @@
 
 .headerHome__disconnect {
   margin-right: 4vw;
+}
+
+.headerHome__bell {
+
+  img{
+    width: 1.4vw;
+  }
+
 }
