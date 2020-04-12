@@ -238,9 +238,8 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 80px;
-  background-color: black;
+  background-color: #1b1c1f;
   height: 65px; }
-
   header .container-image {
     margin-left: 4vw;
     display: flex;
@@ -501,10 +500,6 @@ a {
   .login .forgot-password {
     color: #a9bac1; }
 
-.landingpage {
-  margin-left: 80px;
-  margin-right: 80px; }
-
 .hero {
   color: #f0f1f3;
   display: flex;
@@ -536,11 +531,15 @@ a {
   margin-top: 35px; }
 
 .hero__bottom {
-  height: 30vh;
-  background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%); }
+  width: 100%;
+  background-color: black; }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }
+
+.watch {
+  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 99%);
+  padding-top: 10vw; }
 
 .watch,
 .movies,
@@ -577,8 +576,9 @@ a {
     font-family: "Poppins";
     font-size: 1.95vw;
     line-height: 2.4vw;
-    font-weight: 800; }
-
+    font-weight: 800;
+    margin-left: 80px;
+    margin-right: 80px; }
   .watch__body,
   .movies__body,
   .download__body {
@@ -586,7 +586,9 @@ a {
     font-family: "Nunito";
     line-height: 2.625vw;
     justify-content: start;
-    padding-top: 1.43vw; }
+    padding-top: 1.43vw;
+    margin-left: 80px;
+    margin-right: 80px; }
 
 .watch__mockup {
   width: 100%; }
