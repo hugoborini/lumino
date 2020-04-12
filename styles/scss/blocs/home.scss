@@ -31,14 +31,16 @@
 
 .movie__elements {
   opacity: 0;
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 40%;
 
   &:hover {
     opacity: 1;
-    display: flex;
-    padding-top: 80%;
+    padding-top: 85%;
     margin-left: 2%;
     margin-right: 2%;
-    margin-bottom: 2%;
+    margin-bottom: 10%;
   }
 }
 
@@ -85,9 +87,8 @@
 
 .movie__chevron {
   position: absolute;
-  top: 165px;
-  left: 70px;
-  text-align: center;
+  top: 135px;
+  left: 55px;
 }
 
 //Partie JS windows modal
