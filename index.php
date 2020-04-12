@@ -23,12 +23,11 @@ require("controller/controller.php");
         elseif($_GET['action'] == "deco"){
             deconnexion();
         }
-        elseif($_GET['action'] == "search"){
-            catchData($_GET['txt']);
-        }
     }
     else {
         require("views/landing.php");
+        // require("views/player.php");
+
     }
 ?>
 
