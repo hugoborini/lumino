@@ -102,3 +102,18 @@ function updateUser($id ,$firstname, $lastname, $email, $pass){
     return true;
 
 }
+
+function getFilmByGenre($genre) {
+    $bdd= dbConnect();
+
+    $get_film = $bdd->prepare("SELECT * FROM film WHERE category = :category");
+
+    $get_film->execute(array(
+        "category" => $genre,
+    ));
+
+    
+
+
+    return $get_film;
+}

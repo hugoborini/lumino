@@ -1,4 +1,6 @@
-
+<?php  
+$filepath = 'assets/uploads/'.$_SESSION['id'].".png";
+?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -14,25 +16,29 @@
 
     <div class="genre">
 
+  <?php
+  $get_film = catchFilmByGenre($_GET["genre"]);
+    while($data = $get_film->fetch()){
 
-      <div class="genre__movie">
-        <div class="genre__title">Avengers - Infinity Wars</div>
-          <div class="genre__box">
-            <div class="box__picture"><img src="./assets/mini/Avengers.jpg" alt="affiche"></div>
-              <div class="box__description description">
-                <div class="description__item"><span>SYNOPSIS : </span> April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.</div>
-                  <div class="description__item"><span>RELEASED : </span> 04.12.2019</div>
-                    <div class="description__button">
-                      <img class="button__item" src="./assets/icon/big_play.svg" alt="play"/>
-                      <img class="button__item" src="./assets/icon/Add.svg" alt="add"/>
-                      <img class="button__item" src="./assets/icon/like.svg" alt="like"/>
-                    </div>
-              </div>
-          </div>
-      </div>
-
-
-
+  ?>
+        <div class="genre__movie">
+          <div class="genre__title"><?= htmlspecialchars($data['title']);?></div>
+            <div class="genre__box">
+              <div class="box__picture"><img loading="lazy" src="<?=$data['path_mini']; ?>" alt="affiche"></div>
+                <div class="box__description description">
+                  <div class="description__item"><span>SYNOPSIS : </span> <?= htmlspecialchars($data['description']);?></div>
+                    <div class="description__item"><span>RELEASED : </span><?= htmlspecialchars($data['release_date']);?></div>
+                      <div class="description__button">
+                        <img class="button__item" src="./assets/icon/big_play.svg" alt="play"/>
+                        <img class="button__item" src="./assets/icon/Add.svg" alt="add"/>
+                        <img class="button__item" src="./assets/icon/like.svg" alt="like"/>
+                      </div>
+                </div>
+            </div>
+        </div>
+  <?php
+  }
+  ?>
 
 
 

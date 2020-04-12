@@ -1,7 +1,16 @@
 <section class="main__movie">
     <div class="category__main">
       <div class="category__video"><video autoplay="true" loop muted src="./assets/video/1917.mp4">Votre navigateur ne supporte pas la vidéo</video></div>
-      <div class="category__path">Genre > <span>Action</span> </div>
+      <?php
+      if(empty($_GET['genre'])) {
+        echo null;
+      }
+      else {
+        ?>
+      <div class="category__path">Genre > <span><?= $_GET['genre'] ?></span> </div>
+    <?php  
+    }
+      ?>
 
       <div class="category__info info">
         <div class="info__title item__hero">1917</div>
