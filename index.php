@@ -25,7 +25,7 @@ require("controller/controller.php");
         }
     }
     else {
-        require("views/landing.php");
+        require("views/category.php");
         // require("views/player.php");
 
     }
