@@ -26,10 +26,20 @@
   display: flex;
   justify-content: space-between;
   margin-right: 5vw;
-  margin-left: 5vw; }
+  margin-left: 5vw;
+  margin-bottom: 1vw; }
 
 .category__title {
-  color: #f9fafa; }
+  color: #f9fafa;
+  font-size: 1.42vw;
+  font-weight: "Nunito-Bold";
+  font-family: "Nunito-Bold"; }
+
+.category__more {
+  color: #feca28;
+  font-size: 0.99vw;
+  font-weight: "Nunito-Bold";
+  font-family: "Nunito-Bold"; }
 
 .category__movies {
   display: flex;
@@ -39,7 +49,9 @@
   margin-bottom: 5vh; }
 
 .movie {
-  box-shadow: 0px 0px 20px #121317; }
+  box-shadow: 0px 0px 20px #121317;
+  padding-left: 0.7%;
+  padding-right: 0.7%; }
 
 .movie__elements {
   opacity: 0;

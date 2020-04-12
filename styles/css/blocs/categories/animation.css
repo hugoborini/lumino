@@ -5,6 +5,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--frozen:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--insideOut {
   background: url(../../assets/mini/inside-out.jpg);
@@ -13,6 +20,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--insideOut:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--peterPan {
   background: url(../../assets/mini/peter-pan.jpg);
@@ -21,6 +35,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--peterPan:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--walle {
   background: url(../../assets/mini/wall-e.jpg);
@@ -29,6 +50,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--walle:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--incredibles {
   background: url(../../assets/mini/the-incredibles.jpg);
@@ -37,6 +65,13 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--incredibles:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
 
 .movie--moana {
   background: url(../../assets/mini/moana.jpg);
@@ -45,3 +80,10 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain; }
+  .movie--moana:hover {
+    background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain; }
