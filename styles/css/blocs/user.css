@@ -94,3 +94,8 @@
   font-family: "Nunito";
   font-size: 1.13vw;
   text-decoration: underline; }
+
+.center__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw; }

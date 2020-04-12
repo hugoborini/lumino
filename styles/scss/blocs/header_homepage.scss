@@ -3,6 +3,7 @@
 
 .headerHome {
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100vw;
   display: flex;
@@ -37,7 +38,7 @@
   ul {
     display: none;
     position: absolute;
-    top: 2vw;
+    top: 1.8vw;
     left: -2.5vw;
     width: 10vw;
     background-color: $tertiary;
@@ -122,4 +123,8 @@
   img {
     width: 1.4vw;
   }
+}
+
+.icon_user {
+  border-radius: 50%;
 }

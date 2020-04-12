@@ -202,16 +202,16 @@ a {
 
 .error {
   background-color: lightcoral;
-  height: 30px;
-  width: 410px;
+  height: 2vw;
+  width: 22vw;
   display: flex;
   align-items: center;
   justify-content: center;
   font-weight: 500;
-  font-size: 18px;
+  font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito", sans-serif; }
+  font-family: "Nunito"; }
 
 @keyframes openingModal {
   from {
@@ -300,6 +300,7 @@ footer {
 
 .headerHome {
   position: fixed;
+  top: 0;
   z-index: 1;
   width: 100vw;
   display: flex;
@@ -327,7 +328,7 @@ footer {
   .nav ul {
     display: none;
     position: absolute;
-    top: 2vw;
+    top: 1.8vw;
     left: -2.5vw;
     width: 10vw;
     background-color: #1b1c1f;
@@ -385,6 +386,9 @@ footer {
 
 .headerHome__bell img {
   width: 1.4vw; }
+
+.icon_user {
+  border-radius: 50%; }
 
 @keyframes openingModal {
   from {
@@ -887,19 +891,23 @@ a {
   font-size: 1.13vw;
   text-decoration: underline; }
 
+.center__error {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 1vw; }
+
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
   position: relative;
   color: #f0f1f3;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden; }
 
 .category__video {
   position: absolute;
-  top: -4.1vw; }
+  top: -6vw; }
   .category__video video {
     width: 100vw; }
 
@@ -938,6 +946,9 @@ a {
       margin-right: 1vw; }
   .info__play {
     width: 4vw; }
+  .info__list {
+    width: 1.5vw;
+    cursor: pointer; }
 
 .item__hero {
   margin-bottom: 1vw; }
@@ -995,9 +1006,9 @@ a {
   width: 15vw;
   display: none;
   position: absolute;
-  top: 5vh;
+  top: 2.5vw;
   left: 4vw;
-  line-height: 4vh;
+  line-height: 2vw;
   background-color: #1b1c1f; }
   .show_up a {
     text-align: center;

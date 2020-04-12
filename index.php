@@ -38,6 +38,9 @@ require("controller/controller.php");
             // }
             checkInput($_POST['firstname'], $_POST['lastname'], $_POST['email'], $_POST['pass']);
         }
+        elseif( $_GET['action'] == "upload"){
+            upload();
+        }
     }
     else {
         require("views/landing.php");
