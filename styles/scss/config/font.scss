@@ -1,19 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 
 @font-face {
   font-family: "Radikal-Bold";
-  src: url("../scss/fonts/Radikal-Bold.ttf") format('trueType');
+  src: url("../scss/fonts/Radikal-Bold.ttf") format("trueType");
 }
 
 @font-face {
   font-family: "Nunito-SemiBold";
-  src: url("../scss/fonts/Nunito-SemiBold.ttf") format('trueType');
+  src: url("../scss/fonts/Nunito-SemiBold.ttf") format("trueType");
 }
 
 @font-face {
   font-family: "Nunito-Bold";
-  src: url("../scss/fonts/Nunito-Bold.ttf") format('trueType');
+  src: url("../scss/fonts/Nunito-Bold.ttf") format("trueType");
 }
 
 @font-face {
@@ -21,9 +22,12 @@
   src: url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
 }
 
+@font-face {
+  font-family: "Nunito ExtraLight";
+  src: url("https://fonts.googleapis.com/css2?family=Nunito:wght@200&display=swap");
+}
 
 @font-face {
   font-family: "Poppins";
   src: url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
 }
-
