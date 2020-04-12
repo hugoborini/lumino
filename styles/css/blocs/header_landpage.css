@@ -1,8 +1,11 @@
 header {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   background: #000;
-  height: 84px; }
+  height: 6vw; }
   header .container-image {
     margin-left: 4vw;
     display: flex;
