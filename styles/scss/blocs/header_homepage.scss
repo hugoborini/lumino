@@ -1,6 +1,9 @@
 @import "../config/variable.scss";
 
 .headerHome {
+  position: fixed;
+  z-index: 1;
+  width: 100vw;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,9 +107,7 @@
 .headerHome__bell {
 
   img{
-
     width: 1.4vw;
-
   }
 
 }
