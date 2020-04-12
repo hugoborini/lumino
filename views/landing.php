@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
-    <!-- <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" /> -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
 
     <title>Lumino</title>
 </head>
@@ -20,8 +20,10 @@
         </article>
 
         <article class="hero__infos" data-aos="fade" data-aos-delay="1500" data-aos-duration="1500">
-            <h3>Start your free trial and watch thousands of movies wherever you want starting</h3>
-            <h3 class="price"> at <em> 6.99</em>$ /month</h3>
+            <h3>Start your free trial and watch thousands of movies wherever you want starting <br> at <em> 6.99</em>$
+                /month</h3>
+            <!-- <h3>Start your free trial and watch thousands of movies wherever you want starting</h3>
+            <h3 class="price"> at <em> 6.99</em>$ /month</h3> -->
         </article>
 
         <article class="buttonLP">
@@ -42,10 +44,11 @@
         <section class="watch">
             <article class="watch__text">
                 <h3 class="watch__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Watch movies
-                    wherever, wheneveryou want.</h3>
-                <h3 class="watch__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">On your desktop,
+                    wherever, <br> whenever you want.</h3>
+                <h3 class="watch__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">On your
+                    desktop,
                     on your laptop, your tablet or your phone, we are
-                    availableeverywhere, on any device.No need for internet connection to watch your favorite movies,
+                    available everywhere, on any device. No need for internet connection to watch your favorite movies,
                     juste download them and whatch themlater.</h3>
             </article>
 
@@ -75,7 +78,8 @@
 
         <section class="download">
             <article class="download__text">
-                <h3 class="download__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Download all
+                <h3 class="download__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Download
+                    all
                     your favorite movies to watch them offline.</h3>
                 <h3 class="download__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">Our large
                     number of servers allow you to download up to 10Go of movies on your
@@ -98,9 +102,9 @@
     <?php  require("components/footer.php") ?>
 
 </body>
-<!-- <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
 <script>
     AOS.init();
-</script> -->
+</script>
 
 </html>

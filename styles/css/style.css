@@ -234,7 +234,7 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 80px;
-  background: #1b1c1f;
+  background-color: black;
   height: 84px; }
   header .container-image {
     margin-left: 4vw;
@@ -469,6 +469,7 @@ a {
   color: #f0f1f3;
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 84vh;
   width: 100%;
@@ -476,22 +477,17 @@ a {
   background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
-    font-weight: lighter;
     font-size: 3vw;
-    padding-bottom: 25px; }
+    padding-bottom: 51px; }
   .hero__infos {
-    font-family: "Nunito ExtraLight";
-    font-size: 1.8vw; }
+    font-family: "Nunito";
+    font-size: 2vw;
+    text-align: center;
+    line-height: 3vw; }
     .hero__infos em {
-      align-self: flex-end;
-      font-size: 2.5vw;
-      font-family: "Nunito-Bold";
+      font-weight: 600;
+      font-size: 3vw;
       padding-left: 5px; }
-  .hero .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3%; }
 
 .buttonLP {
   display: flex;
@@ -523,34 +519,43 @@ a {
   .download .download__text,
   .download .watch__text {
     padding-bottom: 70px;
-    width: 100%; }
+    width: 90%; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-right: 80px; }
+  .watch .movies__text,
+  .movies .movies__text,
+  .download .movies__text {
+    padding-left: 80px; }
   .watch__title,
   .movies__title,
   .download__title {
     font-family: "Poppins";
-    font-size: 2.5vw; }
+    font-size: 1.95vw;
+    line-height: 2.4vw;
+    font-weight: 800; }
   .watch__body,
   .movies__body,
   .download__body {
-    font-size: 1.9vw;
+    font-size: 1.75vw;
     font-family: "Nunito";
-    line-height: 2.28vw;
+    line-height: 2.625vw;
+    justify-content: start;
     padding-top: 1.43vw; }
 
 .watch__mockup {
   width: 100%; }
 
 .movies__mockup {
-  width: 100%; }
+  width: 95%; }
 
 .download__mockup {
-  width: 60%; }
-
-.download__gif {
-  position: absolute;
-  right: 1.58vw;
-  top: 13.9vw;
-  height: 7vh; }
+  width: 70%;
+  margin-left: 50px; }
 
 @keyframes openingModal {
   from {
