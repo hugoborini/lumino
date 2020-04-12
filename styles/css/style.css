@@ -238,8 +238,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 80px;
-  background: #1b1c1f;
+  background-color: black;
   height: 65px; }
+
   header .container-image {
     margin-left: 4vw;
     display: flex;
@@ -517,20 +518,16 @@ a {
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 3vw;
-    padding-bottom: 25px; }
+    padding-bottom: 51px; }
   .hero__infos {
     font-family: "Nunito";
-    font-size: 2vw; }
+    font-size: 2vw;
+    text-align: center;
+    line-height: 3vw; }
     .hero__infos em {
       font-weight: 600;
       font-size: 3vw;
-      padding-left: 5px;
-      padding-right: 5px; }
-  .hero .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3%; }
+      padding-left: 5px; }
 
 .buttonLP {
   display: flex;
@@ -562,16 +559,32 @@ a {
   .download .download__text,
   .download .watch__text {
     padding-bottom: 70px;
-    width: 100%; }
+    width: 90%; }
+  .watch .download__text,
+  .watch .watch__text,
+  .movies .download__text,
+  .movies .watch__text,
+  .download .download__text,
+  .download .watch__text {
+    padding-right: 80px; }
+  .watch .movies__text,
+  .movies .movies__text,
+  .download .movies__text {
+    padding-left: 80px; }
   .watch__title,
   .movies__title,
   .download__title {
-    font-family: "Nunito-SemiBold"; }
+    font-family: "Poppins";
+    font-size: 1.95vw;
+    line-height: 2.4vw;
+    font-weight: 800; }
+
   .watch__body,
   .movies__body,
   .download__body {
+    font-size: 1.75vw;
     font-family: "Nunito";
-    line-height: 1.44em;
+    line-height: 2.625vw;
     justify-content: start;
     padding-top: 1.43vw; }
 
@@ -579,16 +592,11 @@ a {
   width: 100%; }
 
 .movies__mockup {
-  width: 100%; }
+  width: 95%; }
 
 .download__mockup {
-  width: 60%; }
-
-.download__gif {
-  position: absolute;
-  right: 1.58vw;
-  top: 13.9vw;
-  height: 7vh; }
+  width: 70%;
+  margin-left: 50px; }
 
 @keyframes openingModal {
   from {

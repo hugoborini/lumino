@@ -1,9 +1,8 @@
 @import "../config/variable.scss";
 $h1: 3vw;
 $h2: 2vw;
-$h3: 2vw;
-$h4: 2vw;
-$h5: 2vw;
+$h3: 1.95vw;
+$h4: 1.75vw;
 
 .landingpage {
   margin-left: 80px;
@@ -27,53 +26,31 @@ $h5: 2vw;
   &__title {
     font-family: $h1-font;
     font-size: $h1;
-    padding-bottom: 25px;
+    padding-bottom: 51px;
   }
 
   &__infos {
     font-family: $body-font;
     font-size: $h2;
+    text-align: center;
+    line-height: $h2 * 1.5;
 
     em {
       font-weight: 600;
       font-size: 3vw;
       padding-left: 5px;
-      padding-right: 5px;
+      // padding-righ: 5px;
     }
   }
-
-  .price {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding-top: 3%;
-  }
 }
-// CTA
-// .button {
-//   margin-top: 4vw;
-//   display: flex;
-//   align-items: center;
-//   justify-content: center;
-//   color: $tertiary;
-//   background-color: $primary;
-//   border: none;
-//   text-decoration: none;
-//   width: 15em;
-//   height: 38px;
-//   font-family: $body-font;
-//   font-size:;
-//   &__connexion{
 
-//   }
-// }
 .buttonLP {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 35px;
 }
-//
+
 .hero__bottom {
   height: 30vh;
   background: linear-gradient(-180deg, #000000 0%, rgba(13, 12, 12, 0) 100%);
@@ -84,7 +61,7 @@ $h5: 2vw;
   }
 } // # HERO END #
 
-// ## SECOND AND THIRD SECTION ##
+// ## SECTIONS ##
 
 .watch,
 .movies,
@@ -98,22 +75,31 @@ $h5: 2vw;
   .download__text,
   .watch__text {
     padding-bottom: 70px;
-    width: 100%;
+    width: 90%;
+  }
+
+  .download__text,
+  .watch__text {
+    padding-right: 80px;
+  }
+
+  .movies__text {
+    padding-left: 80px;
   }
 
   &__title {
-    font-family: $h3-font;
-    // font-size: ;
+    font-family: "Poppins";
+    font-size: $h3;
+    line-height: $h2 * 1.2;
+    font-weight: 800;
   }
 
   &__body {
-    // font-size: ;
+    font-size: $h4;
     font-family: $body-font;
-    line-height: 1.2em * 1.2;
+    line-height: $h4 * 1.5;
     justify-content: start;
-    //max-width: 581px;
     padding-top: 1.43vw;
-    // max-width: 566px;
   }
 }
 
@@ -122,17 +108,17 @@ $h5: 2vw;
 }
 
 .movies__mockup {
-  width: 100%;
+  width: 95%;
 }
 
 .download__mockup {
-  // position: relative;
-  width: 60%;
+  width: 70%;
+  margin-left: 50px;
 }
-.download__gif {
-  position: absolute;
-  right: 1.58vw;
-  top: 13.9vw;
-  height: 7vh;
-}
-// ## SECOND AND THIRD END ##
+// .download__gif {
+//   position: absolute;
+//   right: 1.58vw;
+//   top: 13.9vw;
+//   height: 7vh;
+// }
+// ## SECONDS##

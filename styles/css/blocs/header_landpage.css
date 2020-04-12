@@ -3,8 +3,9 @@ header {
   justify-content: space-between;
   align-items: center;
   padding-right: 80px;
-  background: #1b1c1f;
+  background-color: black;
   height: 65px; }
+
   header .container-image {
     margin-left: 4vw;
     display: flex;
