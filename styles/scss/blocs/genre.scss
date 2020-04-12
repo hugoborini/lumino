@@ -1,30 +1,55 @@
+@import "../config/variable.scss";
+
 .genre {
   display: flex;
-  border: 2px solid red;
+  flex-wrap: wrap;
+  justify-content: space-between;
   margin: 0vw 4vw;
-}
+  color: $secondary-dark;
 
-.genre__movie {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid blue;
+  &__movie {
+    flex-direction: column;
+    width: 43vw;
+    margin-bottom: 5vw;
+  }
 }
 
 .genre__box {
   display: flex;
-  border: 2px solid green;
 }
 
 .box__picture {
-  border: 2px solid orangered;
-
   img {
-    width: 15vw;
+    width: 45vw;
   }
 }
 
 .box__description {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow;
+  justify-content: space-between;
+  margin-left: 2vw;
+}
+
+.genre__title {
+  font-family: $h2-font;
+  font-size: $h1;
+  margin-bottom: 2vw;
+}
+
+.description__item {
+  font-family: $h3-font;
+  font-size: $h3;
+  line-height: 1.6vw;
+
+  span {
+    color: $primary;
+  }
+}
+
+.button__item:nth-child(n+2) {
+
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw;
 }

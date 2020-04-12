@@ -69,13 +69,16 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  border: 2px solid blue; }
   .search__loupe {
     position: absolute;
-    top: 0.2vw;
+    background-color: greenyellow;
     left: -3.5vw;
     width: 1.3vw;
-    padding: 0 1vw; }
+    height: 2vw;
+    padding: 0 1vw;
+    border: 2px solid red; }
 
 .search__input {
   text-align: left;

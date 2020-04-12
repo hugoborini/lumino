@@ -345,13 +345,16 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative; }
+  position: relative;
+  border: 2px solid blue; }
   .search__loupe {
     position: absolute;
-    top: 0.2vw;
+    background-color: greenyellow;
     left: -3.5vw;
     width: 1.3vw;
-    padding: 0 1vw; }
+    height: 2vw;
+    padding: 0 1vw;
+    border: 2px solid red; }
 
 .search__input {
   text-align: left;
@@ -875,7 +878,7 @@ a {
   margin-left: 2.5vw; }
 
 .main__movie {
-  padding-top: 5.3vw;
+  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
@@ -892,11 +895,12 @@ a {
 
 .category__path {
   position: absolute;
-  top: 1vw;
+  top: 5vw;
   left: 4vw;
   font-family: "Nunito-SemiBold";
   font-size: 1.2vw;
-  color: #c8d3d7; }
+  color: #c8d3d7;
+  text-shadow: 0px 0px 13px #0b0b0b; }
   .category__path span {
     font-family: "Nunito-Bold";
     font-size: 1.42vw; }
@@ -939,27 +943,43 @@ a {
 
 .genre {
   display: flex;
-  border: 2px solid red;
-  margin: 0vw 4vw; }
-
-.genre__movie {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid blue; }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0vw 4vw;
+  color: #c8d3d7; }
+  .genre__movie {
+    flex-direction: column;
+    width: 43vw;
+    margin-bottom: 5vw; }
 
 .genre__box {
-  display: flex;
-  border: 2px solid green; }
+  display: flex; }
 
-.box__picture {
-  border: 2px solid orangered; }
-  .box__picture img {
-    width: 15vw; }
+.box__picture img {
+  width: 45vw; }
 
 .box__description {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow; }
+  justify-content: space-between;
+  margin-left: 2vw; }
+
+.genre__title {
+  font-family: "Nunito-Bold";
+  font-size: 1.56vw;
+  margin-bottom: 2vw; }
+
+.description__item {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw;
+  line-height: 1.6vw; }
+  .description__item span {
+    color: #feca28; }
+
+.button__item:nth-child(n+2) {
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw; }
 
 .show_up {
   width: 15vw;
