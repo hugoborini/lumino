@@ -240,7 +240,6 @@ header {
   padding-right: 80px;
   background-color: black;
   height: 65px; }
-
   header .container-image {
     margin-left: 4vw;
     display: flex;
@@ -324,7 +323,7 @@ footer {
   .nav ul {
     display: none;
     position: absolute;
-    top: 2vw;
+    top: 1.8vw;
     left: -2.5vw;
     width: 10vw;
     background-color: #1b1c1f;
@@ -578,7 +577,6 @@ a {
     font-size: 1.95vw;
     line-height: 2.4vw;
     font-weight: 800; }
-
   .watch__body,
   .movies__body,
   .download__body {
@@ -886,18 +884,17 @@ a {
   text-decoration: underline; }
 
 .main__movie {
-  padding-top: 2.5vw;
   margin-bottom: 3vw; }
 
 .category__main {
   position: relative;
   color: #f0f1f3;
-  height: 45vw;
+  height: 40vw;
   overflow: hidden; }
 
 .category__video {
   position: absolute;
-  top: -4.1vw; }
+  top: -6vw; }
   .category__video video {
     width: 100vw; }
 
@@ -936,6 +933,9 @@ a {
       margin-right: 1vw; }
   .info__play {
     width: 4vw; }
+  .info__list {
+    width: 1.5vw;
+    cursor: pointer; }
 
 .item__hero {
   margin-bottom: 1vw; }
@@ -993,9 +993,9 @@ a {
   width: 15vw;
   display: none;
   position: absolute;
-  top: 5vh;
+  top: 2.5vw;
   left: 4vw;
-  line-height: 4vh;
+  line-height: 2vw;
   background-color: #1b1c1f; }
   .show_up a {
     text-align: center;
