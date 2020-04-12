@@ -1,23 +1,39 @@
 .genre {
   display: flex;
-  border: 2px solid red;
-  margin: 0vw 4vw; }
-
-.genre__movie {
-  display: flex;
-  flex-direction: column;
-  border: 2px solid blue; }
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0vw 4vw;
+  color: #c8d3d7; }
+  .genre__movie {
+    flex-direction: column;
+    width: 43vw;
+    margin-bottom: 5vw; }
 
 .genre__box {
-  display: flex;
-  border: 2px solid green; }
+  display: flex; }
 
-.box__picture {
-  border: 2px solid orangered; }
-  .box__picture img {
-    width: 15vw; }
+.box__picture img {
+  width: 45vw; }
 
 .box__description {
   display: flex;
   flex-direction: column;
-  border: 2px solid yellow; }
+  justify-content: space-between;
+  margin-left: 2vw; }
+
+.genre__title {
+  font-family: "Nunito-Bold";
+  font-size: 1.56vw;
+  margin-bottom: 2vw; }
+
+.description__item {
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw;
+  line-height: 1.6vw; }
+  .description__item span {
+    color: #feca28; }
+
+.button__item:nth-child(n+2) {
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw; }
