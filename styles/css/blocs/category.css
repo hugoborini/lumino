@@ -1,0 +1,52 @@
+.category__main {
+  position: relative;
+  border: 2px solid red;
+  height: 30vw;
+  color: #f0f1f3; }
+
+.category__path {
+  position: absolute;
+  top: 1vw;
+  left: 4vw;
+  font-family: "Nunito-SemiBold";
+  font-size: 1.2vw;
+  color: #c8d3d7; }
+  .category__path span {
+    font-family: "Nunito-Bold";
+    font-size: 1.42vw; }
+
+.info {
+  position: absolute;
+  bottom: 0vw;
+  left: 4vw;
+  display: flex;
+  flex-direction: column;
+  width: 60vw; }
+  .info__title {
+    font-family: "Radikal-Bold";
+    font-size: 5vw; }
+  .info__released {
+    font-family: "Radikal-Bold";
+    font-size: 1.42vw;
+    margin-right: 2vw; }
+    .info__released strong {
+      color: #feca28;
+      margin-right: 1vw; }
+    .info__released span {
+      margin-right: 1vw; }
+    .info__released img {
+      margin-right: 1vw; }
+  .info__play {
+    width: 4vw; }
+
+.item__hero {
+  margin-bottom: 1vw; }
+  .item__hero:nth-child(3) {
+    line-height: 1.6vw;
+    font-family: "Nunito";
+    font-size: 1.13vw;
+    margin-bottom: 6vw; }
+  .item__hero:nth-child(4) {
+    position: absolute;
+    left: 0vw;
+    bottom: 0vw; }

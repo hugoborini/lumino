@@ -1,0 +1,77 @@
+@import "../config/variable.scss";
+
+.category__main{
+  position: relative;
+  border: 2px solid red;
+  height: 30vw;
+  color: $secondary-light;
+}
+
+.category__path {
+  position: absolute;
+  top: 1vw;
+  left: 4vw;
+  font-family: $h3-font;
+  font-size: $h3;
+  color: $secondary-dark;
+
+  span {
+    font-family: $h2-font;
+    font-size: $h2;
+  } 
+}
+
+.info {
+  position: absolute;
+  bottom: 0vw;
+  left: 4vw;
+  display: flex;
+  flex-direction: column;
+  width: 60vw;
+
+  &__title {
+    font-family: $h1-font;
+    font-size: 5vw;
+  }
+
+  &__released {
+
+      font-family: $h1-font;
+      font-size: $h2;
+      margin-right: 2vw;
+
+    strong {
+      color: $primary;
+      margin-right: 1vw;
+    }
+
+    span {;
+      margin-right: 1vw;
+    }
+
+    img {
+      margin-right: 1vw;
+    }
+  }
+
+  &__play {
+    width: 4vw;
+  }
+}
+
+.item__hero {
+  margin-bottom: 1vw;
+
+  &:nth-child(3) {
+    line-height: 1.6vw;
+    font-family: $body-font;
+    font-size: $body;
+    margin-bottom: 6vw;
+  }
+
+  &:nth-child(4) {
+    position: absolute;
+    left: 0vw;
+    bottom: 0vw;
+  }
+}
