@@ -33,14 +33,14 @@
 
 .elements__text:hover {
   display: flex;
-  flex-direction: column;
-  align-items: flex-end; }
+  flex-direction: column; }
 
 .element__title {
   color: #f9fafa;
   font-family: "Nunito-Bold";
   font-size: 16px;
   line-height: 24px;
+  margin-bottom: 10px;
   text-shadow: 0 0 5px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7; }
 
 .element__category {

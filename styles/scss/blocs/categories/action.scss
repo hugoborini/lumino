@@ -7,6 +7,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 0.5s;
 
   &:hover {
     background: linear-gradient(
@@ -15,8 +16,8 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -30,6 +31,8 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 1.5s;
+  transition-timing-function: ease-out;
 
   &:hover {
     background: linear-gradient(
@@ -37,9 +40,9 @@
         rgba(2, 2, 3, 0.97) 33.62%,
         rgba(2, 2, 3, 0) 99.89%
       ),
-      url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+      url(../../assets/mini/kingsman.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -53,6 +56,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 0.5s;
 
   &:hover {
     background: linear-gradient(
@@ -60,9 +64,9 @@
         rgba(2, 2, 3, 0.97) 33.62%,
         rgba(2, 2, 3, 0) 99.89%
       ),
-      url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+      url(../../assets/mini/ready-player-one.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -76,6 +80,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 0.5s;
 
   &:hover {
     background: linear-gradient(
@@ -83,9 +88,9 @@
         rgba(2, 2, 3, 0.97) 33.62%,
         rgba(2, 2, 3, 0) 99.89%
       ),
-      url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+      url(../../assets/mini/matrix.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -99,6 +104,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 0.5s;
 
   &:hover {
     background: linear-gradient(
@@ -106,9 +112,9 @@
         rgba(2, 2, 3, 0.97) 33.62%,
         rgba(2, 2, 3, 0) 99.89%
       ),
-      url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+      url(../../assets/mini/1917.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -122,6 +128,7 @@
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
+  transition: width height 0.5s;
 
   &:hover {
     background: linear-gradient(
@@ -129,9 +136,9 @@
         rgba(2, 2, 3, 0.97) 33.62%,
         rgba(2, 2, 3, 0) 99.89%
       ),
-      url(../../assets/mini/Avengers.jpg);
-    height: 21.79vw;
-    width: 15.2vw;
+      url(../../assets/mini/kick-ass.jpg);
+    height: 20.79vw;
+    width: 14.2vw;
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
