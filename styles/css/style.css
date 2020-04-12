@@ -282,7 +282,6 @@ footer {
 .headerHome__disconnect {
   margin-right: 4vw; }
 
-
 .headerHome__bell img {
   width: 1.4vw; }
 
@@ -307,7 +306,6 @@ a {
   font-size: 1.13vw;
   color: #1b1c1f;
   text-transform: uppercase; }
-
 
 .form-container {
   height: 100%;
@@ -480,6 +478,26 @@ a {
   top: 13.9vw;
   height: 7vh; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 .category {
   display: flex;
   flex-direction: column; }
@@ -555,7 +573,7 @@ a {
 .category__modal--open {
   background-position: 0% 25%;
   background-size: cover;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   height: 450px;
   width: 100%;
   display: flex;
@@ -570,35 +588,15 @@ a {
   height: 450px;
   width: 100%;
   opacity: 1;
-  animation: opening 0.5s;
+  animation: openingModal 0.5s;
   margin-bottom: 28px;
   background: linear-gradient(to top, black 5%, rgba(0, 0, 0, 0.363)); }
 
 .category__modal--close {
   display: none; }
 
-@keyframes opening {
-  from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; }
-  to {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; } }
-
-@keyframes closing {
-  from {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; }
-  to {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; } }
-
 .category__modal--closing {
-  animation: closing 0.3s;
+  animation: closingModal 0.3s;
   height: 0px;
   background-position: 0% 25%;
   background-size: cover; }

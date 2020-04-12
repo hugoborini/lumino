@@ -1,0 +1,19 @@
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
