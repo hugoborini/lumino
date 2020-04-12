@@ -11,10 +11,21 @@
   justify-content: space-between;
   margin-right: 5vw;
   margin-left: 5vw;
+  margin-bottom: 1vw;
 }
 
 .category__title {
   color: $secondary-lighter;
+  font-size: $h2;
+  font-weight: $h2-font;
+  font-family: "Nunito-Bold";
+}
+
+.category__more {
+  color: $primary;
+  font-size: $menu-navBar;
+  font-weight: $btn-font;
+  font-family: "Nunito-Bold";
 }
 
 .category__movies {
@@ -27,6 +38,8 @@
 
 .movie {
   box-shadow: 0px 0px 20px #121317;
+  padding-left: 0.7%;
+  padding-right: 0.7%;
 }
 
 .movie__elements {
