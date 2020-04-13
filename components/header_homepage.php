@@ -49,7 +49,7 @@
       </a>
     </div>
 
-    <div class="headerHome__disconnect"><a href="index.php?action=deco"><img src="assets/icon/unlog.svg"/></a></div>
+    <div class="headerHome__disconnect"><a href="index.php?action=deco&deco=landing"><img src="assets/icon/unlog.svg"/></a></div>
 
 </header>
 

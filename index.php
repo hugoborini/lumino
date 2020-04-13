@@ -40,11 +40,9 @@ require("controller/controller.php");
         }
     }
     else {
-        // require("views/home.php");
-        // require("views/player.php");
-        // require("views/genre.php");
         require("views/landing.php");
-
+        //require("views/player.php");
+        //require("views/genre.php");
     }
 ?>
 
