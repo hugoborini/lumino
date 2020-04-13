@@ -105,8 +105,13 @@ function catchFilmByGenre($genre) {
     return $get_film;
 }
 function catchMostRecentFilmByGenre($genre) {
-$mostRecentFilm = getRecentFilmByGenre($genre);
-return $mostRecentFilm;
+    $mostRecentFilm = getRecentFilmByGenre($genre);
+    return $mostRecentFilm;
+}
+
+function catchFilmByGenreAndLimit($genre){
+    $home_film = getFilmByGenreAndLimit($genre);
+    return $home_film;
 }
 
 ?>
