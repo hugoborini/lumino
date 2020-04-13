@@ -21,16 +21,17 @@ const $container = document.querySelector(".container");
 
 const steps = 10;
 
-$pause.style.display = "none";
+$play.style.display = "none";
+$pause.style.display = "block";
 
 $play.addEventListener("click", function() {
   if ($video.paused) {
-    $pause.style.display = "block";
-    $playsvg.style.display = "none";
+    $pause.style.display = "none";
+    $playsvg.style.display = "block";
     $video.play();
   } else {
-    $playsvg.style.display = "block";
-    $pause.style.display = "none";
+    $playsvg.style.display = "none";
+    $pause.style.display = "block";
     $video.pause();
   }
 });
