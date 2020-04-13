@@ -29,7 +29,10 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
       
             <div class="category__texts">
                 <h1 class="category__title">Action</h1>
-                <a href="index.php?action=genre&genre=Action"><p class="category__more">see more</p></a>
+                <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
             </div>
             <div class="category__movies">
             <?php while($data_action = $action_movie->fetch()){
@@ -71,7 +74,10 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
-                <a href="index.php?action=genre&genre=Comedy"><p class="category__more">see more</p></a>
+                <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
             </div>
             <div class="category__movies">
             <?php while($data_comedy = $comedy_movie->fetch()){
@@ -113,7 +119,10 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
-                <a href="index.php?action=genre&genre=Horror"><p class="category__more">see more</p></a>
+                <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
             </div>
             <div class="category__movies">
             <?php while($data_horror = $horror_movie->fetch()){
@@ -155,8 +164,11 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Documentary</h1>
-            <a href="index.php?action=genre&genre=Documentary"><p class="category__more">see more</p></a>
-        </div>
+            <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
+            </div>
         <div class="category__movies">
         <?php while($data_documentary = $documentary_movie->fetch()){
         ?>
@@ -197,8 +209,11 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Sience-fiction</h1>
-            <a href="index.php?action=genre&genre=SF"><p class="category__more">see more</p></a>
-        </div>
+            <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
+            </div>
         <div class="category__movies">
         <?php while($data_sf = $sf_movie->fetch()){
         ?>
@@ -239,8 +254,11 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Animation</h1>
-            <a href="index.php?action=genre&genre=animation"><p class="category__more">see more</p></a>
-        </div>
+            <a href="index.php?action=genre&genre=Action">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
+            </div>
         <div class="category__movies">
         <?php while($data_animation = $animation_movie->fetch()){
         ?>
