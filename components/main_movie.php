@@ -1,18 +1,11 @@
+
+<?php
+if(empty($_GET['genre'])) {
+ ?>
 <section class="main__movie">
     <div class="category__main">
       <div class="video__wrapper"></div>
       <div class="category__video"><video autoplay="true" loop muted src="./assets/video/1917.mp4">Votre navigateur ne supporte pas la vidéo</video></div>
-      <?php
-      if(empty($_GET['genre'])) {
-        echo null;
-      }
-      else {
-        ?>
-      <div class="category__path">Genre > <span><?= $_GET['genre'] ?></span> </div>
-    <?php  
-    }
-      ?>
-
       <div class="category__info info">
         <div class="info__title item__hero">1917</div>
         <div class="info__released item__hero"><strong>NEW</strong> <span>2019</span> <img class="info__list" src="./assets/icon/Add.svg" alt="add to my list" /> <img class="info__list" src="./assets/icon/like.svg" alt="like" /> </div>
@@ -21,3 +14,25 @@
       </div>
     </div>
 </section>
+<?php 
+}
+else {
+  $mostRecentFilm = catchMostRecentFilmByGenre($_GET['genre']);
+  $data = $mostRecentFilm->fetch();
+  ?>
+  <section class="main__movie">
+    <div class="category__main">
+      <div class="video__wrapper"></div>
+      <div class="category__video"><video autoplay="true" loop muted src="<?= htmlspecialchars($data['path_film']) ?>">Votre navigateur ne supporte pas la vidéo</video></div>
+      <div class="category__path">Genre > <span><?= $_GET['genre'] ?></span> </div>
+      <div class="category__info info">
+        <div class="info__title item__hero"><?= htmlspecialchars($data['title']) ?></div>
+        <div class="info__released item__hero"><strong>NEW</strong> <span><?= htmlspecialchars($data['release_date']) ?></span> <img class="info__list" src="./assets/icon/Add.svg" alt="add to my list" /> <img class="info__list" src="./assets/icon/like.svg" alt="like" /> </div>
+        <div class="info__synopsis item__hero"><?= htmlspecialchars($data['description'])?></div>
+        <img class="info__play item__hero" src="./assets/icon/big_play.svg" alt="play"/>
+      </div>
+    </div>
+</section>
+  <?php
+}
+?>

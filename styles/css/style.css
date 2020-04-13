@@ -213,6 +213,19 @@ a {
   margin: auto;
   font-family: "Nunito"; }
 
+.success {
+  background-color: lightgreen;
+  height: 2vw;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.13vw;
+  border-radius: 5px;
+  margin: auto;
+  font-family: "Nunito"; }
+
 @keyframes openingModal {
   from {
     opacity: 0;

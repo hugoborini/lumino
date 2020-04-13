@@ -74,7 +74,7 @@ function checkInput($firstname, $lastname, $email, $pass){
     $check_update = updateUser($_SESSION['id'],$firstname, $lastname, $email, $pass);
 
     if ($check_update == true){
-        header("Location: index.php?action=user");
+        header("Location: index.php?action=user&success=1");
     }
 }
 
@@ -93,7 +93,10 @@ function upload(){
             } else {
                 header("Location: index.php?action=user&error_format=1");
             }
+        } else {
+            header("Location: index.php?action=user&error_size=1");
         }
+        
     }
 }
 
@@ -101,4 +104,9 @@ function catchFilmByGenre($genre) {
     $get_film = getFilmByGenre($genre);
     return $get_film;
 }
+function catchMostRecentFilmByGenre($genre) {
+$mostRecentFilm = getRecentFilmByGenre($genre);
+return $mostRecentFilm;
+}
+
 ?>
