@@ -397,18 +397,15 @@ footer {
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  border: 2px solid blue; }
-  .search__loupe {
-    position: absolute;
-    background-color: greenyellow;
-    left: -3.5vw;
-    width: 1.3vw;
-    height: 2vw;
-    padding: 0 1vw;
-    border: 2px solid red; }
+  position: relative; }
+
+.search__loupe {
+  margin-right: 5px;
+  color: #feca28; }
 
 .search__input {
+  background-color: #1b1c1f;
+  border: 1px solid #feca28;
   text-align: left;
   font-family: "Nunito", sans-serif;
   width: 15vw;
