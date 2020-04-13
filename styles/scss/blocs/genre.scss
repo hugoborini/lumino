@@ -53,9 +53,17 @@
 .button__item {
   transition: all 0.2s;
 }
-
+.add_button_2 {
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw;
+}
 .button__item:hover {
   @include neon-effect($primary, 3px);
+}
+
+.play_button_2 {
+  width: 3vw;
 }
 
 .button__item:nth-child(n + 2) {
