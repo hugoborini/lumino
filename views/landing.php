@@ -15,11 +15,11 @@
 
 
     <section class="hero">
-        <article class="hero__title" data-aos="fade" data-aos-delay="500" data-aos-duration="1500">
+        <article class="hero__title" data-aos="fade" data-aos-delay="500" data-aos-duration="850">
             <h1>WATCH YOUR MOVIES IN ONE PLACE</h1>
         </article>
 
-        <article class="hero__infos" data-aos="fade" data-aos-delay="1500" data-aos-duration="1500">
+        <article class="hero__infos" data-aos="fade" data-aos-delay="1000" data-aos-duration="850">
             <h3>Start your free trial and watch thousands of movies wherever you want starting <br> at <em> 6.99</em>$
                 /month</h3>
             <!-- <h3>Start your free trial and watch thousands of movies wherever you want starting</h3>
@@ -33,15 +33,16 @@
         </article>
     </section>
 
-    <section class="hero__bottom">
-        <svg class="downIcon" width="30" height="12" viewBox="0 0 30 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+    <section class="hero__bottom" >
+        <a href="#firstSection">
+        <svg class="downIcon"  width="30" height="12" viewBox="0 0 30 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 1L15 11L29 1" stroke="#f0f1f3" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round" />
-        </svg>
+        </svg></a>
     </section>
 
     <section class="landingpage">
-        <section class="watch">
+        <section class="watch" id="firstSection">
             <article class="watch__text">
                 <h3 class="watch__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Watch movies
                     wherever, <br> whenever you want.</h3>
