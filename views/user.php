@@ -34,7 +34,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
 
           <?php
       if(isset($_GET['error_format']) and $_GET['error_format']== 1){
-        echo "<div class='center__error'><p class='error'>BAD FORMAT WE ONLY ACCEPT PNG</p></div>";
+        echo "<div class='center__error'><p class='error'>Bad format we accept only .png</p></div>";
+      }
+      if(isset($_GET['error_size']) and $_GET['error_size']== 1){
+        echo "<div class='center__error'><p class='error'>Your file are too big</p></div>";
       }
       ?>
         <form action="index.php?action=upload" method="post" enctype="multipart/form-data"class="button__image">
@@ -55,22 +58,27 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     <label>
                     First name
                     </label>
-                    <input type="text" name="firstname" class="firstName__input" placeholder="Hugo"><img src="assets/icon/pencil.svg" alt="pencil"/>
+                    <input type="text" name="firstname" class="firstName__input" value="<?= $_SESSION['firstname']?>"><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__lastName">
                     <label>
                         Last name
                     </label>
-                    <input type="text" name="lastname" class="lastName__input" placeholder="Chakal"><img src="assets/icon/pencil.svg" alt="pencil"/>
+                    <input type="text" name="lastname" class="lastName__input" value="<?= $_SESSION['lastname']?>"><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__email">
                     <label>Mail address</label>
-                    <input type="email" name="email" class="mail__input" placeholder="Hugo.le.dz@gmail.com"/><img src="assets/icon/pencil.svg" alt="pencil"/>
+                    <input type="email" name="email" class="mail__input" value="<?= $_SESSION['email']?>"/><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
                 <div class="inputForm user__password">
                     <label>Password</label>
-                    <input type="password" name="pass" class="password__input" placeholder="*********"/><img src="assets/icon/pencil.svg" alt="pencil"/>
+                    <input type="password" name="pass" class="password__input" value="*********"/><img src="assets/icon/pencil.svg" alt="pencil"/>
                 </div>
+                <?php
+                if(isset($_GET['success'])) {
+                  echo "<p class='success'>Your profil is successfully updating</p>";
+                }
+                ?>
               </div>
 
               <div class="button__user">

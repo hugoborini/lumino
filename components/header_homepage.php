@@ -5,8 +5,8 @@
         <a href="index.php?action=home"><img src="assets/icon/logo_svg.png" alt="logo_lumino"></a>
     </div>
     <div class="headerHome__nav nav">
-      <a href="index.php?action=home"><div class="nav__item">Home</div></a>
-      <div class="nav__item" id="genre">Genre <img class="item__arrow" src="assets/icon/chevron_gris.svg"/>
+      <a href="index.php?action=home"><div class="nav__item nav__item--hover">Home</div></a>
+      <div class="nav__item nav__item--hover" id="genre">Categories <img class="item__arrow" src="assets/icon/chevron_gris.svg"/>
     	<ul id="genre__ul">
 				<li><a href="index.php?action=genre&genre=Action">Action</a></li>
 				<li><a href="index.php?action=genre&genre=Animation">Animation</a></li>
@@ -16,13 +16,13 @@
 				<li><a href="index.php?action=genre&genre=Horror">Horror</a></li>
 			</ul>
     </div>
-      <div class="nav__item">My list</div>
+      <a href="index.php?action=list"><div class="nav__item nav__item--hover">My list</div></a>
     </div>
 
     <div class="headerHome__search search">
+      <img class="search__loupe" src="assets/icon/loupe-jaune.svg"/>
       <form class="search__form" action="index.php?action=home">
-        <img class="search__loupe" src="assets/icon/loupe.svg"/>
-        <input type="text" class="search__input" placeholder="Search a title">
+        <input type="text" class="search__input" placeholder="Search a Title">
         <div class="show_up"></div>
         <ul class="suggestions"></ul>
       </form>

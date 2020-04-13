@@ -117,3 +117,50 @@ function getFilmByGenre($genre) {
 
     return $get_film;
 }
+
+function getRecentFilmByGenre($genre) {
+    $bdd = dbConnect();
+
+    $mostRecentFilm = $bdd->prepare("SELECT * FROM film WHERE category = :category ORDER BY release_date DESC LIMIT 1 ");
+
+    $mostRecentFilm->execute(array(
+        "category" => $genre,
+    ));
+return $mostRecentFilm;
+};
+
+function getFilmByGenreAndLimit($genre){
+    $bdd = dbConnect();
+
+    $homeFilm = $bdd->prepare("SELECT * FROM film WHERE category = :category LIMIT  6");
+    $homeFilm->execute([
+        "category" => $genre,
+    ]);
+
+    return $homeFilm;
+}
+
+function addFilmToList($id_user, $id_film){
+    $bdd = dbConnect();
+
+    $film_to_list = $bdd->prepare("INSERT INTO liste(id_user, id_film) VALUEs(:id_user, :id_film)");
+    $film_to_list->execute([
+        "id_user" => $id_user,
+        "id_film" => $id_film,
+    ]);
+
+    return $film_to_list;
+}
+
+
+function getFilmFromUser($id_user){
+    $bdd = dbConnect();
+
+    $film_liste = $bdd->prepare("SELECT * FROM film as f INNER JOIN liste as l ON f.id = l.id_film WHERE l.id_user = :id_user");
+
+    $film_liste->execute([
+        "id_user" => $id_user,
+    ]);
+
+    return $film_liste;
+}

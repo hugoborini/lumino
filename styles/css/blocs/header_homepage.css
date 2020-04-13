@@ -18,6 +18,25 @@
     height: 0px;
     margin-bottom: 0px; } }
 
+@keyframes opacityBack {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 1; } }
+
+@keyframes opacityBack-fadeOut {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0; } }
+
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
+
 .headerHome {
   position: fixed;
   top: 0;
@@ -39,6 +58,7 @@
 .nav {
   display: flex; }
   .nav .nav__item {
+    cursor: pointer;
     margin: 0 2vw;
     color: #c8d3d7;
     font-size: 0.99vw;
@@ -59,10 +79,14 @@
     .nav ul a {
       color: #c8d3d7; }
 
+.nav__item--hover:hover {
+  filter: drop-shadow(0px 0px 5px #c8d3d7); }
+
 .nav .nav__item .appear {
   display: block; }
   .nav .nav__item .appear li:hover {
-    background-color: #feca28; }
+    background-color: #feca28;
+    filter: drop-shadow(0px 0px 5px #feca28); }
     .nav .nav__item .appear li:hover a {
       color: #1b1c1f; }
 
@@ -70,18 +94,15 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  position: relative;
-  border: 2px solid blue; }
-  .search__loupe {
-    position: absolute;
-    background-color: greenyellow;
-    left: -3.5vw;
-    width: 1.3vw;
-    height: 2vw;
-    padding: 0 1vw;
-    border: 2px solid red; }
+  position: relative; }
+
+.search__loupe {
+  margin-right: 5px;
+  color: #feca28; }
 
 .search__input {
+  background-color: #1b1c1f;
+  border: 1px solid #feca28;
   text-align: left;
   font-family: "Nunito", sans-serif;
   width: 15vw;

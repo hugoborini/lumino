@@ -1,5 +1,6 @@
 @import "../config/variable.scss";
 @import "../config/mixinKeyframes.scss";
+@import "../config/global.scss";
 
 .category {
   display: flex;
@@ -12,6 +13,20 @@
   margin-right: 5vw;
   margin-left: 5vw;
   margin-bottom: 1vw;
+  align-items: center;
+
+  a {
+    display: flex;
+    align-items: center;
+
+    &:hover {
+      filter: drop-shadow(0px 0px 5px $primary);
+    }
+
+    img {
+      margin-left: 2px;
+    }
+  }
 }
 
 .category__title {
@@ -38,16 +53,26 @@
 
 .movie {
   box-shadow: 0px 0px 20px #121317;
+  box-sizing: content-box;
+  height: $height-card-movie;
+  width: $width-card-movie;
+  transition: all $animation-card-movie linear;
+
+  &:hover {
+    transform: scale($scale-hover);
+  }
 }
 
 .movie__elements {
   display: flex;
   flex-direction: column;
   justify-content: flex-end;
-  height: 90%;
+  height: 98%;
   opacity: 0;
   transition: all 0.2s linear;
   transition-delay: 0.1s;
+  z-index: 1;
+  position: relative;
 
   &:hover {
     opacity: 1;
@@ -58,16 +83,19 @@
 .movie__element {
   display: flex;
   justify-content: space-between;
+  align-items: flex-end;
   padding-left: 2%;
   padding-right: 2%;
-  padding-bottom: 1vw;
+  padding-bottom: 3%;
 }
 
 .elements__text {
   display: flex;
   flex-direction: column;
   padding-left: 2%;
-  height: 6vw;
+  padding-bottom: 1vw;
+  align-items: space-between;
+  width: 78%;
 }
 
 .element__title {
@@ -76,14 +104,14 @@
   font-size: $h2;
   line-height: 2vw;
   margin-bottom: 1vw;
-  text-shadow: 0 0 3px $secondary-dark;
+  text-shadow: 0 0 5px $secondary-dark;
 }
 
 .element__category {
   color: $secondary-darker;
   opacity: 0.5;
   font-family: $body-font;
-  font-size: $fiche;
+  font-size: 0.9vw;
 }
 
 .elements__icon {
@@ -91,11 +119,12 @@
   flex-direction: column;
   text-align: center;
   justify-content: space-between;
-  height: 6vw;
+  height: 7vw;
+  width: 18%;
 
   & .element-icon {
     width: auto;
-    height: 30%;
+    height: 25%;
   }
 
   & .element__icon--play {
@@ -103,23 +132,30 @@
     height: 40%;
   }
 
-  img:hover {
-    @include neon-effect($primary, 5px);
+  img {
+    transition: all 0.2s linear;
+
+    &:hover {
+      transform: scale(1.07);
+      @include neon-effect($primary, 5px);
+    }
   }
 }
 
 .movie__chevron {
   text-align: center;
+  transition: all 0.2s linear;
 
-  img:hover {
-    @include neon-effect($primary, 5px);
+  &:hover {
+    cursor: pointer;
+    @include neon-effect($primary, 3px);
+    transform: scale(1.1);
   }
 }
 
 //Partie JS windows modal
 
 .category__modal--open {
-  //background: url(../../assets/mini/ready-Player-One.jpg);
   background-position: 0% 25%;
   background-size: cover;
   animation: openingModal 0.5s;
@@ -145,6 +181,35 @@
     rgba(0, 0, 0, 1) 5%,
     rgba(0, 0, 0, 0.363)
   );
+  z-index: 0;
+}
+
+.elements__hover--in {
+  animation: opacityBack 0.2s;
+  position: relative;
+  transform: translateY(-($height-card-movie) + 0.5vw);
+  content: "";
+  width: 100%;
+  background: linear-gradient(
+    0.23deg,
+    rgb(2, 2, 3) 20.62%,
+    rgba(2, 2, 3, 0) 99.89%
+  );
+  height: $height-card-movie;
+}
+
+.elements__hover--out {
+  animation: opacityBack-fadeOut 0.2s;
+  position: relative;
+  transform: translateY(-($height-card-movie) + 0.5vw);
+  content: "";
+  width: 100%;
+  background: linear-gradient(
+    0.23deg,
+    rgb(2, 2, 3) 20.62%,
+    rgba(2, 2, 3, 0) 99.89%
+  );
+  height: $height-card-movie;
 }
 
 .category__modal--close {
@@ -152,7 +217,6 @@
 }
 
 .category__modal--closing {
-  //background: url(../../assets/mini/ready-Player-One.jpg);
   animation: closingModal 0.3s;
   height: 0px;
   background-position: 0% 25%;
@@ -185,12 +249,13 @@
 
   &--play {
     z-index: 1;
-    width: 11vw;
+    height: 11vw;
     align-self: center;
     transition: all 0.3s;
 
     &:hover {
       cursor: pointer;
+      transform: scale(1.03);
       @include neon-effect($primary, 10px);
     }
   }
