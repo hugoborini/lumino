@@ -89,3 +89,9 @@
     color: $secondary-darker;
   }
 }
+
+input:focus {
+  outline: none;
+  border: 1px solid $primary;
+  box-shadow: 0 0 10px $primary;
+}

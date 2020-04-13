@@ -77,7 +77,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
-                <a href="index.php?action=genre&genre=Action">
+                <a href="index.php?action=genre&genre=Comedy">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -126,7 +126,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
-                <a href="index.php?action=genre&genre=Action">
+                <a href="index.php?action=genre&genre=Horror">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -175,7 +175,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Documentary</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <a href="index.php?action=genre&genre=Documentary">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -224,7 +224,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Sience-fiction</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <a href="index.php?action=genre&genre=SF">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -273,7 +273,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Animation</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <a href="index.php?action=genre&genre=Animation">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>

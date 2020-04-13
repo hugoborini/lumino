@@ -134,3 +134,8 @@ a {
     margin-top: 3vw; }
   .login .forgot-password {
     color: #a9bac1; }
+
+input:focus {
+  outline: none;
+  border: 1px solid #feca28;
+  box-shadow: 0 0 10px #feca28; }
