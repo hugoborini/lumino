@@ -797,6 +797,26 @@ a {
   margin-top: 10px;
   line-height: 125%; }
 
+@keyframes openingModal {
+  from {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; }
+  to {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; } }
+
+@keyframes closingModal {
+  from {
+    opacity: 1;
+    height: 450px;
+    margin-bottom: 28px; }
+  to {
+    opacity: 0;
+    height: 0px;
+    margin-bottom: 0px; } }
+
 .user__container {
   display: flex;
   justify-content: space-around;
@@ -873,13 +893,10 @@ a {
 .input__info input[type="password"] {
   margin-left: 5.4vw; }
 
-.button__account {
-  background-color: #feca28;
-  border: 2px solid #1b1c1f;
-  color: #1b1c1f;
-  margin-right: 0px;
-  justify-content: flex-end;
-  margin-left: 2.5vw; }
+.button__user input {
+  margin-left: 2%;
+  padding-top: 1.9%;
+  padding-bottom: 1.9%; }
 
 .button__picture:nth-child(2) {
   margin-left: 2.5vw; }
@@ -887,12 +904,20 @@ a {
 .delete__button {
   position: absolute;
   right: 0px;
-  margin-top: 2vw;
-  color: red;
+  margin-top: 1vw;
+  color: #8b0404;
   align-self: left;
   font-family: "Nunito";
   font-size: 1.13vw;
-  text-decoration: underline; }
+  text-transform: uppercase;
+  border: 1px solid #8b0404;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center; }
+  .delete__button:hover {
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 5px #8b0404); }
 
 .center__error {
   display: flex;
