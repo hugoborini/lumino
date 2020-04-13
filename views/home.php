@@ -110,7 +110,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                         </div>
                     </div>
-                    <div class="elements__hover"></div>
+                    <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
                 </div>  
                 <?php
                 }
@@ -157,7 +159,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                         </div>
                     </div>
-                    <div class="elements__hover"></div>
+                    <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
                 </div>  
                 <?php
                 }
@@ -204,7 +208,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
-                <div class="elements__hover"></div>
+                <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
             </div>  
             <?php
             }
@@ -251,7 +257,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
-                <div class="elements__hover"></div>
+                <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
             </div>  
             <?php
             }
@@ -297,7 +305,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                     </div>
                 </div>
-                <div class="elements__hover"></div>
+                <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
             </div>  
             <?php
             }
