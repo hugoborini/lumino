@@ -106,6 +106,9 @@
   font-family: "Nunito";
   font-size: 1.13vw;
   width: 18vw; }
+  .input__info input:focus {
+    outline: none;
+    border-bottom: 1px solid #feca28; }
 
 .input__info input[type="email"] {
   margin-left: 3.9vw; }
