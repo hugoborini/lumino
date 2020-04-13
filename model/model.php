@@ -128,3 +128,14 @@ function getRecentFilmByGenre($genre) {
     ));
 return $mostRecentFilm;
 };
+
+function getFilmByGenreAndLimit($genre){
+    $bdd = dbConnect();
+
+    $homeFilm = $bdd->prepare("SELECT * FROM film WHERE category = :category LIMIT  6");
+    $homeFilm->execute([
+        "category" => $genre,
+    ]);
+
+    return $homeFilm;
+}
