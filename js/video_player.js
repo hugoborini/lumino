@@ -45,20 +45,16 @@ $forward.addEventListener("click", () => {
 
 $volume.addEventListener("change", () => {
   $video.volume = $volume.value / 100;
-  if($volume.value == 0) {
-    
-
+  if ($volume.value == 0) {
   }
 });
 
 $minimizesvg.style.display = "none";
 
-
 $fullscreen.addEventListener("click", () => {
   $minimizesvg.style.display = "block";
   $fullscreensvg.style.display = "none";
   $backArrow.style.display = "none";
-  
   $video_full.requestFullscreen();
 
   if (document.fullscreenElement) {
@@ -76,8 +72,8 @@ $video.addEventListener("timeupdate", () => {
   //   +"</p>";
 });
 
-$bar.addEventListener("click", (e) => {
-  var x = e.pageX;
+$bar.addEventListener("click", e => {
+  var x = e.pageX - $bar.offsetLeft;
   x = $video.duration * (x / $video.offsetWidth);
   $video.currentTime = x;
 });
@@ -90,7 +86,6 @@ $sound.addEventListener("click", () => {
     $soundsvg.style.display = "none";
     $video.volume = 0;
     $volume.value = "0";
-
   } else {
     $mutesvg.style.display = "none";
     $soundsvg.style.display = "block";

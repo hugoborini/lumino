@@ -108,7 +108,8 @@
   width: 15vw;
   border-radius: 5px;
   padding: 0.2vw;
-  font-size: 0.99vw; }
+  font-size: 0.99vw;
+  color: white; }
 
 .headerHome__name {
   color: #c8d3d7;

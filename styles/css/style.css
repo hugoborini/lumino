@@ -447,7 +447,8 @@ footer {
   width: 15vw;
   border-radius: 5px;
   padding: 0.2vw;
-  font-size: 0.99vw; }
+  font-size: 0.99vw;
+  color: white; }
 
 .headerHome__name {
   color: #c8d3d7;
@@ -617,7 +618,7 @@ a {
   height: 84vh;
   width: 100%;
   align-items: center;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
+  background: linear-gradient(to bottom, #1b1c1f 0%, rgba(27, 28, 31, 0.479) 50%), linear-gradient(to top, #1b1c1f 0%, rgba(27, 28, 31, 0.56) 13%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 3vw;
@@ -638,15 +639,20 @@ a {
   justify-content: center;
   margin-top: 35px; }
 
+.buttonDown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw; }
+
 .hero__bottom {
   width: 100%;
-  background-color: black; }
+  background-color: #1b1c1f; }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }
 
 .watch {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 99%);
+  background: linear-gradient(to top, #1b1c1f 0%, #1b1c1f 99%);
   padding-top: 10vw; }
 
 .watch,
@@ -909,8 +915,10 @@ a {
     width: auto;
     height: 25%; }
   .elements__icon .element__icon--play {
+
     width: auto;
     height: 40%; }
+
   .elements__icon img {
     transition: all 0.2s linear; }
     .elements__icon img:hover {
@@ -1384,9 +1392,17 @@ a {
 .button__item {
   transition: all 0.2s; }
 
+.add_button_2 {
+  margin-left: 1vw;
+  width: 2vw;
+  padding-bottom: 0.3vw; }
+
 .button__item:hover {
   filter: drop-shadow(0px 0px 3px #feca28);
   cursor: pointer; }
+
+.play_button_2 {
+  width: 3vw; }
 
 .button__item:nth-child(n + 2) {
   margin-left: 1vw;
