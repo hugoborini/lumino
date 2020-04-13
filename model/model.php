@@ -164,3 +164,14 @@ function getFilmFromUser($id_user){
 
     return $film_liste;
 }
+
+function deleteListe($id){
+    $bdd = dbConnect();
+
+    $list_film_del = $bdd->prepare("DELETE FROM liste WHERE id = :id");
+    $list_film_del->execute([
+        "id" => $id,
+    ]);
+
+    return $list_film_del;
+}
