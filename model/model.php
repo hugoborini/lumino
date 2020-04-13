@@ -139,3 +139,28 @@ function getFilmByGenreAndLimit($genre){
 
     return $homeFilm;
 }
+
+function addFilmToList($id_user, $id_film){
+    $bdd = dbConnect();
+
+    $film_to_list = $bdd->prepare("INSERT INTO liste(id_user, id_film) VALUEs(:id_user, :id_film)");
+    $film_to_list->execute([
+        "id_user" => $id_user,
+        "id_film" => $id_film,
+    ]);
+
+    return $film_to_list;
+}
+
+
+function getFilmFromUser($id_user){
+    $bdd = dbConnect();
+
+    $film_liste = $bdd->prepare("SELECT * FROM film as f INNER JOIN liste as l ON f.id = l.id_film WHERE l.id_user = :id_user");
+
+    $film_liste->execute([
+        "id_user" => $id_user,
+    ]);
+
+    return $film_liste;
+}
