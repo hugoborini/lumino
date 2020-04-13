@@ -81,20 +81,15 @@
   justify-content: center;
   align-items: center;
   position: relative;
-  border: 2px solid blue;
-
-  &__loupe {
-    position: absolute;
-    background-color: greenyellow;
-    left: -3.5vw;
-    width: 1.3vw;
-    height: 2vw;
-    padding: 0 1vw;
-    border: 2px solid red;
-  }
+}
+.search__loupe {
+  margin-right: 5px;
+  color: $primary;
 }
 
 .search__input {
+  background-color: $tertiary;
+  border: 1px solid $primary;
   text-align: left;
   font-family: "Nunito", sans-serif;
   width: 15vw;

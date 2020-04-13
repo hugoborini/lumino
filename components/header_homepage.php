@@ -20,9 +20,9 @@
     </div>
 
     <div class="headerHome__search search">
+      <img class="search__loupe" src="assets/icon/loupe-jaune.svg"/>
       <form class="search__form" action="index.php?action=home">
-        <img class="search__loupe" src="assets/icon/loupe.svg"/>
-        <input type="text" class="search__input" placeholder="Search a title">
+        <input type="text" class="search__input" placeholder="Search a Title">
         <div class="show_up"></div>
         <ul class="suggestions"></ul>
       </form>
