@@ -14,7 +14,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
-    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
     <script defer src="./js/home.js"></script>
 </head>
@@ -25,6 +24,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
         <?php require("components/main_movie.php") ?>
         
         <section class="category">
+
 
 
             <div class="category__texts">
@@ -44,7 +44,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     data-released="<?= $data_action['release_date']?>"
                     data-mini="<?= $data_action['path_mini']?>"
                     data-path="<?= $data_action['path_film']?>">
-
                     <div class="movie__elements">
                         <div class="movie__element">
                             <div class="elements__text">
@@ -54,7 +53,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <div class="elements__icon">
                                 <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                                 <a href="index.php?action=addListe&id_film=<?=$data_action['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                                <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                                <a href="index.php?action=player&film=<?= $data_action['path_film']?>&title=<?= $data_action['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
                         </div>
                         <div class="movie__chevron">
@@ -62,6 +61,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
                     </div>
                     
                 </div>  
@@ -82,7 +82,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-            <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
+            <div class="category__movies">
             <?php while($data_comedy = $comedy_movie->fetch()){
             ?>
                 <div id ="<?= $data_comedy['id']?>" class="movie" 
@@ -103,7 +103,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <div class="elements__icon">
                                 <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                                 <a href="index.php?action=addListe&id_film=<?= $data_comedy['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                                <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                                <a href="index.php?action=player&film=<?= $data_comedy['path_film']?>&title=<?= $data_comedy['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
                         </div>
                         <div class="movie__chevron">
@@ -111,6 +111,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
                     </div>
                 </div>  
                 <?php
@@ -130,7 +131,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-            <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
+            <div class="category__movies">
             <?php while($data_horror = $horror_movie->fetch()){
             ?>
                 <div id ="<?= $data_horror['id']?>" class="movie" 
@@ -151,7 +152,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <div class="elements__icon">
                                 <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                                 <a href="index.php?action=addListe&id_film=<?= $data_horror['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                                <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                                <a href="index.php?action=player&film=<?= $data_horror['path_film']?>&title=<?= $data_horror['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
                         </div>
                         <div class="movie__chevron">
@@ -159,6 +160,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
                     </div>
                 </div>  
                 <?php
@@ -178,7 +180,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
+        <div class="category__movies">
         <?php while($data_documentary = $documentary_movie->fetch()){
         ?>
             <div id ="<?= $data_documentary['id']?>" class="movie" 
@@ -199,7 +201,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                             <a href="index.php?action=addListe&id_film=<?= $data_documentary['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                            <a href="index.php?action=player&film=<?= $data_documentary['path_film']?>&title=<?= $data_documentary['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                         </div>
                     </div>
                     <div class="movie__chevron">
@@ -207,6 +209,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
                     </div>
             </div>  
             <?php
@@ -220,13 +223,13 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
         <section class="category">
 
         <div class="category__texts">
-            <h1 class="category__title">Science-fiction</h1>
+            <h1 class="category__title">Sience-fiction</h1>
             <a href="index.php?action=genre&genre=SF">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
+        <div class="category__movies">
         <?php while($data_sf = $sf_movie->fetch()){
         ?>
             <div id ="<?= $data_sf['id']?>" class="movie" 
@@ -247,7 +250,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                             <a href="index.php?action=addListe&id_film=<?= $data_sf['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                            <a href="index.php?action=player&film=<?= $data_sf['path_film']?>&title=<?= $data_sf['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                         </div>
                     </div>
                     <div class="movie__chevron">
@@ -255,6 +258,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
                     </div>
             </div>  
             <?php
@@ -274,7 +278,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
+        <div class="category__movies">
         <?php while($data_animation = $animation_movie->fetch()){
         ?>
             <div id ="<?= $data_animation['id']?>" class="movie" 
@@ -282,7 +286,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-category="<?= $data_animation['category']?>" 
                 data-synopsis="<?= $data_animation['description']?>" 
                 data-released="<?= $data_animation['release_date']?>"
-                data-mini="<?= $data_animation['path_mini']?>">
+                data-mini="<?= $data_animation['path_mini']?>"
+                data-path="<?= $data_animation['path_film']?>">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -294,7 +299,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
                             <a href="index.php?action=addListe&id_film=<?= $data_animation['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                            <a href="index.php?action=player&film=<?= $data_animation['path_film']?>&title=<?= $data_animation['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                         </div>
                     </div>
                     <div class="movie__chevron">
@@ -302,7 +307,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
-                </div>
+                        <div class="elements__clicked--hide"></div>
+                    </div>
             </div>  
             <?php
             }
@@ -314,8 +320,4 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     </main>
     <?php require("components/footer.php") ?>
 </body>
-<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
 </html>
