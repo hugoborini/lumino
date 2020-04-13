@@ -17,13 +17,13 @@ const $mutesvg = document.querySelector(".mute");
 const $fullscreensvg = document.querySelector(".fullscreen");
 const $minimizesvg = document.querySelector(".minimize");
 const $backArrow = document.querySelector(".video_backArrow");
+const $container = document.querySelector(".container");
 
 const steps = 10;
 
-
 $pause.style.display = "none";
 
-$play.addEventListener("click", function () {
+$play.addEventListener("click", function() {
   if ($video.paused) {
     $pause.style.display = "block";
     $playsvg.style.display = "none";
@@ -94,10 +94,10 @@ $sound.addEventListener("click", () => {
   }
 });
 
-$video_container.addEventListener("mousemove", () => {
+$container.addEventListener("mousemove", () => {
   $video_container.style.opacity = "1";
 });
 
-$video_container.addEventListener("mouseleave", () => {
-  $video_container.style.opacity = "1";
+$container.addEventListener("mouseleave", () => {
+  $video_container.style.opacity = "0";
 });

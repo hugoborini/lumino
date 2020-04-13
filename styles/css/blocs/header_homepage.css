@@ -97,7 +97,7 @@
   position: relative; }
 
 .search__loupe {
-  margin-right: 5px;
+  margin-right: 1vw;
   color: #feca28; }
 
 .search__input {
@@ -110,6 +110,10 @@
   padding: 0.2vw;
   font-size: 0.99vw;
   color: white; }
+  .search__input:focus {
+    outline: none;
+    border: 1px solid #feca28;
+    box-shadow: 0 0 10px #feca28; }
 
 .headerHome__name {
   color: #c8d3d7;

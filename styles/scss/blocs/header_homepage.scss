@@ -83,7 +83,7 @@
   position: relative;
 }
 .search__loupe {
-  margin-right: 5px;
+  margin-right: 1vw;
   color: $primary;
 }
 
@@ -97,7 +97,12 @@
   padding: 0.2vw;
   font-size: $menu-navBar;
   color: white;
-  //box-shadow: 0 0 5px rgba(0, 0, 0, 0.7), inset 0 0 2px rgba(0, 0, 0, 0.19);
+
+  &:focus {
+    outline: none;
+    border: 1px solid $primary;
+    box-shadow: 0 0 10px $primary;
+  }
 }
 
 .headerHome__name {
