@@ -28,13 +28,16 @@
 .video_backArrow {
   display: block;
   position: absolute;
-  top: 1vw;
+  top: 2vw;
   left: 7vw;
-  z-index: 5; }
+  z-index: 5;
+  width: 2.5vw;
+  cursor: pointer; }
   .video_backArrow:hover {
     filter: drop-shadow(0px 0px 5px #feca28); }
 
 .container {
+  opacity: 1;
   z-index: 5;
   position: absolute;
   bottom: 0;
@@ -54,12 +57,12 @@
     display: flex;
     width: 20vw;
     justify-content: space-evenly;
-    margin-left: 4vw; }
+    margin-left: 10px; }
   .container-right {
     display: flex;
     width: 20vw;
     justify-content: space-evenly;
-    margin-right: 4.7vw; }
+    margin-right: 10px; }
 
 .container__controls {
   display: flex;
@@ -68,9 +71,10 @@
   width: 100vw;
   margin: 1vw 0; }
   .container__controls svg {
-    width: 2vw; }
+    width: 2vw;
+    cursor: pointer; }
 
-input[type=range] {
+input[type="range"] {
   -webkit-appearance: none;
   width: 35%;
   height: 0.5vw;
@@ -78,12 +82,12 @@ input[type=range] {
   outline: none;
   border-radius: 10px;
   opacity: 1;
-  -webkit-transition: .2s;
-  transition: opacity .2s;
+  -webkit-transition: 0.2s;
+  transition: opacity 0.2s;
   cursor: pointer;
-  margin-top: 0.6vw; }
+  margin-top: 20px; }
 
-input[type=range]::-webkit-slider-thumb {
+input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   appearance: none;
   width: 0.8vw;
@@ -94,5 +98,5 @@ input[type=range]::-webkit-slider-thumb {
   border-radius: 10px;
   box-shadow: 1px 1px 1px #feca28, 0px 0px 1px #feca28; }
 
-input[type=range]:hover {
+input[type="range"]:hover {
   filter: drop-shadow(0px 0px 5px #feca28); }

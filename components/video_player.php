@@ -2,7 +2,7 @@
 
     <a href="index.php?action=home"> <img class="video_backArrow" src="assets/icon/back_arrow.svg"/></a>
 
-    <video class="player__video" > <source src="<?=$_GET['film']?>"></video>
+    <video class="player__video" autoplay > <source src="<?=$_GET['film']?>"></video>
 
     <div class="video__container ">
         <div class="container">
