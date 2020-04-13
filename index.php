@@ -44,6 +44,12 @@ require("controller/controller.php");
         elseif ($_GET['action'] == "list"){
             require("views/liste.php");
         }
+        elseif ($_GET['action'] == "player"){
+            require("views/player.php");
+        }
+        elseif($_GET['action'] == "sub_list"){
+            delListe($_GET["id_film"]);
+        }
     }
     else {
         require("views/landing.php");

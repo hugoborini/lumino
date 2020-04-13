@@ -38,15 +38,16 @@
         <svg class="downIcon"  width="30" height="12" viewBox="0 0 30 12" fill="none" xmlns="http://www.w3.org/2000/svg">
             <path d="M1 1L15 11L29 1" stroke="#f0f1f3" stroke-width="2" stroke-linecap="round"
                 stroke-linejoin="round" />
-        </svg></a>
+        </svg>
+        </a>
     </section>
 
     <section class="landingpage">
         <section class="watch" id="firstSection">
             <article class="watch__text">
-                <h3 class="watch__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Watch movies
+                <h3 class="watch__title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Watch movies
                     wherever, <br> whenever you want.</h3>
-                <h3 class="watch__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">On your
+                <h3 class="watch__body" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">On your
                     desktop,
                     on your laptop, your tablet or your phone, we are
                     available everywhere, on any device. No need for internet connection to watch your favorite movies,
@@ -67,9 +68,9 @@
             </article>
 
             <article class="movies__text">
-                <h3 class="movies__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">New movies
+                <h3 class="movies__title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">New movies
                     continuously added.</h3>
-                <h3 class="movies__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">We are doing
+                <h3 class="movies__body" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">We are doing
                     everything we can to provide you new movies as often as possible.
                     We have a large library of movies that will grow weeks after weeks.</h3>
             </article>
@@ -79,24 +80,30 @@
 
         <section class="download">
             <article class="download__text">
-                <h3 class="download__title" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="100">Download
+                <h3 class="download__title" data-aos="fade-up" data-aos-duration="800" data-aos-delay="100">Download
                     all
                     your favorite movies to watch them offline.</h3>
-                <h3 class="download__body" data-aos="fade-up" data-aos-duration="1050" data-aos-delay="150">Our large
+                <h3 class="download__body" data-aos="fade-up" data-aos-duration="800" data-aos-delay="150">Our large
                     number of servers allow you to download up to 10Go of movies on your
                     account for 15 days.</h3>
+
+
             </article>
 
             <article class="download__mockup">
                 <img src="assets/img/phone_download.png" alt="" class="download__mockup" data-aos="fade"
-                    data-aos-duration="2000" data-aos-delay="200">
+                    data-aos-duration="800" data-aos-delay="200">
                 <!-- <img src="assets/img/download-icon.gif" alt="" class="download__gif"> -->
             </article>
 
 
 
         </section>
-
+        <article class="buttonDown">
+            <button class="cta__noradius--yb">
+                <a href="index.php?action=signup">7 FREE DAYS</a>
+            </button>
+        </article>
 
     </section>
 

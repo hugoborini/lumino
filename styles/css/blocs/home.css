@@ -206,8 +206,7 @@ a {
     width: auto;
     height: 25%; }
   .elements__icon .element__icon--play {
-    width: auto;
-    height: 40%; }
+    width: auto; }
   .elements__icon img {
     transition: all 0.2s linear; }
     .elements__icon img:hover {

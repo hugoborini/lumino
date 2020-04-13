@@ -125,4 +125,10 @@ function catchFilmFromList($id_user) {
    return $film_liste;
 }
 
+function delListe($id){
+    $film_liste_del = deleteListe($id);
+
+    header("Location: index.php?action=list");
+}
+
 ?>

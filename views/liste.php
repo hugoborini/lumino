@@ -28,8 +28,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                   <div class="description__item"><span>SYNOPSIS : </span> <?= htmlspecialchars($data['description']);?></div>
                     <div class="description__item"><span>RELEASED : </span><?= htmlspecialchars($data['release_date']);?></div>
                       <div class="description__button">
-                        <img class="button__item" src="./assets/icon/big_play.svg" alt="play"/>
-                        <img class="button__item" src="./assets/icon/like.svg" alt="like"/>
+                      <a href="index.php?action=player&film=<?=$data['path_film']?>&title=<?=$data['title']?>"><img class="button__item play_button_2" src="./assets/icon/big_play.svg" alt="play"/></a>
+                      <img class="button__item add_button_2" src="./assets/icon/like.svg" alt="like"/>
+                      <a href="index.php?action=sub_list&id_film=<?=$data['id']?>"><img class="button__item add_button_2" src="./assets/icon/sub_icon.svg" alt="sub"/></a>
                       </div>
                 </div>
             </div>

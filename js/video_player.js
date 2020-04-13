@@ -16,15 +16,11 @@ const $soundsvg = document.querySelector(".sound");
 const $mutesvg = document.querySelector(".mute");
 const $fullscreensvg = document.querySelector(".fullscreen");
 const $minimizesvg = document.querySelector(".minimize");
+const $backArrow = document.querySelector(".video_backArrow");
 
-console.log($video);
-console.log($play);
-console.log($backward);
-console.log($forward);
-console.log($volume);
-console.log($fullscreen);
-console.log($video.offsetWidth);
-console.log($video_container);
+const steps = 10;
+
+
 $pause.style.display = "none";
 
 $play.addEventListener("click", function () {
@@ -49,15 +45,22 @@ $forward.addEventListener("click", () => {
 
 $volume.addEventListener("change", () => {
   $video.volume = $volume.value / 100;
+  if ($volume.value == 0) {
+  }
 });
+
 $minimizesvg.style.display = "none";
+
 $fullscreen.addEventListener("click", () => {
   $minimizesvg.style.display = "block";
   $fullscreensvg.style.display = "none";
+  $backArrow.style.display = "none";
   $video_full.requestFullscreen();
+
   if (document.fullscreenElement) {
     $minimizesvg.style.display = "none";
     $fullscreensvg.style.display = "block";
+    $backArrow.style.display = "block";
     document.exitFullscreen();
   }
 });
@@ -65,26 +68,29 @@ $fullscreen.addEventListener("click", () => {
 $video.addEventListener("timeupdate", () => {
   $step = ($video.offsetWidth / $video.duration) * $video.currentTime;
   $progressBar.style.width = $step + "px";
-  //   $progressBar.innerHTML =
-  //     '<p class="timer">' + Math.round(($video.currentTime / 60) * 100) / 100;
+  // $progressBar.innerHTML ='<p class="timer">' + Math.round(($video.currentTime / 60) * 100) / 100;
   //   +"</p>";
 });
 
-$bar.addEventListener("click", (e) => {
-  var x = e.pageX;
+$bar.addEventListener("click", e => {
+  var x = e.pageX - $bar.offsetLeft;
   x = $video.duration * (x / $video.offsetWidth);
   $video.currentTime = x;
 });
+
 $mutesvg.style.display = "none";
+
 $sound.addEventListener("click", () => {
   if ($video.volume > 0) {
     $mutesvg.style.display = "block";
     $soundsvg.style.display = "none";
     $video.volume = 0;
+    $volume.value = "0";
   } else {
     $mutesvg.style.display = "none";
     $soundsvg.style.display = "block";
     $video.volume = 0.5;
+    $volume.value = "50";
   }
 });
 
