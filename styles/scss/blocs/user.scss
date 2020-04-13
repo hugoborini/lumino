@@ -87,6 +87,11 @@
     font-family: $body-font;
     font-size: $body;
     width: 18vw;
+
+    &:focus {
+      outline: none;
+      border-bottom: 1px solid $primary;
+    }
   }
   input[type="email"] {
     margin-left: 3.9vw;
