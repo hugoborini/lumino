@@ -9,7 +9,11 @@
   font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito"; }
+  font-family: "Nunito";
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards; }
 
 .success {
   background-color: lightgreen;
@@ -22,4 +26,8 @@
   font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito"; }
+  font-family: "Nunito";
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards; }
