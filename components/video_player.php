@@ -1,5 +1,5 @@
 <div class="video">
-    <video class="player__video" > <source src="assets/video/1917.mp4"></video>
+    <video class="player__video" > <source src="<?=$_GET['film']?>"></video>
     <div class="video__container ">
         <div class="container">
             <div class="bar"><div class="progressBar"></div></div>
@@ -40,7 +40,7 @@
                 </div>
 
                 <div class="container__title">
-                Hearts of Darkness: A Filmmaker's Apocalypse
+                <?=$_GET['title']?>
                 </div>
 
                 <div class="container-right">

@@ -44,10 +44,13 @@ require("controller/controller.php");
         elseif ($_GET['action'] == "list"){
             require("views/liste.php");
         }
+        elseif ($_GET['action'] == "player"){
+            require("views/player.php");
+        }
     }
     else {
-        //require("views/landing.php");
-        require("views/player.php");
+        require("views/landing.php");
+        //require("views/player.php");
         //require("views/genre.php");
     }
 ?>
