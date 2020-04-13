@@ -72,26 +72,20 @@ $h4: 1.75vw;
   .movies__text,
   .download__text,
   .watch__text {
+    margin-left: 80px;
+    margin-right: 80px;
     padding-bottom: 70px;
     width: 90%;
-  }
-
-  .download__text,
-  .watch__text {
-    padding-right: 80px;
-  }
-
-  .movies__text {
-    padding-left: 80px;
   }
 
   &__title {
     font-family: "Poppins";
     font-size: $h3;
-    line-height: $h2 * 1.2;
+    line-height: $h3 * 1.5;
     font-weight: 800;
     margin-left: 80px;
     margin-right: 80px;
+    color: $secondary-light;
   }
 
   &__body {
@@ -102,25 +96,23 @@ $h4: 1.75vw;
     padding-top: 1.43vw;
     margin-left: 80px;
     margin-right: 80px;
+    color: $secondary-darker;
   }
 }
 
 .watch__mockup {
   width: 100%;
+  padding-right: 80px;
 }
 
 .movies__mockup {
-  width: 95%;
+  width: 100%;
+  padding-left: 80px;
 }
 
 .download__mockup {
   width: 70%;
   margin-left: 50px;
 }
-// .download__gif {
-//   position: absolute;
-//   right: 1.58vw;
-//   top: 13.9vw;
-//   height: 7vh;
-// }
+
 // ## SECONDS##

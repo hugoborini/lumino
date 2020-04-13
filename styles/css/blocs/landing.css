@@ -55,28 +55,20 @@
   .download .movies__text,
   .download .download__text,
   .download .watch__text {
+    margin-left: 80px;
+    margin-right: 80px;
     padding-bottom: 70px;
     width: 90%; }
-  .watch .download__text,
-  .watch .watch__text,
-  .movies .download__text,
-  .movies .watch__text,
-  .download .download__text,
-  .download .watch__text {
-    padding-right: 80px; }
-  .watch .movies__text,
-  .movies .movies__text,
-  .download .movies__text {
-    padding-left: 80px; }
   .watch__title,
   .movies__title,
   .download__title {
     font-family: "Poppins";
     font-size: 1.95vw;
-    line-height: 2.4vw;
+    line-height: 2.925vw;
     font-weight: 800;
     margin-left: 80px;
-    margin-right: 80px; }
+    margin-right: 80px;
+    color: #f0f1f3; }
   .watch__body,
   .movies__body,
   .download__body {
@@ -86,13 +78,16 @@
     justify-content: start;
     padding-top: 1.43vw;
     margin-left: 80px;
-    margin-right: 80px; }
+    margin-right: 80px;
+    color: #a9bac1; }
 
 .watch__mockup {
-  width: 100%; }
+  width: 100%;
+  padding-right: 80px; }
 
 .movies__mockup {
-  width: 95%; }
+  width: 100%;
+  padding-left: 80px; }
 
 .download__mockup {
   width: 70%;
