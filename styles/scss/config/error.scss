@@ -11,6 +11,10 @@
   border-radius: 5px;
   margin: auto;
   font-family: $body-font;
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
 .success {
   background-color: lightgreen;
@@ -24,4 +28,8 @@
   border-radius: 5px;
   margin: auto;
   font-family: $body-font;
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards;
 }
