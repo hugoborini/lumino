@@ -16,7 +16,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/big-Lebowski.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -39,7 +39,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/intouchables.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -62,7 +62,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/zoolander.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,7 +85,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/little-miss-sunshine.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -108,7 +108,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/bridesmaids.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -131,7 +131,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/zombieland.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;

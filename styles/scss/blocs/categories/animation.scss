@@ -16,7 +16,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/frozen.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -39,7 +39,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/inside-out.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -62,7 +62,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/peter-pan.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -85,7 +85,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/wall-e.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -107,7 +107,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/the-incredibles.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -130,7 +130,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/moana.jpg);
-    transform: scale(1.2);
+    transform: scale($scale-hover);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
