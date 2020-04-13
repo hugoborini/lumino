@@ -12,3 +12,16 @@
   margin: auto;
   font-family: $body-font;
 }
+.success {
+  background-color: lightgreen;
+  height: 2vw;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: $body;
+  border-radius: 5px;
+  margin: auto;
+  font-family: $body-font;
+}

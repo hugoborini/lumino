@@ -117,3 +117,14 @@ function getFilmByGenre($genre) {
 
     return $get_film;
 }
+
+function getRecentFilmByGenre($genre) {
+    $bdd = dbConnect();
+
+    $mostRecentFilm = $bdd->prepare("SELECT * FROM film WHERE category = :category ORDER BY release_date DESC LIMIT 1 ");
+
+    $mostRecentFilm->execute(array(
+        "category" => $genre,
+    ));
+return $mostRecentFilm;
+};
