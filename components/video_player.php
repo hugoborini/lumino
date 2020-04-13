@@ -1,4 +1,5 @@
 <div class="video">
+    <a href="index.php?action=home"> <img class="video_backArrow" src="assets/icon/back_arrow.svg"/></a>
     <video class="player__video" > <source src="assets/video/1917.mp4"></video>
     <div class="video__container ">
         <div class="container">

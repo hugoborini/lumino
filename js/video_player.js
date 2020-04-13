@@ -16,15 +16,11 @@ const $soundsvg = document.querySelector(".sound");
 const $mutesvg = document.querySelector(".mute");
 const $fullscreensvg = document.querySelector(".fullscreen");
 const $minimizesvg = document.querySelector(".minimize");
+const $backArrow = document.querySelector(".video_backArrow");
 
-console.log($video);
-console.log($play);
-console.log($backward);
-console.log($forward);
-console.log($volume);
-console.log($fullscreen);
-console.log($video.offsetWidth);
-console.log($video_container);
+const steps = 10;
+
+
 $pause.style.display = "none";
 
 $play.addEventListener("click", function () {
@@ -61,13 +57,14 @@ $minimizesvg.style.display = "none";
 $fullscreen.addEventListener("click", () => {
   $minimizesvg.style.display = "block";
   $fullscreensvg.style.display = "none";
+  $backArrow.style.display = "none";
   
   $video_full.requestFullscreen();
-
 
   if (document.fullscreenElement) {
     $minimizesvg.style.display = "none";
     $fullscreensvg.style.display = "block";
+    $backArrow.style.display = "block";
     document.exitFullscreen();
   }
 });
@@ -98,6 +95,7 @@ $sound.addEventListener("click", () => {
     $mutesvg.style.display = "none";
     $soundsvg.style.display = "block";
     $video.volume = 0.5;
+    $volume.value = "50";
   }
 });
 

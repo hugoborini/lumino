@@ -27,7 +27,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
         <?php
       } else {
         ?>
-         <img src="assets/img/profil.png.png" alt="picture profil"/>
+        <img src="assets/img/profil.png.png" alt="picture profil"/>
         <?php
       }?>
         </div>
