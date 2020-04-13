@@ -38,10 +38,15 @@ function addHTML(movie, modal) {
   let synopsis = movie.getAttribute("data-synopsis");
   let released = movie.getAttribute("data-released");
   let mini = movie.getAttribute("data-mini");
+  let path = movie.getAttribute("data-path");
   modal.classList.replace("category__modal--close", "category__modal--open");
   modal.style.background = "0% 25% / cover url(" + mini + ")";
   modal.innerHTML =
-    '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><img src="assets/icon/big_play.svg" class="modal__icon--play" /><div class="modal__texts"><h1 class="modal__title">' +
+    '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
+    path +
+    "&title=" +
+    title +
+    '"><img src="assets/icon/big_play.svg" class="modal__icon--play" /></a><div class="modal__texts"><h1 class="modal__title">' +
     title +
     '</h1><h3 class="modal__date">' +
     released +

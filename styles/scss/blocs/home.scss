@@ -170,6 +170,11 @@
   justify-content: space-between;
   box-shadow: 0px 0px 20px #121317;
   margin-bottom: 28px;
+
+  .modal__playLink {
+    text-align: center;
+    z-index: 2;
+  }
 }
 
 .category__modal--open:after {
@@ -219,11 +224,10 @@
   top: 99%;
   width: 0;
   height: 0;
-  border-left: 10px solid transparent;
-  border-right: 10px solid transparent;
-  border-top: 10px solid $primary;
+  border-left: 15px solid transparent;
+  border-right: 15px solid transparent;
+  border-top: 15px solid $primary;
   clear: both;
-  z-index: 1;
 }
 
 .elements__clicked--hide {
