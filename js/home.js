@@ -7,6 +7,10 @@ function closeModal(modal) {
   }, 300);
 }
 
+function closeArrows(arrows) {
+  arrows.classList.replace("elements__clicked", "elements__clicked--hide");
+}
+
 function checkModals() {
   let modals = document.querySelectorAll(".category__modal--open");
   if (modals) {
@@ -18,11 +22,23 @@ function checkModals() {
   }
 }
 
+function checkArrows() {
+  let arrows = document.querySelectorAll(".elements__clicked");
+  if (arrows) {
+    if (arrows.length > 0) {
+      for (let i = 0; i < arrows.length; i++) {
+        closeArrows(arrows[i]);
+      }
+    }
+  }
+}
+
 function addHTML(movie, modal) {
   let title = movie.getAttribute("data-title");
   let synopsis = movie.getAttribute("data-synopsis");
   let released = movie.getAttribute("data-released");
   let mini = movie.getAttribute("data-mini");
+  modal.classList.replace("category__modal--close", "category__modal--open");
   modal.style.background = "0% 25% / cover url(" + mini + ")";
   modal.innerHTML =
     '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><img src="assets/icon/big_play.svg" class="modal__icon--play" /><div class="modal__texts"><h1 class="modal__title">' +
@@ -47,23 +63,36 @@ for (let i = 0; i < categories.length; i++) {
   let modal = category.querySelector(".category__modal");
   for (let j = 0; j < movies.length; j++) {
     let movie = movies[j];
-    addBackground(movie);
-    movie.addEventListener("mouseenter", function () {
-      let hover = movie.querySelector(".elements__hover");
-      hover.classList.add("elements__hover--in");
-      movie.addEventListener("mouseleave", function () {
-        hover.classList.replace("elements__hover--in", "elements__over--out");
-      });
-    });
+    let hover = movie.querySelector(".elements__hover");
+    let arrowsNone = movie.querySelector(".elements__clicked--hide");
+
     movie.addEventListener("click", function () {
+      checkArrows();
       checkModals();
-      modal.classList.replace(
-        "category__modal--close",
-        "category__modal--open"
-      );
       addHTML(movie, modal);
+      arrowsNone.classList.replace(
+        "elements__clicked--hide",
+        "elements__clicked"
+      );
       modal.querySelector(".butt").addEventListener("click", function () {
         closeModal(modal);
+        arrowsNone.classList.replace(
+          "elements__clicked",
+          "elements__clicked--hide"
+        );
+      });
+    });
+
+    addBackground(movie);
+    movie.addEventListener("mouseenter", function () {
+      let arrow = hover.querySelector(".elements__clicked");
+      console.log(hover, arrow);
+      if (arrow) {
+        arrow.classList.toggle(".elements__clicked--hide");
+      }
+      hover.classList.replace("elements__hover", "elements__hover--in");
+      movie.addEventListener("mouseleave", function () {
+        hover.classList.replace("elements__hover--in", "elements__hover");
       });
     });
   }
