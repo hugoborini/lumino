@@ -15,21 +15,6 @@
   z-index: 1;
 }
 
-/*.main__movie::after {
-  content: "";
-  position: absolute;
-  height: $height-modal;
-  width: 100%;
-  opacity: 1;
-  animation: openingModal 0.5s;
-  margin-bottom: 28px;
-  background: linear-gradient(
-    to top,
-    rgba(0, 0, 0, 1) 5%,
-    rgba(0, 0, 0, 0.363)
-  );
-}*/
-
 .category__main {
   position: relative;
   color: $secondary-light;
@@ -57,8 +42,8 @@
   text-shadow: 0px 0px 13px #0b0b0b;
 
   span {
-    font-family: $h2-font;
-    font-size: $h2;
+    font-family: $h1-font;
+    font-size: $h1;
   }
 }
 
