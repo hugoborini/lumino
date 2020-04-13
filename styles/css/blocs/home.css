@@ -52,29 +52,37 @@
   box-shadow: 0px 0px 20px #121317; }
 
 .movie__elements {
-  opacity: 0;
   display: flex;
-  justify-content: space-between;
-  padding-top: 88%;
-  padding-left: 2%;
-  padding-right: 2%;
+  flex-direction: column;
+  justify-content: flex-end;
+  height: 90%;
+  opacity: 0;
   transition: all 0.2s linear;
   transition-delay: 0.1s; }
   .movie__elements:hover {
-    opacity: 1; }
+    opacity: 1;
+    cursor: pointer; }
+
+.movie__element {
+  display: flex;
+  justify-content: space-between;
+  padding-left: 2%;
+  padding-right: 2%;
+  padding-bottom: 1vw; }
 
 .elements__text {
   display: flex;
   flex-direction: column;
-  padding-left: 2%; }
+  padding-left: 2%;
+  height: 6vw; }
 
 .element__title {
   color: #f9fafa;
   font-family: "Nunito-Bold";
-  font-size: 16px;
-  line-height: 24px;
-  margin-bottom: 10px;
-  text-shadow: 0 0 5px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7, 0 0 10px #c8d3d7; }
+  font-size: 1.42vw;
+  line-height: 2vw;
+  margin-bottom: 1vw;
+  text-shadow: 0 0 3px #c8d3d7; }
 
 .element__category {
   color: #a9bac1;
@@ -86,7 +94,8 @@
   display: flex;
   flex-direction: column;
   text-align: center;
-  justify-content: space-between; }
+  justify-content: space-between;
+  height: 6vw; }
   .elements__icon .element-icon {
     width: auto;
     height: 30%; }
