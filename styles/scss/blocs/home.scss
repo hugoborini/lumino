@@ -54,6 +54,13 @@
 .movie {
   box-shadow: 0px 0px 20px #121317;
   box-sizing: content-box;
+  height: $height-card-movie;
+  width: $width-card-movie;
+  transition: all $animation-card-movie linear;
+
+  &:hover {
+    transform: scale($scale-hover);
+  }
 }
 
 .movie__elements {
@@ -64,6 +71,8 @@
   opacity: 0;
   transition: all 0.2s linear;
   transition-delay: 0.1s;
+  z-index: 1;
+  position: relative;
 
   &:hover {
     opacity: 1;
@@ -172,6 +181,35 @@
     rgba(0, 0, 0, 1) 5%,
     rgba(0, 0, 0, 0.363)
   );
+  z-index: 0;
+}
+
+.elements__hover--in {
+  animation: opacityBack 0.2s;
+  position: relative;
+  transform: translateY(-($height-card-movie) + 0.5vw);
+  content: "";
+  width: 100%;
+  background: linear-gradient(
+    0.23deg,
+    rgb(2, 2, 3) 20.62%,
+    rgba(2, 2, 3, 0) 99.89%
+  );
+  height: $height-card-movie;
+}
+
+.elements__hover--out {
+  animation: opacityBack-fadeOut 0.2s;
+  position: relative;
+  transform: translateY(-($height-card-movie) + 0.5vw);
+  content: "";
+  width: 100%;
+  background: linear-gradient(
+    0.23deg,
+    rgb(2, 2, 3) 20.62%,
+    rgba(2, 2, 3, 0) 99.89%
+  );
+  height: $height-card-movie;
 }
 
 .category__modal--close {
