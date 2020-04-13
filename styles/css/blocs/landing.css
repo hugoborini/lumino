@@ -7,7 +7,7 @@
   height: 84vh;
   width: 100%;
   align-items: center;
-  background: linear-gradient(180deg, #000000 0%, rgba(0, 0, 0, 0.479) 50%), linear-gradient(to top, #000000 0%, rgba(0, 0, 0, 0.56) 8%), url(../../assets/img/background_hero.png.png); }
+  background: linear-gradient(to bottom, #1b1c1f 0%, rgba(27, 28, 31, 0.479) 50%), linear-gradient(to top, #1b1c1f 0%, rgba(27, 28, 31, 0.56) 13%), url(../../assets/img/background_hero.png.png); }
   .hero__title {
     font-family: "Radikal-Bold";
     font-size: 3vw;
@@ -28,15 +28,20 @@
   justify-content: center;
   margin-top: 35px; }
 
+.buttonDown {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 5vw; }
+
 .hero__bottom {
   width: 100%;
-  background-color: black; }
+  background-color: #1b1c1f; }
   .hero__bottom .downIcon {
     display: flex;
     margin-left: 50%; }
 
 .watch {
-  background: linear-gradient(to top, rgba(0, 0, 0, 0) 0%, black 99%);
+  background: linear-gradient(to top, #1b1c1f 0%, #1b1c1f 99%);
   padding-top: 10vw; }
 
 .watch,
