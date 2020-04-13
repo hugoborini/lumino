@@ -77,12 +77,12 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
-                <a href="index.php?action=genre&genre=Action">
+                <a href="index.php?action=genre&genre=Comedy">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-            <div class="category__movies">
+            <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
             <?php while($data_comedy = $comedy_movie->fetch()){
             ?>
                 <div id ="<?= $data_comedy['id']?>" class="movie" 
@@ -91,8 +91,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     data-synopsis="<?= $data_comedy['description']?>" 
                     data-released="<?= $data_comedy['release_date']?>"
                     data-mini="<?= $data_comedy['path_mini']?>"
-                    data-path="<?= $data_comedy['path_film']?>"
-                    data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                    data-path="<?= $data_comedy['path_film']?>">
                     <div class="movie__elements">
                         <div class="movie__element">
                             <div class="elements__text">
@@ -126,12 +125,12 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
-                <a href="index.php?action=genre&genre=Action">
+                <a href="index.php?action=genre&genre=Horror">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-            <div class="category__movies">
+            <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
             <?php while($data_horror = $horror_movie->fetch()){
             ?>
                 <div id ="<?= $data_horror['id']?>" class="movie" 
@@ -140,8 +139,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     data-synopsis="<?= $data_horror['description']?>" 
                     data-released="<?= $data_horror['release_date']?>"
                     data-mini="<?= $data_horror['path_mini']?>"
-                    data-path="<?= $data_horror['path_film']?>"
-                    data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                    data-path="<?= $data_horror['path_film']?>">
                     <div class="movie__elements">
                         <div class="movie__element">
                             <div class="elements__text">
@@ -175,12 +173,12 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Documentary</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <a href="index.php?action=genre&genre=Documentary">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies">
+        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
         <?php while($data_documentary = $documentary_movie->fetch()){
         ?>
             <div id ="<?= $data_documentary['id']?>" class="movie" 
@@ -189,8 +187,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-synopsis="<?= $data_documentary['description']?>" 
                 data-released="<?= $data_documentary['release_date']?>"
                 data-mini="<?= $data_documentary['path_mini']?>"
-                data-path="<?= $data_documentary['path_film']?>"
-                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                data-path="<?= $data_documentary['path_film']?>">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -223,13 +220,13 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
         <section class="category">
 
         <div class="category__texts">
-            <h1 class="category__title">Sience-fiction</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <h1 class="category__title">Science-fiction</h1>
+            <a href="index.php?action=genre&genre=SF">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies">
+        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
         <?php while($data_sf = $sf_movie->fetch()){
         ?>
             <div id ="<?= $data_sf['id']?>" class="movie" 
@@ -238,8 +235,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-synopsis="<?= $data_sf['description']?>" 
                 data-released="<?= $data_sf['release_date']?>"
                 data-mini="<?= $data_sf['path_mini']?>"
-                data-path="<?= $data_sf['path_film']?>"
-                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                data-path="<?= $data_sf['path_film']?>">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -273,12 +269,12 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Animation</h1>
-            <a href="index.php?action=genre&genre=Action">
+            <a href="index.php?action=genre&genre=Animation">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-        <div class="category__movies">
+        <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="30">
         <?php while($data_animation = $animation_movie->fetch()){
         ?>
             <div id ="<?= $data_animation['id']?>" class="movie" 
@@ -286,8 +282,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-category="<?= $data_animation['category']?>" 
                 data-synopsis="<?= $data_animation['description']?>" 
                 data-released="<?= $data_animation['release_date']?>"
-                data-mini="<?= $data_animation['path_mini']?>"
-                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
+                data-mini="<?= $data_animation['path_mini']?>">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
