@@ -1,86 +1,88 @@
 @import "../config/variable.scss";
 
+$width-player: 90vw;
+$width-bar: 80vw;
+
+
 .video {
-  width: 100vw;
+  width : 100vw;
   height: 100vh;
   overflow: hidden;
+
   .video__container {
     transition: all 0.5s;
     opacity: 1;
   }
-  .player__video::-webkit-media-controls {
-    display: none !important;
-  }
-  .pause,
-  .play,
-  .sound,
-  .mute,
-  .fullscreen,
-  .minimize {
-    position: absolute;
-    top: 0;
-  }
-  .player__video {
-    position: relative;
-    width: 100vw;
+  
+}
+
+
+.player__video {
+  position: relative;
+  width : 100vw;
+  height: 100%;
+}
+
+.bar {
+  display: block;
+  width: $width-bar;
+  height: 0.5vw;
+  background-color: gray;
+  border-radius: 5px;
+
+  .progressBar {
+    transition: width 0.3s;
+    border-radius: 5px;
+    width: 0px;
     height: 100%;
+    background-color: $primary;
+    filter: drop-shadow(0px 0px 7px $primary);
   }
-  .bar {
-    display: block;
-    width: 97.5vw;
-    margin: auto;
-    margin-left: 1.2vw;
-    height: 20px;
-    bottom: 10%;
-    background-color: gray;
-    position: fixed;
-    .progressBar {
-      position: absolute;
-      transition: width 0.3s;
-      bottom: 0;
-      width: 0px;
-      height: 100%;
-      background-color: $primary;
-    }
-  }
-  .container {
-    z-index: 999;
-    position: absolute;
-    bottom: 0vw;
+}
+
+
+.container {
+  z-index: 5;
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  align-items: center;
+  background-image: linear-gradient(transparent, black);
+
+  &__title {
+    color: $secondary-dark;
+    font-family: $h1-font;
+    font-size: $h2;
     display: flex;
-    flex-direction: row;
-    width: 95vw;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    justify-content: space-between;
     align-items: center;
-    svg {
-      width: 2vw;
-    }
-
-    &__title {
-      color: $secondary-dark;
-      font-family: $h1-font;
-      font-size: $h2;
-      display: flex;
-      align-items: center;
-      letter-spacing: 2px;
-    }
-    &-left {
-      display: flex;
-      width: 15vw;
-      justify-content: space-between;
-
-      .container__play {
-        width: 50px;
-        height: 50px;
-        position: relative;
-      }
-    }
-    &-right {
-      display: flex;
-      width: 25vw;
-      justify-content: space-evenly;
-    }
+    letter-spacing: 2px;
   }
+
+  &-left {
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+  }
+
+  &-right {
+    display: flex;
+    width: 20vw;
+    justify-content: space-evenly;
+  }
+
+}
+
+.container__controls {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: $width-player;
+  margin: 1vw 0;
+
+  svg {
+    width: 2vw;
+  }
+
 }
