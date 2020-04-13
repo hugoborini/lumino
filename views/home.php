@@ -474,7 +474,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                         <div class="movie__element">
                         <div class="elements__text">
                         <p class="element__title">Pedal The World</p>
-                        <p class="element__category">Documentary - Bycicle</p>
+                        <p class="element__category">Documentary - Bicycle</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
