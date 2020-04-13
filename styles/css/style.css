@@ -319,6 +319,7 @@ footer {
 .nav {
   display: flex; }
   .nav .nav__item {
+    cursor: pointer;
     margin: 0 2vw;
     color: #c8d3d7;
     font-size: 0.99vw;
@@ -339,10 +340,14 @@ footer {
     .nav ul a {
       color: #c8d3d7; }
 
+.nav__item--hover:hover {
+  filter: drop-shadow(0px 0px 5px #c8d3d7); }
+
 .nav .nav__item .appear {
   display: block; }
   .nav .nav__item .appear li:hover {
-    background-color: #feca28; }
+    background-color: #feca28;
+    filter: drop-shadow(0px 0px 5px #feca28); }
     .nav .nav__item .appear li:hover a {
       color: #1b1c1f; }
 
