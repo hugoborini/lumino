@@ -20,7 +20,7 @@
   .bar .progressBar {
     transition: width 0.3s;
     border-radius: 5px;
-    width: 0px;
+    width: 0vw;
     height: 100%;
     background-color: #feca28;
     filter: drop-shadow(0px 0px 7px #feca28); }

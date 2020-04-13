@@ -14,6 +14,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <title>Document</title>
     <script defer src="./js/home.js"></script>
 </head>
@@ -91,7 +92,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     data-synopsis="<?= $data_comedy['description']?>" 
                     data-released="<?= $data_comedy['release_date']?>"
                     data-mini="<?= $data_comedy['path_mini']?>"
-                    data-path="<?= $data_comedy['path_film']?>">
+                    data-path="<?= $data_comedy['path_film']?>"
+                    data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
                     <div class="movie__elements">
                         <div class="movie__element">
                             <div class="elements__text">
@@ -140,7 +142,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     data-synopsis="<?= $data_horror['description']?>" 
                     data-released="<?= $data_horror['release_date']?>"
                     data-mini="<?= $data_horror['path_mini']?>"
-                    data-path="<?= $data_horror['path_film']?>">
+                    data-path="<?= $data_horror['path_film']?>"
+                    data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
                     <div class="movie__elements">
                         <div class="movie__element">
                             <div class="elements__text">
@@ -189,7 +192,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-synopsis="<?= $data_documentary['description']?>" 
                 data-released="<?= $data_documentary['release_date']?>"
                 data-mini="<?= $data_documentary['path_mini']?>"
-                data-path="<?= $data_documentary['path_film']?>">
+                data-path="<?= $data_documentary['path_film']?>"
+                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -238,7 +242,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-synopsis="<?= $data_sf['description']?>" 
                 data-released="<?= $data_sf['release_date']?>"
                 data-mini="<?= $data_sf['path_mini']?>"
-                data-path="<?= $data_sf['path_film']?>">
+                data-path="<?= $data_sf['path_film']?>"
+                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -287,7 +292,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 data-synopsis="<?= $data_animation['description']?>" 
                 data-released="<?= $data_animation['release_date']?>"
                 data-mini="<?= $data_animation['path_mini']?>"
-                data-path="<?= $data_animation['path_film']?>">
+                data-path="<?= $data_animation['path_film']?>"
+                data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
                 <div class="movie__elements">
                     <div class="movie__element">
                         <div class="elements__text">
@@ -320,4 +326,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     </main>
     <?php require("components/footer.php") ?>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+<script>
+    AOS.init();
+</script>
 </html>
