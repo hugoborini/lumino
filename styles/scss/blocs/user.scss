@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 .user__container {
   display: flex;
@@ -96,16 +97,12 @@
   }
 }
 
-.button__account {
-  background-color: $primary;
-  border: 2px solid $tertiary;
-  color: $tertiary;
-  margin-right: 0px;
-  justify-content: flex-end;
-  margin-left: 2.5vw;
-}
-
-.user__delete {
+.button__user {
+  input {
+    margin-left: 2%;
+    padding-top: 1.9%;
+    padding-bottom: 1.9%;
+  }
 }
 
 .button__picture:nth-child(2) {
@@ -115,12 +112,22 @@
 .delete__button {
   position: absolute;
   right: 0px;
-  margin-top: 2vw;
-  color: red;
+  margin-top: 1vw;
+  color: #8b0404;
   align-self: left;
   font-family: $body-font;
   font-size: $body;
-  text-decoration: underline;
+  text-transform: uppercase;
+  border: 1px solid #8b0404;
+  padding: 2%;
+  padding-left: 10%;
+  padding-right: 10%;
+  text-align: center;
+
+  &:hover {
+    border-radius: 4px;
+    filter: drop-shadow(0px 0px 5px #8b0404);
+  }
 }
 
 .center__error {

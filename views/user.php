@@ -74,12 +74,16 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
               </div>
 
               <div class="button__user">
-                <a href="index.php?action=deco"><div class="button__end button__account"> LOG OUT</div></a>
-                <input type="submit" class="button__end button__account " value="SAVE">
+                <a href="index.php?action=deco&deco=landing">
+                <div class="cta__noradius--yb"> LOG OUT</div>
+                </a>
+                <input type="submit" class="cta__noradius--yb" value="SAVE">
               </div>
           </div>
         </form>
-        <div class="user__delete"><a class="delete__button" href="index.php?action=delete">Delete account</a></div>
+        <div class="user__delete">
+        <a class="delete__button" href="index.php?action=delete">Delete account</a>
+        </div>
       </div>
    
 
