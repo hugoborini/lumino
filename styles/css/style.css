@@ -150,6 +150,13 @@ table {
     height: 0px;
     margin-bottom: 0px; } }
 
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
+
 * {
   box-sizing: border-box; }
 
@@ -211,7 +218,11 @@ a {
   font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito"; }
+  font-family: "Nunito";
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards; }
 
 .success {
   background-color: lightgreen;
@@ -224,7 +235,11 @@ a {
   font-size: 1.13vw;
   border-radius: 5px;
   margin: auto;
-  font-family: "Nunito"; }
+  font-family: "Nunito";
+  animation-name: fade-out-none;
+  animation-duration: 1s;
+  animation-delay: 5s;
+  animation-fill-mode: forwards; }
 
 @keyframes openingModal {
   from {
@@ -245,6 +260,13 @@ a {
     opacity: 0;
     height: 0px;
     margin-bottom: 0px; } }
+
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
 
 header {
   display: flex;
@@ -310,6 +332,13 @@ footer {
     opacity: 0;
     height: 0px;
     margin-bottom: 0px; } }
+
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
 
 .headerHome {
   position: fixed;
@@ -423,6 +452,13 @@ footer {
     opacity: 0;
     height: 0px;
     margin-bottom: 0px; } }
+
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
 
 * {
   box-sizing: border-box; }
@@ -637,51 +673,12 @@ a {
     height: 0px;
     margin-bottom: 0px; } }
 
-@keyframes openingModal {
+@keyframes fade-out-none {
   from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; }
-  to {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; } }
-
-@keyframes closingModal {
-  from {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; }
+    opacity: 1; }
   to {
     opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; } }
-
-* {
-  box-sizing: border-box; }
-
-img {
-  max-width: 100%; }
-
-a {
-  text-decoration: none; }
-
-.cta__noradius--yb {
-  cursor: pointer;
-  border: none;
-  display: flex;
-  padding: 0.8vw 2vw;
-  height: fit-content;
-  width: fit-content;
-  background-color: #feca28;
-  color: #1b1c1f;
-  font-family: "Nunito-Bold";
-  font-size: 1.13vw;
-  text-transform: uppercase;
-  transition: all 0.3s; }
-  .cta__noradius--yb:hover {
-    border-radius: 4px;
-    filter: drop-shadow(0px 0px 5px #feca28); }
+    display: none; } }
 
 .category {
   display: flex;
@@ -897,6 +894,13 @@ a {
     height: 0px;
     margin-bottom: 0px; } }
 
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
+
 .user__container {
   display: flex;
   justify-content: space-around;
@@ -1024,6 +1028,13 @@ a {
     height: 0px;
     margin-bottom: 0px; } }
 
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
+
 .main__movie {
   margin-bottom: 3vw; }
 
@@ -1127,6 +1138,13 @@ a {
     opacity: 0;
     height: 0px;
     margin-bottom: 0px; } }
+
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
 
 .genre {
   display: flex;

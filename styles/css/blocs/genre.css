@@ -18,6 +18,13 @@
     height: 0px;
     margin-bottom: 0px; } }
 
+@keyframes fade-out-none {
+  from {
+    opacity: 1; }
+  to {
+    opacity: 0;
+    display: none; } }
+
 .genre {
   display: flex;
   flex-wrap: wrap;

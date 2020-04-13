@@ -18,51 +18,13 @@
     height: 0px;
     margin-bottom: 0px; } }
 
-@keyframes openingModal {
+@keyframes fade-out-none {
   from {
-    opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; }
-  to {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; } }
-
-@keyframes closingModal {
-  from {
-    opacity: 1;
-    height: 450px;
-    margin-bottom: 28px; }
+    opacity: 1; }
   to {
     opacity: 0;
-    height: 0px;
-    margin-bottom: 0px; } }
+    display: none; } }
 
-* {
-  box-sizing: border-box; }
-
-img {
-  max-width: 100%; }
-
-a {
-  text-decoration: none; }
-
-.cta__noradius--yb {
-  cursor: pointer;
-  border: none;
-  display: flex;
-  padding: 0.8vw 2vw;
-  height: fit-content;
-  width: fit-content;
-  background-color: #feca28;
-  color: #1b1c1f;
-  font-family: "Nunito-Bold";
-  font-size: 1.13vw;
-  text-transform: uppercase;
-  transition: all 0.3s; }
-  .cta__noradius--yb:hover {
-    border-radius: 4px;
-    filter: drop-shadow(0px 0px 5px #feca28); }
 
 .category {
   display: flex;
