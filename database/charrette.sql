@@ -1,17 +1,25 @@
 -- phpMyAdmin SQL Dump
--- version 4.9.0.1
+-- version 5.0.1
 -- https://www.phpmyadmin.net/
 --
--- Hôte : localhost:8889
--- Généré le :  Dim 12 avr. 2020 à 17:41
--- Version du serveur :  5.7.26
--- Version de PHP :  7.3.8
+-- Hôte : localhost
+-- Généré le : lun. 13 avr. 2020 à 16:57
+-- Version du serveur :  10.4.11-MariaDB
+-- Version de PHP : 7.4.3
 
 SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+SET AUTOCOMMIT = 0;
+START TRANSACTION;
 SET time_zone = "+00:00";
 
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
 --
--- Base de données :  `charrette`
+-- Base de données : `charrette`
 --
 
 -- --------------------------------------------------------
@@ -88,6 +96,28 @@ INSERT INTO `film` (`id`, `title`, `description`, `category`, `path_film`, `path
 -- --------------------------------------------------------
 
 --
+-- Structure de la table `liste`
+--
+
+CREATE TABLE `liste` (
+  `id` int(11) NOT NULL,
+  `id_user` int(11) NOT NULL,
+  `id_film` int(11) NOT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
+
+--
+-- Déchargement des données de la table `liste`
+--
+
+INSERT INTO `liste` (`id`, `id_user`, `id_film`) VALUES
+(7, 8, 2),
+(8, 8, 41),
+(9, 8, 25),
+(10, 8, 1);
+
+-- --------------------------------------------------------
+
+--
 -- Structure de la table `member`
 --
 
@@ -104,7 +134,7 @@ CREATE TABLE `member` (
 --
 
 INSERT INTO `member` (`id`, `firstname`, `lastname`, `email`, `pass`) VALUES
-(5, 'hugo', 'coco', 'hcordillot@gmail.com', '$2y$10$/GCGNPg76CG7VHdoJSaz9eo7QxtW947Hqha2ns2FtfQz0VszVzYR.');
+(8, 'Hugo', 'Borini', 'hugo.borini@epitech.eu', '$2y$10$CDTjrW8VIWFA0D23jc6uRewU7bXxRbI6iZfqI/.8BDoTic4OMajqe');
 
 --
 -- Index pour les tables déchargées
@@ -114,6 +144,12 @@ INSERT INTO `member` (`id`, `firstname`, `lastname`, `email`, `pass`) VALUES
 -- Index pour la table `film`
 --
 ALTER TABLE `film`
+  ADD PRIMARY KEY (`id`);
+
+--
+-- Index pour la table `liste`
+--
+ALTER TABLE `liste`
   ADD PRIMARY KEY (`id`);
 
 --
@@ -134,7 +170,18 @@ ALTER TABLE `film`
   MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=73;
 
 --
+-- AUTO_INCREMENT pour la table `liste`
+--
+ALTER TABLE `liste`
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=11;
+
+--
 -- AUTO_INCREMENT pour la table `member`
 --
 ALTER TABLE `member`
-  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=6;
+  MODIFY `id` int(11) NOT NULL AUTO_INCREMENT, AUTO_INCREMENT=9;
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;

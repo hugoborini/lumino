@@ -16,7 +16,7 @@
 				<li><a href="index.php?action=genre&genre=Horror">Horror</a></li>
 			</ul>
     </div>
-      <div class="nav__item nav__item--hover">My list</div>
+      <a href="index.php?action=list"><div class="nav__item nav__item--hover">My list</div></a>
     </div>
 
     <div class="headerHome__search search">

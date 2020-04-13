@@ -38,11 +38,17 @@ require("controller/controller.php");
         elseif($_GET['action'] == "genre") {
             require("views/genre.php");
         }
+        elseif($_GET['action'] == "addListe"){
+            updateListe($_SESSION['id'], $_GET['id_film']);
+        }
+        elseif ($_GET['action'] == "list"){
+            require("views/liste.php");
+        }
     }
     else {
-        require("views/landing.php");
-        // require("views/player.php");
-        // require("views/genre.php");
+        //require("views/landing.php");
+        require("views/player.php");
+        //require("views/genre.php");
     }
 ?>
 
