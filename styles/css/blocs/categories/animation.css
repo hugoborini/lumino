@@ -8,8 +8,7 @@
   transition: all 0.1s linear; }
   .movie--frozen:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/frozen.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -24,8 +23,7 @@
   transition: all 0.1s linear; }
   .movie--insideOut:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/inside-out.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -40,8 +38,7 @@
   transition: all 0.1s linear; }
   .movie--peterPan:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/peter-pan.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -56,8 +53,7 @@
   transition: all 0.1s linear; }
   .movie--walle:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/wall-e.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -72,8 +68,7 @@
   transition: all 0.1s linear; }
   .movie--incredibles:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-incredibles.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -88,8 +83,7 @@
   transition: all 0.1s linear; }
   .movie--moana:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/moana.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }

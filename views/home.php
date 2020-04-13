@@ -28,22 +28,23 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2018"
                     data-mini="avengers.jpg">
                     <div class="movie__elements">
-                        <div class="elements__text">
-                            <p class="element__title">Avengers : Infinity wars</p>
-                            <p class="element__category">Action - Hero - SF</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
+                        <div class="movie__element">
+                            <div class="elements__text">
+                                <p class="element__title">Avengers : Infinity wars</p>
+                                <p class="element__category">Action - Hero - SF</p>
+                                <p class="element__synopsis"></p>
+                                <p class="element__releasedDate"></p>
+                            </div>
+                            <div class="elements__icon">
+                                <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                                <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
+                                <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                            </div>
                         </div>
-                        <div class="elements__icon">
-                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
-                            <img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/>
-                            <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
                         </div>
-                        
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
-                        </div>
                 </div>
                 <div id ="4" class="movie movie--kingsman"
                     data-title="Kingsman" 
@@ -52,6 +53,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2014"
                     data-mini="kingsman.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
                             <p class="element__title">Kingsman</p>
                             <p class="element__category">Action - Secret Agent</p>
@@ -62,8 +64,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="5" class="movie movie--readyPlayerOne"
@@ -73,6 +76,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2018"
                     data-mini="ready-Player-One.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
                             <p class="element__title">Ready Player One</p>
                             <p class="element__category">Action - Video Game</p>
@@ -83,8 +87,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="8" class="movie movie--matrix"
@@ -94,6 +99,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1999"
                     data-mini="matrix.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
                             <p class="element__title">Matrix</p>
                             <p class="element__category">Action - SF</p>
@@ -104,8 +110,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="1" class="movie movie--1917"
@@ -115,9 +122,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2019"
                     data-mini="1917.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
                             <p class="element__title">1917</p>
-                            <p class="element__category">Action - war - History</p>
+                            <p class="element__category">Action - War - History</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -125,8 +133,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="7" class="movie movie--kickAss"
@@ -136,6 +145,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2010"
                     data-mini="kick-ass.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
                             <p class="element__title">Kick Ass</p>
                             <p class="element__category">Action - Super Hero</p>
@@ -146,10 +156,11 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
-                </div>
+            </div>
             </div>
             <div class="category__modal category__modal--close"></div>
         </section>
@@ -166,11 +177,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1998"
                     data-mini="big-Lebowski.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Big Lebowski</p>
-                            <p class="element__category">Comedy - Bowling</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
+                        <p class="element__title">The Big Lebowski</p>
+                        <p class="element__category">Comedy - Bowling</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -178,10 +188,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
-                    <div class="movie__chevron"></div>
                 </div>
                 <div id ="9" class="movie movie--intouchables"
                     data-title="Intouchables" 
@@ -190,8 +200,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2011"
                     data-mini="intouchables.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Intouchables</p>
+                        <p class="element__title">Intouchables</p>
                             <p class="element__category">Comedy - Handicapable</p>
                         </div>
                         <div class="elements__icon">
@@ -200,8 +211,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="16" class="movie movie--zoolander"
@@ -211,8 +223,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2001"
                     data-mini="zoolander.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Zoolander</p>
+                        <p class="element__title">Zoolander</p>
                             <p class="element__category">Comedy - Fashion</p>
                         </div>
                         <div class="elements__icon">
@@ -221,8 +234,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="15" class="movie movie--littleMiss"
@@ -232,8 +246,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2006"
                     data-mini="little-miss-sunshine.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Little Miss Sunshine</p>
+                        <p class="element__title">Little Miss Sunshine</p>
                             <p class="element__category">Comedy - Family</p>
                         </div>
                         <div class="elements__icon">
@@ -242,8 +257,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="13" class="movie movie--bridesmaids"
@@ -253,8 +269,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2011"
                     data-mini="bridesmaids.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Bridesmaids</p>
+                        <p class="element__title">Bridesmaids</p>
                             <p class="element__category">Comedy - Wedding</p>
                         </div>
                         <div class="elements__icon">
@@ -263,8 +280,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="12" class="movie movie--zombieland"
@@ -274,8 +292,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2009"
                     data-mini="zombieland.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Zombieland</p>
+                        <p class="element__title">Zombieland</p>
                             <p class="element__category">Comedy - Zombies</p>
                         </div>
                         <div class="elements__icon">
@@ -284,8 +303,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -304,11 +324,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2019"
                     data-mini="the-platform.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Plateform</p>
+                        <p class="element__title">The Plateform</p>
                             <p class="element__category">Horror - Prison</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -316,10 +335,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
-                    <div class="movie__chevron"></div>
                 </div>
                 <div id ="38" class="movie movie--shinning"
                     data-title="The Shining" 
@@ -328,8 +347,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1980"
                     data-mini="the-shining.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Shining</p>
+                        <p class="element__title">The Shining</p>
                             <p class="element__category">Horror - Psychologycal</p>
                         </div>
                         <div class="elements__icon">
@@ -338,8 +358,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="39" class="movie movie--jaws"
@@ -349,8 +370,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1975"
                     data-mini="jaws.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Jaws</p>
+                        <p class="element__title">Jaws</p>
                             <p class="element__category">Horror - See</p>
                         </div>
                         <div class="elements__icon">
@@ -359,8 +381,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="36" class="movie movie--midsommar"
@@ -370,8 +393,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2019"
                     data-mini="midsommar.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Midsommar</p>
+                        <p class="element__title">Midsommar</p>
                             <p class="element__category">Horror - Norway</p>
                         </div>
                         <div class="elements__icon">
@@ -380,8 +404,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="33" class="movie movie--invisible"
@@ -391,8 +416,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2020"
                     data-mini="the-invisible-man.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Invisible Man</p>
+                        <p class="element__title">The Invisible Man</p>
                             <p class="element__category">Horror - Man</p>
                         </div>
                         <div class="elements__icon">
@@ -401,8 +427,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="37" class="movie movie--paranormal"
@@ -412,8 +439,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2009"
                     data-mini="paranormal-activity.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Paranormal activity</p>
+                        <p class="element__title">Paranormal activity</p>
                             <p class="element__category">Horror - Camera</p>
                         </div>
                         <div class="elements__icon">
@@ -422,8 +450,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -442,11 +471,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2015"
                     data-mini="pedal-the-world.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Pedal The World</p>
-                            <p class="element__category">Documentary - Bycicle</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
+                        <p class="element__title">Pedal The World</p>
+                        <p class="element__category">Documentary - Bycicle</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -454,10 +482,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
-                    <div class="movie__chevron"></div>
                 </div>
                 <div id ="42" class="movie movie--fahrenheit"
                     data-title="Fahrenheit 9/11" 
@@ -466,9 +494,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2004"
                     data-mini="fahrenheit-911.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Fahrenheit 9/11</p>
-                            <p class="element__category">Documentary - USA</p>
+                        <p class="element__title">Fahrenheit 9/11</p>
+                        <p class="element__category">Documentary - USA</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -476,8 +505,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="45" class="movie movie--plasticOcean"
@@ -487,9 +517,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2016"
                     data-mini="a-plastic-ocean.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">A Plastic Ocean</p>
-                            <p class="element__category">Documentary - Ocean</p>
+                        <p class="element__title">A Plastic Ocean</p>
+                        <p class="element__category">Documentary - Ocean</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -497,8 +528,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="47" class="movie movie--creativeBrain"
@@ -508,9 +540,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2019"
                     data-mini="the-creative-brain.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Creative Brain</p>
-                            <p class="element__category">Documentary - Brain</p>
+                        <p class="element__title">The Creative Brain</p>
+                        <p class="element__category">Documentary - Brain</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -518,8 +551,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="43" class="movie movie--heartsOfDarkness"
@@ -529,9 +563,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2014"
                     data-mini="hearts-of-darkness.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Hearts Of Darkness</p>
-                            <p class="element__category">Documentary</p>
+                        <p class="element__title">Hearts Of Darkness</p>
+                        <p class="element__category">Documentary</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -539,8 +574,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="41" class="movie movie--youNegro"
@@ -550,9 +586,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2016"
                     data-mini="i-am-not-your-negro.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">I Am Not Your Negro</p>
-                            <p class="element__category">Documentary - Africa</p>
+                        <p class="element__title">I Am Not Your Negro</p>
+                        <p class="element__category">Documentary - Africa</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -560,8 +597,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -580,11 +618,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2014"
                     data-mini="interstellar.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Interstellar</p>
+                        <p class="element__title">Interstellar</p>
                             <p class="element__category">SF - Space</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -592,8 +629,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="19" class="movie movie--hungerGames"
@@ -603,9 +641,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2012"
                     data-mini="hunger-games.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Hunger Games : Mockingjay</p>
-                            <p class="element__category">SF - Games</p>
+                        <p class="element__title">The Hunger Games : Mockingjay</p>
+                        <p class="element__category">SF - Games</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -613,8 +652,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="23" class="movie movie--fifthElement"
@@ -624,9 +664,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1997"
                     data-mini="fifth-element.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Fifth Element</p>
-                            <p class="element__category">SF - Future</p>
+                        <p class="element__title">The Fifth Element</p>
+                        <p class="element__category">SF - Future</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -634,8 +675,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="21" class="movie movie--avatar"
@@ -645,8 +687,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2009"
                     data-mini="avatar.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Avatar</p>
+                        <p class="element__title">Avatar</p>
                             <p class="element__category">SF - Planet</p>
                         </div>
                         <div class="elements__icon">
@@ -655,8 +698,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="24" class="movie movie--backToTheFuture"
@@ -666,8 +710,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1985"
                     data-mini="back-to-the-future.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Back To The Future</p>
+                        <p class="element__title">Back To The Future</p>
                             <p class="element__category">SF - Dolorean</p>
                         </div>
                         <div class="elements__icon">
@@ -676,8 +721,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="22" class="movie movie--jurassicPark"
@@ -685,11 +731,12 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-category="Science-Fiction" 
                     data-synopsis="A pragmatic paleontologist visiting an almost complete theme park is tasked with protecting a couple of kids after a power failure causes the park's cloned dinosaurs to run loose." 
                     data-released="1973"
-                    data-mini="jurrasic-park.jpg">
+                    data-mini="jurassic-park.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Jurassic Park</p>
-                            <p class="element__category">SF - Dynosaure</p>
+                        <p class="element__title">Jurassic Park</p>
+                        <p class="element__category">SF - Dynosaure</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -697,8 +744,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -717,11 +765,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2013"
                     data-mini="frozen.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Frozen</p>
-                            <p class="element__category">Animation - Princess</p>
-                            <p class="element__synopsis"></p>
-                            <p class="element__releasedDate"></p>
+                        <p class="element__title">Frozen</p>
+                        <p class="element__category">Animation - Princess</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -729,8 +776,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="25" class="movie movie--insideOut"
@@ -740,9 +788,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2015"
                     data-mini="inside-out.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Inside Out</p>
-                            <p class="element__category">SF - Brain</p>
+                        <p class="element__title">Inside Out</p>
+                        <p class="element__category">SF - Brain</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -750,8 +799,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="29" class="movie movie--peterPan"
@@ -761,9 +811,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="1953"
                     data-mini="peter-pan.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Peter Pan</p>
-                            <p class="element__category">Animation - Island</p>
+                        <p class="element__title">Peter Pan</p>
+                        <p class="element__category">Animation - Island</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -771,8 +822,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="31" class="movie movie--walle"
@@ -782,9 +834,10 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2008"
                     data-mini="wall-e.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Wall-e</p>
-                            <p class="element__category">Animation - Robot</p>
+                        <p class="element__title">Wall-e</p>
+                        <p class="element__category">Animation - Robot</p>
                         </div>
                         <div class="elements__icon">
                             <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
@@ -792,8 +845,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="30" class="movie movie--incredibles"
@@ -803,8 +857,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2004"
                     data-mini="the-incredibles.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">The Incredibles</p>
+                        <p class="element__title">The Incredibles</p>
                             <p class="element__category">Animation - Super Hero</p>
                         </div>
                         <div class="elements__icon">
@@ -813,8 +868,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
                 <div id ="28" class="movie movie--moana"
@@ -824,8 +880,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                     data-released="2016"
                     data-mini="moana.jpg">
                     <div class="movie__elements">
+                        <div class="movie__element">
                         <div class="elements__text">
-                            <p class="element__title">Moana</p>
+                        <p class="element__title">Moana</p>
                             <p class="element__category">Animation - Beach</p>
                         </div>
                         <div class="elements__icon">
@@ -834,8 +891,9 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                             <img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/>
                         </div>
                     </div>
-                    <div class="movie__chevron">
-                        <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
                     </div>
                 </div>
             </div>

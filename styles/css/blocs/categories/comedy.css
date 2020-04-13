@@ -8,8 +8,7 @@
   transition: all 0.1s linear; }
   .movie--bigLebowski:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/big-Lebowski.jpg);
-    height: 20.79vw;
-    width: 13.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -17,15 +16,14 @@
 .movie--intouchables {
   background: url(../../assets/mini/intouchables.jpg);
   height: 19.79vw;
-  width: 14.2vw;
+  width: 13.2vw;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
   transition: all 0.1s linear; }
   .movie--intouchables:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/intouchables.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -40,8 +38,7 @@
   transition: all 0.1s linear; }
   .movie--zoolander:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zoolander.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -56,8 +53,7 @@
   transition: all 0.1s linear; }
   .movie--littleMiss:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/little-miss-sunshine.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -72,8 +68,7 @@
   transition: all 0.1s linear; }
   .movie--bridesmaids:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/bridesmaids.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -88,8 +83,7 @@
   transition: all 0.1s linear; }
   .movie--zombieland:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }

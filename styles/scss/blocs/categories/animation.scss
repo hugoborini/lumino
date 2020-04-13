@@ -2,8 +2,8 @@
 
 .movie--frozen {
   background: url(../../assets/mini/frozen.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -16,8 +16,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/frozen.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -26,8 +25,8 @@
 
 .movie--insideOut {
   background: url(../../assets/mini/inside-out.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -40,8 +39,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/inside-out.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -50,8 +48,8 @@
 
 .movie--peterPan {
   background: url(../../assets/mini/peter-pan.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -64,8 +62,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/peter-pan.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -74,8 +71,8 @@
 
 .movie--walle {
   background: url(../../assets/mini/wall-e.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -88,8 +85,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/wall-e.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -97,8 +93,8 @@
 }
 .movie--incredibles {
   background: url(../../assets/mini/the-incredibles.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -111,8 +107,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/the-incredibles.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
@@ -121,8 +116,8 @@
 
 .movie--moana {
   background: url(../../assets/mini/moana.jpg);
-  height: 19.79vw;
-  width: 13.2vw;
+  height: $height-card-movie;
+  width: $width-card-movie;
   background-position: center;
   background-repeat: no-repeat;
   background-size: contain;
@@ -135,8 +130,7 @@
         rgba(2, 2, 3, 0) 99.89%
       ),
       url(../../assets/mini/moana.jpg);
-    height: 20.79vw;
-    width: 14.2vw;
+    transform: scale(1.2);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
