@@ -111,7 +111,15 @@ a {
   justify-content: space-between;
   margin-right: 5vw;
   margin-left: 5vw;
-  margin-bottom: 1vw; }
+  margin-bottom: 1vw;
+  align-items: center; }
+  .category__texts a {
+    display: flex;
+    align-items: center; }
+    .category__texts a:hover {
+      filter: drop-shadow(0px 0px 5px #feca28); }
+    .category__texts a img {
+      margin-left: 2px; }
 
 .category__title {
   color: #f9fafa;

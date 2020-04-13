@@ -114,4 +114,15 @@ function catchFilmByGenreAndLimit($genre){
     return $home_film;
 }
 
+function updateListe($id_user, $id_film){
+    $filmToList = addFilmToList($id_user, $id_film);
+
+    header("Location: index.php?action=home");
+}
+
+function catchFilmFromList($id_user) {
+   $film_liste = getFilmFromUser($id_user);
+   return $film_liste;
+}
+
 ?>
