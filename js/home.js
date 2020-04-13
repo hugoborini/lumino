@@ -7,27 +7,12 @@ function closeModal(modal) {
   }, 300);
 }
 
-function closeArrows(arrows) {
-  arrows.classList.replace("elements__clicked", "elements__clicked--hide");
-}
-
 function checkModals() {
   let modals = document.querySelectorAll(".category__modal--open");
   if (modals) {
     if (modals.length > 0) {
       for (let i = 0; i < modals.length; i++) {
         closeModal(modals[i]);
-      }
-    }
-  }
-}
-
-function checkArrows() {
-  let arrows = document.querySelectorAll(".elements__clicked");
-  if (arrows) {
-    if (arrows.length > 0) {
-      for (let i = 0; i < arrows.length; i++) {
-        closeArrows(arrows[i]);
       }
     }
   }
@@ -69,32 +54,17 @@ for (let i = 0; i < categories.length; i++) {
   for (let j = 0; j < movies.length; j++) {
     let movie = movies[j];
     let hover = movie.querySelector(".elements__hover");
-    let arrowsNone = movie.querySelector(".elements__clicked--hide");
 
     movie.addEventListener("click", function () {
-      checkArrows();
       checkModals();
       addHTML(movie, modal);
-      arrowsNone.classList.replace(
-        "elements__clicked--hide",
-        "elements__clicked"
-      );
       modal.querySelector(".butt").addEventListener("click", function () {
         closeModal(modal);
-        arrowsNone.classList.replace(
-          "elements__clicked",
-          "elements__clicked--hide"
-        );
       });
     });
 
     addBackground(movie);
     movie.addEventListener("mouseenter", function () {
-      let arrow = hover.querySelector(".elements__clicked");
-      console.log(hover, arrow);
-      if (arrow) {
-        arrow.classList.toggle(".elements__clicked--hide");
-      }
       hover.classList.replace("elements__hover", "elements__hover--in");
       movie.addEventListener("mouseleave", function () {
         hover.classList.replace("elements__hover--in", "elements__hover");

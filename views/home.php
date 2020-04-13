@@ -26,7 +26,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
         <section class="category">
 
 
-
+      
             <div class="category__texts">
                 <h1 class="category__title">Action</h1>
                 <a href="index.php?action=genre&genre=Action">
@@ -61,7 +61,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
                     </div>
                     
                 </div>  
@@ -77,7 +76,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
-                <a href="index.php?action=genre&genre=Comedy">
+                <a href="index.php?action=genre&genre=Action">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -111,7 +110,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
                     </div>
                 </div>  
                 <?php
@@ -126,7 +124,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
-                <a href="index.php?action=genre&genre=Horror">
+                <a href="index.php?action=genre&genre=Action">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -160,7 +158,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                         </div>
                     </div>
                     <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
                     </div>
                 </div>  
                 <?php
@@ -175,7 +172,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Documentary</h1>
-            <a href="index.php?action=genre&genre=Documentary">
+            <a href="index.php?action=genre&genre=Action">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -209,7 +206,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
                     </div>
             </div>  
             <?php
@@ -224,7 +220,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Sience-fiction</h1>
-            <a href="index.php?action=genre&genre=SF">
+            <a href="index.php?action=genre&genre=Action">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -258,7 +254,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
                     </div>
             </div>  
             <?php
@@ -273,7 +268,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
 
         <div class="category__texts">
             <h1 class="category__title">Animation</h1>
-            <a href="index.php?action=genre&genre=Animation">
+            <a href="index.php?action=genre&genre=Action">
                     <p class="category__more">See more</p>
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
@@ -306,8 +301,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     </div>
                 </div>
                 <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
-                    </div>
+                </div>
             </div>  
             <?php
             }
