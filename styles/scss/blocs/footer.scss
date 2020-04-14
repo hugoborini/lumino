@@ -28,9 +28,13 @@ footer {
     justify-content: space-between;
 
     & img {
-      width: auto;
+      width: 2.5vw;
       height: 80%;
       cursor: pointer;
+
+      &:hover {
+        filter: drop-shadow(0px 0px 5px $primary);
+      }
     }
   }
 }
