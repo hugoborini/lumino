@@ -77,6 +77,10 @@ a {
   justify-content: space-around;
   width: 87%;
   line-height: 33px; }
+  .form-container input:focus {
+    outline: none;
+    border: 1px solid #feca28;
+    box-shadow: 0 0 10px #feca28; }
 
 .register {
   display: flex;
@@ -141,8 +145,3 @@ a {
     margin-top: 3vw; }
   .login .forgot-password {
     color: #a9bac1; }
-
-input:focus {
-  outline: none;
-  border: 1px solid #feca28;
-  box-shadow: 0 0 10px #feca28; }

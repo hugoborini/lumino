@@ -17,6 +17,12 @@
     align-items: center;
     justify-content: center;
     margin: 3vw;
+
+    input:focus {
+      outline: none;
+      border: 1px solid $primary;
+      box-shadow: 0 0 10px $primary;
+    }
   }
 }
 
@@ -90,7 +96,6 @@
 
     &:focus {
       outline: none;
-      border-bottom: 1px solid $primary;
     }
   }
   input[type="email"] {
