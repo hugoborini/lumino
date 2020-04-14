@@ -130,7 +130,7 @@ $topfive = catchFiveMostLike();
                             <div class="elements__hover">
                                 <div class="elements__clicked--hide"></div>
                             </div>
-
+                            </div>
                         </div>  
                     <?php
                     }

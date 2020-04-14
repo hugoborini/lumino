@@ -135,6 +135,7 @@ a {
 
 .category__movies {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   margin-right: 5vw;
   margin-left: 5vw;
