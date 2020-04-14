@@ -19,7 +19,12 @@ require("controller/controller.php");
             }
         }
         elseif($_GET['action'] == "home") {
-            require("views/home.php");
+            if(isset($_SESSION['id'])) {
+                require("views/home.php");
+            }
+            else {
+                require("views/landing.php");
+            }
         }
         elseif($_GET['action'] == "deco"){
             deconnexion();
