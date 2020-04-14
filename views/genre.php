@@ -7,7 +7,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
-    <title>Lumino | Genre</title>
+    <title>Lumino | <?= $_GET['genre'] ?></title>
 </head>
   <body>
 
