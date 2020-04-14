@@ -646,6 +646,10 @@ a {
   justify-content: space-around;
   width: 87%;
   line-height: 33px; }
+  .form-container input:focus {
+    outline: none;
+    border: 1px solid #feca28;
+    box-shadow: 0 0 10px #feca28; }
 
 .register {
   display: flex;
@@ -710,11 +714,6 @@ a {
     margin-top: 3vw; }
   .login .forgot-password {
     color: #a9bac1; }
-
-input:focus {
-  outline: none;
-  border: 1px solid #feca28;
-  box-shadow: 0 0 10px #feca28; }
 
 @keyframes openingModal {
   from {
@@ -1331,6 +1330,10 @@ a {
     align-items: center;
     justify-content: center;
     margin: 3vw; }
+    .user__container .user__account input:focus {
+      outline: none;
+      border: 1px solid #feca28;
+      box-shadow: 0 0 10px #feca28; }
 
 .user__back {
   margin-left: 4vw;
@@ -1387,8 +1390,7 @@ a {
   font-size: 1.13vw;
   width: 18vw; }
   .input__info input:focus {
-    outline: none;
-    border-bottom: 1px solid #feca28; }
+    outline: none; }
 
 .input__info input[type="email"] {
   margin-left: 3.9vw; }

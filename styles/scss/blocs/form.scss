@@ -8,6 +8,12 @@
   justify-content: space-around;
   width: 87%;
   line-height: 33px;
+
+  input:focus {
+    outline: none;
+    border: 1px solid $primary;
+    box-shadow: 0 0 10px $primary;
+  }
 }
 
 .register {
@@ -88,10 +94,4 @@
   .forgot-password {
     color: $secondary-darker;
   }
-}
-
-input:focus {
-  outline: none;
-  border: 1px solid $primary;
-  box-shadow: 0 0 10px $primary;
 }
