@@ -1,4 +1,5 @@
 @import "../config/variable.scss";
+@import "../config/mixinKeyframes.scss";
 
 header {
   display: flex;
@@ -14,6 +15,11 @@ header {
     align-items: center;
     img {
       height: 2.5vw;
+      transition: all 0.3s;
+
+      &:hover {
+        @include neon-effect($primary, 2px);
+      }
     }
   }
 

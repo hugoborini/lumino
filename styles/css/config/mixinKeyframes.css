@@ -36,3 +36,9 @@
   to {
     opacity: 0;
     display: none; } }
+
+@keyframes arrow {
+  from {
+    transform: translateY(0vw); }
+  to {
+    transform: translateY(-1vw); } }

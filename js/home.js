@@ -32,7 +32,7 @@ function addHTML(movie, modal) {
     id +
     '"><img src="assets/icon/add.svg" class="modal__icon" /></a><a href="index.php?action=like&id_film=' +
     id +
-    '&redirection=home" class="modal__icon--like"><div class="modal__icon "></div></a></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
+    '&redirection=home" class="modal__icon"><img src="assets/icon/like.svg" class="modal__icon" /></a></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
     path +
     "&title=" +
     title +
@@ -50,22 +50,7 @@ function addBackground(movie) {
   movie.style.background = "center / contain no-repeat url(" + mini + ")";
 }
 
-function likeFull(like) {
-  like.style.background =
-    "center / contain no-repeat url(assets/icon/like.svg)";
-  like.addEventListener("click", function () {
-    like.style.background =
-      "center / contain no-repeat url(assets/icon/like-full.svg)";
-    like.addEventListener("click", function () {
-      like.style.background =
-        "center / contain no-repeat url(assets/icon/like.svg)";
-    });
-  });
-}
-
 function hoverModal() {
-  let like = document.querySelector(".element__icon--like");
-  likeFull(like);
   for (let i = 0; i < categories.length; i++) {
     let category = categories[i];
     let movies = category.querySelectorAll(".movie");
@@ -76,8 +61,6 @@ function hoverModal() {
       movie.addEventListener("click", function () {
         checkModals();
         addHTML(movie, modal);
-        let like = document.querySelector(".modal__icon--like");
-        likeFull(like);
         modal.querySelector(".butt").addEventListener("click", function () {
           closeModal(modal);
         });

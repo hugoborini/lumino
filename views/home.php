@@ -35,7 +35,7 @@ $topfive = catchFiveMostLike();
                 echo null;
             }
             else { ?>
-        <section class="category">
+        <section id="moviemylist" class="category">
             <div class="category__texts">
                 <h1 class="category__title">My list</h1>
                 <a href="index.php?action=list">
@@ -53,7 +53,7 @@ $topfive = catchFiveMostLike();
             while($i < $y and $i < 6) {
                 $data = $get_film->fetch();
             ?>
-                <div id ="<?= $data['id']?>" class="movie movie--mylist"
+                <div id ="<?= $data['id']?>" onclick="location.href='#moviemylist';" class="movie movie--mylist"
                     data-title="<?= $data['title']?>" 
                     data-category="<?= $data['category']?>" 
                     data-synopsis="<?= $data['description']?>" 
@@ -79,7 +79,6 @@ $topfive = catchFiveMostLike();
                     <div class="elements__hover">
                         <div class="elements__clicked--hide"></div>
                     </div>
-                    
                 </div>  
                 <?php
                 $i++;
@@ -91,7 +90,7 @@ $topfive = catchFiveMostLike();
             <div class="category__modal category__modal--close"></div> 
         </section>
 
-        <section class="category">
+        <section id="movietop5" class="category">
 
 
 
@@ -99,10 +98,10 @@ $topfive = catchFiveMostLike();
                 <h1 class="category__title">Top 5</h1>
             </div>
             <div class="category__movies">
-                    <?php while($data_topfive = $topfive->fetch()){
-                    ?>
-                        <div class="wrapper__movie">
-                        <div class="movie__top">1</div>
+            <?php while($data_topfive = $topfive->fetch()){
+            ?>
+                <div onclick="location.href='#movietop5';" class="wrapper__movie">
+                    <div class="movie__top">1</div>
                         <div id ="<?= $data_topfive['id']?>" class="movie movie__top5"
                             data-title="<?= $data_topfive['title']?>" 
                             data-category="<?= $data_topfive['category']?>" 
@@ -130,16 +129,16 @@ $topfive = catchFiveMostLike();
                             <div class="elements__hover">
                                 <div class="elements__clicked--hide"></div>
                             </div>
-                            </div>
-                        </div>  
-                    <?php
-                    }
-                    ?>
+                    </div>
+                </div>  
+            <?php
+            }
+            ?>
             </div> 
             <div class="category__modal category__modal--close"></div> 
         </section>
         
-        <section class="category">
+        <section id="movieaction" class="category">
 
 
 
@@ -153,7 +152,7 @@ $topfive = catchFiveMostLike();
             <div class="category__movies">
             <?php while($data_action = $action_movie->fetch()){
             ?>
-                <div id ="<?= $data_action['id']?>" class="movie"
+                <div id ="<?= $data_action['id']?>" onclick="location.href='#movieaction';" class="movie"
                     data-title="<?= $data_action['title']?>" 
                     data-category="<?= $data_action['category']?>" 
                     data-synopsis="<?= $data_action['description']?>" 
@@ -179,7 +178,6 @@ $topfive = catchFiveMostLike();
                     <div class="elements__hover">
                         <div class="elements__clicked--hide"></div>
                     </div>
-                    
                 </div>  
                 <?php
                 }
@@ -189,7 +187,7 @@ $topfive = catchFiveMostLike();
             <div class="category__modal category__modal--close"></div> 
         </section>
 
-        <section class="category">
+        <section id="moviecomedy" class="category">
 
             <div class="category__texts">
                 <h1 class="category__title">Comedy</h1>
@@ -201,7 +199,7 @@ $topfive = catchFiveMostLike();
             <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
             <?php while($data_comedy = $comedy_movie->fetch()){
             ?>
-                <div id ="<?= $data_comedy['id']?>" class="movie" 
+                <div id ="<?= $data_comedy['id']?>" onclick="location.href='#moviecomdey';" class="movie" 
                     data-title="<?= $data_comedy['title']?>" 
                     data-category="<?= $data_comedy['category']?>" 
                     data-synopsis="<?= $data_comedy['description']?>" 
@@ -238,7 +236,7 @@ $topfive = catchFiveMostLike();
             <div class="category__modal category__modal--close"></div> 
         </section>
 
-        <section class="category">
+        <section id="moviehorror" class="category">
 
             <div class="category__texts">
                 <h1 class="category__title">Horror</h1>
@@ -250,7 +248,7 @@ $topfive = catchFiveMostLike();
             <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
             <?php while($data_horror = $horror_movie->fetch()){
             ?>
-                <div id ="<?= $data_horror['id']?>" class="movie" 
+                <div id ="<?= $data_horror['id']?>" onclick="location.href='#moviehorror';" class="movie" 
                     data-title="<?= $data_horror['title']?>" 
                     data-category="<?= $data_horror['category']?>" 
                     data-synopsis="<?= $data_horror['description']?>" 
@@ -287,7 +285,7 @@ $topfive = catchFiveMostLike();
             <div class="category__modal category__modal--close"></div> 
     </section>
 
-        <section class="category">
+        <section id="moviedocumentary" class="category">
 
         <div class="category__texts">
             <h1 class="category__title">Documentary</h1>
@@ -299,7 +297,7 @@ $topfive = catchFiveMostLike();
         <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
         <?php while($data_documentary = $documentary_movie->fetch()){
         ?>
-            <div id ="<?= $data_documentary['id']?>" class="movie" 
+            <div id ="<?= $data_documentary['id']?>" onclick="location.href='#moviedocumentary';" class="movie" 
                 data-title="<?= $data_documentary['title']?>" 
                 data-category="<?= $data_documentary['category']?>" 
                 data-synopsis="<?= $data_documentary['description']?>" 
@@ -326,7 +324,7 @@ $topfive = catchFiveMostLike();
                 </div>
                 <div class="elements__hover">
                         <div class="elements__clicked--hide"></div>
-                    </div>
+                </div>
             </div>  
             <?php
             }
@@ -336,7 +334,7 @@ $topfive = catchFiveMostLike();
         <div class="category__modal category__modal--close"></div> 
         </section>
 
-        <section class="category">
+        <section id="moviesf" class="category">
 
         <div class="category__texts">
             <h1 class="category__title">Sience-fiction</h1>
@@ -348,7 +346,7 @@ $topfive = catchFiveMostLike();
         <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
         <?php while($data_sf = $sf_movie->fetch()){
         ?>
-            <div id ="<?= $data_sf['id']?>" class="movie" 
+            <div id ="<?= $data_sf['id']?>" onclick="location.href='#moviesf';" class="movie" 
                 data-title="<?= $data_sf['title']?>" 
                 data-category="<?= $data_sf['category']?>" 
                 data-synopsis="<?= $data_sf['description']?>" 
@@ -374,8 +372,8 @@ $topfive = catchFiveMostLike();
                     </div>
                 </div>
                 <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
-                    </div>
+                    <div class="elements__clicked--hide"></div>
+                </div>
             </div>  
             <?php
             }
@@ -385,7 +383,7 @@ $topfive = catchFiveMostLike();
         <div class="category__modal category__modal--close"></div> 
         </section>
 
-        <section class="category">
+        <section id="movieanimation" class="category">
 
         <div class="category__texts">
             <h1 class="category__title">Animation</h1>
@@ -397,7 +395,7 @@ $topfive = catchFiveMostLike();
         <div class="category__movies" data-aos="fade-up" data-aos-duration="600" data-aos-delay="50">
         <?php while($data_animation = $animation_movie->fetch()){
         ?>
-            <div id ="<?= $data_animation['id']?>" class="movie" 
+            <div id ="<?= $data_animation['id']?>" onclick="location.href='#movieanimation';" class="movie" 
                 data-title="<?= $data_animation['title']?>" 
                 data-category="<?= $data_animation['category']?>" 
                 data-synopsis="<?= $data_animation['description']?>" 
@@ -423,8 +421,8 @@ $topfive = catchFiveMostLike();
                     </div>
                 </div>
                 <div class="elements__hover">
-                        <div class="elements__clicked--hide"></div>
-                    </div>
+                    <div class="elements__clicked--hide"></div>
+                </div>
             </div>  
             <?php
             }
