@@ -8,7 +8,7 @@
   transition: all 0.1s linear; }
   .movie--bigLebowski:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/big-Lebowski.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -23,7 +23,7 @@
   transition: all 0.1s linear; }
   .movie--intouchables:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/intouchables.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -38,7 +38,7 @@
   transition: all 0.1s linear; }
   .movie--zoolander:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zoolander.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -53,7 +53,7 @@
   transition: all 0.1s linear; }
   .movie--littleMiss:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/little-miss-sunshine.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -68,7 +68,7 @@
   transition: all 0.1s linear; }
   .movie--bridesmaids:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/bridesmaids.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -83,7 +83,7 @@
   transition: all 0.1s linear; }
   .movie--zombieland:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }

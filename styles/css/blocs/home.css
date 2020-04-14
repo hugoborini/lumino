@@ -147,7 +147,7 @@ a {
   width: 13.2vw;
   transition: all 0.1s linear; }
   .movie:hover {
-    transform: scale(1.2); }
+    transform: scale(1.08); }
     .movie:hover .elements__clicked {
       display: none; }
 
