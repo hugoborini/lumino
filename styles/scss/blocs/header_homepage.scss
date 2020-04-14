@@ -14,7 +14,7 @@
   font-family: $body-font;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 
-  .headerHome__logo {
+  &__logo {
     margin-left: 4vw;
     display: flex;
     img {
@@ -31,7 +31,7 @@
 .nav {
   display: flex;
 
-  .nav__item {
+  &__item {
     cursor: pointer;
     margin: 0 2vw;
     color: $secondary-dark;
@@ -70,7 +70,7 @@
 }
 
 .nav {
-  .nav__item {
+  &__item {
     .appear {
       display: block;
       li {
@@ -93,27 +93,28 @@
   justify-content: center;
   align-items: center;
   position: relative;
-}
-.search__loupe {
-  margin-right: 1vw;
-  color: $primary;
-}
 
-.search__input {
-  background-color: $tertiary;
-  border: 1px solid $primary;
-  text-align: left;
-  font-family: "Nunito", sans-serif;
-  width: 15vw;
-  border-radius: 5px;
-  padding: 0.2vw;
-  font-size: $menu-navBar;
-  color: white;
+  &__loupe {
+    margin-right: 1vw;
+    color: $primary;
+  }
 
-  &:focus {
-    outline: none;
+  &__input {
+    background-color: $tertiary;
     border: 1px solid $primary;
-    box-shadow: 0 0 10px $primary;
+    text-align: left;
+    font-family: "Nunito", sans-serif;
+    width: 15vw;
+    border-radius: 5px;
+    padding: 0.2vw;
+    font-size: $menu-navBar;
+    color: white;
+
+    &:focus {
+      outline: none;
+      border: 1px solid $primary;
+      box-shadow: 0 0 10px $primary;
+    }
   }
 }
 

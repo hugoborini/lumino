@@ -13,10 +13,16 @@
     width: 43vw;
     margin-bottom: 5vw;
   }
-}
 
-.genre__box {
-  display: flex;
+  &__title {
+    font-family: $h2-font;
+    font-size: $h1;
+    margin-bottom: 2vw;
+  }
+
+  &__box {
+    display: flex;
+  }
 }
 
 .box__picture {
@@ -32,12 +38,6 @@
   justify-content: space-between;
   margin-left: 2vw;
   width: 50%;
-}
-
-.genre__title {
-  font-family: $h2-font;
-  font-size: $h1;
-  margin-bottom: 2vw;
 }
 
 .description__item {
@@ -74,12 +74,12 @@
 
 .list {
   margin-top: 10vw;
-}
 
-.list__container {
-  height: 70vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  &__container {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 }
