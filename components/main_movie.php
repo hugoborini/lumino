@@ -8,7 +8,7 @@ if(empty($_GET['genre'])) {
       <div class="category__video"><video autoplay="true" loop muted src="./assets/video/1917.mp4">Votre navigateur ne supporte pas la vidéo</video></div>
       <div class="category__info info">
         <div class="info__title item__hero">1917</div>
-        <div class="info__released item__hero"><strong>NEW</strong> <span>2019</span> <a href="index.php?action=addListe&id_film=1"><img class="info__list" src="./assets/icon/Add.svg" alt="add to my list" /></a> <img class="info__list" src="./assets/icon/like.svg" alt="like" /> </div>
+        <div class="info__released item__hero"><strong>NEW</strong> <span>2019</span> <a href="index.php?action=addListe&id_film=1"><img class="info__list" src="./assets/icon/Add.svg" alt="add to my list" /></a> <img class="info__list info__list--like" src="./assets/icon/like.svg" alt="like" /> </div>
         <div class="info__synopsis item__hero">April 6th, 1917. As a regiment assembles to wage war deep in enemy territory, two soldiers are assigned to race against time and deliver a message that will stop 1,600 men from walking straight into a deadly trap.</div>
         <a href="index.php?action=player&film=assets/video/1917.mp4&title=1917"><img class="info__play item__hero" src="./assets/icon/big_play.svg" alt="play"/></a>
       </div>
