@@ -2,6 +2,13 @@
 <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/reqajax.js"></script>
+<meta property="og:title" content="Lumino" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://lumino.vhswebs.com" />
+<meta property="og:description" 
+  content="Watch movies wherever,
+whenever you want" />
+<meta property="og:image" content="assets/icon/logo_svg.png" />
 <?php
 require("controller/controller.php");
     if (isset($_GET['action'])){
