@@ -64,8 +64,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                                 <p class="element__category"><?= $data['category']?></p>
                             </div>
                             <div class="elements__icon">
-                                <a><img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/></a>
-                                <a href="index.php?action=sub_list&id_film=<?=$data['id']?>&redirection=home"><img class="element__icon element__icon less_button" src="assets/icon/less.svg" alt="icon plus signe"/></a>
+                                <a><img class="element__icon" src="assets/icon/like.svg" alt="icon heart"/></a>
+                                <a href="index.php?action=sub_list&id_film=<?=$data['id']?>&redirection=home"><img class="element__icon less_button" src="assets/icon/less.svg" alt="icon plus signe"/></a>
                                 <a href="index.php?action=player&film=<?= $data['path_film']?>&title=<?= $data['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
                         </div>
