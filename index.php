@@ -60,6 +60,10 @@ require("controller/controller.php");
             if ($_GET['redirection'] == "genre"){
                 header("Location: index.php?action=genre&genre=" . $_GET['genre_red']);
             }
+            if ($_GET['redirection'] == "home"){
+                header("Location: index.php?action=home");
+            }
+
         }
     }
     else {
