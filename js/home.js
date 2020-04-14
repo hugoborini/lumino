@@ -18,6 +18,8 @@ function checkModals() {
   }
 }
 
+// <img src="assets/icon/like.svg" class="modal__icon" />
+
 function addHTML(movie, modal) {
   let title = movie.getAttribute("data-title");
   let synopsis = movie.getAttribute("data-synopsis");
@@ -28,9 +30,9 @@ function addHTML(movie, modal) {
   modal.classList.replace("category__modal--close", "category__modal--open");
   modal.style.background = "0% 25% / cover url(" + mini + ")";
   modal.innerHTML =
-    '<div class="modal__icons"><div class="modal__icons--left"><a href="index.php?action=addListe&id_film=' +
+    '<div class="modal__icons"><div class="modal__icons--left"><a class="modal__icon--add" href="index.php?action=addListe&id_film=' +
     id +
-    '"><img src="assets/icon/add.svg" class="modal__icon" /></a><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
+    '"><img src="assets/icon/add.svg" class="modal__icon" /></a><div class="modal__icon modal__icon--like"></div></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
     path +
     "&title=" +
     title +
@@ -50,6 +52,22 @@ function addBackground(movie) {
 
 let categories = document.querySelectorAll(".category");
 
+function likeFull(like) {
+  like.style.background =
+    "center / contain no-repeat url(assets/icon/like.svg)";
+  like.addEventListener("click", function () {
+    like.style.background =
+      "center / contain no-repeat url(assets/icon/like-full.svg)";
+    like.addEventListener("click", function () {
+      like.style.background =
+        "center / contain no-repeat url(assets/icon/like.svg)";
+    });
+  });
+}
+
+let like = document.querySelector(".element__icon--like");
+likeFull(like);
+
 for (let i = 0; i < categories.length; i++) {
   let category = categories[i];
   let movies = category.querySelectorAll(".movie");
@@ -61,6 +79,8 @@ for (let i = 0; i < categories.length; i++) {
     movie.addEventListener("click", function () {
       checkModals();
       addHTML(movie, modal);
+      let like = document.querySelector(".modal__icon--like");
+      likeFull(like);
       modal.querySelector(".butt").addEventListener("click", function () {
         closeModal(modal);
       });

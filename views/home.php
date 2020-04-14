@@ -32,9 +32,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 echo null;
             }
             else { ?>
-
-        <!--
-        -->
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">My list</h1>
@@ -67,8 +64,8 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                                 <p class="element__category"><?= $data['category']?></p>
                             </div>
                             <div class="elements__icon">
-                                <a><img class="element__icon" src="assets/icon/like.svg" alt="icon heart"/></a>
-                                <a href="index.php?action=sub_list&id_film=<?=$data['id']?>&redirection=home"><img class="element__icon less_button" src="assets/icon/less.svg" alt="icon plus signe"/></a>
+                                <a><img class="element__icon element__icon element__icon--like" src="assets/icon/like.svg" alt="icon heart"/></a>
+                                <a href="index.php?action=sub_list&id_film=<?=$data['id']?>&redirection=home"><img class="element__icon element__icon less_button" src="assets/icon/less.svg" alt="icon plus signe"/></a>
                                 <a href="index.php?action=player&film=<?= $data['path_film']?>&title=<?= $data['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
                         </div>
@@ -119,7 +116,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                                 <p class="element__category"><?= $data_action['category']?></p>
                             </div>
                             <div class="elements__icon">
-                                <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                                <img class="element__icon element__icon element__icon--like" src="assets/icon/like.svg" alt="icon heart"/>
                                 <a href="index.php?action=addListe&id_film=<?=$data_action['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
                                 <a href="index.php?action=player&film=<?= $data_action['path_film']?>&title=<?= $data_action['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
@@ -169,7 +166,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                                 <p class="element__releasedDate"></p>
                             </div>
                             <div class="elements__icon">
-                                <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                                <img class="element__icon element__icon element__icon--like" src="assets/icon/like.svg" alt="icon heart"/>
                                 <a href="index.php?action=addListe&id_film=<?= $data_comedy['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
                                 <a href="index.php?action=player&film=<?= $data_comedy['path_film']?>&title=<?= $data_comedy['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                             </div>
@@ -365,7 +362,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                             <p class="element__releasedDate"></p>
                         </div>
                         <div class="elements__icon">
-                            <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                            <img class="element__icon element__icon element__icon--like" src="assets/icon/like.svg" alt="icon heart"/>
                             <a href="index.php?action=addListe&id_film=<?= $data_animation['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
                             <a href="index.php?action=player&film=<?= $data_animation['path_film']?>&title=<?= $data_animation['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
                         </div>
