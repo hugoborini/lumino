@@ -31,3 +31,19 @@
   animation-duration: 1s;
   animation-delay: 5s;
   animation-fill-mode: forwards; }
+
+.empty {
+  background-color: #feca28;
+  color: #1b1c1f;
+  height: 2vw;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 1.13vw;
+  margin: auto;
+  border-radius: 5px;
+  font-family: "Nunito";
+  margin-bottom: 16vw;
+  margin-top: 8vw; }
