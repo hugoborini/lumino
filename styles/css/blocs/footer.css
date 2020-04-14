@@ -5,6 +5,9 @@ footer {
   background-color: #0b0a0a;
   padding: 4%; }
 
+.container-image img {
+  width: 18vw; }
+
 .footer__text {
   display: flex;
   flex-direction: column;

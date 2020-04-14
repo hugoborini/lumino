@@ -53,9 +53,12 @@
     flex-direction: column;
     width: 43vw;
     margin-bottom: 5vw; }
-
-.genre__box {
-  display: flex; }
+  .genre__title {
+    font-family: "Nunito-Bold";
+    font-size: 1.56vw;
+    margin-bottom: 2vw; }
+  .genre__box {
+    display: flex; }
 
 .box__picture {
   width: 30%; }
@@ -68,11 +71,6 @@
   justify-content: space-between;
   margin-left: 2vw;
   width: 50%; }
-
-.genre__title {
-  font-family: "Nunito-Bold";
-  font-size: 1.56vw;
-  margin-bottom: 2vw; }
 
 .description__item {
   font-family: "Nunito";
@@ -103,10 +101,9 @@
 
 .list {
   margin-top: 10vw; }
-
-.list__container {
-  height: 70vh;
-  width: 100vw;
-  display: flex;
-  justify-content: center;
-  align-items: center; }
+  .list__container {
+    height: 70vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center; }

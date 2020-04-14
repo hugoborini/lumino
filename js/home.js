@@ -1,7 +1,7 @@
 function closeModal(modal) {
   modal.classList.add("category__modal--closing");
   modal.innerHTML = "";
-  setTimeout(function () {
+  setTimeout(function() {
     modal.classList.replace("category__modal--open", "category__modal--close");
     modal.classList.remove("category__modal--closing");
   }, 300);
@@ -58,18 +58,18 @@ function hoverModal() {
     for (let j = 0; j < movies.length; j++) {
       let movie = movies[j];
       let hover = movie.querySelector(".elements__hover");
-      movie.addEventListener("click", function () {
+      movie.addEventListener("click", function() {
         checkModals();
         addHTML(movie, modal);
-        modal.querySelector(".butt").addEventListener("click", function () {
+        modal.querySelector(".butt").addEventListener("click", function() {
           closeModal(modal);
         });
       });
 
       addBackground(movie);
-      movie.addEventListener("mouseenter", function () {
+      movie.addEventListener("mouseenter", function() {
         hover.classList.replace("elements__hover", "elements__hover--in");
-        movie.addEventListener("mouseleave", function () {
+        movie.addEventListener("mouseleave", function() {
           hover.classList.replace("elements__hover--in", "elements__hover");
         });
       });
@@ -81,7 +81,6 @@ let categories = document.querySelectorAll(".category");
 hoverModal();
 
 let top5 = document.querySelectorAll(".movie__top");
-console.log(top5);
 for (let i = 0; i < top5.length; i++) {
   let top = top5[i];
   top.innerHTML = i + 1;
