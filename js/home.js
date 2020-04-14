@@ -18,8 +18,6 @@ function checkModals() {
   }
 }
 
-// <img src="assets/icon/like.svg" class="modal__icon" />
-
 function addHTML(movie, modal) {
   let title = movie.getAttribute("data-title");
   let synopsis = movie.getAttribute("data-synopsis");
@@ -50,8 +48,6 @@ function addBackground(movie) {
   movie.style.background = "center / contain no-repeat url(" + mini + ")";
 }
 
-let categories = document.querySelectorAll(".category");
-
 function likeFull(like) {
   like.style.background =
     "center / contain no-repeat url(assets/icon/like.svg)";
@@ -65,33 +61,43 @@ function likeFull(like) {
   });
 }
 
-let like = document.querySelector(".element__icon--like");
-likeFull(like);
-
-for (let i = 0; i < categories.length; i++) {
-  let category = categories[i];
-  let movies = category.querySelectorAll(".movie");
-  let modal = category.querySelector(".category__modal");
-  for (let j = 0; j < movies.length; j++) {
-    let movie = movies[j];
-    let hover = movie.querySelector(".elements__hover");
-
-    movie.addEventListener("click", function () {
-      checkModals();
-      addHTML(movie, modal);
-      let like = document.querySelector(".modal__icon--like");
-      likeFull(like);
-      modal.querySelector(".butt").addEventListener("click", function () {
-        closeModal(modal);
+function hoverModal() {
+  let like = document.querySelector(".element__icon--like");
+  likeFull(like);
+  for (let i = 0; i < categories.length; i++) {
+    let category = categories[i];
+    let movies = category.querySelectorAll(".movie");
+    let modal = category.querySelector(".category__modal");
+    for (let j = 0; j < movies.length; j++) {
+      let movie = movies[j];
+      let hover = movie.querySelector(".elements__hover");
+      movie.addEventListener("click", function () {
+        checkModals();
+        addHTML(movie, modal);
+        let like = document.querySelector(".modal__icon--like");
+        likeFull(like);
+        modal.querySelector(".butt").addEventListener("click", function () {
+          closeModal(modal);
+        });
       });
-    });
 
-    addBackground(movie);
-    movie.addEventListener("mouseenter", function () {
-      hover.classList.replace("elements__hover", "elements__hover--in");
-      movie.addEventListener("mouseleave", function () {
-        hover.classList.replace("elements__hover--in", "elements__hover");
+      addBackground(movie);
+      movie.addEventListener("mouseenter", function () {
+        hover.classList.replace("elements__hover", "elements__hover--in");
+        movie.addEventListener("mouseleave", function () {
+          hover.classList.replace("elements__hover--in", "elements__hover");
+        });
       });
-    });
+    }
   }
+}
+
+let categories = document.querySelectorAll(".category");
+hoverModal();
+
+let top5 = document.querySelectorAll(".movie__top");
+console.log(top5);
+for (let i = 0; i < top5.length; i++) {
+  let top = top5[i];
+  top.innerHTML = i + 1;
 }

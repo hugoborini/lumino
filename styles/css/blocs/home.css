@@ -142,43 +142,33 @@ a {
   .category__movies--mylist {
     justify-content: start; }
 
-/*.wrapper__movie {
+.wrapper__movie {
   display: grid;
   grid-template-columns: 7vw 1vw 9vw;
   grid-template-rows: 1fr;
   grid-column-gap: 0px;
   grid-row-gap: 0px;
-  padding: 0 0vw 0 1vw;
-
-  .movie__top {
-    font-family: $h1-font;
+  padding: 0 0vw 0 1vw; }
+  .wrapper__movie .movie__top {
+    font-family: "Radikal-Bold";
     font-size: 14vw;
-    color: $tertiary;
-    text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary,
-      0 -1px $primary;
+    color: #1b1c1f;
+    text-shadow: -1px 0 #feca28, 0 1px #feca28, 1px 0 #feca28, 0 -1px #feca28;
     grid-area: 1 / 1 / 2 / 3;
-    text-align: right;
-  }
-
-  .movie__top5 {
+    text-align: right; }
+  .wrapper__movie .movie__top5 {
     grid-area: 1 / 2 / 2 / 4;
-    box-shadow: 0px 0px 20px #121317;
-    box-sizing: content-box;
+    /*box-shadow: 0px 0px 20px #121317;
+    box-sizing: content-box;*/
     height: 14vw;
     width: 9vw;
-    align-self: center;
-    transition: all $animation-card-movie linear;
-    background: center / contain no-repeat url(../../assets/mini/avengers.jpg);
+    /*align-self: center;
+    transition: all $animation-card-movie linear;*/ }
+    .wrapper__movie .movie__top5:hover {
+      transform: scale(1.28); }
+      .wrapper__movie .movie__top5:hover .elements__clicked {
+        display: none; }
 
-    &:hover {
-      transform: scale($scale-hover);
-
-      .elements__clicked {
-        display: none;
-      }
-    }
-  }
-}*/
 .movie {
   box-shadow: 0px 0px 20px #121317;
   box-sizing: content-box;
@@ -300,6 +290,15 @@ a {
   width: 100%;
   background: linear-gradient(0.23deg, #020203 20.62%, rgba(2, 2, 3, 0) 99.89%);
   height: 19.79vw; }
+
+.elements__hover--in {
+  animation: opacityBack 0.2s;
+  position: relative;
+  transform: translateY(-13.5vw);
+  content: "";
+  width: 100%;
+  background: linear-gradient(0.23deg, #020203 20.62%, rgba(2, 2, 3, 0) 99.89%);
+  height: 14vw; }
 
 .elements__clicked {
   animation: opacityBack 0.2s;
