@@ -40,7 +40,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                     <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
                 </a>
             </div>
-            <div class="category__movies">
+            <div class="category__movies category__movies--mylist">
             <?php
             $i = 0;
             $y = 0;
@@ -50,7 +50,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
             while($i < $y and $i < 6) {
                 $data = $get_film->fetch();
             ?>
-                <div id ="<?= $data['id']?>" class="movie"
+                <div id ="<?= $data['id']?>" class="movie movie--mylist"
                     data-title="<?= $data['title']?>" 
                     data-category="<?= $data['category']?>" 
                     data-synopsis="<?= $data['description']?>" 

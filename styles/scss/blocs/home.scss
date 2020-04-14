@@ -49,6 +49,10 @@
   margin-right: 5vw;
   margin-left: 5vw;
   margin-bottom: 5vh;
+
+  &--mylist {
+    justify-content: start;
+  }
 }
 
 //  TOP 5
@@ -96,6 +100,14 @@
   height: $height-card-movie;
   width: $width-card-movie;
   transition: all $animation-card-movie linear;
+
+  &--mylist {
+    margin-right: 1.9vw;
+
+    &:last-child {
+      margin-right: 0;
+    }
+  }
 
   &:hover {
     transform: scale($scale-hover);
