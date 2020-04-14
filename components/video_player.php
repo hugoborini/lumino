@@ -66,7 +66,7 @@
                         <path d="M42.0001 20.169L39.4766 17.282L35.691 21.6125L31.9053 17.282L29.3818 20.169L33.167 24.5001L29.3818 28.8312L31.9053 31.7183L35.691 27.3877L39.4766 31.7183L42.0001 28.8312L38.2149 24.5001L42.0001 20.169Z" fill="#FFC61B"/>
                         </svg>
                     </div>
-                        <input class="volume" type="range" step="0.10" value="100">
+                        <input class="volume" type="range" step="0.10" value="50">
                     <div class="container__fullscreen">
                         <svg class="fullscreen" width="42" height="45" viewBox="0 0 42 45" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <g clip-path="url(#clip0)">

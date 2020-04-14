@@ -31,6 +31,11 @@
     margin: 0 2vw;
     color: $secondary-dark;
     font-size: $menu-navBar;
+
+    span:hover {
+      filter: drop-shadow(0px 0px 5px $secondary-light);
+    }
+
     .item__arrow {
       width: 0.8vw;
     }
@@ -55,8 +60,8 @@
   }
 }
 
-.nav__item--hover:hover {
-  filter: drop-shadow(0px 0px 5px $secondary-dark);
+#genre__ul {
+  filter: none;
 }
 
 .nav {
@@ -64,9 +69,9 @@
     .appear {
       display: block;
       li {
+        filter: none;
         &:hover {
           background-color: $primary;
-          filter: drop-shadow(0px 0px 5px $primary);
           a {
             color: $tertiary;
           }
