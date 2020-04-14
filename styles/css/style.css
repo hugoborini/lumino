@@ -137,13 +137,13 @@ table {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -260,13 +260,13 @@ a {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -344,13 +344,13 @@ footer {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -488,13 +488,13 @@ footer {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -730,13 +730,13 @@ input:focus {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -769,13 +769,13 @@ input:focus {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -995,7 +995,7 @@ a {
   background-position: 0% 25%;
   background-size: cover;
   animation: openingModal 0.5s;
-  height: 450px;
+  height: 35vw;
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -1009,7 +1009,7 @@ a {
 .category__modal--open:after {
   content: "";
   position: absolute;
-  height: 450px;
+  height: 35vw;
   width: 100%;
   opacity: 1;
   animation: openingModal 0.5s;
@@ -1124,13 +1124,13 @@ a {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -1273,13 +1273,13 @@ a {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
@@ -1396,13 +1396,13 @@ a {
     margin-bottom: 0px; }
   to {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; } }
 
 @keyframes closingModal {
   from {
     opacity: 1;
-    height: 450px;
+    height: 35vw;
     margin-bottom: 28px; }
   to {
     opacity: 0;
