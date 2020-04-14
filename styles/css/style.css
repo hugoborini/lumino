@@ -867,7 +867,7 @@ a {
   width: 13.2vw;
   transition: all 0.1s linear; }
   .movie:hover {
-    transform: scale(1.2); }
+    transform: scale(1.08); }
     .movie:hover .elements__clicked {
       display: none; }
 
@@ -1583,7 +1583,7 @@ body {
   transition: all 0.1s linear; }
   .movie--avengers:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/Avengers.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1598,7 +1598,7 @@ body {
   transition: all 0.1s linear; }
   .movie--kingsman:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/kingsman.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1613,7 +1613,7 @@ body {
   transition: all 0.1s linear; }
   .movie--readyPlayerOne:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/ready-player-one.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1628,7 +1628,7 @@ body {
   transition: all 0.1s linear; }
   .movie--matrix:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/matrix.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1643,7 +1643,7 @@ body {
   transition: all 0.1s linear; }
   .movie--1917:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/1917.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1658,7 +1658,7 @@ body {
   transition: all 0.1s linear; }
   .movie--kickAss:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/kick-ass.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1673,7 +1673,7 @@ body {
   transition: all 0.1s linear; }
   .movie--bigLebowski:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/big-Lebowski.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1688,7 +1688,7 @@ body {
   transition: all 0.1s linear; }
   .movie--intouchables:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/intouchables.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1703,7 +1703,7 @@ body {
   transition: all 0.1s linear; }
   .movie--zoolander:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zoolander.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1718,7 +1718,7 @@ body {
   transition: all 0.1s linear; }
   .movie--littleMiss:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/little-miss-sunshine.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1733,7 +1733,7 @@ body {
   transition: all 0.1s linear; }
   .movie--bridesmaids:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/bridesmaids.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1748,7 +1748,7 @@ body {
   transition: all 0.1s linear; }
   .movie--zombieland:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/zombieland.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1763,7 +1763,7 @@ body {
   transition: all 0.1s linear; }
   .movie--plateform:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-platform.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1778,7 +1778,7 @@ body {
   transition: all 0.1s linear; }
   .movie--shinning:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-shining.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1793,7 +1793,7 @@ body {
   transition: all 0.1s linear; }
   .movie--jaws:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jaws.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1808,7 +1808,7 @@ body {
   transition: all 0.1s linear; }
   .movie--midsommar:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/midsommar.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1823,7 +1823,7 @@ body {
   transition: all 0.1s linear; }
   .movie--invisible:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-invisible-man.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1838,7 +1838,7 @@ body {
   transition: all 0.1s linear; }
   .movie--paranormal:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/paranormal-activity.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1853,7 +1853,7 @@ body {
   transition: all 0.1s linear; }
   .movie--pedal:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/pedal-the-world.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1868,7 +1868,7 @@ body {
   transition: all 0.1s linear; }
   .movie--fahrenheit:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fahrenheit-911.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1883,7 +1883,7 @@ body {
   transition: all 0.1s linear; }
   .movie--plasticOcean:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/a-plastic-ocean.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1898,7 +1898,7 @@ body {
   transition: all 0.1s linear; }
   .movie--heartsOfDarkness:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hearts-of-darkness.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1913,7 +1913,7 @@ body {
   transition: all 0.1s linear; }
   .movie--youNegro:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/i-am-not-your-negro.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1928,7 +1928,7 @@ body {
   transition: all 0.1s linear; }
   .movie--creativeBrain:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-creative-brain.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1943,7 +1943,7 @@ body {
   transition: all 0.1s linear; }
   .movie--interstellar:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/interstellar.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1958,7 +1958,7 @@ body {
   transition: all 0.1s linear; }
   .movie--hungerGames:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/hunger-games.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1973,7 +1973,7 @@ body {
   transition: all 0.1s linear; }
   .movie--fifthElement:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/fifth-element.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -1988,7 +1988,7 @@ body {
   transition: all 0.1s linear; }
   .movie--avatar:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/avatar.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2003,7 +2003,7 @@ body {
   transition: all 0.1s linear; }
   .movie--backToTheFuture:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/back-to-the-future.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2018,7 +2018,7 @@ body {
   transition: all 0.1s linear; }
   .movie--jurassicPark:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jurassic-park.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2033,7 +2033,7 @@ body {
   transition: all 0.1s linear; }
   .movie--frozen:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/frozen.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2048,7 +2048,7 @@ body {
   transition: all 0.1s linear; }
   .movie--insideOut:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/inside-out.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2063,7 +2063,7 @@ body {
   transition: all 0.1s linear; }
   .movie--peterPan:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/peter-pan.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2078,7 +2078,7 @@ body {
   transition: all 0.1s linear; }
   .movie--walle:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/wall-e.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2093,7 +2093,7 @@ body {
   transition: all 0.1s linear; }
   .movie--incredibles:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-incredibles.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -2108,7 +2108,7 @@ body {
   transition: all 0.1s linear; }
   .movie--moana:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/moana.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }

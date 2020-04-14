@@ -8,7 +8,7 @@
   transition: all 0.1s linear; }
   .movie--plateform:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-platform.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -23,7 +23,7 @@
   transition: all 0.1s linear; }
   .movie--shinning:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-shining.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -38,7 +38,7 @@
   transition: all 0.1s linear; }
   .movie--jaws:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/jaws.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -53,7 +53,7 @@
   transition: all 0.1s linear; }
   .movie--midsommar:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/midsommar.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -68,7 +68,7 @@
   transition: all 0.1s linear; }
   .movie--invisible:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/the-invisible-man.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
@@ -83,7 +83,7 @@
   transition: all 0.1s linear; }
   .movie--paranormal:hover {
     background: linear-gradient(0.23deg, rgba(2, 2, 3, 0.97) 33.62%, rgba(2, 2, 3, 0) 99.89%), url(../../assets/mini/paranormal-activity.jpg);
-    transform: scale(1.2);
+    transform: scale(1.08);
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain; }
