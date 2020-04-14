@@ -265,9 +265,7 @@ a {
   font-size: 1.13vw;
   margin: auto;
   border-radius: 5px;
-  font-family: "Nunito";
-  margin-bottom: 16vw;
-  margin-top: 8vw; }
+  font-family: "Nunito"; }
 
 @keyframes openingModal {
   from {
@@ -1504,6 +1502,13 @@ a {
 
 .list {
   margin-top: 10vw; }
+
+.list__container {
+  height: 70vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
 
 .show_up {
   width: 15vw;
