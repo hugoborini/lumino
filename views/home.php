@@ -7,11 +7,13 @@ $documentary_movie = catchFilmByGenreAndLimit("Documentary");
 $sf_movie = catchFilmByGenreAndLimit("SF");
 $animation_movie = catchFilmByGenreAndLimit("animation");
 $topfive = catchFiveMostLike();
-
 ?>
+
+<!-- -->
 <!DOCTYPE html>
 <html lang="en">
 <head>
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
@@ -128,11 +130,7 @@ $topfive = catchFiveMostLike();
                             <div class="elements__hover">
                                 <div class="elements__clicked--hide"></div>
                             </div>
-                            <div class="elements__icon">
-                               <a href="index.php?action=like&redirection=home&id_film=<?=$data_topfive['id']?>"><img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/></a>
-                                <a href="index.php?action=addListe&id_film=<?=$data_topfive['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
-                                <a href="index.php?action=player&film=<?= $data_topfive['path_film']?>&title=<?= $data_topfive['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
-                            </div>
+
                         </div>  
                     <?php
                     }
