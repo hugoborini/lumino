@@ -428,7 +428,9 @@ footer {
   .nav .nav__item .appear li {
     filter: none; }
     .nav .nav__item .appear li:hover {
-      background-color: #feca28; }
+      background-color: #feca28;
+      filter: drop-shadow(0px 0px 5px #feca28);
+      color: #1b1c1f; }
       .nav .nav__item .appear li:hover a {
         color: #1b1c1f; }
 
@@ -863,6 +865,43 @@ a {
   margin-left: 5vw;
   margin-bottom: 5vh; }
 
+/*.wrapper__movie {
+  display: grid;
+  grid-template-columns: 7vw 1vw 9vw;
+  grid-template-rows: 1fr;
+  grid-column-gap: 0px;
+  grid-row-gap: 0px;
+  padding: 0 0vw 0 1vw;
+
+  .movie__top {
+    font-family: $h1-font;
+    font-size: 14vw;
+    color: $tertiary;
+    text-shadow: -1px 0 $primary, 0 1px $primary, 1px 0 $primary,
+      0 -1px $primary;
+    grid-area: 1 / 1 / 2 / 3;
+    text-align: right;
+  }
+
+  .movie__top5 {
+    grid-area: 1 / 2 / 2 / 4;
+    box-shadow: 0px 0px 20px #121317;
+    box-sizing: content-box;
+    height: 14vw;
+    width: 9vw;
+    align-self: center;
+    transition: all $animation-card-movie linear;
+    background: center / contain no-repeat url(../../assets/mini/avengers.jpg);
+
+    &:hover {
+      transform: scale($scale-hover);
+
+      .elements__clicked {
+        display: none;
+      }
+    }
+  }
+}*/
 .movie {
   box-shadow: 0px 0px 20px #121317;
   box-sizing: content-box;
@@ -902,7 +941,7 @@ a {
   padding-left: 2%;
   padding-bottom: 1vw;
   align-items: space-between;
-  width: 70%; }
+  width: 78%; }
 
 .element__title {
   color: #f9fafa;
@@ -1071,9 +1110,6 @@ a {
   width: 58vw;
   margin-top: 10px;
   line-height: 125%; }
-
-.less_button {
-  width: 1.5vw; }
 
 @keyframes openingModal {
   from {
@@ -1468,9 +1504,20 @@ a {
 .video {
   width: 100vw;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: opacity 3s; }
+  .video .video_backArrow {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 2vw;
+    left: 7vw;
+    z-index: 5;
+    width: 2.5vw;
+    cursor: pointer; }
+    .video .video_backArrow:hover {
+      filter: drop-shadow(0px 0px 5px #feca28); }
   .video .video__container {
-    transition: all 0.5s;
     opacity: 1; }
 
 .player__video {
@@ -1491,17 +1538,6 @@ a {
     height: 100%;
     background-color: #feca28;
     filter: drop-shadow(0px 0px 7px #feca28); }
-
-.video_backArrow {
-  display: block;
-  position: absolute;
-  top: 2vw;
-  left: 7vw;
-  z-index: 5;
-  width: 2.5vw;
-  cursor: pointer; }
-  .video_backArrow:hover {
-    filter: drop-shadow(0px 0px 5px #feca28); }
 
 .container {
   opacity: 1;

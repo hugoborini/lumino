@@ -1,9 +1,20 @@
 .video {
   width: 100vw;
   height: 100vh;
-  overflow: hidden; }
+  overflow: hidden;
+  transition: opacity 3s; }
+  .video .video_backArrow {
+    opacity: 1;
+    display: block;
+    position: absolute;
+    top: 2vw;
+    left: 7vw;
+    z-index: 5;
+    width: 2.5vw;
+    cursor: pointer; }
+    .video .video_backArrow:hover {
+      filter: drop-shadow(0px 0px 5px #feca28); }
   .video .video__container {
-    transition: all 0.5s;
     opacity: 1; }
 
 .player__video {
@@ -24,17 +35,6 @@
     height: 100%;
     background-color: #feca28;
     filter: drop-shadow(0px 0px 7px #feca28); }
-
-.video_backArrow {
-  display: block;
-  position: absolute;
-  top: 2vw;
-  left: 7vw;
-  z-index: 5;
-  width: 2.5vw;
-  cursor: pointer; }
-  .video_backArrow:hover {
-    filter: drop-shadow(0px 0px 5px #feca28); }
 
 .container {
   opacity: 1;
