@@ -18,3 +18,4 @@ http://lumino.vhswebs.com/
  - [Melina Chamayou](https://github.com/Klochette) :sparkles:
  - [Constance Petillot](https://github.com/cpetillot) :pencil:
  - [Camy Cerin](https://github.com/CamyCerin) :art:
+
