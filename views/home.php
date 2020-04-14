@@ -23,11 +23,15 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     
     <main>
         <?php require("components/main_movie.php") ?>
-
+            <?php
+            $get_film = catchFilmFromList($_SESSION['id']);
+            $verif_film = catchFilmFromList($_SESSION['id']);
+            $verif_content = $verif_film->fetch();
+            if(!$verif_content) {
+                echo null;
+            }
+            else { ?>
         <section class="category">
-
-
-
             <div class="category__texts">
                 <h1 class="category__title">My list</h1>
                 <a href="index.php?action=list">
@@ -37,7 +41,6 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
             </div>
             <div class="category__movies">
             <?php
-            $get_film = catchFilmFromList($_SESSION['id']);
             $i = 0;
             while($i < 6) {
                 $data = $get_film->fetch();
@@ -72,6 +75,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 </div>  
                 <?php
                 $i++;
+            }
                 }
                 ?>
                 
