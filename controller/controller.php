@@ -129,4 +129,12 @@ function delListe($id){
     $film_liste_del = deleteListe($id);
 }
 
+function catchFiveMostLike(){
+    $five_most_like_film = getFiveMostLike();
+    return $five_most_like_film;
+}
+
+function upToDate($id_film){
+    updateLike ($id_film);
+}
 ?>

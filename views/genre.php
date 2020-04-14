@@ -31,7 +31,7 @@ $filepath = 'assets/uploads/'.$_SESSION['id'].".png";
                       <div class="description__button">
                         <a href="index.php?action=player&film=<?=$data['path_film']?>&title=<?=$data['title']?>"><img class="button__item play_button_2" src="./assets/icon/big_play.svg" alt="play"/></a>
                         <a href="index.php?action=addListe&id_film=<?=$data['id']?>"><img class="button__item add_button_2" src="./assets/icon/Add.svg" alt="add"/></a>
-                        <img class="button__item" src="./assets/icon/like.svg" alt="like"/>
+                        <a href="index.php?action=like&id_film=<?=$data['id']?>&redirection=genre&genre_red=<?=$_GET["genre"]?>"><img class="button__item add_button_2" src="./assets/icon/like.svg" alt="like"/></a>
                       </div>
                 </div>
             </div>

@@ -55,6 +55,12 @@ require("controller/controller.php");
             delListe($_GET["id_film"]);
             header("Location: index.php?action=list");
         }
+        elseif($_GET['action']== "like"){
+            upToDate($_GET['id_film']);
+            if ($_GET['redirection'] == "genre"){
+                header("Location: index.php?action=genre&genre=" . $_GET['genre_red']);
+            }
+        }
     }
     else {
         require("views/landing.php");

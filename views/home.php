@@ -6,6 +6,7 @@ $horror_movie = catchFilmByGenreAndLimit("Horror");
 $documentary_movie = catchFilmByGenreAndLimit("Documentary");
 $sf_movie = catchFilmByGenreAndLimit("SF");
 $animation_movie = catchFilmByGenreAndLimit("animation");
+$topfive = catchFiveMostLike();
 
 ?>
 <!DOCTYPE html>
@@ -84,6 +85,53 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 <?php
                 $i++;
             }
+                }
+                ?>
+                
+            </div> 
+            <div class="category__modal category__modal--close"></div> 
+        </section>
+
+        <section class="category">
+
+
+
+            <div class="category__texts">
+                <h1 class="category__title">Top 5</h1>
+            </div>
+            <div class="category__movies">
+            
+            <?php while($data_topfive = $topfive->fetch()){
+            ?>
+                <div id ="<?= $data_topfive['id']?>" class="movie"
+                    data-title="<?= $data_topfive['title']?>" 
+                    data-category="<?= $data_topfive['category']?>" 
+                    data-synopsis="<?= $data_topfive['description']?>" 
+                    data-released="<?= $data_topfive['release_date']?>"
+                    data-mini="<?= $data_topfive['path_mini']?>"
+                    data-path="<?= $data_topfive['path_film']?>">
+                    <div class="movie__elements">
+                        <div class="movie__element">
+                            <div class="elements__text">
+                                <p class="element__title"><?= $data_topfive['title']?></p>
+                                <p class="element__category"><?= $data_topfive['category']?></p>
+                            </div>
+                            <div class="elements__icon">
+                                <img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/>
+                                <a href="index.php?action=addListe&id_film=<?=$data_topfive['id']?>"><img class="element__icon element__icon" src="assets/icon/Add.svg" alt="icon plus signe"/></a>
+                                <a href="index.php?action=player&film=<?= $data_topfive['path_film']?>&title=<?= $data_topfive['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
+                            </div>
+                        </div>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
+                    </div>
+                    <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
+                    
+                </div>  
+                <?php
                 }
                 ?>
                 

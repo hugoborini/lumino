@@ -1,7 +1,7 @@
 <?php 
 
 function dbConnect() {
-    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', 'root', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
+    try { $bdd = new PDO('mysql:host=localhost;dbname=charrette;charset=utf8', 'root', '', array(PDO::ATTR_ERRMODE => PDO::ERRMODE_EXCEPTION));
     }
     catch (Exception  $e) {
     die('Error : ' .  $e->getMessage());
@@ -174,4 +174,22 @@ function deleteListe($id){
     ]);
 
     return $list_film_del;
+}
+
+function getFiveMostLike(){
+    $bdd = dbConnect();
+
+    $five_most_like = $bdd->query("SELECT * FROM film ORDER BY like_film DESC LIMIT 5");
+
+    return $five_most_like;
+}
+
+function updateLike ($id_film){
+    $bdd = dbConnect();
+
+    $update_like = $bdd->prepare("UPDATE film SET like_film = like_film + 1 WHERE id = :id");
+
+    $update_like->execute([
+        "id" => $id_film,
+    ]);
 }
