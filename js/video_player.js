@@ -21,10 +21,10 @@ const $container = document.querySelector(".container");
 
 const steps = 10;
 
-$play.style.display = "none";
-$pause.style.display = "block";
+$play.style.display = "block";
+$pause.style.display = "none";
 
-$play.addEventListener("click", function() {
+$play.addEventListener("click", function () {
   if ($video.paused) {
     $pause.style.display = "none";
     $playsvg.style.display = "block";
@@ -67,15 +67,15 @@ $fullscreen.addEventListener("click", () => {
 });
 
 $video.addEventListener("timeupdate", () => {
-  $step = ($video.offsetWidth / $video.duration) * $video.currentTime;
+  $step = ($bar.offsetWidth / $video.duration) * $video.currentTime;
   $progressBar.style.width = $step + "px";
   // $progressBar.innerHTML ='<p class="timer">' + Math.round(($video.currentTime / 60) * 100) / 100;
   //   +"</p>";
 });
 
-$bar.addEventListener("click", e => {
+$bar.addEventListener("click", (e) => {
   var x = e.pageX - $bar.offsetLeft;
-  x = $video.duration * (x / $video.offsetWidth);
+  x = $video.duration * (x / $bar.offsetWidth);
   $video.currentTime = x;
 });
 
