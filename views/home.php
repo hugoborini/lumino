@@ -32,6 +32,9 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
                 echo null;
             }
             else { ?>
+
+        <!--
+        -->
         <section class="category">
             <div class="category__texts">
                 <h1 class="category__title">My list</h1>
