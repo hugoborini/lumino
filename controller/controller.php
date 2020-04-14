@@ -121,8 +121,8 @@ function updateListe($id_user, $id_film){
 }
 
 function catchFilmFromList($id_user) {
-   $film_liste = getFilmFromUser($id_user);
-   return $film_liste;
+    $film_liste = getFilmFromUser($id_user);
+    return $film_liste;
 }
 
 function delListe($id){

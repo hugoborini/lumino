@@ -33,3 +33,20 @@
   animation-delay: 5s;
   animation-fill-mode: forwards;
 }
+
+.empty {
+  background-color: $primary;
+  color: $tertiary;
+  height: 2vw;
+  width: 22vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: $body;
+  margin: auto;
+  border-radius: 5px;
+  font-family: $body-font;
+  margin-bottom: 16vw;
+  margin-top: 8vw;
+}
