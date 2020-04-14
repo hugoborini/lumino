@@ -139,6 +139,8 @@ a {
   margin-right: 5vw;
   margin-left: 5vw;
   margin-bottom: 5vh; }
+  .category__movies--mylist {
+    justify-content: start; }
 
 /*.wrapper__movie {
   display: grid;
@@ -183,6 +185,10 @@ a {
   height: 19.79vw;
   width: 13.2vw;
   transition: all 0.1s linear; }
+  .movie--mylist {
+    margin-right: 1.9vw; }
+    .movie--mylist:last-child {
+      margin-right: 0; }
   .movie:hover {
     transform: scale(1.08); }
     .movie:hover .elements__clicked {
