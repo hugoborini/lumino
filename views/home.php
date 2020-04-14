@@ -26,6 +26,7 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
             <?php
             $get_film = catchFilmFromList($_SESSION['id']);
             $verif_film = catchFilmFromList($_SESSION['id']);
+            $length_pdo = catchFilmFromList($_SESSION['id']);
             $verif_content = $verif_film->fetch();
             if(!$verif_content) {
                 echo null;
@@ -42,7 +43,11 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
             <div class="category__movies">
             <?php
             $i = 0;
-            while($i < 6) {
+            $y = 0;
+            while ($nb_ligne = $length_pdo->fetch()){
+                $y++;
+            }
+            while($i < $y and $i < 6) {
                 $data = $get_film->fetch();
             ?>
                 <div id ="<?= $data['id']?>" class="movie"
