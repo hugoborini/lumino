@@ -47,8 +47,13 @@ require("controller/controller.php");
         elseif ($_GET['action'] == "player"){
             require("views/player.php");
         }
+        elseif($_GET['action'] == "sub_list" and $_GET['redirection'] == "home") {
+            delListe($_GET["id_film"]);
+            require("views/home.php");
+        }
         elseif($_GET['action'] == "sub_list"){
             delListe($_GET["id_film"]);
+            header("Location: index.php?action=list");
         }
     }
     else {

@@ -127,8 +127,6 @@ function catchFilmFromList($id_user) {
 
 function delListe($id){
     $film_liste_del = deleteListe($id);
-
-    header("Location: index.php?action=list");
 }
 
 ?>

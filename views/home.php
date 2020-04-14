@@ -23,6 +23,61 @@ $animation_movie = catchFilmByGenreAndLimit("animation");
     
     <main>
         <?php require("components/main_movie.php") ?>
+
+        <section class="category">
+
+
+
+            <div class="category__texts">
+                <h1 class="category__title">My list</h1>
+                <a href="index.php?action=list">
+                    <p class="category__more">See more</p>
+                    <img src="assets/icon/chevron-right.svg" alt="Chevron vers la droite"/>
+                </a>
+            </div>
+            <div class="category__movies">
+            <?php
+            $get_film = catchFilmFromList($_SESSION['id']);
+            $i = 0;
+            while($i < 6) {
+                $data = $get_film->fetch();
+            ?>
+                <div id ="<?= $data['id']?>" class="movie"
+                    data-title="<?= $data['title']?>" 
+                    data-category="<?= $data['category']?>" 
+                    data-synopsis="<?= $data['description']?>" 
+                    data-released="<?= $data['release_date']?>"
+                    data-mini="<?= $data['path_mini']?>"
+                    data-path="<?= $data['path_film']?>">
+                    <div class="movie__elements">
+                        <div class="movie__element">
+                            <div class="elements__text">
+                                <p class="element__title"><?= $data['title']?></p>
+                                <p class="element__category"><?= $data['category']?></p>
+                            </div>
+                            <div class="elements__icon">
+                                <a><img class="element__icon element__icon" src="assets/icon/like.svg" alt="icon heart"/></a>
+                                <a href="index.php?action=sub_list&id_film=<?=$data['id']?>&redirection=home"><img class="element__icon element__icon less_button" src="assets/icon/less.svg" alt="icon plus signe"/></a>
+                                <a href="index.php?action=player&film=<?= $data['path_film']?>&title=<?= $data['title']?>"><img class="element__icon element__icon--play" src="assets/icon/big_play.svg" alt="icon play"/></a>
+                            </div>
+                        </div>
+                        <div class="movie__chevron">
+                            <img  class="movie__chevron chevron" src="assets/icon/chevron.svg" alt="icon chevron down"/>
+                        </div>
+                    </div>
+                    <div class="elements__hover">
+                        <div class="elements__clicked--hide"></div>
+                    </div>
+                    
+                </div>  
+                <?php
+                $i++;
+                }
+                ?>
+                
+            </div> 
+            <div class="category__modal category__modal--close"></div> 
+        </section>
         
         <section class="category">
 
