@@ -21,6 +21,8 @@ footer {
     flex-direction: row;
     justify-content: space-between; }
     .footer__text div img {
-      width: auto;
+      width: 2.5vw;
       height: 80%;
       cursor: pointer; }
+      .footer__text div img:hover {
+        filter: drop-shadow(0px 0px 5px #feca28); }
