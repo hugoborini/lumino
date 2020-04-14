@@ -26,12 +26,12 @@ $pause.style.display = "none";
 
 $play.addEventListener("click", function () {
   if ($video.paused) {
-    $pause.style.display = "none";
-    $playsvg.style.display = "block";
+    $pause.style.display = "block";
+    $playsvg.style.display = "none";
     $video.play();
   } else {
-    $playsvg.style.display = "none";
-    $pause.style.display = "block";
+    $playsvg.style.display = "block";
+    $pause.style.display = "none";
     $video.pause();
   }
 });
