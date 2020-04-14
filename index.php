@@ -26,7 +26,7 @@ require("controller/controller.php");
             }
         }
         elseif($_GET['action'] == "home") {
-            if(isset($_SESSION['id'])) {
+            if(isset($_SESSION['id']) && isset($_SESSION['email'])) {
                 require("views/home.php");
             }
             else {
