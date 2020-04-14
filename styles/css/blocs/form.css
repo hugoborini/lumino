@@ -37,8 +37,15 @@
     opacity: 0;
     display: none; } }
 
+@keyframes arrow {
+  from {
+    transform: translateY(0vw); }
+  to {
+    transform: translateY(-1vw); } }
+
 * {
-  box-sizing: border-box; }
+  box-sizing: border-box;
+  scroll-behavior: smooth; }
 
 img {
   max-width: 100%; }

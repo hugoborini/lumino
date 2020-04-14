@@ -19,6 +19,11 @@
     display: flex;
     img {
       height: 2.5vw;
+      transition: all 0.3s;
+
+      &:hover {
+        @include neon-effect($primary, 2px);
+      }
     }
   }
 }
