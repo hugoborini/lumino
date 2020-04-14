@@ -2,7 +2,6 @@
 <link rel="icon" type="image/png" href="assets/img/favicon.png" />
 <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
 <script type="text/javascript" src="js/reqajax.js"></script>
-<title>Lumino</title>
 <?php
 require("controller/controller.php");
     if (isset($_GET['action'])){
