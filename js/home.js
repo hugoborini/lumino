@@ -24,10 +24,13 @@ function addHTML(movie, modal) {
   let released = movie.getAttribute("data-released");
   let mini = movie.getAttribute("data-mini");
   let path = movie.getAttribute("data-path");
+  let id = movie.getAttribute("id");
   modal.classList.replace("category__modal--close", "category__modal--open");
   modal.style.background = "0% 25% / cover url(" + mini + ")";
   modal.innerHTML =
-    '<div class="modal__icons"><div class="modal__icons--left"><img src="assets/icon/add.svg" class="modal__icon" /><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
+    '<div class="modal__icons"><div class="modal__icons--left"><a href="index.php?action=addListe&id_film=' +
+    id +
+    '"><img src="assets/icon/add.svg" class="modal__icon" /></a><img src="assets/icon/like.svg" class="modal__icon" /></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
     path +
     "&title=" +
     title +
