@@ -30,7 +30,9 @@ function addHTML(movie, modal) {
   modal.innerHTML =
     '<div class="modal__icons"><div class="modal__icons--left"><a class="modal__icon--add" href="index.php?action=addListe&id_film=' +
     id +
-    '"><img src="assets/icon/add.svg" class="modal__icon" /></a><div class="modal__icon modal__icon--like"></div></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
+    '"><img src="assets/icon/add.svg" class="modal__icon" /></a><a href="index.php?action=like&id_film=' +
+    id +
+    '&redirection=home" class="modal__icon--like"><div class="modal__icon "></div></a></div><div class="modal__icons--right"><img src="assets/icon/exit.svg" class="modal__icon butt" /></div></div><a class="modal__playLink" href="index.php?action=player&film=' +
     path +
     "&title=" +
     title +
