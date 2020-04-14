@@ -18,7 +18,7 @@ $topfive = catchFiveMostLike();
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles/css/style.css">
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <title>Document</title>
+    <title>Lumino | Home</title>
     <script defer src="./js/home.js"></script>
 </head>
 <body>
