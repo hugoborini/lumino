@@ -54,22 +54,22 @@ function checkInput($firstname, $lastname, $email, $pass){
         $pass = $_SESSION['pass'];
     } else {
         $pass_hache =  password_hash($pass, PASSWORD_DEFAULT);
-        $_SESSION['pass'] = $pass_hache;
+        $_SESSION['pass'] = htmlspecialchars($pass_hache);
     }
     if (empty($firstname)){
         $firstname = $_SESSION['firstname'];
     } else {
-        $_SESSION['firstname'] = $firstname;
+        $_SESSION['firstname'] = htmlspecialchars($firstname);
     }
     if (empty($lastname)){
         $lastname = $_SESSION['lastname'];
     } else {
-        $_SESSION['lastname'] = $lastname;
+        $_SESSION['lastname'] = htmlspecialchars($lastname);
     }
     if (empty($email)){
         $email = $_SESSION['email'];
     } else{
-        $_SESSION['email'] = $email;
+        $_SESSION['email'] = htmlspecialchars($email);
     }
     $check_update = updateUser($_SESSION['id'],$firstname, $lastname, $email, $pass);
 
