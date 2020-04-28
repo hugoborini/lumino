@@ -11,9 +11,6 @@ the subject was to create a new streaming's platforme like netlix, disney+ etc..
 the first page is a launch page where you can find all the information about lumino :
 ![enter image description here](https://zupimages.net/up/20/18/7ibt.gif)
 
-   
-
-> Design by  [Camy Cerin](https://github.com/CamyCerin)
 
 so you can create an account or log in if you already have an account
 
